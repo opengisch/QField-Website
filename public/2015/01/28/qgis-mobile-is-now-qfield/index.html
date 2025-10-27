@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark"> 
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=34643&amp;path=livereload" data-no-instant defer></script>
+    
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<meta http-equiv='Content-Security-Policy' content="script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'">
+    
+
+<link rel="stylesheet" href="/css/style.css" media="screen">
+
+<link rel="stylesheet" href="/bootstrap-icons/bootstrap-icons.004322721c8557331759bc6ddaacbb689b0f0715d688aec82bd056d2d5b5cc3b.css">
+    <title>A star is born, QGIS mobile is now QField</title>
+
+<meta name="description" content=" It is with great pleasure that we want to announce the new name for what was briefly known as QGIS mobile.
+Please welcome QField for QGIS™! After long thinking about various names and variants including QGIS mobile, QTouch, OPENGIS.ch QGIS mobile, QWork, and many more, we felt that QField represents best what we want to archive. A field data capture and management app fully compatible with QGIS™. QField allows you to take your QGIS projects out of the office for effective field work. By maintaining QGIS&rsquo; styling and edit widgets QField greatly reduces preparation time. QField is an Open Source project led by OPENGIS.ch LLC with the whole development happening on Github. Currently we are running an invite-only alpha testing but as soon as the app will have a bit more functionality we will widen up the testers group. QField will be released for free on the Playstore with the possibility of donating to the project via paypal (preferred) or by buying the QField for QGIS Karma edition app. Another way to greatly help the project is, if you need a specific feature, contact us to sponsor its development. QField is built from ground up to be touch oriented and easy to use outside and follows the following paradigm: ● GPS centric ● QGIS desktop compatible ● Fully working when offline ● Synchronization capabilities ● Project preparation on desktop ● Few and large buttons ● Switchable use paradigm (Display, Digitizing, Measuring, Inspection,&hellip;) QField is built using Qt5, QtQuick 2 (both are supported and suggested by Qt) and OpenGL so it is future proof and it spearheads QGIS towards Qt5. For feature requests, please contact us For bug reports contact us or better file an issue on Github
+">
+  
+
+
+<link rel="canonical" href="http://localhost:34643/2015/01/28/qgis-mobile-is-now-qfield/">
+
+
+<link rel="alternate" hreflang="en" href="http://localhost:34643/2015/01/28/qgis-mobile-is-now-qfield/">
+
+
+
+<link rel="alternate" hreflang="x-default" href="http://localhost:34643/2015/01/28/qgis-mobile-is-now-qfield/">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:title" content="A star is born, QGIS mobile is now QField">
+<meta property="og:description" content="
+
+It is with great pleasure that we want to announce the new name for what was briefly known as QGIS mobile.
+Please welcome QField for QGIS™!
+After long thinking about various names and variants including QGIS mobile, QTouch, OPENGIS.ch QGIS mobile, QWork, and many more, we felt that QField represents best what we want to archive. A field data capture and management app fully compatible with QGIS™.
+QField allows you to take your QGIS projects out of the office for effective field work. By maintaining QGIS&rsquo; styling and edit widgets QField greatly reduces preparation time.
+QField is an Open Source project led by OPENGIS.ch LLC with the whole development happening on Github. Currently we are running an invite-only alpha testing but as soon as the app will have a bit more functionality we will widen up the testers group.
+QField will be released for free on the Playstore with the possibility of donating to the project via paypal (preferred) or by buying the QField for QGIS Karma edition app.
+Another way to greatly help the project is, if you need a specific feature, contact us to sponsor its development.
+QField is built from ground up to be touch oriented and easy to use outside and follows the following paradigm:
+● GPS centric
+● QGIS desktop compatible
+● Fully working when offline
+● Synchronization capabilities
+● Project preparation on desktop
+● Few and large buttons
+● Switchable use paradigm (Display, Digitizing, Measuring, Inspection,&hellip;)
+QField is built using Qt5, QtQuick 2 (both are supported and suggested by Qt) and OpenGL so it is future proof and it spearheads QGIS towards Qt5.
+For feature requests, please contact us
+For bug reports contact us or better file an issue on Github">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://localhost:34643/2015/01/28/qgis-mobile-is-now-qfield/">
+  <meta property="article:section" content="blog">
+  
+    <meta property="article:published_time" content="2015-01-28T08:02:57+00:00">
+  
+  
+    <meta property="article:modified_time" content="2015-01-28T08:02:57+00:00">
+  
+  <meta property="og:site_name" content="QField - Efficient field work built for QGIS">
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="A star is born, QGIS mobile is now QField">
+<meta name="twitter:description" content="
+
+It is with great pleasure that we want to announce the new name for what was briefly known as QGIS mobile.
+Please welcome QField for QGIS™!
+After long thinking about various names and variants including QGIS mobile, QTouch, OPENGIS.ch QGIS mobile, QWork, and many more, we felt that QField represents best what we want to archive. A field data capture and management app fully compatible with QGIS™.
+QField allows you to take your QGIS projects out of the office for effective field work. By maintaining QGIS&rsquo; styling and edit widgets QField greatly reduces preparation time.
+QField is an Open Source project led by OPENGIS.ch LLC with the whole development happening on Github. Currently we are running an invite-only alpha testing but as soon as the app will have a bit more functionality we will widen up the testers group.
+QField will be released for free on the Playstore with the possibility of donating to the project via paypal (preferred) or by buying the QField for QGIS Karma edition app.
+Another way to greatly help the project is, if you need a specific feature, contact us to sponsor its development.
+QField is built from ground up to be touch oriented and easy to use outside and follows the following paradigm:
+● GPS centric
+● QGIS desktop compatible
+● Fully working when offline
+● Synchronization capabilities
+● Project preparation on desktop
+● Few and large buttons
+● Switchable use paradigm (Display, Digitizing, Measuring, Inspection,&hellip;)
+QField is built using Qt5, QtQuick 2 (both are supported and suggested by Qt) and OpenGL so it is future proof and it spearheads QGIS towards Qt5.
+For feature requests, please contact us
+For bug reports contact us or better file an issue on Github">
+
+
+
+
+
+
+  
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "A star is born, QGIS mobile is now QField",
+  "datePublished": "2015-01-28T08:02:57+00:00",
+  "dateModified": "2015-01-28T08:02:57+00:00",
+  "mainEntityOfPage": "http://localhost:34643/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "QField - Efficient field work built for QGIS"
+  },
+  "wordcount" :  287 ,
+  "description": " It is with great pleasure that we want to announce the new name for what was briefly known as QGIS mobile.\nPlease welcome QField for QGIS™! After long thinking about various names and variants including QGIS mobile, QTouch, OPENGIS.ch QGIS mobile, QWork, and many more, we felt that QField represents best what we want to archive. A field data capture and management app fully compatible with QGIS™. QField allows you to take your QGIS projects out of the office for effective field work. By maintaining QGIS\u0026rsquo; styling and edit widgets QField greatly reduces preparation time. QField is an Open Source project led by OPENGIS.ch LLC with the whole development happening on Github. Currently we are running an invite-only alpha testing but as soon as the app will have a bit more functionality we will widen up the testers group. QField will be released for free on the Playstore with the possibility of donating to the project via paypal (preferred) or by buying the QField for QGIS Karma edition app. Another way to greatly help the project is, if you need a specific feature, contact us to sponsor its development. QField is built from ground up to be touch oriented and easy to use outside and follows the following paradigm: ● GPS centric ● QGIS desktop compatible ● Fully working when offline ● Synchronization capabilities ● Project preparation on desktop ● Few and large buttons ● Switchable use paradigm (Display, Digitizing, Measuring, Inspection,\u0026hellip;) QField is built using Qt5, QtQuick 2 (both are supported and suggested by Qt) and OpenGL so it is future proof and it spearheads QGIS towards Qt5. For feature requests, please contact us For bug reports contact us or better file an issue on Github\n",
+  "keywords":  null 
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+</head>
+
+<body class="blog single d-flex flex-column min-vh-100"><header class="main-header">
+  <nav class="navbar navbar-expand-lg bg-body border-bottom sticky-top mb-4">
+    <div class="container">
+
+      
+      <a class="navbar-brand fw-bold d-flex align-items-center" href="/">
+        
+        QField - Efficient field work built for QGIS
+      </a>
+
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="d-flex order-lg-2 ms-auto align-items-center gap-2">
+        <a class="btn btn-danger d-none d-lg-inline" href=""></a>
+        <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="menu-main navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/#highlights">Features</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/success-stories/">Success Stories</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="https://docs.qfield.org">Documentation</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/support-us/">Support</a>
+          </li>
+          
+          </ul>
+
+        
+        
+        
+
+      </div>
+    </div>
+  </nav>
+</header><div id="content">
+        
+
+<div class="container py-3">
+  
+
+<div class="gallery gallery-cols-1"></div>
+
+<p>It is with great pleasure that we want to announce the new name for what was briefly known as QGIS mobile.</p>
+<h3 id="please-welcome-qfield-for-qgis">Please welcome QField for QGIS™!</h3>
+<p>After long thinking about various names and variants including QGIS mobile, QTouch, OPENGIS.ch QGIS mobile, QWork, and many more, we felt that QField represents best what we want to archive. A <strong>field data capture and management app</strong> fully compatible with <a href="https://www.qgis.org" title="QGIS™" target="_blank" rel="noopener">QGIS™</a>.
+QField allows you to take your QGIS projects out of the office for effective field work. By maintaining QGIS&rsquo; styling and edit widgets QField greatly reduces preparation time.
+QField is an Open Source project led by OPENGIS.ch LLC with the whole development happening on <a href="https://github.com/opengisch/QField/" target="_blank" rel="noopener">Github</a>. Currently we are running an invite-only alpha testing but as soon as the app will have a bit more functionality we will widen up the testers group.
+QField will be released for free on the Playstore with the possibility of <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=X3TRREXGSC9CW" target="_blank" rel="noopener">donating to the project via paypal</a> (preferred) or by buying the <a href="https://qfield.opengis.ch/karma" target="_blank" rel="noopener">QField for QGIS Karma edition app</a>.
+Another way to greatly help the project is, if you need a specific feature, <a href="%20/contact/">contact us</a> to sponsor its development.
+QField is built from ground up to be touch oriented and easy to use outside and follows the following paradigm:
+● GPS centric
+● QGIS desktop compatible
+● Fully working when offline
+● Synchronization capabilities
+● Project preparation on desktop
+● Few and large buttons
+● Switchable use paradigm (Display, Digitizing, Measuring, Inspection,&hellip;)
+QField is built using Qt5, QtQuick 2 (both are supported and suggested by Qt) and OpenGL so it is future proof and it spearheads QGIS towards Qt5.
+For feature requests, please <a href="/contact/" title="Contact">contact us</a>
+For bug reports <a href="/contact/" title="Contact">contact us</a> or better file an issue on <a href="https://github.com/opengisch/QField/issues" target="_blank" rel="noopener">Github</a></p>
+
+</div>
+
+
+    </div>
+    <footer class="py-3 mt-auto bs-tertiary-bg" >
+<hr class="m-0 p-0">
+
+  <div class="container py-1 my-1">
+    <div class="d-flex flex-wrap justify-content-between align-items-center">
+      <p class="col-md mb-0 text-muted"></p>
+      <ul class="nav col-md-auto justify-content-end">
+        </ul>
+      
+    </div>
+  </div>
+</footer>
+    
+
+
+
+
+
+    <script src="/js/main.js" defer></script>
+  
+
+
+<script src="/js/dark-mode.min.56389ce981c524aae3ab3ba77bb2c7ec1d34c533bc327f161ea98d336078b79b.js" defer></script>
+
+
+<script src="/js/scroll-to-top.min.f2ff2fca4c90e0d5f84752679cf4a532f250fe7d83c8441fbc1d9b80853a3294.js" defer></script>
+</body>
+</html>

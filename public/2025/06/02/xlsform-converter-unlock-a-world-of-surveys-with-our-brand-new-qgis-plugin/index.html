@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark"> 
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=34643&amp;path=livereload" data-no-instant defer></script>
+    
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<meta http-equiv='Content-Security-Policy' content="script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'">
+    
+
+<link rel="stylesheet" href="/css/style.css" media="screen">
+
+<link rel="stylesheet" href="/bootstrap-icons/bootstrap-icons.004322721c8557331759bc6ddaacbb689b0f0715d688aec82bd056d2d5b5cc3b.css">
+    <title>XLSForm Converter: unlock a world of surveys with our brand new QGIS plugin</title>
+
+<meta name="description" content="Today marks the initial release of our brand-new QGIS plugin, XLSForm Converter.
+As the name suggests, the plugin converts XLSForm survey files into ready-to-use QGIS projects with a preconfigured survey attribute form.
+Migrating to QField was never easier!
+Even more exciting is that the converted QGIS project includes all the necessary settings for use with QField, thanks to a nifty QFieldCloud integration. With just a single checkbox, you can upload your generated project to the cloud and begin gathering data—either as a standalone surveyor or collaboratively as part of a team.
+">
+  
+
+
+<link rel="canonical" href="http://localhost:34643/2025/06/02/xlsform-converter-unlock-a-world-of-surveys-with-our-brand-new-qgis-plugin/">
+
+
+<link rel="alternate" hreflang="en" href="http://localhost:34643/2025/06/02/xlsform-converter-unlock-a-world-of-surveys-with-our-brand-new-qgis-plugin/">
+
+
+
+<link rel="alternate" hreflang="x-default" href="http://localhost:34643/2025/06/02/xlsform-converter-unlock-a-world-of-surveys-with-our-brand-new-qgis-plugin/">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:title" content="XLSForm Converter: unlock a world of surveys with our brand new QGIS plugin">
+<meta property="og:description" content="Today marks the initial release of our brand-new QGIS plugin, XLSForm Converter.
+As the name suggests, the plugin converts XLSForm survey files into ready-to-use QGIS projects with a preconfigured survey attribute form.
+Migrating to QField was never easier!
+
+
+
+
+
+  
+
+
+
+
+
+
+
+Even more exciting is that the converted QGIS project includes all the necessary settings for use with QField, thanks to a nifty QFieldCloud integration. With just a single checkbox, you can upload your generated project to the cloud and begin gathering data—either as a standalone surveyor or collaboratively as part of a team.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://localhost:34643/2025/06/02/xlsform-converter-unlock-a-world-of-surveys-with-our-brand-new-qgis-plugin/">
+  <meta property="article:section" content="blog">
+  
+    <meta property="article:published_time" content="2025-06-02T04:57:00+00:00">
+  
+  
+    <meta property="article:modified_time" content="2025-06-02T04:57:00+00:00">
+  
+  <meta property="og:site_name" content="QField - Efficient field work built for QGIS">
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="XLSForm Converter: unlock a world of surveys with our brand new QGIS plugin">
+<meta name="twitter:description" content="Today marks the initial release of our brand-new QGIS plugin, XLSForm Converter.
+As the name suggests, the plugin converts XLSForm survey files into ready-to-use QGIS projects with a preconfigured survey attribute form.
+Migrating to QField was never easier!
+
+
+
+
+
+  
+
+
+
+
+
+
+
+Even more exciting is that the converted QGIS project includes all the necessary settings for use with QField, thanks to a nifty QFieldCloud integration. With just a single checkbox, you can upload your generated project to the cloud and begin gathering data—either as a standalone surveyor or collaboratively as part of a team.">
+
+
+
+
+
+
+  
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "XLSForm Converter: unlock a world of surveys with our brand new QGIS plugin",
+  "datePublished": "2025-06-02T04:57:00+00:00",
+  "dateModified": "2025-06-02T04:57:00+00:00",
+  "mainEntityOfPage": "http://localhost:34643/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "QField - Efficient field work built for QGIS"
+  },
+  "wordcount" :  556 ,
+  "description": "Today marks the initial release of our brand-new QGIS plugin, XLSForm Converter.\nAs the name suggests, the plugin converts XLSForm survey files into ready-to-use QGIS projects with a preconfigured survey attribute form.\nMigrating to QField was never easier!\nEven more exciting is that the converted QGIS project includes all the necessary settings for use with QField, thanks to a nifty QFieldCloud integration. With just a single checkbox, you can upload your generated project to the cloud and begin gathering data—either as a standalone surveyor or collaboratively as part of a team.\n",
+  "keywords":  null 
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+</head>
+
+<body class="blog single d-flex flex-column min-vh-100"><header class="main-header">
+  <nav class="navbar navbar-expand-lg bg-body border-bottom sticky-top mb-4">
+    <div class="container">
+
+      
+      <a class="navbar-brand fw-bold d-flex align-items-center" href="/">
+        
+        QField - Efficient field work built for QGIS
+      </a>
+
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="d-flex order-lg-2 ms-auto align-items-center gap-2">
+        <a class="btn btn-danger d-none d-lg-inline" href=""></a>
+        <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="menu-main navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/#highlights">Features</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/success-stories/">Success Stories</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="https://docs.qfield.org">Documentation</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/support-us/">Support</a>
+          </li>
+          
+          </ul>
+
+        
+        
+        
+
+      </div>
+    </div>
+  </nav>
+</header><div id="content">
+        
+
+<div class="container py-3">
+  <p>Today marks the initial release of our brand-new QGIS plugin, <em>XLSForm Converter</em>.<br>
+As the name suggests, the plugin converts XLSForm survey files into ready-to-use QGIS projects with a preconfigured survey attribute form.</p>
+<p>Migrating to QField was never easier!</p>
+
+
+
+
+
+  
+
+
+
+
+<figure class="gallery-item"><img src="/wp-content/uploads/2025/05/xlsformconverter-qgis-qfield-1.webp" alt="" loading="lazy">
+</figure>
+
+<p>Even more exciting is that the converted QGIS project includes all the necessary settings for use with QField, thanks to a nifty QFieldCloud integration. With just a single checkbox, you can upload your generated project to the cloud and begin gathering data—either as a standalone surveyor or collaboratively as part of a team.</p>
+<p>We believe this provides a fantastic solution for organisations and groups familiar with XLSForm—or already working with templates—who want to leverage QGIS-powered QField to conduct spatial surveys.</p>
+<h2 id="plugin-highlights">Plugin highlights</h2>
+<p>The plugin adds an algorithm to QGIS’ processing toolbox that converts a XLSForm file – Microsoft Excel’s .xls or .xlsx as well as LibreOffice Calc’s .ods – into a QGIS project containing a main survey layer and a basemap.</p>
+
+
+
+
+
+  
+
+
+
+
+<figure class="gallery-item"><img src="/wp-content/uploads/2025/05/xlsformconverter-algorithm-screenshot.webp" alt="" loading="lazy">
+</figure>
+
+<p>The layer’s geometry type will reflect the first geometry-driven question type found in the XLSForm, namely a point geometry for geopoint, a line geometry for geotrace, or a polygon geometry for geoshape.</p>
+<p>For XLSForm <em>repeat</em> blocks, the algorithm generates additional layers and configures parent-child relationships to bind them to the main survey layer. These layers are hidden from the layer tree by default, keeping the project simple and user-friendly—even for users unfamiliar with QGIS.</p>
+<p>For questions that capture media content—such as photographs, videos, and audio clips—the converter sets up the project so users can easily record them in QField with a single tap.</p>
+<p><em>Pro tip: Since the converter is an algorithm, you can use it to build complex, model-driven survey projects via the QGIS Processing Modeler. You can also run conversions in headless environments using <code>qgis_process</code>. The possibilities are endless!</em></p>
+<h2 id="qfieldcloud-facilitated-deployment-to-qfield">QFieldCloud-facilitated deployment to QField</h2>
+<p>As mentioned earlier, the converted project can immediately be used in QField to conduct surveying. The best way to deploy these projects to your QField-running devices is via <a href="https://qfield.cloud/" target="_blank" rel="noopener">QFieldCloud</a>. The algorithm comes with a parameter that – when checked – will automatically upload the generated project to QFieldCloud.</p>
+<p>That functionality requires the QFieldSync plugin to be installed and enabled in QGIS. Just log in to your QFieldCloud account via QFieldSync, and let the algorithm take care of the rest. It’s magical! If you haven’t yet tried QFieldCloud, this might be <a href="https://qfield.cloud/" target="_blank" rel="noopener">a good time to do so by signing up for a free community account</a>.</p>
+<p>Of course, you’ll always be able to copy these projects manually onto devices via USB cable or the numerous file import options available in QField.</p>
+<h2 id="xlsform-what">XLSForm-what?</h2>
+<p><a href="https://xlsform.org/" target="_blank" rel="noopener">XLSForm</a> is a form standard designed to simplify the authoring of forms using spreadsheet programs like LibreOffice Calc or Microsoft Excel. They are simple to get started with and allow for the authoring of complex forms in no time. The syntax is beginner-friendly, and the building of surveys by adding rows onto a spreadsheet is surprisingly intuitive.</p>
+<p>The standard has been widely adopted across various sectors, including public health, humanitarian relief, disaster response, local governance, and non-profit organisations.</p>
+<p>Over here at OPENGIS.ch, we believe this plugin can be instrumental to preexisting operations and projects interested in migrating to a QField surveying environment where spatial considerations are front and center. If you are interested in discussing this further, <a href="/#contact">do not hesitate to contact us</a>.</p>
+
+</div>
+
+
+    </div>
+    <footer class="py-3 mt-auto bs-tertiary-bg" >
+<hr class="m-0 p-0">
+
+  <div class="container py-1 my-1">
+    <div class="d-flex flex-wrap justify-content-between align-items-center">
+      <p class="col-md mb-0 text-muted"></p>
+      <ul class="nav col-md-auto justify-content-end">
+        </ul>
+      
+    </div>
+  </div>
+</footer>
+    
+
+
+
+
+
+    <script src="/js/main.js" defer></script>
+  
+
+
+<script src="/js/dark-mode.min.56389ce981c524aae3ab3ba77bb2c7ec1d34c533bc327f161ea98d336078b79b.js" defer></script>
+
+
+<script src="/js/scroll-to-top.min.f2ff2fca4c90e0d5f84752679cf4a532f250fe7d83c8441fbc1d9b80853a3294.js" defer></script>
+</body>
+</html>

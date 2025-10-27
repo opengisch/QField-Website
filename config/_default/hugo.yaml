@@ -1,0 +1,169 @@
+baseURL: "https://qfield.org/"
+languageCode: "en-US"
+title: "QField - Efficient field work built for QGIS"
+theme: "qfield-theme-v3"
+enableRobotsTXT: true
+enableGitInfo: true
+enableEmoji: true
+
+# SEO and metadata configuration
+params:
+  version: "1.0.0"
+  description: "QField is the leading open-source mobile GIS application that makes field data collection efficient and accessible. Built for QGIS, QField brings powerful mapping capabilities to your mobile device."
+  author: "OPENGIS.ch"
+  copyright: "© 2024 OPENGIS.ch"
+  
+  # Social and contact information
+  twitter: "@qfieldforqgis"
+  github: "https://github.com/opengisch/QField"
+  linkedin: "https://www.linkedin.com/company/opengis-ch/"
+  
+  # Default images for social sharing
+  logo: "/images/qfield-logo.svg"
+  favicon: "/images/qfield-logo.svg"
+  
+  # Open Graph / Twitter Cards
+  social:
+    facebook_app_id: ""
+    twitter_card: "summary_large_image"
+    default_image: "/images/qf_carousel/qf-phones-collect1.png"
+    
+  # Schema.org structured data
+  schema:
+    type: "Organization"
+    name: "QField"
+    logo: "/images/qfield-logo.svg"
+    sameAs:
+      - "https://twitter.com/qfieldforqgis"
+      - "https://github.com/opengisch/QField"
+      - "https://www.linkedin.com/company/opengis-ch/"
+
+  # Security headers and CSP (Content Security Policy)
+  security:
+    enableInlineCSP: false
+    enableInlineJS: false
+
+# Asset pipeline configuration
+minify:
+  disableCSS: false
+  disableHTML: false
+  disableJS: false
+  disableJSON: false
+  disableSVG: false
+  disableXML: false
+  minifyOutput: true
+  tdewolff:
+    css:
+      keepCSS2: true
+      precision: 1
+    html:
+      keepComments: false
+      keepConditionalComments: true
+      keepDefaultAttrVals: true
+      keepDocumentTags: true
+      keepEndTags: true
+      keepQuotes: false
+      keepWhitespace: false
+    js:
+      keepVarNames: false
+      precision: 1
+
+# Build configuration
+build:
+  writeStats: true
+  
+caches:
+  assets:
+    dir: ":cacheDir/:project"
+    maxAge: "1h"
+  getcsv:
+    dir: ":cacheDir/:project"
+    maxAge: "1h"
+  getjson:
+    dir: ":cacheDir/:project"
+    maxAge: "1h"
+  images:
+    dir: ":cacheDir/:project"
+    maxAge: "1h"
+  modules:
+    dir: ":cacheDir/:project"
+    maxAge: "1h"
+  
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# Image processing configuration
+imaging:
+  resampleFilter: "Lanczos"
+  quality: 85
+  anchor: "Smart"
+  bgColor: "#ffffff"
+  hint: "photo"
+  
+  # Set reasonable limits for image processing
+  exif:
+    includeFields: ""
+    excludeFields: "GPS|Exif"
+    disableDate: false
+    disableLatLong: true
+
+# Media types for proper asset handling
+mediaTypes:
+  "text/css":
+    suffixes: ["css"]
+  "application/javascript":
+    suffixes: ["js"]
+
+# Output formats
+outputFormats:
+  RSS:
+    mediaType: "application/rss+xml"
+    baseName: "feed"
+
+# SEO and sitemap configuration
+sitemap:
+  changefreq: "monthly"
+  priority: 0.5
+  filename: "sitemap.xml"
+
+# Language and internationalization
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    title: "QField - Efficient field work built for QGIS"
+    
+# Privacy configuration (updated to fix deprecation warning)
+privacy:
+  googleAnalytics:
+    respectDoNotTrack: true
+    anonymizeIP: true
+    useSessionStorage: true
+  x:
+    enableDNT: true
+  youtube:
+    privacyEnhanced: true
+
+# Taxonomy configuration for SEO
+taxonomies:
+  category: "categories"
+  tag: "tags"
+  author: "authors"
+
+# Menu configuration for structured navigation
+menu:
+  main:
+    - name: "Features"
+      url: "/#highlights"
+      weight: 10
+    - name: "Success Stories"
+      url: "/success-stories/"
+      weight: 20
+    - name: "Documentation"
+      url: "https://docs.qfield.org"
+      weight: 30
+    - name: "Support"
+      url: "/support-us/"
+      weight: 40

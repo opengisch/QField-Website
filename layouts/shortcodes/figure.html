@@ -1,0 +1,30 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $caption := .Get "caption" }}
+
+{{ if hasPrefix $src "/blog/wp-content/" }}
+  {{ $src = replace $src "/blog/wp-content/" "/wp-content/" }}
+{{ end }}
+{{ if hasPrefix $src "https://www.opengis.ch/blog/wp-content/" }}
+  {{ $src = replace $src "https://www.opengis.ch/blog/wp-content/" "/wp-content/" }}
+{{ end }}
+{{ if in $src "%5F" }}
+  {{ $src = replace $src "%5F" "_" }}
+{{ end }}
+
+<figure class="gallery-item">
+  {{- if and (hasPrefix $src "/images/") (not (hasPrefix $src "http")) -}}
+    {{- $assetPath := strings.TrimPrefix "/" $src -}}
+    {{- $figureAsset := resources.Get $assetPath -}}
+    {{- if $figureAsset -}}
+    <img src="{{ $figureAsset.RelPermalink }}" alt="{{ $alt }}" loading="lazy">
+    {{- else -}}
+    <img src="{{ $src | relURL }}" alt="{{ $alt }}" loading="lazy">
+    {{- end -}}
+  {{- else -}}
+  <img src="{{ $src | relURL }}" alt="{{ $alt }}" loading="lazy">
+  {{- end -}}
+  {{ if $caption }}
+  <figcaption>{{ $caption }}</figcaption>
+  {{ end }}
+</figure>

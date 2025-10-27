@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark"> 
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=34643&amp;path=livereload" data-no-instant defer></script>
+    
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<meta http-equiv='Content-Security-Policy' content="script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'">
+    
+
+<link rel="stylesheet" href="/css/style.css" media="screen">
+
+<link rel="stylesheet" href="/bootstrap-icons/bootstrap-icons.004322721c8557331759bc6ddaacbb689b0f0715d688aec82bd056d2d5b5cc3b.css">
+    <title>QField Users Sit Down, We Need to Talk About Storage Access on Android</title>
+
+<meta name="description" content=" TLDR: Since November 2021, Google has enforced new storage access limitations for apps published on its Play store which prohibits direct storage access on Android 11 and above forcing QField to adapt and rely on importing projects and datasets to access those.
+If you are a QField beta user on Android 11 and above, you might have noticed a significant change in the way the app is handling storage in the latest set of betas released in early February of 2022. This blog post will go over the changes, explain why those had to be made (looking at you, Google), how to work in this new paradigm, and showcase some new benefits from the hard work done by OPENGIS.ch’s geoninjas.
+">
+  
+
+
+<link rel="canonical" href="http://localhost:34643/2022/03/05/qfield-users-sit-down-we-need-to-talk-about-storage-access-on-android%EF%BF%BC/">
+
+
+<link rel="alternate" hreflang="en" href="http://localhost:34643/2022/03/05/qfield-users-sit-down-we-need-to-talk-about-storage-access-on-android%EF%BF%BC/">
+
+
+
+<link rel="alternate" hreflang="x-default" href="http://localhost:34643/2022/03/05/qfield-users-sit-down-we-need-to-talk-about-storage-access-on-android%EF%BF%BC/">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:title" content="QField Users Sit Down, We Need to Talk About Storage Access on Android">
+<meta property="og:description" content="
+TLDR: Since November 2021, Google has enforced new storage access limitations for apps published on its Play store which prohibits direct storage access on Android 11 and above forcing QField to adapt and rely on importing projects and datasets to access those.
+If you are a QField beta user on Android 11 and above, you might have noticed a significant change in the way the app is handling storage in the latest set of betas released in early February of 2022. This blog post will go over the changes, explain why those had to be made (looking at you, Google), how to work in this new paradigm, and showcase some new benefits from the hard work done by OPENGIS.ch’s geoninjas.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://localhost:34643/2022/03/05/qfield-users-sit-down-we-need-to-talk-about-storage-access-on-android%EF%BF%BC/">
+  <meta property="article:section" content="blog">
+  
+    <meta property="article:published_time" content="2022-03-05T00:48:44+00:00">
+  
+  
+    <meta property="article:modified_time" content="2022-03-05T00:48:44+00:00">
+  
+  <meta property="og:site_name" content="QField - Efficient field work built for QGIS">
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="QField Users Sit Down, We Need to Talk About Storage Access on Android">
+<meta name="twitter:description" content="
+TLDR: Since November 2021, Google has enforced new storage access limitations for apps published on its Play store which prohibits direct storage access on Android 11 and above forcing QField to adapt and rely on importing projects and datasets to access those.
+If you are a QField beta user on Android 11 and above, you might have noticed a significant change in the way the app is handling storage in the latest set of betas released in early February of 2022. This blog post will go over the changes, explain why those had to be made (looking at you, Google), how to work in this new paradigm, and showcase some new benefits from the hard work done by OPENGIS.ch’s geoninjas.">
+
+
+
+
+
+
+  
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "QField Users Sit Down, We Need to Talk About Storage Access on Android",
+  "datePublished": "2022-03-05T00:48:44+00:00",
+  "dateModified": "2022-03-05T00:48:44+00:00",
+  "mainEntityOfPage": "http://localhost:34643/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "QField - Efficient field work built for QGIS"
+  },
+  "wordcount" :  1013 ,
+  "description": " TLDR: Since November 2021, Google has enforced new storage access limitations for apps published on its Play store which prohibits direct storage access on Android 11 and above forcing QField to adapt and rely on importing projects and datasets to access those.\nIf you are a QField beta user on Android 11 and above, you might have noticed a significant change in the way the app is handling storage in the latest set of betas released in early February of 2022. This blog post will go over the changes, explain why those had to be made (looking at you, Google), how to work in this new paradigm, and showcase some new benefits from the hard work done by OPENGIS.ch’s geoninjas.\n",
+  "keywords":  null 
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+</head>
+
+<body class="blog single d-flex flex-column min-vh-100"><header class="main-header">
+  <nav class="navbar navbar-expand-lg bg-body border-bottom sticky-top mb-4">
+    <div class="container">
+
+      
+      <a class="navbar-brand fw-bold d-flex align-items-center" href="/">
+        
+        QField - Efficient field work built for QGIS
+      </a>
+
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="d-flex order-lg-2 ms-auto align-items-center gap-2">
+        <a class="btn btn-danger d-none d-lg-inline" href=""></a>
+        <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="menu-main navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/#highlights">Features</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/success-stories/">Success Stories</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="https://docs.qfield.org">Documentation</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/support-us/">Support</a>
+          </li>
+          
+          </ul>
+
+        
+        
+        
+
+      </div>
+    </div>
+  </nav>
+</header><div id="content">
+        
+
+<div class="container py-3">
+  <blockquote>
+<p><em>TLDR: Since November 2021, Google has enforced new storage access limitations for apps published on its Play store which prohibits direct storage access on Android 11 and above forcing QField to adapt and rely on importing projects and datasets to access those.</em></p></blockquote>
+<p>If you are a QField beta user on Android 11 and above, you might have noticed a significant change in the way the app is handling storage in the latest set of betas released in early February of 2022. This blog post will go over the changes, explain why those <strong>had to be made</strong> (looking at you, Google), how to work in this new paradigm, and showcase some new benefits from the hard work done by OPENGIS.ch’s geoninjas.</p>
+<h2 id="its-all-gone-how-can-i-access-my-projects-and-datasets"><strong>It’s all gone! How can I access my projects and datasets?!</strong></h2>
+<p>Starting with Android 11, apps are denied full access to main and external storage content. For QField, this means direct access to projects and datasets transferred and/or downloaded into storage folders is not possible anymore.</p>
+<p>To work within this new confine, QField now has to import project folders or individual datasets into an app-dedicated storage location where Android allows for unrestricted read/write access.</p>
+<p>Practically, this means that instead of being shown and having access to the full storage tree when clicking on the “Open local files” button, users are now shown a set of new folders named ‘QField files directory’, ‘Imported datasets’, and ‘Imported projects’ as well as a drop-down menu accessible via a top-right three-dot button.</p>
+
+
+
+
+
+
+
+  
+
+
+<figure class="gallery-item"><img src="https://lh3.googleusercontent.com/lB1LdVMJcbB8AZ13axbQcAAH2H8aG9QolThzc1Mzl53mfRcVrMa2Are3gXos6wzTEusu5K0SeROritR3eU6JFSMcm1gR7H1wdIdBQ4gJ4zXdjWs8_GiApmIp0xGZO__vx8GsxZR_" alt="" loading="lazy">
+</figure>
+
+<h3 id="import-project-from-folder"><em>Import project from folder</em></h3>
+<p>When importing a project from a folder, users will be asked to grant permission for QField to read the content of a given folder on the device’s storage via a system folder picker. When the folder is selected, QField copies the folder content (including its sub-folders) into the app’s ‘Imported projects’ location. Users can then open the project from there.</p>
+<p>Re-importing a given folder through the drop-down menu action will overwrite preexisting projects given an identical folder name. That allows users to be able to update projects.</p>
+<p><em>Note that feature editing, addition, and deletion will be saved into the imported project’s datasets, not in the original folder selected during the import process. More on how to find and handle those project datasets will come later in this post.</em></p>
+<h3 id="import-project-from-zip-archive"><em>Import project from ZIP archive</em></h3>
+<p>Having to adapt to Google’s new set of rules did not come without its benefits. Users can now easily transfer projects into a given device by compressing the project content into a ZIP archive and having QField import that compressed project automatically. This can greatly ease remote deployment of projects by being able to send a single file to users.</p>
+<h3 id="import-datasets"><em>Import dataset(s)</em></h3>
+<p>QField can also import individual dataset(s). Users will be asked to select one or more files via a system file picker, which will be copied into the ‘Imported datasets’ folder. Users will have to ensure that all sidecar files are selected when importing (e.g. a shapefile dataset would require users to select the .shp, .shx, .dbf, .prj, and .cpg files).</p>
+<p><em>Just like imported projects, editing of datasets will be saved into the imported datasets, and not reflected in the original files.</em></p>
+<h2 id="alright-but-how-can-i-retrieve-modified-projects-and-datasets"><strong>Alright, but how can I retrieve modified projects and datasets?</strong></h2>
+<p>Imported projects and datasets can be accessed directly using a USB cable. The location on storage is displayed in the top navigation bar when opening a local file.</p>
+<p>On most devices plugged into a computer via USB cable connection, the path will be <drive>:/Android/data/ch.opengis.qfield/files/ where you will find both the Imported Datasets and Imported Projects folders within which your edited content will be located.</p>
+<p>However, we’ve also added a nice new ‘Send to…’ functionality that allows for users to share and send datasets straight from QField using Android APIs. This allows for the sending of edited datasets directly to third party apps (Gmail, Drive, Dropbox, Nextcloud, your favourite messenger app, etc.).</p>
+
+
+
+
+
+
+
+  
+
+
+<figure class="gallery-item"><img src="https://lh4.googleusercontent.com/oTkD9HqHrrRR2G2ftpoSipcpoJ9GIhq-2Iyi_vn59coCzWoIZX7BcVfE_IVkDj4EcI2mDIOfot6UTZI0HZcUuBug_UKqEc1SI4FbFSgB0GhFAhRgYSKRlf-3MSdm0MKMyOteSx8u" alt="" loading="lazy">
+</figure>
+
+<h3 id="is-direct-copying-via-usb-cable-gone-altogether"><strong>Is direct copying via USB cable gone altogether?</strong></h3>
+<p>Users can still avoid going through the import process by copying files via a USB cable connection directly into the QField app’s files directory. As mentioned above, the location on most devices will be <drive>:/Android/data/ch.opengis.qfield/files/.</p>
+<h2 id="what-are-the-benefits-from-these-changes"><strong>What are the benefits from these changes?</strong></h2>
+<p>Working out a functional solution to meet Google’s newly-enforced restrictions did not come without its benefits.</p>
+<p>On top of what was already covered above - importing of compressed project ZIP files and sharing functionalities – QField is now fully integrated with Android’s cross-application document sharing APIs. This means that users can now directly open projects and files sent to them via their favourite browser/email/cloud/messenger app without the need to first download those files onto the device.</p>
+<p>Altogether, the newly-coded importing mechanisms and integration with Android document APIs don’t only improve the ease of use for the average person, it also makes viewing and editing spatial datasets on QField far more secure. The imported projects and datasets reside in a location with access limited to QField only, meaning that its content is inherently far more protected from malicious access from third-party apps.</p>
+<h2 id="why-were-these-drastic-changes-needed"><strong>Why were these drastic changes needed?</strong></h2>
+<p>As mentioned in the introduction, the changes were needed to comply with a set of new Google Play policies that came into force in November 2021. Users can read more on Google’s rationale on this page <a href="https://developer.android.com/google/play/requirements/target-sdk" target="_blank" rel="noopener">https://developer.android.com/google/play/requirements/target-sdk</a>.</p>
+<p>As part of the enforcement of these new policies, Google came up with an arbitrary mechanism to whitelist some apps which allows those to retain full storage access given the user explicitly allowed for it. We here at OPENGIS.ch believes QField had ample justifications to be whitelisted, however, Google’s appeal process judged otherwise after a series of email exchanges detailing our reasoning. While we have so far lost this argument with Google, we will continue fighting for our users and for their freedom to choose. If by any chance you have a good contact at Google that might be willing to listen to our reasoning, we would be grateful if you&rsquo;d <a href="https://opengis.ch/#contact" target="_blank" rel="noopener">get in touch with us</a>.</p>
+<p>We hope this clarifies the recent changes and helps QField users adapt to those.</p>
+
+</div>
+
+
+    </div>
+    <footer class="py-3 mt-auto bs-tertiary-bg" >
+<hr class="m-0 p-0">
+
+  <div class="container py-1 my-1">
+    <div class="d-flex flex-wrap justify-content-between align-items-center">
+      <p class="col-md mb-0 text-muted"></p>
+      <ul class="nav col-md-auto justify-content-end">
+        </ul>
+      
+    </div>
+  </div>
+</footer>
+    
+
+
+
+
+
+    <script src="/js/main.js" defer></script>
+  
+
+
+<script src="/js/dark-mode.min.56389ce981c524aae3ab3ba77bb2c7ec1d34c533bc327f161ea98d336078b79b.js" defer></script>
+
+
+<script src="/js/scroll-to-top.min.f2ff2fca4c90e0d5f84752679cf4a532f250fe7d83c8441fbc1d9b80853a3294.js" defer></script>
+</body>
+</html>

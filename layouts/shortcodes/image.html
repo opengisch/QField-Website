@@ -1,0 +1,86 @@
+{{/*
+  Responsive image partial with WebP support
+  
+  Usage:
+  {{ partial "image.html" (dict 
+    "src" "images/photo.jpg" 
+    "alt" "Alt text" 
+    "class" "my-class"
+    "sizes" "320,640,960,1280"
+    "loading" "lazy"
+  ) }}
+*/}}
+
+{{ $src := .src }}
+{{ $alt := .alt | default "" }}
+{{ $class := .class | default "" }}
+{{ $sizes := .sizes | default "320,640,960,1280" }}
+{{ $loading := .loading | default "lazy" }}
+{{ $quality := .quality | default 85 }}
+
+{{ $image := resources.Get $src }}
+
+{{ if $image }}
+  {{ $sizesList := split $sizes "," }}
+  {{ $srcset := slice }}
+  {{ $srcsetWebp := slice }}
+  {{ $srcsetAvif := slice }}
+  
+  {{ $isProd := hugo.IsProduction }}
+  {{ $webpQuality := cond $isProd 85 90 }}
+  {{ $avifQuality := cond $isProd 75 85 }}
+  
+  {{ range $sizesList }}
+    {{ $size := . | int }}
+    {{ $resized := $image.Resize (printf "%dx q%d" $size $quality) }}
+    {{ $resizedWebp := $image.Resize (printf "%dx webp q%d" $size $webpQuality) }}
+    
+    {{ $srcset = $srcset | append (printf "%s %dw" $resized.RelPermalink $size) }}
+    {{ $srcsetWebp = $srcsetWebp | append (printf "%s %dw" $resizedWebp.RelPermalink $size) }}
+    
+    {{/* Add AVIF support for modern browsers */}}
+    {{ if ge hugo.Version "0.104.0" }}
+      {{ $resizedAvif := $image.Resize (printf "%dx avif q%d" $size $avifQuality) }}
+      {{ $srcsetAvif = $srcsetAvif | append (printf "%s %dw" $resizedAvif.RelPermalink $size) }}
+    {{ end }}
+  {{ end }}
+  
+  {{ $fallback := $image.Resize (printf "960x q%d" $quality) }}
+  
+  <picture>
+    {{/* Serve AVIF for supporting browsers */}}
+    {{ if $srcsetAvif }}
+    <source 
+      srcset="{{ delimit $srcsetAvif ", " }}"
+      sizes="(max-width: 320px) 320px, (max-width: 640px) 640px, (max-width: 960px) 960px, 1280px"
+      type="image/avif"
+    >
+    {{ end }}
+    {{/* Serve WebP for supporting browsers */}}
+    <source 
+      srcset="{{ delimit $srcsetWebp ", " }}"
+      sizes="(max-width: 320px) 320px, (max-width: 640px) 640px, (max-width: 960px) 960px, 1280px"
+      type="image/webp"
+    >
+    {{/* Fallback to original format */}}
+    <img 
+      src="{{ $fallback.RelPermalink }}"
+      srcset="{{ delimit $srcset ", " }}"
+      sizes="(max-width: 320px) 320px, (max-width: 640px) 640px, (max-width: 960px) 960px, 1280px"
+      alt="{{ $alt }}"
+      {{ with $class }}class="{{ . }}"{{ end }}
+      {{ with $loading }}loading="{{ . }}"{{ end }}
+      width="{{ $fallback.Width }}"
+      height="{{ $fallback.Height }}"
+      decoding="async"
+    >
+  </picture>
+{{ else }}
+  <!-- Fallback for missing images with error handling -->
+  <img 
+    src="{{ $src | relURL }}" 
+    alt="{{ $alt }}" 
+    {{ with $class }}class="{{ . }}"{{ end }}
+    onerror="this.style.display='none'; console.warn('Image failed to load: {{ $src }}');"
+  >
+{{ end }}

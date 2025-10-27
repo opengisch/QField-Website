@@ -1,0 +1,27 @@
+{{/*
+  Responsive image shortcode for use in markdown content
+  
+  Usage:
+  {{< img src="images/my-photo.jpg" alt="Description" caption="Optional caption" >}}
+  {{< img src="images/photo.jpg" alt="Description" sizes="400,800,1200" class="custom-class" >}}
+*/}}
+
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $caption := .Get "caption" | default "" }}
+{{ $class := .Get "class" | default "" }}
+{{ $sizes := .Get "sizes" | default "320,640,960,1280" }}
+{{ $loading := .Get "loading" | default "lazy" }}
+
+<figure class="responsive-image{{ with $class }} {{ . }}{{ end }}">
+  {{ partial "image.html" (dict 
+    "src" $src
+    "alt" $alt
+    "class" "responsive-image__img"
+    "sizes" $sizes
+    "loading" $loading
+  ) }}
+  {{ with $caption }}
+    <figcaption class="responsive-image__caption">{{ . }}</figcaption>
+  {{ end }}
+</figure>

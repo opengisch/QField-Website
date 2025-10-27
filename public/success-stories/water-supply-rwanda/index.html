@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark"> 
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=34643&amp;path=livereload" data-no-instant defer></script>
+    
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<meta http-equiv='Content-Security-Policy' content="script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'">
+    
+
+<link rel="stylesheet" href="/css/style.css" media="screen">
+
+<link rel="stylesheet" href="/bootstrap-icons/bootstrap-icons.004322721c8557331759bc6ddaacbb689b0f0715d688aec82bd056d2d5b5cc3b.css">
+    <title>Data collection by QGIS/QField for O&amp;M work of rural water supply systems in Rwanda</title>
+
+<meta name="description" content="To conduct data collection of all rural water supply network in Rwanda, and keep updating the data continuously in order to improve operation &amp; maintenance of waterworks.">
+
+
+
+<link rel="canonical" href="http://localhost:34643/success-stories/water-supply-rwanda/">
+
+
+<link rel="alternate" hreflang="en" href="http://localhost:34643/success-stories/water-supply-rwanda/">
+
+
+
+<link rel="alternate" hreflang="x-default" href="http://localhost:34643/success-stories/water-supply-rwanda/">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:title" content="Data collection by QGIS/QField for O&amp;M work of rural water supply systems in Rwanda">
+<meta property="og:description" content="To conduct data collection of all rural water supply network in Rwanda, and keep updating the data continuously in order to improve operation &amp; maintenance of waterworks.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://localhost:34643/success-stories/water-supply-rwanda/">
+  <meta property="article:section" content="success-stories">
+  
+    <meta property="article:published_time" content="2025-10-16T11:58:28+02:00">
+  
+  
+    <meta property="article:modified_time" content="2025-10-16T11:58:28+02:00">
+  
+  <meta property="og:site_name" content="QField - Efficient field work built for QGIS">
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Data collection by QGIS/QField for O&amp;M work of rural water supply systems in Rwanda">
+<meta name="twitter:description" content="To conduct data collection of all rural water supply network in Rwanda, and keep updating the data continuously in order to improve operation &amp; maintenance of waterworks.">
+
+
+
+
+
+
+  
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Data collection by QGIS/QField for O\u0026M work of rural water supply systems in Rwanda",
+  "datePublished": "2025-10-16T11:58:28+02:00",
+  "dateModified": "2025-10-16T11:58:28+02:00",
+  "mainEntityOfPage": "http://localhost:34643/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "QField - Efficient field work built for QGIS"
+  },
+  "wordcount" :  623 ,
+  "description": "To conduct data collection of all rural water supply network in Rwanda, and keep updating the data continuously in order to improve operation \u0026 maintenance of waterworks.",
+  "keywords":  null 
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+</head>
+
+<body class="success-stories single d-flex flex-column min-vh-100"><header class="main-header">
+  <nav class="navbar navbar-expand-lg bg-body border-bottom sticky-top mb-4">
+    <div class="container">
+
+      
+      <a class="navbar-brand fw-bold d-flex align-items-center" href="/">
+        
+        QField - Efficient field work built for QGIS
+      </a>
+
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="d-flex order-lg-2 ms-auto align-items-center gap-2">
+        <a class="btn btn-danger d-none d-lg-inline" href=""></a>
+        <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="menu-main navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/#highlights">Features</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/success-stories/">Success Stories</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="https://docs.qfield.org">Documentation</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/support-us/">Support</a>
+          </li>
+          
+          </ul>
+
+        
+        
+        
+
+      </div>
+    </div>
+  </nav>
+</header><div id="content">
+        
+
+<div class="container py-3">
+  <h3 id="goal">Goal</h3>
+<p>To conduct data collection of all rural water supply network in Rwanda, and keep updating the data continuously in order to improve operation &amp; maintenance of waterworks.</p>
+<h3 id="project-preparation">Project preparation</h3>
+<p>Before starting our data collection, we conducted the following things:<br>
+– Develop our own PostGIS database<br>
+– Develop QGIS project template with Geopackage. The Geopackage table design is equal to PostGIS to be able to copy and paste to PostGIS.</p>
+<p>Apart from preparing Android devices, we purchased GPS devices for higher positioning accuracy. In WASAC, we bought Garmin GPSMAP 64S. Sometimes, GPS of smartphone and tablet is not very accurate, so we normally capture the same location by using Garmin GPS, then correct the location of QField&rsquo;s data after data collection work.</p>
+<h3 id="data-collection">Data collection</h3>
+<p>Once we prepared Geopackage and QGIS project template, we conducted training of QGIS/QField in July 2018 and launched our data collection work in 27 districts in the whole country of Rwanda. 27 engineers sent their Geopackage to the central office in Kigali. the MIS (Management Information System) specialist validated and entered their data from Geopackage to PostGIS database. We completed our initial data collection works until April 2019.</p>
+<p><img src="/images/ss/rwanda-rural-water-1.png" alt="data collection procedure"></p>
+<h5 id="data-collection-procedure"><em>Data collection procedure</em></h5>
+<h3 id="data-distribution-and-updating">Data distribution and updating</h3>
+<p>The most significant thing after data collection is <code>updating</code>. We have seen many organization in Africa, which failed to keep data up to date. Several years later, their data will normally become too old, and most of them need to put efforts on data collection again. WASAC decided to continuously update all of the data and keeps doing this until now. QField has proven to be very well suited for this purpose. In order to distribute and updating the data, we developed a python script <a href="https://github.com/WASAC/postgis2qfield" target="_blank" rel="noopener">postgis2qfield.</a> This <code>postgis2qfield</code> tool can extract the data from PostGIS and create Geopackages for each district in Rwanda. We upload these 27 geopackage together with QGIS project template to Google Drive storage. After that, those engineers in districts download their geopakage to Android device to continue adding and updating the data. Once they completed updating, they sent the geopackage to central office again, MIS specialist update PostGIS database and regenerate geopackages for QField.</p>
+<p><img src="/images/ss/rwanda-rural-water-2.png" alt="data distribution and updating procedure"></p>
+<h5 id="data-distribution-and-updating-procedure"><em>Data distribution and updating procedure</em></h5>
+<h3 id="data-sharing-via-vectoriles">Data sharing via vectoriles</h3>
+<p>First of all, you can see our collected data from <a href="https://rural.water-gis.com/?style=OSM#9/-2.0032/30.0291" target="_blank" rel="noopener">here</a>.</p>
+<p>Since July 2020, we started to distribute our water supply system&rsquo;s data via vectortiles as open data. Although Rwanda's internet situation is being improved, some rural area still have problems of internet. In such as poor internet situation, WMS or WFS data distribution will not work well. Vectortiles can provide light and fast distribution of map data. We will not talk about our vectortiles here. If you are fascinated by how to share the result of data collection, please also see this <a href="https://github.com/watergis/awesome-vector-tiles" target="_blank" rel="noopener">instruction</a>.</p>
+<h3 id="acknowledgement">Acknowledgement</h3>
+<p>We thank all of district water and sanitation support engineers to conduct their data collection work. Additionally, we want to thank the developers of QField and QGIS for offering fantastic open source software. It is great that, due to free software, such projects can be implemented by an organization of water sector in developing countries.</p>
+<h3 id="about-wasac">About WASAC</h3>
+<p><code>WASAC</code> has 2 main departments for urban water(UWSS) and rural water(RWSS). We are using QField in RWSS. The role of RWSS department is to support local government to operate and maintain their owned water supply systems in rural area. Nowadays, these data collected and maintained by RWSS department are being used by more than 30 private operators in 27 districts. Total number of water supply systems in the database is 1,000+.</p>
+<p><img src="/images/ss/rwanda-rural-water-3.png" alt="organogram of WASAC"></p>
+<h5 id="organogram-of-wasac"><em>Organogram of WASAC</em></h5>
+<p>Also, one of our colleagues presented WASAC's activity in FOSS4G 2019 Bucharest. Although some of system were little bit changed now, you can also see this <a href="https://media.ccc.de/v/bucharest-30-case-study-of-data-collection-data-sharing-for-rural-water-supply-management-in-rwanda" target="_blank" rel="noopener">video</a> if you are interested.</p>
+
+</div>
+
+
+    </div>
+    <footer class="py-3 mt-auto bs-tertiary-bg" >
+<hr class="m-0 p-0">
+
+  <div class="container py-1 my-1">
+    <div class="d-flex flex-wrap justify-content-between align-items-center">
+      <p class="col-md mb-0 text-muted"></p>
+      <ul class="nav col-md-auto justify-content-end">
+        </ul>
+      
+    </div>
+  </div>
+</footer>
+    
+
+
+
+
+
+    <script src="/js/main.js" defer></script>
+  
+
+
+<script src="/js/dark-mode.min.56389ce981c524aae3ab3ba77bb2c7ec1d34c533bc327f161ea98d336078b79b.js" defer></script>
+
+
+<script src="/js/scroll-to-top.min.f2ff2fca4c90e0d5f84752679cf4a532f250fe7d83c8441fbc1d9b80853a3294.js" defer></script>
+</body>
+</html>

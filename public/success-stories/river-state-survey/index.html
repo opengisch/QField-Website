@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark"> 
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=34643&amp;path=livereload" data-no-instant defer></script>
+    
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<meta http-equiv='Content-Security-Policy' content="script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'">
+    
+
+<link rel="stylesheet" href="/css/style.css" media="screen">
+
+<link rel="stylesheet" href="/bootstrap-icons/bootstrap-icons.004322721c8557331759bc6ddaacbb689b0f0715d688aec82bd056d2d5b5cc3b.css">
+    <title>River State Survey using QField</title>
+
+<meta name="description" content="To facilitate the technician&#39;s field work (usually done with a map, a notebook and a camera), a QField project was created and made available on a Tablet. Cadastral and river layers were used as basemap.">
+
+
+
+<link rel="canonical" href="http://localhost:34643/success-stories/river-state-survey/">
+
+
+<link rel="alternate" hreflang="en" href="http://localhost:34643/success-stories/river-state-survey/">
+
+
+
+<link rel="alternate" hreflang="x-default" href="http://localhost:34643/success-stories/river-state-survey/">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:title" content="River State Survey using QField">
+<meta property="og:description" content="To facilitate the technician&#39;s field work (usually done with a map, a notebook and a camera), a QField project was created and made available on a Tablet. Cadastral and river layers were used as basemap.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://localhost:34643/success-stories/river-state-survey/">
+  <meta property="article:section" content="success-stories">
+  
+    <meta property="article:published_time" content="2025-10-16T11:58:28+02:00">
+  
+  
+    <meta property="article:modified_time" content="2025-10-16T11:58:28+02:00">
+  
+  <meta property="og:site_name" content="QField - Efficient field work built for QGIS">
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="River State Survey using QField">
+<meta name="twitter:description" content="To facilitate the technician&#39;s field work (usually done with a map, a notebook and a camera), a QField project was created and made available on a Tablet. Cadastral and river layers were used as basemap.">
+
+
+
+
+
+
+  
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "River State Survey using QField",
+  "datePublished": "2025-10-16T11:58:28+02:00",
+  "dateModified": "2025-10-16T11:58:28+02:00",
+  "mainEntityOfPage": "http://localhost:34643/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "QField - Efficient field work built for QGIS"
+  },
+  "wordcount" :  202 ,
+  "description": "To facilitate the technician's field work (usually done with a map, a notebook and a camera), a QField project was created and made available on a Tablet. Cadastral and river layers were used as basemap.",
+  "keywords":  null 
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+</head>
+
+<body class="success-stories single d-flex flex-column min-vh-100"><header class="main-header">
+  <nav class="navbar navbar-expand-lg bg-body border-bottom sticky-top mb-4">
+    <div class="container">
+
+      
+      <a class="navbar-brand fw-bold d-flex align-items-center" href="/">
+        
+        QField - Efficient field work built for QGIS
+      </a>
+
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="d-flex order-lg-2 ms-auto align-items-center gap-2">
+        <a class="btn btn-danger d-none d-lg-inline" href=""></a>
+        <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="menu-main navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/#highlights">Features</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/success-stories/">Success Stories</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="https://docs.qfield.org">Documentation</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/support-us/">Support</a>
+          </li>
+          
+          </ul>
+
+        
+        
+        
+
+      </div>
+    </div>
+  </nav>
+</header><div id="content">
+        
+
+<div class="container py-3">
+  <h3 id="goal">Goal</h3>
+<p>In order to assess the structural and morphological state of their water courses, the community of Milvignes needed to survey all the rivers crossing their territory.</p>
+<h3 id="project">Project</h3>
+<p>To facilitate the technician&rsquo;s field work (usually done with a map, a notebook and a camera), a QField project was created and made available on a Tablet. Cadastral and river layers were used as basemap.</p>
+<p>The structure of the input tables was designed along with the technician to assure that it would fit their field requirements. The idea was to have two tables:</p>
+<h4 id="sector-table">Sector table</h4>
+<p>To draw sectors alongside the rivers and add information about their state and structure. If necessary, pre-defined structural work on the sector elements (wall, bridge, bottom of the canal) could also be documented.</p>
+<h4 id="point-table">Point table</h4>
+<p>To take punctual photography of the water courses and of its elements and where necessary add remarks.</p>
+<p><img src="/images/ss/river-state-survey1.png" alt="river state survey"></p>
+<h5 id="river-state-survey-1"><em>River State Survey 1</em></h5>
+<p><img src="/images/ss/river-state-survey2.png" alt="river state survey"></p>
+<h5 id="river-state-survey-2"><em>River State Survey 2</em></h5>
+<p><img src="/images/ss/river-state-survey3.jpg" alt="river state survey"></p>
+<h5 id="river-state-survey-3"><em>River State Survey 3</em></h5>
+<h3 id="result">Result</h3>
+<p>In less than 3 days, the technician surveyed successfully all the 10'894 meters of water courses.<br>
+Back at the office, it took only 2 hours to treat the data and get the final result:</p>
+<p>– Facilitated the field survey<br>
+– Accelerated the data treatment</p>
+<p><img src="/images/ss/river-state-survey-logo-geoconseils.png" alt="geoconseils"> <img src="/images/ss/river-state-survey-logo-milvignes.png" alt="milvignes"></p>
+
+</div>
+
+
+    </div>
+    <footer class="py-3 mt-auto bs-tertiary-bg" >
+<hr class="m-0 p-0">
+
+  <div class="container py-1 my-1">
+    <div class="d-flex flex-wrap justify-content-between align-items-center">
+      <p class="col-md mb-0 text-muted"></p>
+      <ul class="nav col-md-auto justify-content-end">
+        </ul>
+      
+    </div>
+  </div>
+</footer>
+    
+
+
+
+
+
+    <script src="/js/main.js" defer></script>
+  
+
+
+<script src="/js/dark-mode.min.56389ce981c524aae3ab3ba77bb2c7ec1d34c533bc327f161ea98d336078b79b.js" defer></script>
+
+
+<script src="/js/scroll-to-top.min.f2ff2fca4c90e0d5f84752679cf4a532f250fe7d83c8441fbc1d9b80853a3294.js" defer></script>
+</body>
+</html>

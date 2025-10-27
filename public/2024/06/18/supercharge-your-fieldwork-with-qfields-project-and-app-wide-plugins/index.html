@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark"> 
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=34643&amp;path=livereload" data-no-instant defer></script>
+    
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<meta http-equiv='Content-Security-Policy' content="script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'">
+    
+
+<link rel="stylesheet" href="/css/style.css" media="screen">
+
+<link rel="stylesheet" href="/bootstrap-icons/bootstrap-icons.004322721c8557331759bc6ddaacbb689b0f0715d688aec82bd056d2d5b5cc3b.css">
+    <title>Supercharge your fieldwork with QField&#39;s project and app-wide plugins</title>
+
+<meta name="description" content="This blog post will introduce QField’s brand new plugin framework and walk through the creation of a plugin to support bird watchers in need of a quick way to digitize photos of spotted birds onto a point vector layer.
+A plugin framework is born! As announced recently, QField now empowers users through a brand new plugin framework allowing for simple customization on the way the application behaves or looks all the way through to creating completely new functionalities.
+">
+  
+
+
+<link rel="canonical" href="http://localhost:34643/2024/06/18/supercharge-your-fieldwork-with-qfields-project-and-app-wide-plugins/">
+
+
+<link rel="alternate" hreflang="en" href="http://localhost:34643/2024/06/18/supercharge-your-fieldwork-with-qfields-project-and-app-wide-plugins/">
+
+
+
+<link rel="alternate" hreflang="x-default" href="http://localhost:34643/2024/06/18/supercharge-your-fieldwork-with-qfields-project-and-app-wide-plugins/">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:title" content="Supercharge your fieldwork with QField&#39;s project and app-wide plugins">
+<meta property="og:description" content="This blog post will introduce QField’s brand new plugin framework and walk through the creation of a plugin to support bird watchers in need of a quick way to digitize photos of spotted birds onto a point vector layer.
+A plugin framework is born!
+As announced recently, QField now empowers users through a brand new plugin framework allowing for simple customization on the way the application behaves or looks all the way through to creating completely new functionalities.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://localhost:34643/2024/06/18/supercharge-your-fieldwork-with-qfields-project-and-app-wide-plugins/">
+  <meta property="article:section" content="blog">
+  
+    <meta property="article:published_time" content="2024-06-18T04:45:00+00:00">
+  
+  
+    <meta property="article:modified_time" content="2024-06-18T04:45:00+00:00">
+  
+  <meta property="og:site_name" content="QField - Efficient field work built for QGIS">
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Supercharge your fieldwork with QField&#39;s project and app-wide plugins">
+<meta name="twitter:description" content="This blog post will introduce QField’s brand new plugin framework and walk through the creation of a plugin to support bird watchers in need of a quick way to digitize photos of spotted birds onto a point vector layer.
+A plugin framework is born!
+As announced recently, QField now empowers users through a brand new plugin framework allowing for simple customization on the way the application behaves or looks all the way through to creating completely new functionalities.">
+
+
+
+
+
+
+  
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Supercharge your fieldwork with QField's project and app-wide plugins",
+  "datePublished": "2024-06-18T04:45:00+00:00",
+  "dateModified": "2024-06-18T04:45:00+00:00",
+  "mainEntityOfPage": "http://localhost:34643/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "QField - Efficient field work built for QGIS"
+  },
+  "wordcount" :  1814 ,
+  "description": "This blog post will introduce QField’s brand new plugin framework and walk through the creation of a plugin to support bird watchers in need of a quick way to digitize photos of spotted birds onto a point vector layer.\nA plugin framework is born! As announced recently, QField now empowers users through a brand new plugin framework allowing for simple customization on the way the application behaves or looks all the way through to creating completely new functionalities.\n",
+  "keywords":  null 
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+</head>
+
+<body class="blog single d-flex flex-column min-vh-100"><header class="main-header">
+  <nav class="navbar navbar-expand-lg bg-body border-bottom sticky-top mb-4">
+    <div class="container">
+
+      
+      <a class="navbar-brand fw-bold d-flex align-items-center" href="/">
+        
+        QField - Efficient field work built for QGIS
+      </a>
+
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="d-flex order-lg-2 ms-auto align-items-center gap-2">
+        <a class="btn btn-danger d-none d-lg-inline" href=""></a>
+        <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="menu-main navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/#highlights">Features</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/success-stories/">Success Stories</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="https://docs.qfield.org">Documentation</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/support-us/">Support</a>
+          </li>
+          
+          </ul>
+
+        
+        
+        
+
+      </div>
+    </div>
+  </nav>
+</header><div id="content">
+        
+
+<div class="container py-3">
+  <p><em>This blog post will introduce QField’s brand new plugin framework and walk through the creation of a plugin to support bird watchers in need of a quick way to digitize photos of spotted birds onto a point vector layer.</em></p>
+<h2 id="a-plugin-framework-is-born">A plugin framework is born!</h2>
+<p>As <a href="/2024/06/11/qfield-3-3-darien-it-is-just-the-beginning/">announced recently</a>, QField now empowers users through a brand new <a href="https://docs.qfield.org/how-to/plugins/" target="_blank" rel="noopener">plugin framework</a> allowing for simple customization on the way the application behaves or looks all the way through to creating completely new functionalities.</p>
+<p>The plugin framework relies on <a href="https://doc.qt.io/qt-6/qmlreference.html" target="_blank" rel="noopener">Qt’s QML engine and JavaScript</a>, allowing for cross-platform support out of the box. This means that plugins will run perfectly fine on all platforms currently supported by QField: Android, iOS, Windows, Linux, and macOS.</p>
+<h2 id="app-wide-plugin-vs-project-plugin">App-wide plugin vs. project plugin</h2>
+<p>First, let’s look at the two types of plugins supported by QField: app-wide plugins and project plugins. As their names imply, the main difference is their scope. An enabled app-wide plugin will remain active as long as QField is running, while project plugins are activated on project load and deactivated when the project tied to the plugin is closed.</p>
+<p>Project plugins are shipped alongside a given project file ( <code>.qgs</code>/ <code>.qgz</code>). Project plugins must share the same name of the project file with a <code>.qml</code> extension. For example, if your project file is <code>birdwatcher.qgz</code>, QField will look for the presence of a <code>birdwatcher.qml</code> to activate the project plugin. For app-wide plugins, installation is done via the plugins manager popup; more on this below.</p>
+<p>Distribution of project plugins can be greatly facilitated through <a href="https://qfield.cloud/" target="_blank" rel="noopener">QFieldCloud</a>. The presence of project plugins within a cloud project environment will be automatically detected and packaged alongside the project file and its datasets when deployed to QField devices.</p>
+<h2 id="starting-with-a-project-plugin">Starting with a project plugin</h2>
+<p>We will start with looking into a simple project plugin that offers a new digitizing mechanism focused on snapping photos as a trigger for point feature addition. This plugin will demonstrate how new functionalities and behaviors can be added to QField to serve specific needs. In this case, the new digitizing mechanism could come in handy for bird watchers and other users in need of a quick way to snap photos!</p>
+<p>It’s advised to download a version of QField running on your desktop environment while testing plugins. Links to <a href="https://docs.qfield.org/get-started/" target="_blank" rel="noopener">Windows, Linux, and macOS builds are available here</a>. Once installed, <a href="https://github.com/opengisch/qfield-snap/releases/download/v1.0/qfield-snap-sample-project.zip" target="_blank" rel="noopener">download this project archive containing a tiny birdwatcher sample project</a> and extract it into a new directory on your local machine.</p>
+<p>The project archive consists of a point vector layer ( <code>observations.gpkg</code>), a project file ( <code>birdwatcher.qgz</code>) as well as a project plugin ( <code>birdwatcher.qml</code>) which we will look into below. Please note that the point vector layer’s attribute form is already configured to display captured photos. We will not spend time on attribute form setup in this post; <a href="https://docs.qfield.org/how-to/attributes-form/#configure-attachment-widget" target="_blank" rel="noopener">see this relevant documentation page</a> if you are interested in knowing how that was achieved.</p>
+
+
+
+
+
+  
+
+
+
+
+<figure class="gallery-item"><img src="/wp-content/uploads/2024/06/123-2.png" alt="" loading="lazy">
+</figure>
+
+<p>We can now test the project plugin by opening the project ( <code>birdwatcher.qgz</code>) in QField. Users familiar with QField will notice a new ‘camera’ tool button present on the top-right corner of the map canvas. This button was added by the project plugin. You can press on it, to open the QField camera, take a photo (of yourself, a random object on your table, or with a bit of luck a bird), and witness how that leads to a point feature creation.</p>
+<h2 id="digging-into-the-project-plugin-file">Digging into the project plugin file</h2>
+<p>Let’s open the project plugin file (birdwatcher.qml) in your favorite text editor. The first few lines define the QML imports needed by the plugin:</p>
+<pre tabindex="0"><code>import QtQuick
+import QtQuick.Controls
+
+import org.qfield
+import org.qgis
+import Theme
+
+import &#34;qrc:/qml&#34; as QFieldItems
+</code></pre><p>Beyond the two QtQuick imports, we will make use of QField-specific types and items as well as QGIS ones ( <a href="https://github.com/opengisch/QField/blob/master/src/core/qgismobileapp.cpp#L362" target="_blank" rel="noopener">registered and declared in this source file</a>), a Theme to retrieve icons and colors as well as QField items such as tool buttons ( <a href="https://github.com/opengisch/QField/tree/master/src/qml/imports/Theme" target="_blank" rel="noopener">see this source directory</a>), as well as the QField QML items embedded into the application itself to make use of the camera.</p>
+<p>The next line declares an generic Item component which will be used by QField to initiate the plugin. This must be present in all plugins. As this plugin does, you can use the <code>Component.onCompleted</code> signal to trigger code execution. In this case, we are using iface to add a tool button on top of the map canvas:</p>
+<pre tabindex="0"><code>Component.onCompleted: {
+  iface.addItemToPluginsToolbar(snapButton)
+}
+</code></pre><p>Just above these lines, the plugin declare a number of properties pointing to items found in the main QField ApplicationWindow:</p>
+<pre tabindex="0"><code>property var mainWindow: iface.mainWindow()
+property var positionSource: iface.findItemByObjectName(&#39;positionSource&#39;)
+property var dashBoard: iface.findItemByObjectName(&#39;dashBoard&#39;)
+property var overlayFeatureFormDrawer: iface.findItemByObjectName(&#39;overlayFeatureFormDrawer&#39;)
+</code></pre><p>Users can reach through to any items within <a href="https://github.com/opengisch/QField/blob/master/src/qml/qgismobileapp.qml" target="_blank" rel="noopener">QField’s ApplicationWindow</a> provided they have an objectName property defined. The string value is used in the <code>iface.findItemByObjectName()</code> function to retrieve the item.</p>
+<p>The rest of the file consists of a loader to activate the QField camera, a tool button to snap a photo, and a function to create a new feature within which the current position is used as geometry and the snapped photo is attached to the feature form.</p>
+<p>The function itself provides a good example of what can be achieved by using the parts of QGIS exposed through QML, as well as utility functions and user interface provided by QField:</p>
+<pre tabindex="0"><code>function snap(path) {
+  let today = new Date()
+  let relativePath = &#39;DCIM/&#39; + today.getFullYear()
+                              + (today.getMonth() +1 ).toString().padStart(2,0)
+                              + today.getDate().toString().padStart(2,0)
+                              + today.getHours().toString().padStart(2,0)
+                              + today.getMinutes().toString().padStart(2,0)
+                              + today.getSeconds().toString().padStart(2,0)
+                              + &#39;.&#39; + FileUtils.fileSuffix(path)
+  platformUtilities.renameFile(path, qgisProject.homePath + &#39;/&#39; + relativePath)
+
+  let pos = positionSource.projectedPosition
+  let wkt = &#39;POINT(&#39; + pos.x + &#39; &#39; + pos.y + &#39;)&#39;
+
+  let geometry = GeometryUtils.createGeometryFromWkt(wkt)
+  let feature = FeatureUtils.createFeature(dashBoard.activeLayer, geometry)
+
+  let fieldNames = feature.fields.names
+  if (fieldNames.indexOf(&#39;photo&#39;) &gt; -1) {
+    feature.setAttribute(fieldNames.indexOf(&#39;photo&#39;), relativePath)
+  } else if (fieldNames.indexOf(&#39;picture&#39;) &gt; -1) {
+    feature.setAttribute(fieldNames.indexOf(&#39;picture&#39;), relativePath)
+  }
+
+  overlayFeatureFormDrawer.featureModel.feature = feature
+  overlayFeatureFormDrawer.state = &#39;Add&#39;
+  overlayFeatureFormDrawer.open()
+}
+</code></pre><p>The QGIS API Documentation site is a good resource for learning what parts of the many QGIS classes are exposed to QML. For example, the <a href="https://api.qgis.org/api/classQgsFeature.html" target="_blank" rel="noopener">QgsFeature documentation page</a> contains a Properties section and a Q_INVOKABLE prefix next to functions indicating their availability within a QML/JavaScript environment.</p>
+<h2 id="deployment-of-a-project-plugin-via-qfieldcloud">Deployment of a project plugin via QFieldCloud</h2>
+<p>As mentioned above, QFieldCloud greatly eases the deployment of project plugins to devices in the field. We will now go through the steps required to create a cloud project environment based on the birdwatcher sample project, and witness it handling the project plugin automatically.</p>
+<p>This will require you to registered for a freely available QFieldCloud community account if you haven’t done so yet ( <a href="https://app.qfield.cloud/accounts/signup/" target="_blank" rel="noopener">it takes a minute to do so</a>, what are you waiting for ;) ). We will also need the QFieldSync plugin in QGIS, which can be enabled through the QGIS plugin manager.</p>
+<p>Let’s open QGIS, and log into QFieldCloud by clicking on the QFieldSync toolbar’s blue cloud icon. Once logged in, click on the ‘Create New Project’ tool button found at the bottom of the dialog.</p>
+
+
+
+
+
+  
+
+
+
+
+<figure class="gallery-item"><img src="/wp-content/uploads/2024/06/projects.png" alt="" loading="lazy">
+</figure>
+
+<p>In the subsequent panel dialog, choose the ‘Create a new empty QFieldCloud project’ and then hit the ‘Next’ button. Give it a name and a description, and for the local directory, pick the folder within which you had extracted the birdwatcher project, then hit the ‘Create’ button.</p>
+
+
+
+
+
+  
+
+
+
+
+<figure class="gallery-item"><img src="/wp-content/uploads/2024/06/settings.png" alt="" loading="lazy">
+</figure>
+
+<p>QFieldSync will then ask you to upload your newly created cloud project environment to the server. Notice how the project plugin file (birdwatcher.qml) is part of the files to be delivered to the cloud. Confirm by clicking on the ‘Upload to server’ button.</p>
+
+
+
+
+
+  
+
+
+
+
+<figure class="gallery-item"><img src="/wp-content/uploads/2024/06/uploads.png" alt="" loading="lazy">
+</figure>
+
+<p>When QFieldSync is finished uploading, you are ready to take your mobile device, open QField, log into your QFieldCloud account and download the cloud project. Once the cloud project is loaded, you will be asked for permission to load the project plugin, which you can grant on a permanent or one-time basis.</p>
+<p>Bravo! You have successfully deployed a project plugin through QFieldCloud.</p>
+<h2 id="creating-an-app-wide-plugin-directory">Creating an app-wide plugin directory</h2>
+<p>Let’s move on to creating a functional app-wide plugin directory. <a href="https://github.com/opengisch/qfield-snap/releases/download/v1.0/qfield-snap-plugin.zip" target="_blank" rel="noopener">Download this sample app-wide plugin</a> and extract it into a new directory placed in the ‘plugins’ directory, itself found within the QField app directory. The location of the app directory is provided in the ‘About QField’ overlay, take note of it prior to extracting the plugin if you have not done so yet.</p>
+
+
+
+
+
+  
+
+
+
+  
+
+
+<figure class="gallery-item"><img src="/wp-content/uploads/2024/06/file_structure.png" alt="" loading="lazy">
+</figure>
+
+<p>As seen in the screenshot above, which demonstrates the directory hierarchy, a given plugin directory must contain at least two files: a main.qml file, which QField will use to activate the plugin, and a metadata.txt file containing basic information on the plugin, such as the plugin name, author details, and version.</p>
+<p>Here’s a sample metadata.txt from the birdwatcher project plugin upgraded into an app-wide plugin:</p>
+<pre tabindex="0"><code>[general]
+name=Snap!
+description=Digitize points through snapping photos
+author=OPENGIS.ch
+icon=icon.svg
+version=1.0
+homepage=/
+</code></pre><p>Opening main.qml in your favourite text editor will reveal that it has the exact same content as the above-shared project plugin. The only change is the renaming of birdwatcher.qml to main.qml to take into account this plugin&rsquo;s app-wide scope.</p>
+<p>PSA: we have setup this <a href="https://github.com/opengisch/qfield-template-plugin" target="_blank" rel="noopener">GitHub QField template plugin repository</a> to ease creation of plugins. Fork at will!</p>
+<h2 id="deploying-app-wide-plugins">Deploying app-wide plugins</h2>
+<p>While currently not as smooth as deploying a project plugin through QFieldCloud, app-wide plugins can be installed onto devices using a URL pointing to a zipped archive file containing the content of a given plugin directory. The zipped archive file can then be hosted on your own website, on a GitHub or GitLab repository, a Dropbox link, etc.</p>
+<p>In QField, open the plugins manager popup found in the settings panel, and use the ‘Install plugin from URL’ button to paste a URL pointing to a zipped plugin file.</p>
+
+
+
+
+
+  
+
+
+
+
+<figure class="gallery-item"><img src="/wp-content/uploads/2024/06/application-plugins.png" alt="" loading="lazy">
+</figure>
+
+<p>You should keep the zipped archive file name consistent for a better user experience, as it is used to determine the installation directory. This is an important consideration to take into account when offering plugin updates. If your zipped plugin file name changes, the plugin will not be updated but rather added to a new directory alongside the previously installed plugin.</p>
+<p>QField does allow for a version tag to be added to a zipped archive file name, provided it is appended at the end of the file name, preceded by a dash, and includes only numbers and dots. For example, myplugin-0.0.1.zip and myplugin-0.2.1.zip will install the plugin in the myplugin directory.</p>
+<h2 id="empowering-users-as-well-as-developers">Empowering users as well as developers</h2>
+<p>Here at OPENGIS.ch, we believe this new plugin framework empowers not only users but also developers, including our very own ninjas! With plugin support, we now have the possibility to develop answers to specific field scenarios that would not necessarily be fit for QField-wide functionalities. We would love to hear your opinion and ideas.</p>
+<p>If you would like to supercharge your fieldwork and need some help, do not hesitate to <a href="https://opengis.ch/#contact" target="_blank" rel="noopener">contact us</a> - your projects are our passion 💚</p>
+<p>P.S. If you are developing a cool QField plugin, also let us know! :)</p>
+<pre tabindex="0"><code>Bird SVG in video CC-BY https://svgrepo.com/svg/417419/bird
+</code></pre>
+</div>
+
+
+    </div>
+    <footer class="py-3 mt-auto bs-tertiary-bg" >
+<hr class="m-0 p-0">
+
+  <div class="container py-1 my-1">
+    <div class="d-flex flex-wrap justify-content-between align-items-center">
+      <p class="col-md mb-0 text-muted"></p>
+      <ul class="nav col-md-auto justify-content-end">
+        </ul>
+      
+    </div>
+  </div>
+</footer>
+    
+
+
+
+
+
+    <script src="/js/main.js" defer></script>
+  
+
+
+<script src="/js/dark-mode.min.56389ce981c524aae3ab3ba77bb2c7ec1d34c533bc327f161ea98d336078b79b.js" defer></script>
+
+
+<script src="/js/scroll-to-top.min.f2ff2fca4c90e0d5f84752679cf4a532f250fe7d83c8441fbc1d9b80853a3294.js" defer></script>
+</body>
+</html>

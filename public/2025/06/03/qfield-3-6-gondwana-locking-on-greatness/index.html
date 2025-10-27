@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark"> 
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=34643&amp;path=livereload" data-no-instant defer></script>
+    
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<meta http-equiv='Content-Security-Policy' content="script-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'none'">
+    
+
+<link rel="stylesheet" href="/css/style.css" media="screen">
+
+<link rel="stylesheet" href="/bootstrap-icons/bootstrap-icons.004322721c8557331759bc6ddaacbb689b0f0715d688aec82bd056d2d5b5cc3b.css">
+    <title>QField 3.6 “Gondwana”: Locking on greatness</title>
+
+<meta name="description" content="Building on top of the last release which introduced background tracking, this development cycle focused on polishing functionalities and building on top of preexisting features. The variety of improvements is sure to make our diverse user base and community excited to upgrade to QField 3.6.
+Main highlights One of the most noticeable improvement in this version is the addition of “map preview rendering”. QField now renders partial map content immediately beyond the edge of the screen, offering a much nicer experience when panning around as well as zooming in and out. Long-time QGIS users will recognise the behaviour, and we’re delighted to bring this experience to the field
+">
+  
+
+
+<link rel="canonical" href="http://localhost:34643/2025/06/03/qfield-3-6-gondwana-locking-on-greatness/">
+
+
+<link rel="alternate" hreflang="en" href="http://localhost:34643/2025/06/03/qfield-3-6-gondwana-locking-on-greatness/">
+
+
+
+<link rel="alternate" hreflang="x-default" href="http://localhost:34643/2025/06/03/qfield-3-6-gondwana-locking-on-greatness/">
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:title" content="QField 3.6 “Gondwana”: Locking on greatness">
+<meta property="og:description" content="Building on top of the last release which introduced background tracking, this development cycle focused on polishing functionalities and building on top of preexisting features. The variety of improvements is sure to make our diverse user base and community excited to upgrade to QField 3.6.
+Main highlights
+
+
+
+
+
+  
+
+
+
+
+
+
+
+One of the most noticeable improvement in this version is the addition of “map preview rendering”. QField now renders partial map content immediately beyond the edge of the screen, offering a much nicer experience when panning around as well as zooming in and out. Long-time QGIS users will recognise the behaviour, and we’re delighted to bring this experience to the field">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://localhost:34643/2025/06/03/qfield-3-6-gondwana-locking-on-greatness/">
+  <meta property="article:section" content="blog">
+  
+    <meta property="article:published_time" content="2025-06-03T07:46:38+00:00">
+  
+  
+    <meta property="article:modified_time" content="2025-06-03T07:46:38+00:00">
+  
+  <meta property="og:site_name" content="QField - Efficient field work built for QGIS">
+
+
+
+
+
+
+
+
+
+
+<meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="QField 3.6 “Gondwana”: Locking on greatness">
+<meta name="twitter:description" content="Building on top of the last release which introduced background tracking, this development cycle focused on polishing functionalities and building on top of preexisting features. The variety of improvements is sure to make our diverse user base and community excited to upgrade to QField 3.6.
+Main highlights
+
+
+
+
+
+  
+
+
+
+
+
+
+
+One of the most noticeable improvement in this version is the addition of “map preview rendering”. QField now renders partial map content immediately beyond the edge of the screen, offering a much nicer experience when panning around as well as zooming in and out. Long-time QGIS users will recognise the behaviour, and we’re delighted to bring this experience to the field">
+
+
+
+
+
+
+  
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "QField 3.6 “Gondwana”: Locking on greatness",
+  "datePublished": "2025-06-03T07:46:38+00:00",
+  "dateModified": "2025-06-03T07:46:38+00:00",
+  "mainEntityOfPage": "http://localhost:34643/",
+  "publisher": {
+    "@type": "Organization",
+    "name": "QField - Efficient field work built for QGIS"
+  },
+  "wordcount" :  659 ,
+  "description": "Building on top of the last release which introduced background tracking, this development cycle focused on polishing functionalities and building on top of preexisting features. The variety of improvements is sure to make our diverse user base and community excited to upgrade to QField 3.6.\nMain highlights One of the most noticeable improvement in this version is the addition of “map preview rendering”. QField now renders partial map content immediately beyond the edge of the screen, offering a much nicer experience when panning around as well as zooming in and out. Long-time QGIS users will recognise the behaviour, and we’re delighted to bring this experience to the field\n",
+  "keywords":  null 
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+</head>
+
+<body class="blog single d-flex flex-column min-vh-100"><header class="main-header">
+  <nav class="navbar navbar-expand-lg bg-body border-bottom sticky-top mb-4">
+    <div class="container">
+
+      
+      <a class="navbar-brand fw-bold d-flex align-items-center" href="/">
+        
+        QField - Efficient field work built for QGIS
+      </a>
+
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="d-flex order-lg-2 ms-auto align-items-center gap-2">
+        <a class="btn btn-danger d-none d-lg-inline" href=""></a>
+        <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navMain">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="menu-main navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/#highlights">Features</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/success-stories/">Success Stories</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="https://docs.qfield.org">Documentation</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/support-us/">Support</a>
+          </li>
+          
+          </ul>
+
+        
+        
+        
+
+      </div>
+    </div>
+  </nav>
+</header><div id="content">
+        
+
+<div class="container py-3">
+  <p>Building on top of the last release which introduced background tracking, this development cycle focused on polishing functionalities and building on top of preexisting features. The variety of improvements is sure to make our diverse user base and community excited to upgrade to QField 3.6.</p>
+<h2 id="main-highlights">Main highlights</h2>
+
+
+
+
+
+  
+
+
+
+
+<figure class="gallery-item"><img src="/wp-content/uploads/2025/05/splash.png" alt="" loading="lazy">
+</figure>
+
+<p>One of the most noticeable improvement in this version is the addition of “map preview rendering”. <strong>QField now renders partial map content immediately beyond the edge of the screen</strong>, offering a much nicer experience when panning around as well as zooming in and out. Long-time QGIS users will recognise the behaviour, and we’re delighted to bring this experience to the field</p>
+<p>This upgrade was the foundation upon which we built the following enhancement: as of QField 3.6, <strong>using the “lock to position” mode now keeps your position at the very center of the screen while the canvas slips through smoothly</strong>. This greatly improves the usability of the function as your eyes never need to spend time locating the position within the screen: it’s dead center and it stays there!</p>
+<p><a href="https://videopress.com/v/kJg69l49?resizeToParent=true&amp;cover=true&amp;preloadContent=metadata&amp;useAverageColor=true" target="_blank" rel="noopener">https://videopress.com/v/kJg69l49?resizeToParent=true&cover=true&preloadContent=metadata&useAverageColor=true</a></p>
+<p><em>Reminder, the “lock to position” mode is activated by clicking on the bottom-right positioning button, with the button’s background turning blue when the mode is activated.</em></p>
+<p>The improvements did not stop there. Panning and zooming around used to drop users out of the lock mode immediately. While this had its upsides, it also meant that simple scale adjustments to try and view more of the map as it follows the position was not possible. With QField 3.6, <strong>the lock has been hardened. Moving the map around will temporarily disable the lock, with a visual countdown embedded within a toast message informs users of when the lock will return</strong>. An action button to terminate the lock is located within the toaster to permanently leave the mode.</p>
+<p>Moving on to QFieldCloud, this cycle saw tons of improvements. To begin with, <strong>it is now possible to rely on shared datasets across multiple cloud projects</strong>. Known as localised data paths in QGIS, this functionality enables users to reduce storage usage by storing large datasets in QFieldCloud only once, serving multiple cloud projects, and also easing the maintenance of read-only datasets that require regular updates.</p>
+
+
+
+
+
+  
+
+
+
+  
+
+
+<figure class="gallery-item"><img src="/wp-content/uploads/2025/05/upload_shared_datasets.webp" alt="" loading="lazy">
+</figure>
+
+<p><em>QFieldSync users will see a new checkbox when synchronising their projects, letting them upload shared datasets onto QFieldCloud.</em></p>
+<p>Furthermore, <strong>QField has</strong> <strong>introduced a new cloud project details view to provide additional details</strong> on QFieldCloud-hosted projects before downloading them to devices. The new view includes a cloud project thumbnail, more space for richer description text, including interactive hyperlinks, and author details, as well as creation and data update timestamps. Finally, the view offers a QR code, which allows users to scan it quickly and access cloud projects, provided they have the necessary access permission. Distributing a public project has never been easier!</p>
+<p>Beyond that, tons more has made its way into QField, including <strong>map layer notes viewable through a legend badge</strong> in the side dashboard, <strong>support for feature identification on online raster layers</strong> on compatible WMS and ArcGIS REST servers, <strong>atlas printing of a relationship’s child feature</strong> directly within the parent feature form, and much more. There’s something for everybody out there.</p>
+<h2 id="focus-on-feature-form-polishing">Focus on feature form polishing</h2>
+<p>This new version of QField coincides with the release of <strong><a href="/2025/06/02/xlsform-converter-unlock-a-world-of-surveys-with-our-brand-new-qgis-plugin/">XLSForm Converter</a></strong>, a new QGIS plugin created by OPENGIS.ch’s very own ninjas. As its title implies, the plugin converts an <a href="https://xlsform.org/en/" target="_blank" rel="noopener">XLSForm spreadsheet file (.xls, .xlsx, .ods)</a> into a full-fledged QGIS project ready to be used in QField with a pre-configured survey layer matching the content of the provided XLSForm.</p>
+<p>This was a golden opportunity to focus on polishing QField’s feature form. As a result, advanced functionalities such as <strong>data-driven editable flag and label attribute properties are now supported</strong>. In addition, tons of paper-cut bugs, visual inconsistencies, and UX shortcomings have been addressed. Our favourite one might just be the ability to drag the feature addition drawer’s header up and down to toggle its full-screen state :)</p>
+
+</div>
+
+
+    </div>
+    <footer class="py-3 mt-auto bs-tertiary-bg" >
+<hr class="m-0 p-0">
+
+  <div class="container py-1 my-1">
+    <div class="d-flex flex-wrap justify-content-between align-items-center">
+      <p class="col-md mb-0 text-muted"></p>
+      <ul class="nav col-md-auto justify-content-end">
+        </ul>
+      
+    </div>
+  </div>
+</footer>
+    
+
+
+
+
+
+    <script src="/js/main.js" defer></script>
+  
+
+
+<script src="/js/dark-mode.min.56389ce981c524aae3ab3ba77bb2c7ec1d34c533bc327f161ea98d336078b79b.js" defer></script>
+
+
+<script src="/js/scroll-to-top.min.f2ff2fca4c90e0d5f84752679cf4a532f250fe7d83c8441fbc1d9b80853a3294.js" defer></script>
+</body>
+</html>
