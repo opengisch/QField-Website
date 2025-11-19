@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Silviculture on QField - Efficient field work built for QGIS</title><link>https://qfield.org/tags/silviculture/</link><description>Recent content in Silviculture on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en</language><atom:link href="https://qfield.org/tags/silviculture/feed.xml" rel="self" type="application/rss+xml"/><item><title>QField for Forestry and Silviculture</title><link>https://qfield.org/solutions/forestry-and-silviculture/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/forestry-and-silviculture/</guid><description>&lt;h2 id="field-workflows">Field workflows&lt;/h2>
+&lt;ul>
+&lt;li>Forest inventory and plot sampling&lt;/li>
+&lt;li>Silviculture and harvesting operations tracking&lt;/li>
+&lt;li>Habitat and biodiversity mapping&lt;/li>
+&lt;/ul>
+&lt;h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare in QGIS, collect in QField, and sync with QFieldCloud for conflict-safe merges.&lt;/p></description></item></channel></rss>

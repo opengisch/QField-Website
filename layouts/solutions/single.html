@@ -1,0 +1,147 @@
+{{ define "main" }}
+
+<!-- Hero section -->
+{{ with .Params.hero }}
+<section style="background: linear-gradient(135deg, var(--qfield-color) 0%, #6ab01a 100%); color: white; padding: 5rem 0;">
+  <div class="container">
+    <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+      <h1 style="font-size: 4.5rem; margin-bottom: 1.5rem; font-weight: 700;">{{ .headline }}</h1>
+      {{ with .sub }}
+      <p style="font-size: 2rem; margin-bottom: 2rem; opacity: 0.95;">{{ . }}</p>
+      {{ end }}
+      {{ if .ctaUrl }}
+      <a href="{{ .ctaUrl }}" class="btn btn-lg" style="background: white; color: var(--qfield-color); font-size: 1.8rem; padding: 1rem 3rem; border-radius: 50px; text-decoration: none; display: inline-block; font-weight: 600; transition: all 0.3s;">
+        {{ .ctaText | default "Get Started" }}
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<!-- Back to solutions -->
+<section style="padding: 2rem 0; background: #f8f9fa;">
+  <div class="container">
+    <a href="{{ "/solutions/" | relURL }}" style="color: var(--qfield-color); text-decoration: none; font-size: 1.5rem; font-weight: 600;">
+      ← Back to All Solutions
+    </a>
+  </div>
+</section>
+
+<!-- Main content -->
+<section class="section-spacing" style="padding: 4rem 0;">
+  <div class="container">
+    <div class="row">
+      
+      <!-- Main column -->
+      <div class="col-md-8">
+        <article style="background: white; padding: 3rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+          
+          <header style="margin-bottom: 3rem;">
+            <h1 style="font-size: 3.8rem; line-height: 1.2; margin-bottom: 1rem; color: #333;">{{ .Title }}</h1>
+            
+            {{ with .Description }}
+            <p style="font-size: 1.8rem; color: #666; line-height: 1.6;">{{ . }}</p>
+            {{ end }}
+            
+            {{ if .Params.tags }}
+            <div style="margin-top: 2rem;">
+              {{ range .Params.tags }}
+              <span style="display: inline-block; background: #f8f9fa; color: #666; padding: 6px 12px; margin: 4px; border-radius: 4px; font-size: 1.3rem;">
+                {{ . }}
+              </span>
+              {{ end }}
+            </div>
+            {{ end }}
+          </header>
+          
+          <div style="font-size: 1.6rem; line-height: 1.8; color: #333;">
+            {{ .Content }}
+          </div>
+          
+        </article>
+      </div>
+      
+      <!-- Sidebar -->
+      <div class="col-md-4">
+        
+        <!-- Pains -->
+        {{ with .Params.pains }}
+        <div style="background: #fff3cd; border-left: 4px solid #ffc107; padding: 2rem; border-radius: 8px; margin-bottom: 2rem;">
+          <h3 style="font-size: 1.8rem; margin-bottom: 1rem; color: #856404;">Common Challenges</h3>
+          <ul style="margin: 0; padding-left: 1.5rem;">
+            {{ range . }}
+            <li style="font-size: 1.4rem; margin-bottom: 0.5rem; color: #856404;">{{ . }}</li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+        
+        <!-- Proof points -->
+        {{ with .Params.proof }}
+        <div style="background: #d4edda; border-left: 4px solid #28a745; padding: 2rem; border-radius: 8px; margin-bottom: 2rem;">
+          <h3 style="font-size: 1.8rem; margin-bottom: 1rem; color: #155724;">Why Teams Choose QField</h3>
+          <ul style="margin: 0; padding-left: 1.5rem;">
+            {{ range . }}
+            <li style="font-size: 1.4rem; margin-bottom: 0.5rem; color: #155724;">{{ . }}</li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+        
+        <!-- FAQ -->
+        {{ with .Params.faq }}
+        <div style="background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); margin-bottom: 2rem;">
+          <h3 style="font-size: 1.8rem; margin-bottom: 1.5rem; color: #333;">Frequently Asked</h3>
+          {{ range . }}
+          <div style="margin-bottom: 1.5rem;">
+            <h4 style="font-size: 1.5rem; margin-bottom: 0.5rem; color: var(--qfield-color);">{{ .q }}</h4>
+            <p style="font-size: 1.3rem; color: #666; line-height: 1.6; margin: 0;">{{ .a }}</p>
+          </div>
+          {{ end }}
+        </div>
+        {{ end }}
+        
+        <!-- CTA -->
+        <div style="background: linear-gradient(135deg, var(--qfield-color) 0%, #6ab01a 100%); color: white; padding: 2rem; border-radius: 8px; text-align: center;">
+          <h3 style="font-size: 2rem; margin-bottom: 1rem;">Ready to get started?</h3>
+          <a href="/get/" class="btn btn-lg" style="background: white; color: var(--qfield-color); font-size: 1.5rem; padding: 0.8rem 2rem; border-radius: 50px; text-decoration: none; display: inline-block; font-weight: 600;">
+            Download QField
+          </a>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- Related solutions -->
+{{ $related := where (where .Site.RegularPages "Section" "solutions") "Params.categories" "intersect" .Params.categories }}
+{{ $related = $related | complement (slice .) | first 3 }}
+{{ if $related }}
+<section style="background: #f8f9fa; padding: 4rem 0;">
+  <div class="container">
+    <h2 style="font-size: 3rem; text-align: center; margin-bottom: 3rem; color: #333;">Related Solutions</h2>
+    <div class="row">
+      {{ range $related }}
+      <div class="col-md-4" style="margin-bottom: 2rem;">
+        <article style="background: white; border-radius: 8px; padding: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.08); height: 100%;">
+          <h3 style="font-size: 1.9rem; margin-bottom: 1rem;">
+            <a href="{{ .RelPermalink }}" style="text-decoration: none; color: #333;">{{ .Title }}</a>
+          </h3>
+          {{ with .Params.description }}
+          <p style="font-size: 1.3rem; color: #666;">{{ . | truncate 100 }}</p>
+          {{ end }}
+          <a href="{{ .RelPermalink }}" style="color: var(--qfield-color); font-weight: 600; text-decoration: none;">
+            Learn more →
+          </a>
+        </article>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ end }}

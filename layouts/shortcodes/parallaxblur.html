@@ -1,6 +1,0 @@
-{{ $imgURL := .Get "src" }}
-{{ $id := substr (md5 .Inner) 0 16 }}
-
-<div class="container parallax-blur-container" id="div-{{ $id }}" style="background-image: url('{{ $imgURL }}');">
-    {{ .Inner | markdownify }}
-</div>

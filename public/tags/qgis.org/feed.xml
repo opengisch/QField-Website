@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Qgis.org on QField - Efficient field work built for QGIS</title><link>https://qfield.org/tags/qgis.org/</link><description>Recent content in Qgis.org on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 04 Aug 2025 08:41:52 +0000</lastBuildDate><atom:link href="https://qfield.org/tags/qgis.org/feed.xml" rel="self" type="application/rss+xml"/><item><title>QField 3.7 “Haida Gwaii”: Polishing a great experience</title><link>https://qfield.org/2025/08/04/qfield-3-7-haida-gawai-polishing-a-great-experience/</link><pubDate>Mon, 04 Aug 2025 08:41:52 +0000</pubDate><guid>https://qfield.org/2025/08/04/qfield-3-7-haida-gawai-polishing-a-great-experience/</guid><description>&lt;p>For QField 3.7, we opted for a shorter development cycle that focused on polishing preexisting functionalities from feature form editor widgets improvement through to better nearby Bluetooth device discovery. Of course, we couldn’t help ourselves and still packed in some nice functionality that we thought deserved to reach QField’s growing community as soon as possible.&lt;/p>
+&lt;h2 id="main-highlights">Main highlights&lt;/h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class="figure text-center mb-4">
+ 
+ &lt;img src="https://qfield.org/blog/wp-content/uploads/2025/07/splash.webp" alt="" class="figure-img img-fluid gallery-img"
+ 
+ 
+ >
+ 
+ 
+&lt;/figure>
+&lt;p>One of the most interesting new functionalities from this development cycle has been the ability to stamp details on photos taken by QField’s in-app camera. A basic version of this has been supported for a while now; this new version offers flexible customisation of details stamping onto photos, including changing the font size, colour, and horizontal position, as well as providing users with the ability to completely change the details via expression-driven templates and add image overlays onto the photo.&lt;/p></description></item><item><title>Celebrating community, innovation, and open-source GIS in Sweden - AKA the QGIS user conference 2025</title><link>https://qfield.org/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/</link><pubDate>Wed, 25 Jun 2025 04:45:00 +0000</pubDate><guid>https://qfield.org/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/</guid><description>&lt;p>It was such a pleasure to be part of the QGIS User Conference 2025 in Norrköping! The event was extremely well organised — a big thank you to the amazing local team for pulling it all together so smoothly. Personally, it felt special to be back in Sweden, almost 20 years after my Uppsala university days. I truly enjoyed giving the opening keynote and sharing the latest from the QGIS project — and of course, showcasing all the QField greatness we&amp;rsquo;ve been working so hard on 💚&lt;/p></description></item><item><title>QField 3.6 “Gondwana”: Locking on greatness</title><link>https://qfield.org/2025/06/03/qfield-3-6-gondwana-locking-on-greatness/</link><pubDate>Tue, 03 Jun 2025 07:46:38 +0000</pubDate><guid>https://qfield.org/2025/06/03/qfield-3-6-gondwana-locking-on-greatness/</guid><description>&lt;p>Building on top of the last release which introduced background tracking, this development cycle focused on polishing functionalities and building on top of preexisting features. The variety of improvements is sure to make our diverse user base and community excited to upgrade to QField 3.6.&lt;/p>
+&lt;h2 id="main-highlights">Main highlights&lt;/h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class="figure text-center mb-4">
+ 
+ &lt;img src="https://qfield.org/blog/wp-content/uploads/2025/05/splash.png" alt="" class="figure-img img-fluid gallery-img"
+ 
+ 
+ >
+ 
+ 
+&lt;/figure>
+&lt;p>One of the most noticeable improvement in this version is the addition of “map preview rendering”. &lt;strong>QField now renders partial map content immediately beyond the edge of the screen&lt;/strong>, offering a much nicer experience when panning around as well as zooming in and out. Long-time QGIS users will recognise the behaviour, and we’re delighted to bring this experience to the field&lt;/p></description></item><item><title>XLSForm Converter: unlock a world of surveys with our brand new QGIS plugin</title><link>https://qfield.org/2025/06/02/xlsform-converter-unlock-a-world-of-surveys-with-our-brand-new-qgis-plugin/</link><pubDate>Mon, 02 Jun 2025 04:57:00 +0000</pubDate><guid>https://qfield.org/2025/06/02/xlsform-converter-unlock-a-world-of-surveys-with-our-brand-new-qgis-plugin/</guid><description>&lt;p>Today marks the initial release of our brand-new QGIS plugin, &lt;em>XLSForm Converter&lt;/em>.&lt;br>
+As the name suggests, the plugin converts XLSForm survey files into ready-to-use QGIS projects with a preconfigured survey attribute form.&lt;/p>
+&lt;p>Migrating to QField was never easier!&lt;/p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class="figure text-center mb-4">
+ 
+ &lt;img src="https://qfield.org/blog/wp-content/uploads/2025/05/xlsformconverter-qgis-qfield-1.webp" alt="" class="figure-img img-fluid gallery-img"
+ 
+ 
+ >
+ 
+ 
+&lt;/figure>
+&lt;p>Even more exciting is that the converted QGIS project includes all the necessary settings for use with QField, thanks to a nifty QFieldCloud integration. With just a single checkbox, you can upload your generated project to the cloud and begin gathering data—either as a standalone surveyor or collaboratively as part of a team.&lt;/p></description></item><item><title>1 Million Downloads: QField's Big Milestone</title><link>https://qfield.org/2025/05/29/1-million-downloads-qfields-big-milestone/</link><pubDate>Thu, 29 May 2025 12:16:29 +0000</pubDate><guid>https://qfield.org/2025/05/29/1-million-downloads-qfields-big-milestone/</guid><description>&lt;p>🚀 QField has officially hit &lt;strong>1 million downloads&lt;/strong> – thanks to &lt;strong>you!&lt;/strong> 🎉&lt;/p>
+&lt;p>Let&amp;rsquo;s not beat around the bush: QField has hit &lt;strong>1+ million downloads&lt;/strong>. What started as an ambitious open-source project has transformed into &lt;strong>a global tool that&amp;rsquo;s changing how professionals collect spatial data in the field&lt;/strong>. This big milestone is the result of years of dedication, with over 50,000 hours invested by our team. Our GeoNinjas contributed 14% of QGIS, while also driving open-source projects like &lt;em>ModelBaker&lt;/em> and &lt;em>SwissLocator&lt;/em>.Thank you for making GIS nerds the &lt;strong>unsung heroes of fieldwork everywhere.&lt;/strong> Here&amp;rsquo;s to changing the world, one field at a time!&lt;/p></description></item><item><title>FOSSGIS 2025 – What a Week!</title><link>https://qfield.org/2025/04/02/fossgis-2025-what-a-week/</link><pubDate>Wed, 02 Apr 2025 05:53:40 +0000</pubDate><guid>https://qfield.org/2025/04/02/fossgis-2025-what-a-week/</guid><description>&lt;p>As long time sponsors of FOSSGIS, we stepped up the game this year and became &lt;strong>Platinum Sponsors for FOSSGIS 2025&lt;/strong>. We are proud to be part of a thriving open-source GIS community and to contribute to such a great conference. Here&amp;rsquo;s a recap of everything we were involved in:&lt;/p>
+&lt;hr>
+&lt;h3 id="-talks--presentations">🚀 Talks &amp;amp; Presentations&lt;/h3>
+&lt;p>&lt;strong>🌍 QField: New Strategy and Application Potential&lt;/strong>&lt;br>
+&lt;em>Berit&lt;/em> and &lt;em>Marco&lt;/em> presented how QField, with over 1 million downloads and 350,000 active users, is now recognized as Digital Public Good aligned with the UN Sustainable Development Goals. Marco also shared the vision and mission behind QField’s development — highlighting our commitment to &lt;strong>empowering field teams&lt;/strong> across the globe with &lt;strong>open, user-friendly tools for data collection&lt;/strong>.&lt;br>
+Real-world stories illustrated how QField helps bridge data gaps to support informed, sustainable decision-making.&lt;br>
+👉 &lt;a href="https://pretalx.com/fossgis2025/talk/3KP98N/" target="_blank" rel="noopener">View talk&lt;/a>&lt;/p></description></item><item><title>Unpacking key insights from our QField Workshop</title><link>https://qfield.org/2025/03/25/unpacking-key-insights-from-our-qfield-workshop/</link><pubDate>Tue, 25 Mar 2025 09:00:53 +0000</pubDate><guid>https://qfield.org/2025/03/25/unpacking-key-insights-from-our-qfield-workshop/</guid><description>&lt;p>This year, &lt;strong>OPENGIS.ch&lt;/strong> celebrated its 10th anniversary in Bern, with an afternoon full of workshops attended by clients, long-term friends, and colleagues. Here, we will give a glimpse of QField: &lt;strong>its vision, where it&amp;rsquo;s headed&lt;/strong>, and the &lt;strong>exciting features future users can look forward to&lt;/strong>.&lt;/p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class="figure text-center mb-4">
+ 
+ &lt;img src="https://lh7-qw.googleusercontent.com/docsz/AD%5F4nXd1iGnLpJx5WxPML7HyLNR0DG1qVt2kLqVLYaoJtdE1Qf%5FhHmwDX9sQA9s5tpPz6qR6vDRu3GZAL6qiMA5KxviKArkc4DfxeWAO-lEd8byTMSAT9QS4%5FHe3FP9qzCSBUB2%5FwfaQ?key=JhsJzPrgTzxdKrRxZboFWtcn" alt="" class="figure-img img-fluid gallery-img"
+ 
+ 
+ >
+ 
+ 
+&lt;/figure>
+&lt;p>QField was created on June 8th, 2011, with its first commit titled “ &lt;em>added first script&lt;/em>”. Since then, it has grown into a powerful tool with a clear vision for the future: &lt;strong>to empower people to map and understand the world, tackle daily challenges, and address global issues.&lt;/strong> Over the next ten years, QField aims to make this vision a reality for everyone, everywhere.&lt;/p></description></item><item><title>QField 3.5 “Fangorn”: Background tracking a reality!</title><link>https://qfield.org/2025/03/04/qfield-3-5-fangorn-background-tracking-a-reality/</link><pubDate>Tue, 04 Mar 2025 05:45:00 +0000</pubDate><guid>https://qfield.org/2025/03/04/qfield-3-5-fangorn-background-tracking-a-reality/</guid><description>&lt;p>Let’s not bury the lead here: the long-awaited capability to track position while QField is in the background or the device is locked has arrived in this brand-new version of QField. This feels like a magical moment, so we settled for a fantastical forest for our release name.&lt;/p>
+&lt;h2 id="main-highlights">Main highlights&lt;/h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class="figure text-center mb-4">
+ 
+ &lt;img src="https://qfield.org/blog/wp-content/uploads/2025/02/splash.png" alt="" class="figure-img img-fluid gallery-img"
+ 
+ 
+ >
+ 
+ 
+&lt;/figure>
+&lt;p>As highlighted above, QField 3.5 has unlocked &lt;strong>background position tracking&lt;/strong> on the Android platform. This allows users to keep track of their positions even as they put QField in the background to conduct other tasks on their devices. It also means that tracking has become far more battery efficient, as users can lock/suspend their phones and tablets for long periods while QField continues to collect and track positions. On top of it all, this will work out of the book with internal GNSS as well as external high-precision GNSS devices.&lt;/p></description></item><item><title>QField 3.4 “Ebo”: Geofencing and processing out of the box</title><link>https://qfield.org/2024/10/08/qfield-3-4-ebo-geofencing-and-processing-out-of-the-box/</link><pubDate>Tue, 08 Oct 2024 04:45:00 +0000</pubDate><guid>https://qfield.org/2024/10/08/qfield-3-4-ebo-geofencing-and-processing-out-of-the-box/</guid><description>&lt;p>QField 3.4 is out, and it won’t disappoint. It has tons of new features that continue to push the limits of what users can do in the field.&lt;/p>
+&lt;h2 id="main-highlights">Main highlights&lt;/h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class="figure text-center mb-4">
+ 
+ &lt;img src="https://qfield.org/blog/wp-content/uploads/2024/10/34.png" alt="" class="figure-img img-fluid gallery-img"
+ 
+ 
+ >
+ 
+ 
+&lt;/figure>
+&lt;p>A new &lt;strong>geofencing framework&lt;/strong> has landed, enabling users to configure QField behaviors in relation to geofenced areas and user positioning. Geofenced areas are defined at the project-level and shaped by polygons from a chosen vector layer. The three available geofencing behaviours in this new release are:&lt;/p></description></item><item><title>Rapid Mapping the Ticino Floods and Landslides with QField Rapid Mapper</title><link>https://qfield.org/2024/07/07/qfield-rapid-mapping-ticino/</link><pubDate>Sun, 07 Jul 2024 04:11:55 +0000</pubDate><guid>https://qfield.org/2024/07/07/qfield-rapid-mapping-ticino/</guid><description>&lt;p>&lt;strong>QField Rapid Mapper&lt;/strong> is a project for the &lt;a href="https://qfield.app" target="_blank" rel="noopener">QField mobile app&lt;/a>, which allows emergency responders, civil protection, military, and citizens to &lt;strong>assess and report damages from natural catastrophes by quickly sharing geolocated images, videos and audio&lt;/strong>. QField Rapid Mapper offers real-time data collection, mapping and sharing to &lt;strong>help enhance disaster response and coordination&lt;/strong>.&lt;br>
+QField and QFieldCloud are &lt;strong>open-source&lt;/strong>, and OPENGIS.ch is donating the needed QFieldCloud infrastructure and expertise to help map the floods in Ticino in 2024&lt;/p></description></item><item><title>Supercharge your fieldwork with QField's project and app-wide plugins</title><link>https://qfield.org/2024/06/18/supercharge-your-fieldwork-with-qfields-project-and-app-wide-plugins/</link><pubDate>Tue, 18 Jun 2024 04:45:00 +0000</pubDate><guid>https://qfield.org/2024/06/18/supercharge-your-fieldwork-with-qfields-project-and-app-wide-plugins/</guid><description>&lt;p>&lt;em>This blog post will introduce QField’s brand new plugin framework and walk through the creation of a plugin to support bird watchers in need of a quick way to digitize photos of spotted birds onto a point vector layer.&lt;/em>&lt;/p>
+&lt;h2 id="a-plugin-framework-is-born">A plugin framework is born!&lt;/h2>
+&lt;p>As &lt;a href="https://qfield.org/2024/06/11/qfield-3-3-darien-it-is-just-the-beginning/">announced recently&lt;/a>, QField now empowers users through a brand new &lt;a href="https://docs.qfield.org/how-to/plugins/" target="_blank" rel="noopener">plugin framework&lt;/a> allowing for simple customization on the way the application behaves or looks all the way through to creating completely new functionalities.&lt;/p></description></item><item><title>QField 3.3 “Darién”: It is just the beginning</title><link>https://qfield.org/2024/06/11/qfield-3-3-darien-it-is-just-the-beginning/</link><pubDate>Tue, 11 Jun 2024 04:50:00 +0000</pubDate><guid>https://qfield.org/2024/06/11/qfield-3-3-darien-it-is-just-the-beginning/</guid><description>&lt;p>QField 3.3 has been released, and with it, we are proud to introduce a brand new plugin framework that empowers users to customize and add completely new functionalities to their favourite field application. That’s on top of a bunch of new features and improvements added during this development cycle. What preceded this moment was just the beginning!&lt;/p>
+&lt;h2 id="main-highlights">Main highlights&lt;/h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class="figure text-center mb-4">
+ 
+ &lt;img src="https://qfield.org/blog/wp-content/uploads/2024/06/33splash.png" alt="" class="figure-img img-fluid gallery-img"
+ 
+ 
+ >
+ 
+ 
+&lt;/figure>
+&lt;p>One of the biggest feature additions of this version is a brand new drawing tool that allows users to sketch out important details over captured photos or annotate drawing templates. This was a highly requested feature, which we are delighted to bring to all supported platforms (Android, iOS, Windows, macOS, and, of course, Linux) with the financial support of the &lt;a href="http://qgis.ch" target="_blank" rel="noopener">Swiss QGIS user group&lt;/a>.&lt;/p></description></item><item><title>QField receives prestigious recognition as a digital public good from the Digital Public Goods Alliance</title><link>https://qfield.org/2024/06/06/qfield-receives-prestigious-recognition-as-a-digital-public-good-from-the-digital-public-goods-alliance/</link><pubDate>Thu, 06 Jun 2024 06:28:47 +0000</pubDate><guid>https://qfield.org/2024/06/06/qfield-receives-prestigious-recognition-as-a-digital-public-good-from-the-digital-public-goods-alliance/</guid><description>&lt;p>&lt;strong>We are thrilled to announce that the&lt;/strong> &lt;a href="https://www.linkedin.com/company/best-of-swiss-apps/" target="_blank" rel="noopener">Best of Swiss Apps&lt;/a> &lt;strong>Enterprise winner 2022, QField, has been officially recognized as a Digital Public Good by the UN-endorsed&lt;/strong> &lt;a href="https://digitalpublicgoods.net/" target="_blank" rel="noopener">Digital Public Goods Alliance&lt;/a> &lt;strong>. This prestigious recognition highlights QField’s significant contributions to six key Sustainable Development Goals (SDGs): SDG 6 (Clean Water and Sanitation), SDG 9 (Industry, Innovation, and Infrastructure), SDG 11 (Sustainable Cities and Communities), SDG 13 (Climate Action), SDG 15 (Life on Land), and SDG 16 (Peace, Justice, and Strong Institutions). The “Swiss Made Software” QField is the leading fieldwork application with almost 1 Million downloads worldwide.&lt;/strong>&lt;/p></description></item><item><title>QField 3.2 “Congo”: Making your life easier</title><link>https://qfield.org/2024/04/04/qfield-3-2-congo-making-your-life-easier/</link><pubDate>Thu, 04 Apr 2024 07:58:11 +0000</pubDate><guid>https://qfield.org/2024/04/04/qfield-3-2-congo-making-your-life-easier/</guid><description>&lt;p>Focused on stability and usability improvements, most users will find something to celebrate in QField 3.2&lt;/p>
+&lt;h2 id="main-highlights">&lt;strong>Main highlights&lt;/strong>&lt;/h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class="figure text-center mb-4">
+ 
+ &lt;img src="https://qfield.org/blog/wp-content/uploads/2024/03/qfield32.png" alt="" class="figure-img img-fluid gallery-img"
+ 
+ 
+ >
+ 
+ 
+&lt;/figure>
+&lt;p>This new release introduces &lt;strong>project-defined tracking sessions, which are automatically activated when the project is loaded&lt;/strong>. Defined while setting up and tweaking a project on QGIS, these sessions permit the automated tracking of device positions without taking any action in QField beyond opening the project itself. This liberates field users from remembering to launch a session on app launch and lowers the knowledge required to collect such data. For more details, please read the &lt;a href="https://docs.qfield.org/how-to/tracking/#configure-a-project-tracking-session" target="_blank" rel="noopener">relevant QField documentation section&lt;/a>.&lt;/p></description></item><item><title>Snappy QField 3.1 “Borneo” has arrived</title><link>https://qfield.org/2024/01/10/snappy-qfield-3-1-borneo-has-arrived/</link><pubDate>Wed, 10 Jan 2024 17:11:36 +0000</pubDate><guid>https://qfield.org/2024/01/10/snappy-qfield-3-1-borneo-has-arrived/</guid><description>&lt;p>The launch of QField 3.0 was a big deal, but now we&amp;rsquo;re back to focusing on smaller, more frequent updates. Don&amp;rsquo;t let the shorter change log for 3.1 trick you – there are lots of cool new features in this update!&lt;/p>
+&lt;h2 id="main-highlights">Main highlights&lt;/h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class="figure text-center mb-4">
+ 
+ &lt;img src="https://qfield.org/blog/wp-content/uploads/2023/12/287987844-8d7c6540-c32c-4d62-bf6e-1636a011567f.png" alt="" class="figure-img img-fluid gallery-img"
+ 
+ 
+ >
+ 
+ 
+&lt;/figure>
+&lt;p>One of the main improvements in this release is the brand-new functionality to enable &lt;strong>snapping to common angles&lt;/strong> while digitizing. When enabled, the coordinate cursor will snap to configured angles alongside a visual guideline. This comes in handy when adding new geometries while surveying features with regular angles (e.g. buildings, parking lots, etc.). As QField gets more digitizing functionalities, we’ve taken the time to implement a nifty UI that collapses digitizing toggle buttons into a drawer, &lt;strong>leaving extra space for the map canvas&lt;/strong> to shine through.&lt;/p></description></item><item><title>QField background tracking</title><link>https://qfield.org/2023/06/29/qfield-background-tracking/</link><pubDate>Thu, 29 Jun 2023 09:54:42 +0000</pubDate><guid>https://qfield.org/2023/06/29/qfield-background-tracking/</guid><description>&lt;p>Years ago, the QField community and its users showed their love for their favourite field app by supporting a successful crowdfunding to improve camera handling.&lt;/p>
+&lt;p>Since then, OPENGIS.ch has continued to lead the development of QField with the regular support of sponsors. We couldn’t be prouder of the progress we have made, with plenty of new features added in every major release. This includes major improvements to positioning including location tracking, integration of external GNSS receivers through not only Bluetooth but TCP/UDP and serial port connections, accuracy indicator and constraints, and most recently sensors reading to list a few.&lt;/p></description></item><item><title>QField 2.8: Boosting field work through external sensors</title><link>https://qfield.org/2023/05/30/qfield-2-8-boosting-field-work-through-external-sensors/</link><pubDate>Tue, 30 May 2023 04:00:00 +0000</pubDate><guid>https://qfield.org/2023/05/30/qfield-2-8-boosting-field-work-through-external-sensors/</guid><description>&lt;p>The latest version of QField is out, featuring as its main new feature sensor handling alongside the usual round of user experience and stability improvements. We simply can’t wait to see the sensor uses you will come up with!&lt;/p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class="figure text-center mb-4">
+ 
+ &lt;img src="https://qfield.org/blog/wp-content/uploads/2023/05/238116107-1792bb88-9fdb-41e7-9716-7fd65f8837ce.png" alt="" class="figure-img img-fluid gallery-img"
+ 
+ 
+ >
+ 
+ 
+&lt;/figure>
+&lt;h2 id="the-main-highlight-sensors">&lt;strong>The main highlight: sensors&lt;/strong>&lt;/h2>
+&lt;p>QField 2.8 ships with &lt;strong>out-of-the-box handling of external sensor streams&lt;/strong> over TCP, UDP, and serial port. The functionality allows for data captured through instruments – such as geiger counter, decibel sensor, CO detector, etc. - to be visualized and manipulated within QField itself.&lt;/p></description></item><item><title>Capturing more while in the field with the new QField 2.7</title><link>https://qfield.org/2023/04/04/capturing-more-while-in-the-field-with-the-new-qfield-2-7/</link><pubDate>Tue, 04 Apr 2023 04:44:00 +0000</pubDate><guid>https://qfield.org/2023/04/04/capturing-more-while-in-the-field-with-the-new-qfield-2-7/</guid><description>&lt;p>A brand new version of QField has been released, &lt;strong>packed with features&lt;/strong> that will make you fall in love with this essential open source tool all over again with a focus on capturing more while you are in the field. QField 2.7 nicknamed “Heroic Hedgehog” also includes a number of worthy fixes making it a crucial update to get.&lt;/p>
+&lt;h2 id="new-recording-capabilities">New recording capabilities&lt;/h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class="figure text-center mb-4">
+ 
+ &lt;img src="https://qfield.org/blog/wp-content/uploads/2023/04/224213255-e51e619a-2505-49dc-a03d-088bfa2530e4.png" alt="" class="figure-img img-fluid gallery-img"
+ 
+ 
+ >
+ 
+ 
+&lt;/figure>
+&lt;p>The highlight of QField 2.7 is the &lt;strong>new audio and video recording capability straight from the feature form&lt;/strong>. In addition to preexisting still photo capture, this functionality allows for video motion and audio clips to be added as attachments to feature attributes.&lt;/p></description></item><item><title>QField 2.6: perfecting high-accuracy positioning</title><link>https://qfield.org/2023/01/26/qfield-2-6-perfecting-high-accuracy-positioning/</link><pubDate>Thu, 26 Jan 2023 06:46:00 +0000</pubDate><guid>https://qfield.org/2023/01/26/qfield-2-6-perfecting-high-accuracy-positioning/</guid><description>&lt;p>It’s only been a few weeks into the new year, but we’ve got great news for you: a brand new QField 2.6 “Geeky Gecko ?” has been released with a focus on positioning improvements, including Bluetooth support for Windows. And with that, we are delighted to remove the ‘beta’ status from QField for Windows.&lt;/p>
+&lt;h2 id="new-positioning-features">New positioning features&lt;/h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class="figure text-center mb-4">
+ 
+ &lt;img src="https://qfield.org/blog/wp-content/uploads/2023/01/26%5Fcover.png" alt="" class="figure-img img-fluid gallery-img"
+ 
+ 
+ >
+ 
+ 
+&lt;/figure>
+&lt;p>&lt;strong>Let’s open with a bang: QField 2.6 now supports NMEA streaming from external GNSS devices over TCP, UDP, and serial ports, in addition to preexisting Bluetooth connectivity.&lt;/strong> This new functionality means that QField is now compatible with a much larger range of GNSS devices out there.&lt;/p></description></item><item><title>How to contribute to QField</title><link>https://qfield.org/2022/12/06/how-to-contribute-to-qfield/</link><pubDate>Tue, 06 Dec 2022 05:29:00 +0000</pubDate><guid>https://qfield.org/2022/12/06/how-to-contribute-to-qfield/</guid><description>&lt;p>QField is a community-driven open-source project. It is free to share, use and modify and it will stay like that. The very essence of a community is to help and support each other. And that&amp;rsquo;s where YOU come into play. To make it work we need your support!&lt;/p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class="figure text-center mb-4">
+ 
+ &lt;img src="https://qfield.org/blog/wp-content/uploads/2022/12/QField%5FAppAward%5F12-2022.png" alt="" class="figure-img img-fluid gallery-img"
+ 
+ 
+ >
+ 
+ 
+&lt;/figure>
+&lt;p>For those who don’t know much about the concept of open source projects, a bit of background. Investing in open-source projects is a technical and ethical decision for OPENGIS.ch. Open source is a technological advantage, as we receive input from many developers worldwide who are motivated to work out the best possible software. It prevents our customers from vendor lock-in and allows complete ownership and control of the developed software. And finally, not only financially independent businesses and people should benefit from professional software but also those who might not have the financial means to pay for features, and licences.&lt;/p></description></item><item><title>QField 2.5 is here, reaching new heights</title><link>https://qfield.org/2022/11/14/qfield-2-5-is-here-reaching-new-heights/</link><pubDate>Mon, 14 Nov 2022 09:37:38 +0000</pubDate><guid>https://qfield.org/2022/11/14/qfield-2-5-is-here-reaching-new-heights/</guid><description>&lt;p>Our ninjas have been so busy that less than a month after we released QField 2.4, we find ourselves with so many new features we simply can&amp;rsquo;t wait any longer to present to you the latest version of QField: 2.5 &amp;ldquo;Fancy Flamingo ?”.&lt;/p>
+&lt;p>&lt;strong>Exciting new features&lt;/strong>&lt;/p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class="figure text-center mb-4">
+ 
+ &lt;img src="https://qfield.org/blog/wp-content/uploads/2022/11/25.png" alt="" class="figure-img img-fluid gallery-img"
+ 
+ 
+ >
+ 
+ 
+&lt;/figure>
+&lt;p>QField’s main new feature of this 2.5 release cycle is its brand new elevation profiling functionality which has been added to the measuring tool. Users are now able to dynamically build and analyze elevation profiles wherever they are - in the field or on their desktop - by simply drawing paths onto their maps and projects.&lt;/p></description></item><item><title>Best of Swiss Enterprise App Award for QField</title><link>https://qfield.org/2022/11/03/best-of-swiss-enterprise-app-award-for-qfield/</link><pubDate>Thu, 03 Nov 2022 13:02:57 +0000</pubDate><guid>https://qfield.org/2022/11/03/best-of-swiss-enterprise-app-award-for-qfield/</guid><description>&lt;p>&lt;strong>What a night it was. The &amp;ldquo;Best of Swiss Apps Awards&amp;rdquo; took place in Zurich yesterday, November 2, 2022. We were also nominated with &lt;a href="https://qfield.org" target="_blank" rel="noopener">QField&lt;/a>. And in the enterprise category, the app was so convincing, that it was awarded the highest possible price. So it brought the award &amp;ldquo;Best of Swiss Enterprise App&amp;rdquo; home to Graubünden. And as cherry on the cake: QField was also nominated as finalist in the UX/UI category!&lt;/strong>&lt;/p></description></item><item><title>QField 2.4 is here, and it is ?icious</title><link>https://qfield.org/2022/10/13/qfield-2-4-is-here-and-it-is-%F0%9F%8D%8Ficious/</link><pubDate>Thu, 13 Oct 2022 06:19:18 +0000</pubDate><guid>https://qfield.org/2022/10/13/qfield-2-4-is-here-and-it-is-%F0%9F%8D%8Ficious/</guid><description>&lt;p>Yes, QField for QGIS, the leading fieldwork app, was released on the iOS App Store!&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;a href="https://qfield.org/get" target="_blank" rel="noopener">&lt;img src="https://qfield.org/blog/wp-content/uploads/2022/10/stores.png" alt="">&lt;/a>&lt;/p>
+&lt;p>Get It now for &lt;a href="https://qfield.org/get" target="_blank" rel="noopener">Android, iOS, MacOS, Windows and Linux&lt;/a>&lt;/p>&lt;/blockquote>
+&lt;p>Good things take time (and &lt;a href="https://docs.qfield.org/get-started/sponsor/" target="_blank" rel="noopener">sponsors&lt;/a>), and we wanted our Apple users to enjoy the same solid and seamless experience as our Android users. So we took the time needed and ran beta testing of QField for multiple months. Thanks to all the community feedback and to the uncountable work hours put in by our development team, today we released QField on the iOS Appstore.&lt;/p></description></item><item><title>How we build QField for many platforms - A look behind the curtain</title><link>https://qfield.org/2022/09/20/how-we-build-qfield-for-many-platforms-a-look-behind-the-curtain/</link><pubDate>Tue, 20 Sep 2022 05:48:00 +0000</pubDate><guid>https://qfield.org/2022/09/20/how-we-build-qfield-for-many-platforms-a-look-behind-the-curtain/</guid><description>&lt;p>&lt;em>In the past year, &lt;strong>the build system behind QField has been ported to &lt;a href="https://vcpkg.io/en/index.html" target="_blank" rel="noopener">vcpkg, a modern C++ dependency management system&lt;/a>&lt;/strong>. It has been a great success for QField and considerably helped to streamline efforts, improve the development experience and to guarantee an outstanding stability of the application. In this blog post we will look at the history of building QGIS based applications for mobile systems and how it has become what it is today.&lt;/em>&lt;/p></description></item><item><title>24th Contributors QGIS Meeting in Firenze 2022</title><link>https://qfield.org/2022/09/08/24th-contributors-qgis-meeting-in-firenze-2022/</link><pubDate>Thu, 08 Sep 2022 05:00:00 +0000</pubDate><guid>https://qfield.org/2022/09/08/24th-contributors-qgis-meeting-in-firenze-2022/</guid><description>&lt;p>The international community of QGIS contributors got together in person from 18 to 22 August in parallel to &lt;a href="https://2022.stateofthemap.org/" target="_blank" rel="noopener">OpenStreetMap State of The Map&lt;/a> event and right before the &lt;a href="https://2022.foss4g.org/" target="_blank" rel="noopener">FOSS4G&lt;/a>. So there was a lot of &lt;strong>open source geo power&lt;/strong> concentrated in the &lt;strong>beautiful city of Florence&lt;/strong> in those days. It was my first participation and all I knew was that it&amp;rsquo;s supposed to be an unconference. This means, there is no strict schedule but space and opportunity for everyone to present their work or team up to discuss and hack on specific tasks to bring the QGIS project to the next level.&lt;/p></description></item><item><title>A New Trick up QField’s Sleeve: Animated Maps</title><link>https://qfield.org/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/</link><pubDate>Tue, 16 Aug 2022 04:58:00 +0000</pubDate><guid>https://qfield.org/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/</guid><description>&lt;p>&lt;strong>Starting with QField 2.2, users can fully rely on animation capabilities that have made their way into QGIS during its last development cycle. This can be a powerful mean to highlight key elements on a map that require special user attention.&lt;/strong>&lt;/p>
+&lt;p>The example below demonstrates a scenario where animated raster markers are used to highlight active fires within the visible map extent. Notice how the subtle fire animation helps draw viewers’ eyes to those important markers.&lt;/p></description></item><item><title>QField Users Sit Down, We Need to Talk About Storage Access on Android</title><link>https://qfield.org/2022/03/05/qfield-users-sit-down-we-need-to-talk-about-storage-access-on-android%EF%BF%BC/</link><pubDate>Sat, 05 Mar 2022 00:48:44 +0000</pubDate><guid>https://qfield.org/2022/03/05/qfield-users-sit-down-we-need-to-talk-about-storage-access-on-android%EF%BF%BC/</guid><description>&lt;blockquote>
+&lt;p>&lt;em>TLDR: Since November 2021, Google has enforced new storage access limitations for apps published on its Play store which prohibits direct storage access on Android 11 and above forcing QField to adapt and rely on importing projects and datasets to access those.&lt;/em>&lt;/p>&lt;/blockquote>
+&lt;p>If you are a QField beta user on Android 11 and above, you might have noticed a significant change in the way the app is handling storage in the latest set of betas released in early February of 2022. This blog post will go over the changes, explain why those &lt;strong>had to be made&lt;/strong> (looking at you, Google), how to work in this new paradigm, and showcase some new benefits from the hard work done by OPENGIS.ch’s geoninjas.&lt;/p></description></item><item><title>QField collected data crucial in disaster relief after Tonga’s volcanic eruption</title><link>https://qfield.org/2022/02/02/qfield-data-crucial-in-disaster-relief-after-tongas-volcanic-eruption/</link><pubDate>Wed, 02 Feb 2022 06:43:00 +0000</pubDate><guid>https://qfield.org/2022/02/02/qfield-data-crucial-in-disaster-relief-after-tongas-volcanic-eruption/</guid><description>&lt;p>&lt;strong>For once, it&amp;rsquo;s not an app from the Silicon Valley, but from Laax in the Swiss Alps that made the news. By publishing QField as an open-source app, OPENGIS.ch allows companies, organisations and even countries without the necessary financial means to have the opportunity to benefit from this important data collection app. And it is being used: Over half a million downloads have already been achieved. Now, since the volcanic eruption in Tonga on 15 January 2022, the app of the small Laax-based company is playing a not-unimportant role in disaster response planning.&lt;/strong>&lt;/p></description></item><item><title>QFieldCloud now opensource - Happy 10 Years of field mapping with QGIS</title><link>https://qfield.org/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/</link><pubDate>Tue, 08 Jun 2021 06:01:00 +0000</pubDate><guid>https://qfield.org/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/</guid><description>&lt;p>Today, on QField&amp;rsquo;s 10th anniversary, we&amp;rsquo;re extremely proud to publish the results of over &lt;a href="https://github.com/opengisch/qfieldcloud/graphs/contributors" target="_blank" rel="noopener">18 months&lt;/a> of development and give you &lt;a href="https://github.com/opengisch/qfieldcloud/pull/3" target="_blank" rel="noopener">the source code of QFieldCloud&lt;/a> to go and make your awesome adaptations, solutions, and hopefully contributions :)&lt;/p>
+&lt;p>If you want to quickly try it out, head to &lt;a href="https://qfield.cloud/" target="_blank" rel="noopener">https://qfield.cloud&lt;/a> where our hosted solution is running and secure yourself a spot in the beta program.&lt;/p>
+&lt;p>QFieldCloud&amp;rsquo;s unique technology allows your team to focus on what&amp;rsquo;s important, making sure you efficiently get the best field data possible. Thanks to the tight integration with the leading GIS fieldwork app QField, your team will be able to start surveying and digitising data in no time.&lt;/p></description></item><item><title>Powerful and gentle QField 1.8 Selma sneaked in</title><link>https://qfield.org/2021/02/24/powerful-and-gentle-qfield-1-8-selma-sneaked-in/</link><pubDate>Wed, 24 Feb 2021 06:31:00 +0000</pubDate><guid>https://qfield.org/2021/02/24/powerful-and-gentle-qfield-1-8-selma-sneaked-in/</guid><description>&lt;p>&lt;strong>Get fieldwork smoothly and nimbly done despite the ice and snow outside. Collect accurate data with freehand digitizing and improved form widgets, use the data from your external GNSS receivers without any third-party apps and enjoy the pleasant usability of QField 1.8 Selma.&lt;/strong>&lt;/p>
+&lt;p>This year started off hi-speed for us. There&amp;rsquo;s been already a lot of coding, designing and teaching, and we&amp;rsquo;ve thrown ourselves into these things we love to do. And we published another QField release last week that I completely forgot to announce in this blog. But here it is. It&amp;rsquo;s QField 1.8, Selma. And it&amp;rsquo;s packed with cool features.&lt;/p></description></item><item><title>QField 1.7 Rockies hits the stage</title><link>https://qfield.org/2020/10/20/qfield-1-7-rockies-hits-the-stage/</link><pubDate>Tue, 20 Oct 2020 07:26:08 +0000</pubDate><guid>https://qfield.org/2020/10/20/qfield-1-7-rockies-hits-the-stage/</guid><description>&lt;p>&lt;strong>Be ready for the cold weather with a smooth coordinate search, filters in the value relation widget, fancy new QML and HTML widgets, enhanced geometry editing functionalities and an expandable legend. Right when Autumn starts, QField 1.7 Rockies hits the stage.&lt;/strong>&lt;/p>
+&lt;p>As usual get it now on the &lt;a href="https://play.google.com/store/apps/details?id=ch.opengis.qfield" target="_blank" rel="noopener">play store&lt;/a> or on &lt;a href="https://github.com/opengisch/QField/releases" target="_blank" rel="noopener">github&lt;/a>!&lt;/p>
+&lt;p>The days are getting shorter and the wind blows colder. It&amp;rsquo;s always good to be in a good company outside while getting your mapping work done. QField will be your reliable companion.&lt;/p></description></item><item><title>QField 1.6 is out!</title><link>https://qfield.org/2020/08/18/qfield-1-6-is-out/</link><pubDate>Tue, 18 Aug 2020 05:00:00 +0000</pubDate><guid>https://qfield.org/2020/08/18/qfield-1-6-is-out/</guid><description>&lt;p>&lt;strong>Editing multiple features at the same time, support for stylus pens, dynamic configuration of image names and much more.&lt;/strong>&lt;br>
+&lt;strong>QField 1.6 Qinling 秦岭 comes packed with awesome new features and an improved user experience.&lt;/strong>&lt;/p>
+&lt;p>We have been very busy over the last few months working on a new and shiny QField release. We have added many new features that increase efficiency on the field or allow for new workflows. In parallel, we have also been working on ironing out a series of issues and improving the overall user experience to make the app as pleasurable to use as possible. The result is QField 1.6 which has been published now.&lt;/p></description></item><item><title>Offline WMS - Benchmarking raster formats for QField</title><link>https://qfield.org/2020/06/09/offline-wms-benchmarking-raster-formats-for-qfield/</link><pubDate>Tue, 09 Jun 2020 05:03:00 +0000</pubDate><guid>https://qfield.org/2020/06/09/offline-wms-benchmarking-raster-formats-for-qfield/</guid><description>&lt;h2 id="what-are-we-looking-for">What are we looking for?&lt;/h2>
+&lt;p>We would like to use WMS offline on QField. For that, we need to figure out what is the best way to get a raster from a WMS and which format is the most efficient (size and performance).&lt;/p>
+&lt;p>In this post we&amp;rsquo;ll show you is how to generate the ideal raster file from a WMS and the results of our efficiency tests for the the different raster formats.&lt;/p></description></item><item><title>QField 1.4 released - Happy new year</title><link>https://qfield.org/2020/03/03/qfield-1-4-released/</link><pubDate>Tue, 03 Mar 2020 06:00:13 +0000</pubDate><guid>https://qfield.org/2020/03/03/qfield-1-4-released/</guid><description>&lt;p>What a year&amp;rsquo;s start! After a very packed December publishing all the &lt;a href="https://qfield.org/qgis-on-the-road/">QGIS on the road videos&lt;/a> and quietly releasing &lt;strong>QField 1.3 - Ben Nevis&lt;/strong> we could have gone and relaxed over the holidays. But since we love QField so much we immediately started working on the next iteration. Now, after an intensive testing period, we are proud to announce the release of &lt;strong>QField 1.4 - Olavtoppen&lt;/strong>.&lt;/p>
+&lt;p>Olavtoppen!? yes, the highest point of Bouvet Island, the remotest island on Earth. And sure enough, QField would follow you there!&lt;/p></description></item><item><title>QField 1.2 released</title><link>https://qfield.org/2019/10/03/qfield-1-2-released/</link><pubDate>Thu, 03 Oct 2019 05:29:45 +0000</pubDate><guid>https://qfield.org/2019/10/03/qfield-1-2-released/</guid><description>&lt;p>After an intensive testing period, we are proud to announce the release of &lt;strong>QField 1.2&lt;/strong>&lt;/p>
+&lt;p>As usual, &lt;a href="https://play.google.com/store/apps/details?id=ch.opengis.qfield" target="_blank" rel="noopener">get it on play store&lt;/a> or &lt;a href="https://github.com/opengisch/QField/releases/tag/v1.2.0" target="_blank" rel="noopener">download it from GitHub.&lt;/a>&lt;/p>
+&lt;h2 id="qfield-crowdfunding-campaign">QField Crowdfunding Campaign&lt;/h2>
+&lt;p>Before digging into all the new goodness that you will find in QField 1.2, let&amp;rsquo;s get some big &amp;ldquo;Thanks&amp;rdquo; out. What QField currently is was mostly possible &lt;strong>thanks to customer projects&lt;/strong> of which the outcome could be mutualized. Thanks a lot to all of you that agreed open source is all about making things possible together!&lt;/p></description></item><item><title>Win a QField jump-start package, use #MyQField</title><link>https://qfield.org/2019/04/11/win-a-qfield-jump-start-package-use-myqfield/</link><pubDate>Thu, 11 Apr 2019 07:48:28 +0000</pubDate><guid>https://qfield.org/2019/04/11/win-a-qfield-jump-start-package-use-myqfield/</guid><description>&lt;p>Do you want to win a &lt;a href="https://qfield.org/2019/04/09/qfield-jump-start-packages/">QField jump-start package&lt;/a> worth 550€?&lt;/p>
+&lt;p>We are launching the &lt;a href="https://twitter.com/hashtag/MyQField?src=hash" target="_blank" rel="noopener"># &lt;strong>MyQField&lt;/strong>&lt;/a> challenge. Follow us on Twitter and show us how you use &lt;a href="https://twitter.com/QFieldForQGIS" target="_blank" rel="noopener">@ &lt;strong>QFieldForQGIS&lt;/strong>&lt;/a> by tagging your tweets with &lt;a href="https://twitter.com/hashtag/MyQField?src=hash" target="_blank" rel="noopener"># &lt;strong>MyQField&lt;/strong>&lt;/a> and &lt;a href="https://twitter.com/hashtag/dataisoutside?src=hash" target="_blank" rel="noopener"># &lt;strong>dataisoutside&lt;/strong>&lt;/a>. The tweet with most likes and retweets by 24.4.19 wins the training!&lt;/p>
+&lt;h3 id="rules">Rules&lt;/h3>
+&lt;ul>
+&lt;li>You need to follow &lt;a href="https://twitter.com/OPENGISch" target="_blank" rel="noopener">@ &lt;strong>OPENGISch&lt;/strong>&lt;/a> and &lt;a href="https://twitter.com/QFieldForQGIS" target="_blank" rel="noopener">@ &lt;strong>QFieldForQGIS&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>Likes count single, retweet count double&lt;/li>
+&lt;li>You can participate multiple times&lt;/li>
+&lt;li>We will count on 24.4.19 at 20:00 CET&lt;/li>
+&lt;li>The prize is a &lt;a href="https://qfield.org/2019/04/09/qfield-jump-start-packages/">half day jump-start package&lt;/a> worth 550€&lt;/li>
+&lt;/ul>
+
+
+
+
+
+
+&lt;div class="gallery-wrapper" 
+ data-gallery-id="gallery-1763549929-455141756"
+ data-autoplay="false"
+ data-interval="5000"
+ data-controls="true"
+ data-indicators="true">
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class="figure text-center mb-4">
+ 
+ &lt;img src="https://opengis.ch/blog/wp-content/uploads/2019/04/zombie.jpg" alt="Risk assessment" class="figure-img img-fluid gallery-img"
+ 
+ 
+ >
+ 
+ 
+ &lt;figcaption class="figure-caption text-center">Risk assessment&lt;/figcaption>
+ 
+&lt;/figure> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class="figure text-center mb-4">
+ 
+ &lt;img src="https://opengis.ch/blog/wp-content/uploads/2019/04/20190409%5F193629.jpg" alt="Location tracking" class="figure-img img-fluid gallery-img"
+ 
+ 
+ >
+ 
+ 
+ &lt;figcaption class="figure-caption text-center">Location tracking&lt;/figcaption>
+ 
+&lt;/figure> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class="figure text-center mb-4">
+ 
+ &lt;img src="https://opengis.ch/blog/wp-content/uploads/2019/03/gnss.jpg" alt="Cadastral surveying" class="figure-img img-fluid gallery-img"
+ 
+ 
+ >
+ 
+ 
+ &lt;figcaption class="figure-caption text-center">Cadastral surveying&lt;/figcaption>
+ 
+&lt;/figure> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class="figure text-center mb-4">
+ 
+ &lt;img src="https://opengis.ch/blog/wp-content/uploads/2019/04/20190403%5F164731.jpg" alt="Assets management" class="figure-img img-fluid gallery-img"
+ 
+ 
+ >
+ 
+ 
+ &lt;figcaption class="figure-caption text-center">Assets management&lt;/figcaption>
+ 
+&lt;/figure> 
+
+&lt;/div>
+
+&lt;style>
+ 
+#gallery-1763549929-455141756 .carousel-item .gallery-img {
+ height: 400px !important;
+ width: 100% !important;
+ object-fit: cover !important;
+ object-position: center center !important;
+ display: block !important;
+}
+
+#gallery-1763549929-455141756 .carousel-item {
+ height: auto;
+}
+
+#gallery-1763549929-455141756 .carousel-item .figure {
+ margin: 0;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ position: relative;
+ text-align: center;
+}
+
+#gallery-1763549929-455141756 .carousel-item .figure .gallery-img {
+ width: 100% !important;
+}
+
+#gallery-1763549929-455141756 .carousel-item .figure .figure-caption {
+ position: absolute;
+ bottom: 1rem;
+ left: 50%;
+ transform: translateX(-50%);
+ margin: 0;
+}
+
+@media (max-width: 768px) {
+ #gallery-1763549929-455141756 .carousel-item .gallery-img {
+ height: 300px !important;
+ }
+}
+
+@media (max-width: 576px) {
+ #gallery-1763549929-455141756 .carousel-item .gallery-img {
+ height: 250px !important;
+ }
+}
+&lt;/style>
+
+
+&lt;p>Fine boring prints:&lt;/p></description></item><item><title>QField 1.0 is here</title><link>https://qfield.org/2019/03/28/qfield-1-0-is-here/</link><pubDate>Thu, 28 Mar 2019 15:34:38 +0000</pubDate><guid>https://qfield.org/2019/03/28/qfield-1-0-is-here/</guid><description>&lt;h2 id="lets-get-straight-to-the-point">Let&amp;rsquo;s get straight to the point&lt;/h2>
+&lt;blockquote>
+&lt;p>It&amp;rsquo;s official, QField for QGIS 1.0 is out!&lt;/p>&lt;/blockquote>
+&lt;p>Get it while it’s hot on the Playstore ( &lt;a href="https://qfield.org/get" target="_blank" rel="noopener">qfield.org/get&lt;/a>) or on &lt;a href="https://github.com/opengisch/QField/releases" target="_blank" rel="noopener">GitHub&lt;/a>&lt;/p>
+&lt;p>We are incredibly pleased and proud of just having released such a jewel and are convinced that, thanks to all its features and conscious design choices, QField will make your field digitizing work much more efficient and pleasant.&lt;/p>
+&lt;p>Packed with loads of useful features like online and offline features digitizing, geometry and attributes editing, attribute search, powerful forms, theme switching, GPS support, camera integration and much more, QField is the powerful tool for those who need to edit on the go and would like to avoid standing in the swamp with a laptop or paper charts.&lt;/p></description></item><item><title>QField RC5 - Last call for testing</title><link>https://qfield.org/2019/03/14/qfield-rc5/</link><pubDate>Thu, 14 Mar 2019 11:50:16 +0000</pubDate><guid>https://qfield.org/2019/03/14/qfield-rc5/</guid><description>&lt;p>We are really happy to announce the fifth and (hopefully) last 1.0 release candidate in QField&amp;rsquo;s history! This means that QField 1.0 is closer than ever.&lt;/p>
+&lt;p>Get it while it&amp;rsquo;s hot on the Playstore ( &lt;a href="https://qfield.org/get" target="_blank" rel="noopener">https://qfield.org/get&lt;/a>) or on &lt;a href="https://github.com/opengisch/QField/releases" target="_blank" rel="noopener">GitHub&lt;/a>&lt;/p>
+&lt;p>Thanks to all the feedback by the fantastic community we were able to fix plenty of bugs, address performance issues and even add some super cool new features.&lt;/p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure class="figure text-center mb-4">
+ 
+ &lt;img src="https://i2.wp.com/new.opengis.ch/blog/wp-content/uploads/2019/03/fileselector.jpg?fit=541%2C1024&amp;amp;ssl=1" alt="" class="figure-img img-fluid gallery-img"
+ 
+ 
+ >
+ 
+ 
+&lt;/figure>
+&lt;p>Among the new features, the most important is the flashy new file selector with favorite directories (long press on a folder to add it to the favorites and longpress on the favorites list to remove it) and an automatic list of the last three opened projects that will save you heaps of time while looking for your projects.&lt;/p></description></item><item><title>You gave us feedback - we give you QField 1.0 RC3</title><link>https://qfield.org/2019/01/31/you-gave-us-feedback-we-give-you-qfield-1-0-rc2/</link><pubDate>Thu, 31 Jan 2019 06:51:35 +0000</pubDate><guid>https://qfield.org/2019/01/31/you-gave-us-feedback-we-give-you-qfield-1-0-rc2/</guid><description>&lt;p>We are really happy to announce the release a new great milestone in QField&amp;rsquo;s history, QField 1.0 Release Candidate 3! (Yes, you might have got a glimpse of the broken RC2 if you where very attentive)&lt;/p>
+&lt;p>Thanks to the great feedback we received since releasing RC1 we were able to fix plenty of issues and add some more goodies.&lt;/p>
+&lt;p>We would like to invite everybody to install this Release Candidate and help us test it as much as possible so that we can iron out as many bugs as possible before the final release of QField 1.0.&lt;/p></description></item><item><title>New Year's present - QField 1.0 RC1</title><link>https://qfield.org/2019/01/08/qfield-1-0-rc1/</link><pubDate>Tue, 08 Jan 2019 06:59:38 +0000</pubDate><guid>https://qfield.org/2019/01/08/qfield-1-0-rc1/</guid><description>&lt;p>It was a long and winding road but we are very excited to announce the general availability of QField 1.0 Release Candidate 1.&lt;/p>
+&lt;p>Packed with loads of useful features like online and offline features digitizing, geometry and attributes editing, attribute search, powerful forms, theme switching, GPS support, camera integration and much more, QField is the powerful tool for those who need to edit on the go and would like to avoid standing in the swamp with a laptop or paper charts.&lt;/p></description></item><item><title>New Year&amp;#039;s present - QField 1.0 RC1</title><link>https://qfield.org/2019/01/08/qfield-1-0-rc1-2/</link><pubDate>Tue, 08 Jan 2019 06:59:38 +0000</pubDate><guid>https://qfield.org/2019/01/08/qfield-1-0-rc1-2/</guid><description>&lt;p>It was a long and winding road but we are very excited to announce the general availability of QField 1.0 Release Candidate 1.&lt;/p>
+&lt;p>Packed with loads of useful features like online and offline features digitizing, geometry and attributes editing, attribute search, powerful forms, theme switching, GPS support, camera integration and much more, QField is the powerful tool for those who need to edit on the go and would like to avoid standing in the swamp with a laptop or paper charts.&lt;/p></description></item><item><title>How to filter features in QGIS using the graphical processing modeler</title><link>https://qfield.org/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/</link><pubDate>Mon, 28 May 2018 07:41:26 +0000</pubDate><guid>https://qfield.org/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/</guid><description>&lt;p>This article describes a new algorithm for the processing modeler called feature filter algorithm. If you are already familiar with ETL concepts and the graphical modeler, you can directly jump to the section &lt;a href="#feature-filter-algorithm">the feature filter algorithm&lt;/a>.&lt;/p>
+&lt;h2 id="building-workflows-for-repetitive-tasks">Building workflows for repetitive tasks&lt;/h2>
+&lt;p>When building workflows for simple or complex geodata infrastructures, one of the most common tasks one encounters is to extract some of the features and copy them to another destination. Sometimes they need to be modified and a few attributes calculated or deleted, maybe even the geometry needs to be adjusted or in some fancy situations one even wants to generate a couple of objects from one input object. This process is often called &lt;em>ETL&lt;/em> (Extract, Transform, Load) and it is something that is worth mastering as a GIS expert.
+Let&amp;rsquo;s imagine a situation where we sent a field worker out to collect information about public infrastructure, equipped with a brand-new tablet and the latest and greatest version of &lt;a href="https://www.qfield.org/" target="_blank" rel="noopener">QField&lt;/a>. To make his task super easy, we prepare one single layer for him with an attribute type which can be set to Bus Station, Car Parking or Train Station. Now back in the office we want to integrate this back into our spatially enabled database which has been designed with 3 target tables.&lt;/p></description></item><item><title>PostgreSQL back end solution for quality assurance and data archive</title><link>https://qfield.org/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/</link><pubDate>Mon, 08 Jan 2018 06:06:13 +0000</pubDate><guid>https://qfield.org/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/</guid><description>&lt;p>&lt;strong>&lt;em>Did you know that the possibilities to make a full QGIS back end solution for quality assurance and archiving in PostgreSQL are immense? SQL has it&amp;rsquo;s well known limitations, but with a little bit creativity you can make quite nice solutions just using triggers and rules. In this post I&amp;rsquo;ll explain what we did lately based on a project with a customer. He needed to assure the consistency of data but still give his employees the possibility of a fast feeding of the data collected on the field to the database. Another request was to keep every status of the data with the information about the changes (archiving).&lt;/em>&lt;/strong>
+It&amp;rsquo;s always the question, where to put the logical part of the solution. QGIS is quite powerful with constraints, but the undeniable advantage of a back end solution is, that you can use any front end - no matter what configuration you have on QGIS or what Feature Manipulation Engine (FME) you use - without influencing the guarantee of data validity.&lt;/p></description></item><item><title>QField for Android 5</title><link>https://qfield.org/2015/12/01/qfield-for-android-5/</link><pubDate>Tue, 01 Dec 2015 13:44:53 +0000</pubDate><guid>https://qfield.org/2015/12/01/qfield-for-android-5/</guid><description>&lt;p>
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+&lt;figure class="figure text-center mb-4">
+ 
+ &lt;img src="https://developer.android.com/images/brand/en%5Fapp%5Frgb%5Fwo%5F45.png" alt="QField app on Google Play" class="figure-img img-fluid gallery-img"
+ width="129"
+ 
+ style="ZgotmplZ">
+ 
+ 
+ &lt;figcaption class="figure-caption text-center">QField app on Google Play&lt;/figcaption>
+ 
+&lt;/figure>
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+&lt;figure class="figure text-center mb-4">
+ 
+ &lt;img src="https://developer.android.com/images/brand/en%5Fapp%5Frgb%5Fwo%5F45.png" alt="QField Karma edition app on Google Play" class="figure-img img-fluid gallery-img"
+ width="129"
+ 
+ style="ZgotmplZ">
+ 
+ 
+ &lt;figcaption class="figure-caption text-center">QField Karma edition app on Google Play&lt;/figcaption>
+ 
+&lt;/figure>&lt;/p>
+&lt;p>It&amp;rsquo;s done, finally we managed to get rid of Ministro so that we finally can say, QField runs on any android from 4.0.3 (ICS). This makes as of today (according to &lt;a href="https://developer.android.com/about/dashboards/index.html" target="_blank" rel="noopener">google&lt;/a>) 96% of the android installations worldwide. Eventually we want to settle to 4.3 (JB) as minimum to allow us using certain features and avoiding &lt;a href="https://github.com/opengisch/QField/issues/6" target="_blank" rel="noopener">one known issue&lt;/a>, but for now it would mean cutting of another 25% of the users.
+&lt;strong>So as of today it is: 4.0.3 (Ice cream sandwich API 15) is the required minimal Android version to run QField and Android 4.3 (Jelly Bean API 18) is the suggested minimal version.&lt;/strong>
+We tested with 4.4, 5.0.1 and 5.1 but we haven&amp;rsquo;t had the chance to get our hands on an Android 6 so if you can, let us know how it works.
+But adding support for android 5 isn&amp;rsquo;t the only great news, during the process we also:&lt;/p></description></item><item><title>QField in the wild</title><link>https://qfield.org/2015/06/15/qfield-in-the-wild/</link><pubDate>Mon, 15 Jun 2015 12:05:21 +0000</pubDate><guid>https://qfield.org/2015/06/15/qfield-in-the-wild/</guid><description>&lt;figure class="figure text-center mb-4">
+ 
+ &lt;img src="https://developer.android.com/images/brand/en%5Fapp%5Frgb%5Fwo%5F45.png" alt="QField app on Google Play" class="figure-img img-fluid gallery-img"
+ width="129"
+ 
+ style="ZgotmplZ">
+ 
+ 
+ &lt;figcaption class="figure-caption text-center">QField app on Google Play&lt;/figcaption>
+ 
+&lt;/figure>
+&lt;p>&lt;img src="https://www.paypal.com/en_US/i/scr/pixel.gif" alt="">&lt;/p>
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+&lt;figure class="figure text-center mb-4">
+ 
+ &lt;img src="https://developer.android.com/images/brand/en%5Fapp%5Frgb%5Fwo%5F45.png" alt="QField Karma edition app on Google Play" class="figure-img img-fluid gallery-img"
+ width="129"
+ 
+ style="ZgotmplZ">
+ 
+ 
+ &lt;figcaption class="figure-caption text-center">QField Karma edition app on Google Play&lt;/figcaption>
+ 
+&lt;/figure>
+&lt;p>QField Experimental is out, after a couple of months of requirements gathering, private early alpha testing and foremost tons of  emails requesting access to the testes group we decided today to put the current BETA version in the playstore. This means that from now on you can install QField just like any other android app by using the playstore.
+It is important to remember that QField is still beta and thus it doesn&amp;rsquo;t have all the features we want yet. Notably, &lt;em>there is no digitizing, due to a bug in android, Android 5 (Lollipop) is currently not supported (android 4.3 and 4.4 are suggested) and for now you need to manually copy the projects and data from the desktop to your device.&lt;/em>
+QField is an Open Source project led by OPENGIS.ch LLC, more &lt;a href="https://qfield.org/android-gis/qfield/">information&lt;/a>, the &lt;a href="https://qfield.opengis.ch/repo" target="_blank" rel="noopener">source code&lt;/a> and a possibility to donate to the project can be found on the &lt;a href="https://qfield.org/android-gis/qfield/">QField page&lt;/a> (preferred) or by buying the QField for &lt;a href="https://qfield.opengis.ch/karma" target="_blank" rel="noopener">QGIS Karma edition app&lt;/a>.
+Also if you need a specific feature, &lt;a href="https://qfield.org/contact/">contact us&lt;/a> to sponsor its development.&lt;/p></description></item><item><title>A star is born, QGIS mobile is now QField</title><link>https://qfield.org/2015/01/28/qgis-mobile-is-now-qfield/</link><pubDate>Wed, 28 Jan 2015 08:02:57 +0000</pubDate><guid>https://qfield.org/2015/01/28/qgis-mobile-is-now-qfield/</guid><description>&lt;div class="gallery-wrapper" 
+ data-gallery-id="gallery-1763549929-475775761"
+ data-autoplay="false"
+ data-interval="5000"
+ data-controls="true"
+ data-indicators="true">
+ 
+&lt;/div>
+
+&lt;style>
+ 
+#gallery-1763549929-475775761 .carousel-item .gallery-img {
+ height: 400px !important;
+ width: 100% !important;
+ object-fit: cover !important;
+ object-position: center center !important;
+ display: block !important;
+}
+
+#gallery-1763549929-475775761 .carousel-item {
+ height: auto;
+}
+
+#gallery-1763549929-475775761 .carousel-item .figure {
+ margin: 0;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ position: relative;
+ text-align: center;
+}
+
+#gallery-1763549929-475775761 .carousel-item .figure .gallery-img {
+ width: 100% !important;
+}
+
+#gallery-1763549929-475775761 .carousel-item .figure .figure-caption {
+ position: absolute;
+ bottom: 1rem;
+ left: 50%;
+ transform: translateX(-50%);
+ margin: 0;
+}
+
+@media (max-width: 768px) {
+ #gallery-1763549929-475775761 .carousel-item .gallery-img {
+ height: 300px !important;
+ }
+}
+
+@media (max-width: 576px) {
+ #gallery-1763549929-475775761 .carousel-item .gallery-img {
+ height: 250px !important;
+ }
+}
+&lt;/style>
+
+
+&lt;p>It is with great pleasure that we want to announce the new name for what was briefly known as QGIS mobile.&lt;/p></description></item><item><title>QGIS Mobile 0.2 Demo</title><link>https://qfield.org/2015/01/11/qgis-mobile-0-2-demo/</link><pubDate>Sun, 11 Jan 2015 19:41:08 +0000</pubDate><guid>https://qfield.org/2015/01/11/qgis-mobile-0-2-demo/</guid><description>&lt;p>QField (formerly known as QGIS Mobile) is a touch optimized interface for field work developed by OPENGIS.ch. It is with great pleasure the we want to share with you the demo video of version 0.2.
+Since the project is going to be one of our core projects, we set up a dedicated &lt;a href="https://qfield.org/android-gis/qgis-mobile/" title="QGIS mobile">page here&lt;/a>.
+The &lt;a href="https://vimeo.com/116231850" target="_blank" rel="noopener">QGIS mobile 0.2&lt;/a> video demonstrates some basic functionality like navigation, feature identification and attribute editing.&lt;/p>
+&lt;p>The performance is affected by android&amp;rsquo;s video recording software. In reality animaitons look fluent and the interface feels snappy.
+Demo performed on a Galaxy Note 8.0 with Android 4.4.4 (CM11).&lt;/p></description></item><item><title>Happy new year to the power of two!</title><link>https://qfield.org/2015/01/08/happy-new-year-to-the-power-of-two/</link><pubDate>Thu, 08 Jan 2015 12:17:36 +0000</pubDate><guid>https://qfield.org/2015/01/08/happy-new-year-to-the-power-of-two/</guid><description>&lt;p>For the first time we at OPENGIS.ch can celebrate with 2 people, Marco Bernasocchi and Matthias Kuhn both experienced QGIS developers and holders of a Master degree in GIScience.
+After having worked individually in the last years, we have realized that there is a huge potential for us to join our knowledge - because the whole is greater than the sum of its parts. This is why starting from January 1st, 2015 we are working together as OPENGIS.ch LLC.
+Marco is the creator of QGIS for Android, has a strong background in python and web applications development and is core committer of the the award-winning InaSafe project.
+Matthias is an active QGIS core committer with a long history in developing in a wide variety of programming languages and areas from embedded systems to server services.
+We both are strong believers in open source software and are convinced that developing in the public is a big win for everybody.
+Among other projects, we are currently working on QGIS Mobile. A touch optimized interface for field work, based on the QGIS libraries. Make sure you keep an eye on this project as it is in its infancy but growing very fast.
+If you have a use-case for it and would like to support its development don’t hesitate contacting us. We will happily provide you with a preview version.
+[embed]https://vimeo.com/116231850[/embed]
+We are are also available for helping you with any idea and project you might have and to give ad-hoc courses that cover topics related to (Q)GIS and programming.&lt;/p></description></item></channel></rss>

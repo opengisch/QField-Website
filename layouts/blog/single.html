@@ -1,0 +1,143 @@
+{{ define "main" }}
+
+<!-- Blog post header -->
+<section class="py-2">
+  <div class="container">
+    
+    <!-- Back to blog link -->
+    <div class="my-4">
+      <a href="{{ "/blog/" | relURL }}" class="btn btn-outline-secondary btn-sm">
+        <i class="fas fa-arrow-left me-2"></i>Back to Blog
+      </a>
+    </div>
+
+    <!-- Post header -->
+    <header class="mb-2">
+      <h1 class="display-5 fw-bold mb-3">{{ .Title }}</h1>
+      
+      <div class="text-muted mb-1">
+        <i class="fas fa-calendar me-1"></i>
+        <span class="me-3">{{ .Date.Format "January 2, 2006" }}</span>
+        {{ if .Params.author }}
+        <i class="fas fa-user me-1"></i>
+        <span class="me-3">{{ .Params.author }}</span>
+        {{ end }}
+        {{ if .ReadingTime }}
+        <i class="fas fa-clock me-1"></i>
+        <span>{{ .ReadingTime }} min read</span>
+        {{ end }}
+      </div>
+      <hr>
+    </header>
+
+    {{ $content := .Content }}
+    {{ $content = replace $content "\"/blog/wp-content/" "\"/wp-content/" }}
+    {{ $content = replace $content "('/blog/wp-content/" "('/wp-content/" }}
+    {{ $content = replace $content "(/blog/wp-content/" "(/wp-content/" }}
+    {{ $content = replace $content "https://www.opengis.ch/blog/wp-content/" "/wp-content/" }}
+    {{ $content = replace $content "%5F" "_" }}
+  </div>
+</section>
+
+<!-- Blog post content -->
+<article class="py-1 blog-single">
+  <div class="container">
+    <div class="row justify-content-center">
+        <div class="content blog-content">
+          {{ $content | safeHTML }}
+        </div>
+    </div>
+  </div>
+</article>
+
+<!-- Post footer -->
+<section class="py-5 border-top">
+  <div class="container">
+    <div class="row justify-content-center">
+        
+        <!-- Tags -->
+        {{ if .Params.tags }}
+        <div class="mb-4">
+          <h6 class="fw-bold mb-2">Tags:</h6>
+          <div>
+            {{ range .Params.tags }}
+            <span class="badge bg-secondary me-2 mb-1">{{ . }}</span>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+
+        <!-- Navigation to other posts -->
+        <div class="mb-4">
+          <div class="row g-3">
+            {{ with .PrevInSection }}
+            <div class="col-md-6">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h6 class="card-subtitle mb-2 text-muted">Previous Post</h6>
+                  <a href="{{ .RelPermalink }}" class="card-title h6 text-decoration-none stretched-link">
+                    <i class="fas fa-arrow-left me-2"></i>{{ .Title }}
+                  </a>
+                </div>
+              </div>
+            </div>
+            {{ end }}
+            
+            {{ with .NextInSection }}
+            <div class="col-md-6">
+              <div class="card h-100">
+                <div class="card-body text-end">
+                  <h6 class="card-subtitle mb-2 text-muted">Next Post</h6>
+                  <a href="{{ .RelPermalink }}" class="card-title h6 text-decoration-none stretched-link">
+                    {{ .Title }}<i class="fas fa-arrow-right ms-2"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+
+        <!-- Back to blog -->
+        <div class="text-center">
+          <a href="{{ "/blog/" | relURL }}" class="btn btn-outline-primary">
+            <i class="fas fa-arrow-left me-2"></i>Back to All Posts
+          </a>
+        </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Related posts -->
+{{ $related := .Site.RegularPages.Related . | first 3 }}
+{{ if $related }}
+<section class="py-5 bg-light">
+  <div class="container">
+    <h3 class="text-center mb-4">Related Posts</h3>
+    <div class="row g-4">
+      {{ range $related }}
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="{{ .RelPermalink }}" class="text-decoration-none stretched-link">{{ .Title }}</a>
+            </h5>
+            <p class="card-text">
+              <small class="text-muted">
+                <i class="fas fa-calendar me-1"></i>{{ .Date.Format "Jan 2, 2006" }}
+              </small>
+            </p>
+            {{ if .Summary }}
+            <p class="card-text">{{ .Summary | truncate 100 }}</p>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ end }}

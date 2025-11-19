@@ -5,13 +5,30 @@ theme: "qfield-theme-v3"
 enableRobotsTXT: true
 enableGitInfo: true
 enableEmoji: true
+themeColor: "#80CC28"         # Primary green accent
+enableDarkMode: true
+defaultTheme: "auto"
+highlight: true
+enableScrollToTop: true
 
 # SEO and metadata configuration
 params:
+
   version: "1.0.0"
   description: "QField is the leading open-source mobile GIS application that makes field data collection efficient and accessible. Built for QGIS, QField brings powerful mapping capabilities to your mobile device."
   author: "OPENGIS.ch"
   copyright: "© 2024 OPENGIS.ch"
+  mainMenuLogo: "/images/qfield_for_qgis.png"
+  showTitle: false
+  favicon: "/images/qfield-logo.svg"
+  logo: "/images/qfield_for_qgis.png"
+  cta_text: "Get started"
+  cta_link: "https://docs.qfield.org/get-started/"
+
+  options:
+    bootStrapJs: true
+    breadCrumb: true
+
   
   # Social and contact information
   twitter: "@qfieldforqgis"
@@ -155,15 +172,68 @@ taxonomies:
 # Menu configuration for structured navigation
 menu:
   main:
-    - name: "Features"
+    - name: "Highlights"
+      identifier: "highlights"
       url: "/#highlights"
       weight: 10
+    - name: "Get Assistance"
+      identifier: "assistance"
+      url: "/assistance/"
+      weight: 20
+    - name: "Resources"
+      identifier: "resources"
+      weight: 30
     - name: "Success Stories"
+      parent: "resources"
       url: "/success-stories/"
+      weight: 10
+    - name: "Community"
+      parent: "resources"
+      url: "https://community.qfield.org/"
       weight: 20
     - name: "Documentation"
+      parent: "resources"
       url: "https://docs.qfield.org"
       weight: 30
-    - name: "Support"
-      url: "/support-us/"
+    - name: "Contribute"
+      parent: "resources"
+      url: "https://docs.qfield.org/get-started/contribute/"
       weight: 40
+    - name: "Source Code"
+      parent: "resources"
+      url: "https://github.com/opengisch/qfield"
+      weight: 50
+    - name: "Partner Programs"
+      parent: "resources"
+      url: "/partner/"
+      weight: 60
+    - name: "Sustainable Development Goals"
+      parent: "resources"
+      url: "/sdgs/"
+      weight: 70
+    - name: "Blog"
+      parent: "resources"
+      url: "/blog/"
+      weight: 80
+    - name: "Newsletter"
+      parent: "resources"
+      url: "https://www.opengis.ch/newsletter"
+      weight: 90
+    - name: "Contact Us"
+      identifier: "contact"
+      url: "https://opengis.ch/#contact"
+      weight: 40
+    - name: "Get started"
+      identifier: "get-started"
+      url: "https://docs.qfield.org/get-started/"
+      weight: 50
+      params:
+        variant: "primary"
+        icon: "fa-solid fa-rocket"
+    - name: "Support us"
+      identifier: "support"
+      url: "/support-us/"
+      weight: 60
+      params:
+        variant: "support"
+        icon: "fa-solid fa-heart"

@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>QGIS Fieldwork on QField - Efficient field work built for QGIS</title><link>https://qfield.org/tags/qgis-fieldwork/</link><description>Recent content in QGIS Fieldwork on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en</language><atom:link href="https://qfield.org/tags/qgis-fieldwork/feed.xml" rel="self" type="application/rss+xml"/><item><title>QField for Academic Field Studies</title><link>https://qfield.org/solutions/academic-field-studies/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/academic-field-studies/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Field mapping exercises and labs&lt;/li>
+&lt;li>Research data collection and QA&lt;/li>
+&lt;li>Group collaboration and feedback&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Build projects in QGIS and keep cohorts aligned via QFieldCloud.&lt;/p></description></item><item><title>QField for Agriculture and Precision Farming</title><link>https://qfield.org/solutions/agriculture-and-precision-farming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/agriculture-and-precision-farming/</guid><description>&lt;h2 id="field-data-for-precision-agriculture">Field data for precision agriculture&lt;/h2>
+&lt;p>Collect observations, pests, nutrient deficiencies, and treatment records. Use standardized forms to maintain quality.&lt;/p>
+&lt;h3 id="typical-workflows">Typical workflows&lt;/h3>
+&lt;ul>
+&lt;li>Crop scouting and disease monitoring&lt;/li>
+&lt;li>Soil sampling and fertility mapping&lt;/li>
+&lt;li>Treatment records and compliance&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Build data models in QGIS and collaborate with QFieldCloud for timely decisions.&lt;/p></description></item><item><title>QField for Archaeology and Anthropology</title><link>https://qfield.org/solutions/archaeology-and-anthropology/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/archaeology-and-anthropology/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Site surveys and contexts&lt;/li>
+&lt;li>Ethnographic mapping and interviews&lt;/li>
+&lt;li>Monitoring and conservation&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare projects in QGIS and collaborate across teams via QFieldCloud.&lt;/p></description></item><item><title>QField for Architecture and Site Supervision</title><link>https://qfield.org/solutions/architecture-and-site-supervision/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/architecture-and-site-supervision/</guid><description>&lt;h2 id="architecture-fieldwork-made-simple">Architecture fieldwork made simple&lt;/h2>
+&lt;p>Use QField to check design intent, record deviations, and manage approvals. Forms and constraints mirror your QGIS model to keep data consistent.&lt;/p>
+&lt;h3 id="key-benefits">Key benefits&lt;/h3>
+&lt;ul>
+&lt;li>Offline access to drawings and maps&lt;/li>
+&lt;li>Photo and note capture linked to features&lt;/li>
+&lt;li>Efficient supervision reports from synced data&lt;/li>
+&lt;/ul>
+&lt;h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare layers and forms in QGIS, then sync changes through QFieldCloud. Everyone sees the latest updates without email or USB handover.&lt;/p></description></item><item><title>QField for Cadastral and Land Registry</title><link>https://qfield.org/solutions/cadastral-and-land-registry/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/cadastral-and-land-registry/</guid><description>&lt;h2 id="cadastral-fieldwork">Cadastral fieldwork&lt;/h2>
+&lt;ul>
+&lt;li>Boundary verification and evidence collection&lt;/li>
+&lt;li>Parcel attribute checks and updates&lt;/li>
+&lt;li>Photo documentation and audit trail&lt;/li>
+&lt;/ul>
+&lt;h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Design forms in QGIS and sync via QFieldCloud to keep registry data accurate and traceable.&lt;/p></description></item><item><title>QField for Carbon Stock and Sequestration Studies</title><link>https://qfield.org/solutions/carbon-stock-and-sequestration-studies/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/carbon-stock-and-sequestration-studies/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Biomass plot mapping and measurements&lt;/li>
+&lt;li>QA with photo evidence&lt;/li>
+&lt;li>Sync and collaborate with QFieldCloud&lt;/li>
+&lt;/ul></description></item><item><title>QField for Citizen Science and Participatory Mapping</title><link>https://qfield.org/solutions/citizen-science-and-participatory-mapping/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/citizen-science-and-participatory-mapping/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Community mapping and local surveys&lt;/li>
+&lt;li>Environmental observations and reporting&lt;/li>
+&lt;li>Collaborative data projects with oversight&lt;/li>
+&lt;/ul>
+&lt;h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Set up data models in QGIS and coordinate contributors via QFieldCloud.&lt;/p></description></item><item><title>QField for Civil Protection and Risk Assessment</title><link>https://qfield.org/solutions/civil-protection-and-risk-assessment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/civil-protection-and-risk-assessment/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Hazard and risk mapping&lt;/li>
+&lt;li>Critical asset and infrastructure checks&lt;/li>
+&lt;li>Emergency planning and drills&lt;/li>
+&lt;/ul>
+&lt;h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Keep risk data current and collaborative with a unified workflow.&lt;/p></description></item><item><title>QField for Climate Change Research</title><link>https://qfield.org/solutions/climate-change-research/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/climate-change-research/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Site mapping and variable recording&lt;/li>
+&lt;li>Photo documentation and annotations&lt;/li>
+&lt;li>Sync to QFieldCloud for collaboration&lt;/li>
+&lt;/ul></description></item><item><title>QField for Community Mapping and Local Governance</title><link>https://qfield.org/solutions/community-mapping-and-local-governance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/community-mapping-and-local-governance/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Community issue mapping&lt;/li>
+&lt;li>Service access and planning&lt;/li>
+&lt;li>Participatory planning and reporting&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Design projects in QGIS and collaborate securely via QFieldCloud.&lt;/p></description></item><item><title>QField for Construction and Engineering</title><link>https://qfield.org/solutions/construction-and-engineering/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/construction-and-engineering/</guid><description>&lt;h2 id="field-ready-construction-data-collection">Field-ready construction data collection&lt;/h2>
+&lt;p>QField lets site crews perform accurate surveys, stakeouts, and as-built capture with a simple mobile GIS. Forms, domains, and constraints from QGIS ensure consistent data entry.&lt;/p>
+&lt;h3 id="why-teams-choose-qfield">Why teams choose QField&lt;/h3>
+&lt;ul>
+&lt;li>Works fully offline in demanding environments&lt;/li>
+&lt;li>Real-time QA rules reduce rework&lt;/li>
+&lt;li>Seamless sync to QGIS and QFieldCloud for collaboration&lt;/li>
+&lt;/ul>
+&lt;h3 id="typical-workflows">Typical workflows&lt;/h3>
+&lt;ul>
+&lt;li>Pre-construction site surveys and utilities locating&lt;/li>
+&lt;li>As-built capture with photos and notes&lt;/li>
+&lt;li>Punch lists, inspections, and issue tracking&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrates-with-qgis-and-qfieldcloud">Integrates with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare projects in QGIS, deploy to devices, and keep teams in sync with QFieldCloud. Maintain a single source of truth from design to handover.&lt;/p></description></item><item><title>QField for Construction Progress Documentation</title><link>https://qfield.org/solutions/construction-progress-documentation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/construction-progress-documentation/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Daily progress photos and notes&lt;/li>
+&lt;li>As-built updates and redlines&lt;/li>
+&lt;li>QA and handover documentation&lt;/li>
+&lt;/ul>
+&lt;h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare projects in QGIS and maintain a single source of truth via QFieldCloud.&lt;/p></description></item><item><title>QField for Corporate ESG Field Data</title><link>https://qfield.org/solutions/corporate-esg-field-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/corporate-esg-field-data/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>ESG site checks and audits&lt;/li>
+&lt;li>Evidence capture and KPIs&lt;/li>
+&lt;li>Reporting-ready data exports&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Keep one source of truth from field to ESG reports.&lt;/p></description></item><item><title>QField for Cultural Heritage and Archaeology</title><link>https://qfield.org/solutions/cultural-heritage-and-archaeology/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/cultural-heritage-and-archaeology/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Heritage inventories and condition surveys&lt;/li>
+&lt;li>Excavation context and finds recording&lt;/li>
+&lt;li>Monitoring and conservation activities&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare layers and forms in QGIS and sync via QFieldCloud to collaborate across teams.&lt;/p></description></item><item><title>QField for Drone Survey Ground Validation</title><link>https://qfield.org/solutions/drone-survey-ground-validation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/drone-survey-ground-validation/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Ground control and checkpoints&lt;/li>
+&lt;li>Feature validation and QA&lt;/li>
+&lt;li>Sync to QGIS/QFieldCloud for analysis&lt;/li>
+&lt;/ul>
+&lt;h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Design projects in QGIS and keep field and office aligned with QFieldCloud.&lt;/p></description></item><item><title>QField for Ecology and Biodiversity Monitoring</title><link>https://qfield.org/solutions/ecology-and-biodiversity-monitoring/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/ecology-and-biodiversity-monitoring/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Record species, abundance, and habitats&lt;/li>
+&lt;li>Map plots and transects with accurate GNSS&lt;/li>
+&lt;li>Attach photos and notes for QA&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Share projects and manage permissions in QFieldCloud. Export to standard formats for analysis.&lt;/p></description></item><item><title>QField for Ecology and Environmental Science Education</title><link>https://qfield.org/solutions/ecology-and-environmental-science-education/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/ecology-and-environmental-science-education/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Field labs and data collection&lt;/li>
+&lt;li>Observation and species recording&lt;/li>
+&lt;li>Group collaboration and reporting&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Build projects in QGIS and coordinate coursework with QFieldCloud.&lt;/p></description></item><item><title>QField for Energy and Renewables (Solar, Wind, Hydro)</title><link>https://qfield.org/solutions/energy-and-renewables-solar-wind-hydro/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/energy-and-renewables-solar-wind-hydro/</guid><description>&lt;h2 id="fieldwork-for-renewable-assets">Fieldwork for renewable assets&lt;/h2>
+&lt;p>Map infrastructure, record conditions, and document issues with photos. Work fully offline and sync later with QFieldCloud.&lt;/p>
+&lt;h3 id="typical-workflows">Typical workflows&lt;/h3>
+&lt;ul>
+&lt;li>Pre-construction environmental and site surveys&lt;/li>
+&lt;li>Construction QA and cable route verification&lt;/li>
+&lt;li>O&amp;amp;M inspections, defects, and preventive maintenance&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrates-with-qgis-and-qfieldcloud">Integrates with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare layers and smart forms in QGIS. Share projects, collaborate, and sync changes via QFieldCloud.&lt;/p></description></item><item><title>QField for Environmental Compliance Auditing</title><link>https://qfield.org/solutions/environmental-compliance-auditing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/environmental-compliance-auditing/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Facility inspections and audits&lt;/li>
+&lt;li>Emissions and waste checks&lt;/li>
+&lt;li>Corrective action tracking&lt;/li>
+&lt;/ul>
+&lt;h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare forms and styles in QGIS and collaborate with QFieldCloud for consistent results.&lt;/p></description></item><item><title>QField for Environmental Impact Assessment</title><link>https://qfield.org/solutions/environmental-impact-assessment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/environmental-impact-assessment/</guid><description>&lt;h2 id="eia-fieldwork">EIA fieldwork&lt;/h2>
+&lt;ul>
+&lt;li>Baseline surveys and constraints mapping&lt;/li>
+&lt;li>Monitoring and mitigation checks&lt;/li>
+&lt;li>Stakeholder and site access documentation&lt;/li>
+&lt;/ul>
+&lt;h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare symbology, rules, and forms in QGIS. Sync and collaborate with QFieldCloud for timely reviews.&lt;/p></description></item><item><title>QField for EUDR (EU Deforestation Regulation) Data Collection</title><link>https://qfield.org/solutions/eudr-data-collection/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/eudr-data-collection/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Plot mapping and evidence capture&lt;/li>
+&lt;li>Risk assessment and verification&lt;/li>
+&lt;li>Export to standard formats for reporting&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare data models in QGIS and collaborate securely with QFieldCloud.&lt;/p></description></item><item><title>QField for Facility and Asset Management</title><link>https://qfield.org/solutions/facility-and-asset-management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/facility-and-asset-management/</guid><description>&lt;h2 id="field-data-for-asset-management">Field data for asset management&lt;/h2>
+&lt;p>Collect accurate locations, attributes, and photos. Use domains and constraints for consistent records.&lt;/p>
+&lt;h3 id="typical-workflows">Typical workflows&lt;/h3>
+&lt;ul>
+&lt;li>Asset inventory and barcoding&lt;/li>
+&lt;li>Condition surveys and maintenance logs&lt;/li>
+&lt;li>Space and safety inspections&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Build your model in QGIS, then sync projects with QFieldCloud for smooth collaboration.&lt;/p></description></item><item><title>QField for Fibre and Telecommunication Networks</title><link>https://qfield.org/solutions/fibre-and-telecommunication-networks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/fibre-and-telecommunication-networks/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Plan trench routes and equipment locations&lt;/li>
+&lt;li>Collect as-builts with attributes and photos&lt;/li>
+&lt;li>Sync changes and comments via QFieldCloud&lt;/li>
+&lt;/ul>
+&lt;h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud&lt;/h2>
+&lt;p>One workflow from office planning to field execution and back, without data loss.&lt;/p></description></item><item><title>QField for Fisheries and Marine Resource Management</title><link>https://qfield.org/solutions/fisheries-and-marine-resource-management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/fisheries-and-marine-resource-management/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Fisheries surveys and logbooks&lt;/li>
+&lt;li>Coastal habitat and erosion monitoring&lt;/li>
+&lt;li>Marine resource mapping and compliance&lt;/li>
+&lt;/ul>
+&lt;h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare layers and forms in QGIS and keep teams aligned with QFieldCloud sync.&lt;/p></description></item><item><title>QField for Forestry and Silviculture</title><link>https://qfield.org/solutions/forestry-and-silviculture/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/forestry-and-silviculture/</guid><description>&lt;h2 id="field-workflows">Field workflows&lt;/h2>
+&lt;ul>
+&lt;li>Forest inventory and plot sampling&lt;/li>
+&lt;li>Silviculture and harvesting operations tracking&lt;/li>
+&lt;li>Habitat and biodiversity mapping&lt;/li>
+&lt;/ul>
+&lt;h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare in QGIS, collect in QField, and sync with QFieldCloud for conflict-safe merges.&lt;/p></description></item><item><title>QField for Gas and Pipeline Networks</title><link>https://qfield.org/solutions/gas-and-pipeline-networks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/gas-and-pipeline-networks/</guid><description>&lt;h2 id="field-workflows">Field workflows&lt;/h2>
+&lt;ul>
+&lt;li>Route planning and wayleaves documentation&lt;/li>
+&lt;li>As-built capture for new segments&lt;/li>
+&lt;li>Integrity inspections and leak reports&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare projects in QGIS and keep teams synced via QFieldCloud for efficient reviews.&lt;/p></description></item><item><title>QField for Geological and Geophysical Surveys</title><link>https://qfield.org/solutions/geological-and-geophysical-surveys/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/geological-and-geophysical-surveys/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Geological mapping and structural data&lt;/li>
+&lt;li>Sampling and outcrop documentation&lt;/li>
+&lt;li>Geophysical station mapping and logs&lt;/li>
+&lt;/ul>
+&lt;h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare projects in QGIS and synchronize work across teams via QFieldCloud.&lt;/p></description></item><item><title>QField for Government and Municipalities</title><link>https://qfield.org/solutions/government-and-municipalities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/government-and-municipalities/</guid><description>&lt;h2 id="fieldwork-for-public-administration">Fieldwork for public administration&lt;/h2>
+&lt;p>Inventory public assets, record inspections, and manage service requests with a user-friendly mobile GIS.&lt;/p>
+&lt;h3 id="typical-workflows">Typical workflows&lt;/h3>
+&lt;ul>
+&lt;li>Street furniture and lighting inventories&lt;/li>
+&lt;li>Parks, trails, and facilities inspections&lt;/li>
+&lt;li>Citizen issue documentation and resolution tracking&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrates-with-qgis-and-qfieldcloud">Integrates with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare layers, forms, and symbology in QGIS. Keep teams in sync and on record using QFieldCloud.&lt;/p></description></item><item><title>QField for Health and Epidemiology Fieldwork</title><link>https://qfield.org/solutions/health-and-epidemiology-fieldwork/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/health-and-epidemiology-fieldwork/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Health facility and service mapping&lt;/li>
+&lt;li>Household or community surveys&lt;/li>
+&lt;li>Outbreak mapping and monitoring&lt;/li>
+&lt;/ul>
+&lt;h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare forms in QGIS and sync via QFieldCloud for collaboration and oversight.&lt;/p></description></item><item><title>QField for Humanitarian Aid and Disaster Relief</title><link>https://qfield.org/solutions/humanitarian-aid-and-disaster-relief/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/humanitarian-aid-and-disaster-relief/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Needs assessments and distributions&lt;/li>
+&lt;li>Site mapping and shelter planning&lt;/li>
+&lt;li>Monitoring, reporting, and coordination&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Share projects with agencies securely and keep everyone aligned.&lt;/p></description></item><item><title>QField for Hydrology and Watershed Management</title><link>https://qfield.org/solutions/hydrology-and-watershed-management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/hydrology-and-watershed-management/</guid><description>&lt;h2 id="hydrology-fieldwork">Hydrology fieldwork&lt;/h2>
+&lt;ul>
+&lt;li>Stream and culvert surveys&lt;/li>
+&lt;li>Flood impact and debris mapping&lt;/li>
+&lt;li>Watershed monitoring sites and parameters&lt;/li>
+&lt;/ul>
+&lt;h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare forms and styles in QGIS. Collaborate and sync changes through QFieldCloud.&lt;/p></description></item><item><title>QField for Infrastructure Digital Twins</title><link>https://qfield.org/solutions/infrastructure-digital-twins/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/infrastructure-digital-twins/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Condition and asset updates&lt;/li>
+&lt;li>Inspection and maintenance records&lt;/li>
+&lt;li>Media capture and documentation&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Design data models in QGIS and keep field and office aligned with QFieldCloud.&lt;/p></description></item><item><title>QField for Land Restoration and Conservation</title><link>https://qfield.org/solutions/land-restoration-and-conservation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/land-restoration-and-conservation/</guid><description>&lt;h2 id="workflows">Workflows&lt;/h2>
+&lt;ul>
+&lt;li>Restoration site mapping and monitoring&lt;/li>
+&lt;li>Habitat assessments and invasive species tracking&lt;/li>
+&lt;li>Community programs and stewardship records&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Design forms and symbology in QGIS, then sync and review via QFieldCloud.&lt;/p></description></item><item><title>QField for LiDAR and Photogrammetry Ground Control</title><link>https://qfield.org/solutions/lidar-and-photogrammetry-ground-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/lidar-and-photogrammetry-ground-control/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Plan and stake out GCPs&lt;/li>
+&lt;li>Record positions and evidence&lt;/li>
+&lt;li>Export to GIS and processing workflows&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare targets in QGIS and collaborate with teams via QFieldCloud.&lt;/p></description></item><item><title>QField for Mining and Quarrying</title><link>https://qfield.org/solutions/mining-and-quarrying/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/mining-and-quarrying/</guid><description>&lt;h2 id="field-workflows-for-mines-and-quarries">Field workflows for mines and quarries&lt;/h2>
+&lt;ul>
+&lt;li>Exploration mapping and sampling&lt;/li>
+&lt;li>Haul road and safety inspections&lt;/li>
+&lt;li>Environmental monitoring and compliance&lt;/li>
+&lt;/ul>
+&lt;h2 id="end-to-end-with-qgis-and-qfieldcloud">End-to-end with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare, collect, and sync data across teams with an auditable trail of changes.&lt;/p></description></item><item><title>QField for Natural Disaster Assessment (Floods, Landslides, Wildfires)</title><link>https://qfield.org/solutions/natural-disaster-assessment-floods-landslides-wildfires/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/natural-disaster-assessment-floods-landslides-wildfires/</guid><description>&lt;h2 id="field-workflows">Field workflows&lt;/h2>
+&lt;ul>
+&lt;li>Rapid damage assessments&lt;/li>
+&lt;li>Hazard and access mapping&lt;/li>
+&lt;li>Infrastructure impact documentation&lt;/li>
+&lt;/ul>
+&lt;h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Coordinate across teams with shared projects, permissions, and change tracking.&lt;/p></description></item><item><title>QField for Power Transmission and Distribution</title><link>https://qfield.org/solutions/power-transmission-and-distribution/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/power-transmission-and-distribution/</guid><description>&lt;h2 id="grid-asset-fieldwork">Grid asset fieldwork&lt;/h2>
+&lt;p>Inventory lines, poles, transformers, and substations. Capture conditions and defects with photos and attributes.&lt;/p>
+&lt;h3 id="typical-workflows">Typical workflows&lt;/h3>
+&lt;ul>
+&lt;li>Patrols and line inspections&lt;/li>
+&lt;li>Vegetation encroachment surveys&lt;/li>
+&lt;li>As-built capture and redlines&lt;/li>
+&lt;/ul>
+&lt;h2 id="one-workflow-from-field-to-gis">One workflow from field to GIS&lt;/h2>
+&lt;p>Prepare in QGIS, collect in QField, and sync through QFieldCloud for a clean audit trail.&lt;/p></description></item><item><title>QField for Public Works and Infrastructure Maintenance</title><link>https://qfield.org/solutions/public-works-and-infrastructure-maintenance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/public-works-and-infrastructure-maintenance/</guid><description>&lt;h2 id="field-workflows">Field workflows&lt;/h2>
+&lt;ul>
+&lt;li>Asset inventory and condition assessment&lt;/li>
+&lt;li>Maintenance inspections and repairs&lt;/li>
+&lt;li>Work order documentation and QA&lt;/li>
+&lt;/ul>
+&lt;h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Build your data model in QGIS and collaborate via QFieldCloud to keep records current.&lt;/p></description></item><item><title>QField for Refugee Camp and Shelter Mapping</title><link>https://qfield.org/solutions/refugee-camp-and-shelter-mapping/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/refugee-camp-and-shelter-mapping/</guid><description>&lt;h2 id="field-workflows">Field workflows&lt;/h2>
+&lt;ul>
+&lt;li>Shelter and service inventories&lt;/li>
+&lt;li>Site planning and allocation&lt;/li>
+&lt;li>Protection and safety mapping&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare projects in QGIS and collaborate via QFieldCloud even in challenging contexts.&lt;/p></description></item><item><title>QField for Remote Asset Inspection</title><link>https://qfield.org/solutions/remote-asset-inspection/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/remote-asset-inspection/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Inspections and maintenance logs&lt;/li>
+&lt;li>Photo and note documentation&lt;/li>
+&lt;li>Sync to QGIS and QFieldCloud for reviews&lt;/li>
+&lt;/ul>
+&lt;h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare projects in QGIS and coordinate teams with QFieldCloud.&lt;/p></description></item><item><title>QField for Security, Policing, and Crime Mapping</title><link>https://qfield.org/solutions/security-policing-and-crime-mapping/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/security-policing-and-crime-mapping/</guid><description>&lt;h2 id="field-workflows">Field workflows&lt;/h2>
+&lt;ul>
+&lt;li>Incident and hazard mapping&lt;/li>
+&lt;li>Patrol routes and observations&lt;/li>
+&lt;li>Community safety surveys&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Maintain a single source of truth from field to analysis and reporting.&lt;/p></description></item><item><title>QField for Smart Cities and Urban Mobility</title><link>https://qfield.org/solutions/smart-cities-and-urban-mobility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/smart-cities-and-urban-mobility/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Sensor and device inventories&lt;/li>
+&lt;li>Mobility infrastructure mapping&lt;/li>
+&lt;li>Condition and performance checks&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Ensure teams use the same data and styles, with sync and review workflows built in.&lt;/p></description></item><item><title>QField for Social Suffering and Vulnerability Mapping</title><link>https://qfield.org/solutions/social-suffering-vulnerability-mapping/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/social-suffering-vulnerability-mapping/</guid><description>&lt;h2 id="field-workflows">Field workflows&lt;/h2>
+&lt;ul>
+&lt;li>Vulnerability and needs assessments&lt;/li>
+&lt;li>Service access and infrastructure mapping&lt;/li>
+&lt;li>Community engagements and feedback&lt;/li>
+&lt;/ul>
+&lt;h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare forms in QGIS and collaborate through QFieldCloud with clear permissions and history.&lt;/p></description></item><item><title>QField for Soil and Land Quality Surveys</title><link>https://qfield.org/solutions/soil-and-land-quality-surveys/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/soil-and-land-quality-surveys/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Plan sampling grids and record field logs&lt;/li>
+&lt;li>Capture depths, horizons, and conditions&lt;/li>
+&lt;li>Attach photos and sync to QFieldCloud&lt;/li>
+&lt;/ul></description></item><item><title>QField for Sustainable Land-Use Planning</title><link>https://qfield.org/solutions/sustainable-land-use-planning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/sustainable-land-use-planning/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Site surveys and constraints mapping&lt;/li>
+&lt;li>Monitoring and plan verification&lt;/li>
+&lt;li>Stakeholder engagement records&lt;/li>
+&lt;/ul>
+&lt;h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare forms and styles in QGIS and collaborate via QFieldCloud across teams.&lt;/p></description></item><item><title>QField for Tourism and Outdoor Recreation Management</title><link>https://qfield.org/solutions/tourism-and-outdoor-recreation-management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/tourism-and-outdoor-recreation-management/</guid><description>&lt;h2 id="field-workflows">Field workflows&lt;/h2>
+&lt;ul>
+&lt;li>Trail mapping and signage&lt;/li>
+&lt;li>Facility inventories and inspections&lt;/li>
+&lt;li>Visitor infrastructure planning and maintenance&lt;/li>
+&lt;/ul>
+&lt;h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare projects in QGIS and keep teams aligned with QFieldCloud collaboration.&lt;/p></description></item><item><title>QField for Transportation (Roads, Rail, Airports, Signage)</title><link>https://qfield.org/solutions/transportation-roads-rail-airports-signage/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/transportation-roads-rail-airports-signage/</guid><description>&lt;h2 id="field-ready-transportation-asset-management">Field-ready transportation asset management&lt;/h2>
+&lt;p>QField helps teams inventory roads, rail assets, airport infrastructure, and signage. Collect geospatially accurate data, photos, and conditions even without connectivity.&lt;/p>
+&lt;h3 id="typical-workflows">Typical workflows&lt;/h3>
+&lt;ul>
+&lt;li>Road furniture and pavement condition surveys&lt;/li>
+&lt;li>Rail corridor asset inspections and clearances&lt;/li>
+&lt;li>Airport signage, lighting, and safety inspections&lt;/li>
+&lt;/ul>
+&lt;h2 id="built-for-collaboration">Built for collaboration&lt;/h2>
+&lt;p>Prepare in QGIS, collect in QField, and sync through QFieldCloud so office and field stay aligned.&lt;/p></description></item><item><title>QField for Urban Planning and Zoning</title><link>https://qfield.org/solutions/urban-planning-and-zoning/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/urban-planning-and-zoning/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Site surveys and plan monitoring&lt;/li>
+&lt;li>Zoning compliance checks&lt;/li>
+&lt;li>Stakeholder engagement and notes&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Keep planners and inspectors aligned with a single source of truth, online or offline.&lt;/p></description></item><item><title>QField for Waste Management and Sanitation</title><link>https://qfield.org/solutions/waste-management-and-sanitation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/waste-management-and-sanitation/</guid><description>&lt;h2 id="field-workflows">Field workflows&lt;/h2>
+&lt;ul>
+&lt;li>Route audits and optimization inputs&lt;/li>
+&lt;li>Container inventories and maintenance&lt;/li>
+&lt;li>Sanitation inspections and issue reporting&lt;/li>
+&lt;/ul>
+&lt;h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Build your model in QGIS and collaborate via QFieldCloud to keep operations smooth.&lt;/p></description></item><item><title>QField for Water Utilities and Wastewater Management</title><link>https://qfield.org/solutions/water-utilities-and-wastewater-management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/water-utilities-and-wastewater-management/</guid><description>&lt;h2 id="water-and-wastewater-fieldwork">Water and wastewater fieldwork&lt;/h2>
+&lt;p>Map pipes, valves, hydrants, manholes, and treatment facilities. Capture photos and notes linked to each feature.&lt;/p>
+&lt;h3 id="typical-workflows">Typical workflows&lt;/h3>
+&lt;ul>
+&lt;li>Valve exercising and hydrant inspections&lt;/li>
+&lt;li>Sewer manhole surveys and condition assessments&lt;/li>
+&lt;li>Leak detection and repair documentation&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Design forms in QGIS, then sync and collaborate with QFieldCloud to keep asset data current.&lt;/p></description></item><item><title>QField for Wildlife Tracking and Habitat Mapping</title><link>https://qfield.org/solutions/wildlife-tracking-and-habitat-mapping/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/wildlife-tracking-and-habitat-mapping/</guid><description>&lt;h2 id="workflows">Workflows&lt;/h2>
+&lt;ul>
+&lt;li>Wildlife observations and telemetry&lt;/li>
+&lt;li>Habitat mapping and suitability assessments&lt;/li>
+&lt;li>Protected areas surveys and monitoring&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare symbology and forms in QGIS, then sync projects with QFieldCloud to collaborate across teams.&lt;/p></description></item></channel></rss>

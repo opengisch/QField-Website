@@ -1,0 +1,14 @@
+- id: world
+  label: "🌍 World"
+- id: europe
+  label: "Europe"
+- id: asia
+  label: "Asia"
+- id: north-america
+  label: "North America"
+- id: south-america
+  label: "South America"
+- id: africa
+  label: "Africa"
+- id: oceania
+  label: "Oceania"

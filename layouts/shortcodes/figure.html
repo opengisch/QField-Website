@@ -1,30 +1,29 @@
 {{ $src := .Get "src" }}
 {{ $alt := .Get "alt" | default "" }}
-{{ $caption := .Get "caption" }}
+{{ $caption := .Get "caption" | default "" }}
+{{ $class := .Get "class" | default "" }}
+{{ $width := .Get "width" | default "" }}
+{{ $height := .Get "height" | default "" }}
+{{ $href := .Get "href" }}
+{{ $target := .Get "target" | default (cond (strings.HasPrefix $href "http") "_blank" "_self") }}
+{{ $rel := .Get "rel" | default (cond (and $href (eq $target "_blank")) "noopener" "") }}
 
-{{ if hasPrefix $src "/blog/wp-content/" }}
-  {{ $src = replace $src "/blog/wp-content/" "/wp-content/" }}
+{{ $style := "" }}
+{{ if $width }}
+  {{ $style = printf "%swidth:%s;" $style $width }}
 {{ end }}
-{{ if hasPrefix $src "https://www.opengis.ch/blog/wp-content/" }}
-  {{ $src = replace $src "https://www.opengis.ch/blog/wp-content/" "/wp-content/" }}
-{{ end }}
-{{ if in $src "%5F" }}
-  {{ $src = replace $src "%5F" "_" }}
+{{ if $height }}
+  {{ $style = printf "%sheight:%s;" $style $height }}
 {{ end }}
 
-<figure class="gallery-item">
-  {{- if and (hasPrefix $src "/images/") (not (hasPrefix $src "http")) -}}
-    {{- $assetPath := strings.TrimPrefix "/" $src -}}
-    {{- $figureAsset := resources.Get $assetPath -}}
-    {{- if $figureAsset -}}
-    <img src="{{ $figureAsset.RelPermalink }}" alt="{{ $alt }}" loading="lazy">
-    {{- else -}}
-    <img src="{{ $src | relURL }}" alt="{{ $alt }}" loading="lazy">
-    {{- end -}}
-  {{- else -}}
-  <img src="{{ $src | relURL }}" alt="{{ $alt }}" loading="lazy">
-  {{- end -}}
+<figure class="figure text-center{{ if $class }} {{ $class }}{{ end }} mb-4">
+  {{ if $href }}<a href="{{ $href }}" target="{{ $target }}"{{ if $rel }} rel="{{ $rel }}"{{ end }}>{{ end }}
+    <img src="{{ $src }}" alt="{{ $alt }}" class="figure-img img-fluid gallery-img"
+         {{ if $width }}width="{{ $width }}"{{ end }}
+         {{ if $height }}height="{{ $height }}"{{ end }}
+         {{ if $style }}style="{{ $style }}"{{ end }}>
+  {{ if $href }}</a>{{ end }}
   {{ if $caption }}
-  <figcaption>{{ $caption }}</figcaption>
+  <figcaption class="figure-caption text-center">{{ $caption | markdownify }}</figcaption>
   {{ end }}
 </figure>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Environment, Agriculture &amp; Natural Resources on QField - Efficient field work built for QGIS</title><link>https://qfield.org/categories/environment-agriculture--natural-resources/</link><description>Recent content in Environment, Agriculture &amp; Natural Resources on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en</language><atom:link href="https://qfield.org/categories/environment-agriculture--natural-resources/feed.xml" rel="self" type="application/rss+xml"/><item><title>QField for Agriculture and Precision Farming</title><link>https://qfield.org/solutions/agriculture-and-precision-farming/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/agriculture-and-precision-farming/</guid><description>&lt;h2 id="field-data-for-precision-agriculture">Field data for precision agriculture&lt;/h2>
+&lt;p>Collect observations, pests, nutrient deficiencies, and treatment records. Use standardized forms to maintain quality.&lt;/p>
+&lt;h3 id="typical-workflows">Typical workflows&lt;/h3>
+&lt;ul>
+&lt;li>Crop scouting and disease monitoring&lt;/li>
+&lt;li>Soil sampling and fertility mapping&lt;/li>
+&lt;li>Treatment records and compliance&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Build data models in QGIS and collaborate with QFieldCloud for timely decisions.&lt;/p></description></item><item><title>QField for Climate Change Research</title><link>https://qfield.org/solutions/climate-change-research/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/climate-change-research/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Site mapping and variable recording&lt;/li>
+&lt;li>Photo documentation and annotations&lt;/li>
+&lt;li>Sync to QFieldCloud for collaboration&lt;/li>
+&lt;/ul></description></item><item><title>QField for Ecology and Biodiversity Monitoring</title><link>https://qfield.org/solutions/ecology-and-biodiversity-monitoring/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/ecology-and-biodiversity-monitoring/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Record species, abundance, and habitats&lt;/li>
+&lt;li>Map plots and transects with accurate GNSS&lt;/li>
+&lt;li>Attach photos and notes for QA&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Share projects and manage permissions in QFieldCloud. Export to standard formats for analysis.&lt;/p></description></item><item><title>QField for Environmental Impact Assessment</title><link>https://qfield.org/solutions/environmental-impact-assessment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/environmental-impact-assessment/</guid><description>&lt;h2 id="eia-fieldwork">EIA fieldwork&lt;/h2>
+&lt;ul>
+&lt;li>Baseline surveys and constraints mapping&lt;/li>
+&lt;li>Monitoring and mitigation checks&lt;/li>
+&lt;li>Stakeholder and site access documentation&lt;/li>
+&lt;/ul>
+&lt;h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare symbology, rules, and forms in QGIS. Sync and collaborate with QFieldCloud for timely reviews.&lt;/p></description></item><item><title>QField for Fisheries and Marine Resource Management</title><link>https://qfield.org/solutions/fisheries-and-marine-resource-management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/fisheries-and-marine-resource-management/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Fisheries surveys and logbooks&lt;/li>
+&lt;li>Coastal habitat and erosion monitoring&lt;/li>
+&lt;li>Marine resource mapping and compliance&lt;/li>
+&lt;/ul>
+&lt;h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare layers and forms in QGIS and keep teams aligned with QFieldCloud sync.&lt;/p></description></item><item><title>QField for Forestry and Silviculture</title><link>https://qfield.org/solutions/forestry-and-silviculture/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/forestry-and-silviculture/</guid><description>&lt;h2 id="field-workflows">Field workflows&lt;/h2>
+&lt;ul>
+&lt;li>Forest inventory and plot sampling&lt;/li>
+&lt;li>Silviculture and harvesting operations tracking&lt;/li>
+&lt;li>Habitat and biodiversity mapping&lt;/li>
+&lt;/ul>
+&lt;h2 id="one-workflow-with-qgis-and-qfieldcloud">One workflow with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare in QGIS, collect in QField, and sync with QFieldCloud for conflict-safe merges.&lt;/p></description></item><item><title>QField for Hydrology and Watershed Management</title><link>https://qfield.org/solutions/hydrology-and-watershed-management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/hydrology-and-watershed-management/</guid><description>&lt;h2 id="hydrology-fieldwork">Hydrology fieldwork&lt;/h2>
+&lt;ul>
+&lt;li>Stream and culvert surveys&lt;/li>
+&lt;li>Flood impact and debris mapping&lt;/li>
+&lt;li>Watershed monitoring sites and parameters&lt;/li>
+&lt;/ul>
+&lt;h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare forms and styles in QGIS. Collaborate and sync changes through QFieldCloud.&lt;/p></description></item><item><title>QField for Land Restoration and Conservation</title><link>https://qfield.org/solutions/land-restoration-and-conservation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/land-restoration-and-conservation/</guid><description>&lt;h2 id="workflows">Workflows&lt;/h2>
+&lt;ul>
+&lt;li>Restoration site mapping and monitoring&lt;/li>
+&lt;li>Habitat assessments and invasive species tracking&lt;/li>
+&lt;li>Community programs and stewardship records&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Design forms and symbology in QGIS, then sync and review via QFieldCloud.&lt;/p></description></item><item><title>QField for Soil and Land Quality Surveys</title><link>https://qfield.org/solutions/soil-and-land-quality-surveys/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/soil-and-land-quality-surveys/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
+&lt;ul>
+&lt;li>Plan sampling grids and record field logs&lt;/li>
+&lt;li>Capture depths, horizons, and conditions&lt;/li>
+&lt;li>Attach photos and sync to QFieldCloud&lt;/li>
+&lt;/ul></description></item><item><title>QField for Wildlife Tracking and Habitat Mapping</title><link>https://qfield.org/solutions/wildlife-tracking-and-habitat-mapping/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/wildlife-tracking-and-habitat-mapping/</guid><description>&lt;h2 id="workflows">Workflows&lt;/h2>
+&lt;ul>
+&lt;li>Wildlife observations and telemetry&lt;/li>
+&lt;li>Habitat mapping and suitability assessments&lt;/li>
+&lt;li>Protected areas surveys and monitoring&lt;/li>
+&lt;/ul>
+&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
+&lt;p>Prepare symbology and forms in QGIS, then sync projects with QFieldCloud to collaborate across teams.&lt;/p></description></item></channel></rss>
