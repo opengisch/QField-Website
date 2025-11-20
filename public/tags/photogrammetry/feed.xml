@@ -1,8 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Photogrammetry on QField - Efficient field work built for QGIS</title><link>https://qfield.org/tags/photogrammetry/</link><description>Recent content in Photogrammetry on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en</language><atom:link href="https://qfield.org/tags/photogrammetry/feed.xml" rel="self" type="application/rss+xml"/><item><title>QField for LiDAR and Photogrammetry Ground Control</title><link>https://qfield.org/solutions/lidar-and-photogrammetry-ground-control/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/lidar-and-photogrammetry-ground-control/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
-&lt;ul>
-&lt;li>Plan and stake out GCPs&lt;/li>
-&lt;li>Record positions and evidence&lt;/li>
-&lt;li>Export to GIS and processing workflows&lt;/li>
-&lt;/ul>
-&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
-&lt;p>Prepare targets in QGIS and collaborate with teams via QFieldCloud.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photogrammetry on QField - Efficient field work built for QGIS</title>
+    <link>http://localhost:1313/tags/photogrammetry/</link>
+    <description>Recent content in Photogrammetry on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/photogrammetry/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for LiDAR and Photogrammetry Ground Control</title>
+      <link>http://localhost:1313/solutions/lidar-and-photogrammetry-ground-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/solutions/lidar-and-photogrammetry-ground-control/</guid>
+      <description>&lt;h2 id=&#34;what-you-can-do&#34;&gt;What you can do&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Plan and stake out GCPs&lt;/li&gt;&#xA;&lt;li&gt;Record positions and evidence&lt;/li&gt;&#xA;&lt;li&gt;Export to GIS and processing workflows&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;integrated-with-qgis-and-qfieldcloud&#34;&gt;Integrated with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Prepare targets in QGIS and collaborate with teams via QFieldCloud.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

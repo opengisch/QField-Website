@@ -1,10 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Public Services on QField - Efficient field work built for QGIS</title><link>https://qfield.org/tags/public-services/</link><description>Recent content in Public Services on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en</language><atom:link href="https://qfield.org/tags/public-services/feed.xml" rel="self" type="application/rss+xml"/><item><title>QField for Government and Municipalities</title><link>https://qfield.org/solutions/government-and-municipalities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/government-and-municipalities/</guid><description>&lt;h2 id="fieldwork-for-public-administration">Fieldwork for public administration&lt;/h2>
-&lt;p>Inventory public assets, record inspections, and manage service requests with a user-friendly mobile GIS.&lt;/p>
-&lt;h3 id="typical-workflows">Typical workflows&lt;/h3>
-&lt;ul>
-&lt;li>Street furniture and lighting inventories&lt;/li>
-&lt;li>Parks, trails, and facilities inspections&lt;/li>
-&lt;li>Citizen issue documentation and resolution tracking&lt;/li>
-&lt;/ul>
-&lt;h2 id="integrates-with-qgis-and-qfieldcloud">Integrates with QGIS and QFieldCloud&lt;/h2>
-&lt;p>Prepare layers, forms, and symbology in QGIS. Keep teams in sync and on record using QFieldCloud.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Public Services on QField - Efficient field work built for QGIS</title>
+    <link>http://localhost:1313/tags/public-services/</link>
+    <description>Recent content in Public Services on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/public-services/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Government and Municipalities</title>
+      <link>http://localhost:1313/solutions/government-and-municipalities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/solutions/government-and-municipalities/</guid>
+      <description>&lt;h2 id=&#34;fieldwork-for-public-administration&#34;&gt;Fieldwork for public administration&lt;/h2&gt;&#xA;&lt;p&gt;Inventory public assets, record inspections, and manage service requests with a user-friendly mobile GIS.&lt;/p&gt;&#xA;&lt;h3 id=&#34;typical-workflows&#34;&gt;Typical workflows&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Street furniture and lighting inventories&lt;/li&gt;&#xA;&lt;li&gt;Parks, trails, and facilities inspections&lt;/li&gt;&#xA;&lt;li&gt;Citizen issue documentation and resolution tracking&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;integrates-with-qgis-and-qfieldcloud&#34;&gt;Integrates with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Prepare layers, forms, and symbology in QGIS. Keep teams in sync and on record using QFieldCloud.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

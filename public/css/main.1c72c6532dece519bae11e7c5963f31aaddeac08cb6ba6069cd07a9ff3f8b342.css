@@ -20,6 +20,15 @@
   font-display: swap;
 }
 
+/* Global link styles */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 /* Utility Classes */
 .d-block {
   display: block;
@@ -1195,10 +1204,20 @@ p:has(> img) {
   color: #666;
 }
 
-/* Privacy policy page */
-.privacy-policy-body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  padding: 1em;
+/* Privacy Policy page */
+.privacy-sections h2 {
+  color: #2c3e50;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e9ecef;
+}
+
+.privacy-sections a {
+  color: var(--qfield-color);
+  transition: color 0.3s;
+}
+
+.privacy-sections a:hover {
+  color: #4a8f1e;
 }
 
 /* Partners page */
@@ -2501,33 +2520,65 @@ div.explanation {
   margin-top: 15px;
 }
 
-.sm-btn {
-  border: none;
-  border-radius: 12px;
-  margin-top: 15px;
+/* Thank you page styles */
+.btn-outline-secondary {
   color: var(--qfield-color);
-  gap: 10px;
-  margin: 0px 0px 0px 0px;
+  border-color: var(--qfield-color);
 }
 
-.link-btn {
-  margin-left: -10px !important;
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus {
+  background-color: var(--qfield-color);
+  border-color: var(--qfield-color);
+  color: white;
+}
+
+.btn-outline-secondary i {
+  font-size: 1.1rem;
+}
+
+/* Blog post social share buttons */
+.share-buttons {
+  list-style: none;
   padding: 0;
-  border: none;
-  border-radius: 12px;
-  margin-top: 15px;
-  color: var(--qfield-color);
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
 }
 
-.sm-btn:hover {
-  background-color: none;
-  color: var(--qfield-color);
-  font-weight: normal;
-  text-decoration: none;
-  color: #212121;
+.share-buttons li {
+  margin: 0;
 }
 
-/* hardware page tabs*/
+.share-buttons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  color: #666;
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+}
+
+.share-buttons a:hover {
+  color: var(--qfield-color);
+  background-color: white;
+  border-color: var(--qfield-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.share-buttons svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Hardware page tabs*/
 .nav-tabs a {
   color: rgba(128, 128, 128, 0.8);
 }
@@ -2621,6 +2672,7 @@ div.explanation {
 }
 
 /* donation page */
+/* Donation page styles */
 .donation-btn {
   display: block;
   border: 0.7px solid var(--qfield-color);
@@ -2629,9 +2681,8 @@ div.explanation {
   padding: 0.75rem;
   border-radius: 30px;
   text-decoration: none;
-  font-weight: bolder;
+  font-weight: 600;
   transition: background-color 0.2s, color 0.2s;
-  margin-top: 10px;
   background-color: white;
 }
 
@@ -2643,21 +2694,10 @@ div.explanation {
   cursor: pointer;
 }
 
-.time-options {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #ccc;
-  cursor: pointer;
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .donation-options {
   display: grid;
-  gap: 10px;
-  max-width: 400px;
+  gap: 0.75rem;
+  max-width: 320px;
   margin: 0 auto;
 }
 
@@ -2665,13 +2705,12 @@ div.explanation {
   flex: 1;
   border: none;
   background: none;
-  font-weight: bold;
-  padding: 0.5rem 1rem;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
   color: #212121;
   border-bottom: 3px solid transparent;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-  margin-bottom: 20px;
 }
 
 .donation-tab.active {
@@ -2683,121 +2722,83 @@ div.explanation {
   display: inline-block;
   background-color: var(--qfield-color);
   color: white;
-  padding: 10px 20px;
+  padding: 0.75rem 2rem;
   border-radius: 30px;
-  border: 0.8px white;
-  text-decoration: none !important;
-  font-weight: bold;
-  max-width: 200px;
-  margin: 0 auto;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s;
 }
 
 .donation-submit:hover {
-  background-color: #fff;
+  background-color: white;
   color: var(--qfield-color);
-  text-decoration: none !important;
-  border: 0.8px solid var(--qfield-color);
-  max-width: 200px;
+  text-decoration: none;
+  border: 2px solid var(--qfield-color);
 }
 
-.donate-btn {
-  text-align: center;
-  border-radius: 30px;
-  margin-top: 25px;
-  margin-bottom: 10px;
-}
-
-/* reasons to support qfield*/
+/* Support section styles */
 .header-section {
-  text-align: center;
-  margin: 80px 0 50px 0;
-  max-width: 1100px;
-}
-
-.header-section h1 {
-  text-align: center;
-  margin-bottom: 30px;
+  margin: 4rem 0 3rem 0;
 }
 
 .footer-section {
-  text-align: center;
-  margin: 50px 0 40px 0;
+  margin: 3rem 0 2rem 0;
 }
 
 .support-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-  align-items: start;
+  margin-bottom: 3rem;
 }
 
 .left-section {
-  padding-right: 0;
   text-align: left;
 }
 
 .section-title {
-  font-size: 2.2rem;
+  font-size: 1.75rem;
   font-weight: 700;
   color: #2c3e50;
-  margin-bottom: 20px;
-  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
 }
 
 .accent-bar {
   width: 80px;
   height: 4px;
   background: var(--qfield-color);
-  margin-bottom: 30px;
-}
-
-.right-section {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
+  margin-bottom: 2rem;
 }
 
 .support-card {
   background: rgba(228, 235, 226, 0.3);
   border-radius: 12px;
-  padding: 35px;
+  padding: 2rem;
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.card-title {
-  color: #2c3e50;
-  margin-bottom: 20px;
-}
-
-.card-text {
-  text-align: center;
+  height: 100%;
 }
 
 .card-list {
   list-style: none;
-  text-align: left;
+  padding-left: 0;
+  margin-bottom: 0;
 }
 
 .card-list li {
-  margin-bottom: 12px;
-  padding-left: 20px;
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
   position: relative;
   color: #555;
-  line-height: 1.5;
-}
-
-.card-list ul {
-  margin-left: 0px;
+  line-height: 1.6;
 }
 
 .card-list li::before {
   content: "•";
-  color: #ff6b35;
+  color: var(--qfield-color);
   font-size: 1.2rem;
   position: absolute;
   left: 0;
   top: -2px;
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {
@@ -2942,19 +2943,6 @@ div.explanation {
     font-size: 0.9rem;
   }
 
-  .thankyou-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  }
-
-}
-
-/* low opacity separation line */
-.line {
-  border-top: 1px solid #ddd;
-  padding-top: 30px;
 }
 
 /* Gallery styles */

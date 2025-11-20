@@ -1,15 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Humanitarian on QField - Efficient field work built for QGIS</title><link>https://qfield.org/tags/humanitarian/</link><description>Recent content in Humanitarian on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en</language><atom:link href="https://qfield.org/tags/humanitarian/feed.xml" rel="self" type="application/rss+xml"/><item><title>QField for Humanitarian Aid and Disaster Relief</title><link>https://qfield.org/solutions/humanitarian-aid-and-disaster-relief/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/humanitarian-aid-and-disaster-relief/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
-&lt;ul>
-&lt;li>Needs assessments and distributions&lt;/li>
-&lt;li>Site mapping and shelter planning&lt;/li>
-&lt;li>Monitoring, reporting, and coordination&lt;/li>
-&lt;/ul>
-&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
-&lt;p>Share projects with agencies securely and keep everyone aligned.&lt;/p></description></item><item><title>QField for Refugee Camp and Shelter Mapping</title><link>https://qfield.org/solutions/refugee-camp-and-shelter-mapping/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/refugee-camp-and-shelter-mapping/</guid><description>&lt;h2 id="field-workflows">Field workflows&lt;/h2>
-&lt;ul>
-&lt;li>Shelter and service inventories&lt;/li>
-&lt;li>Site planning and allocation&lt;/li>
-&lt;li>Protection and safety mapping&lt;/li>
-&lt;/ul>
-&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
-&lt;p>Prepare projects in QGIS and collaborate via QFieldCloud even in challenging contexts.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Humanitarian on QField - Efficient field work built for QGIS</title>
+    <link>http://localhost:1313/tags/humanitarian/</link>
+    <description>Recent content in Humanitarian on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/humanitarian/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Humanitarian Aid and Disaster Relief</title>
+      <link>http://localhost:1313/solutions/humanitarian-aid-and-disaster-relief/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/solutions/humanitarian-aid-and-disaster-relief/</guid>
+      <description>&lt;h2 id=&#34;what-you-can-do&#34;&gt;What you can do&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Needs assessments and distributions&lt;/li&gt;&#xA;&lt;li&gt;Site mapping and shelter planning&lt;/li&gt;&#xA;&lt;li&gt;Monitoring, reporting, and coordination&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;integrated-with-qgis-and-qfieldcloud&#34;&gt;Integrated with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Share projects with agencies securely and keep everyone aligned.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>QField for Refugee Camp and Shelter Mapping</title>
+      <link>http://localhost:1313/solutions/refugee-camp-and-shelter-mapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/solutions/refugee-camp-and-shelter-mapping/</guid>
+      <description>&lt;h2 id=&#34;field-workflows&#34;&gt;Field workflows&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Shelter and service inventories&lt;/li&gt;&#xA;&lt;li&gt;Site planning and allocation&lt;/li&gt;&#xA;&lt;li&gt;Protection and safety mapping&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;integrated-with-qgis-and-qfieldcloud&#34;&gt;Integrated with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Prepare projects in QGIS and collaborate via QFieldCloud even in challenging contexts.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

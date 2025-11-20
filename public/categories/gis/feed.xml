@@ -1,287 +1,124 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gis on QField - Efficient field work built for QGIS</title><link>https://qfield.org/categories/gis/</link><description>Recent content in Gis on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 19 Nov 2025 12:01:18 +0100</lastBuildDate><atom:link href="https://qfield.org/categories/gis/feed.xml" rel="self" type="application/rss+xml"/><item><title>QField 3.5 “Fangorn”: Background tracking a reality!</title><link>https://qfield.org/2025/03/04/qfield-3-5-fangorn-background-tracking-a-reality/</link><pubDate>Tue, 04 Mar 2025 05:45:00 +0000</pubDate><guid>https://qfield.org/2025/03/04/qfield-3-5-fangorn-background-tracking-a-reality/</guid><description>&lt;p>Let’s not bury the lead here: the long-awaited capability to track position while QField is in the background or the device is locked has arrived in this brand-new version of QField. This feels like a magical moment, so we settled for a fantastical forest for our release name.&lt;/p>
-&lt;h2 id="main-highlights">Main highlights&lt;/h2>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class="figure text-center mb-4">
- 
- &lt;img src="https://qfield.org/blog/wp-content/uploads/2025/02/splash.png" alt="" class="figure-img img-fluid gallery-img"
- 
- 
- >
- 
- 
-&lt;/figure>
-&lt;p>As highlighted above, QField 3.5 has unlocked &lt;strong>background position tracking&lt;/strong> on the Android platform. This allows users to keep track of their positions even as they put QField in the background to conduct other tasks on their devices. It also means that tracking has become far more battery efficient, as users can lock/suspend their phones and tablets for long periods while QField continues to collect and track positions. On top of it all, this will work out of the book with internal GNSS as well as external high-precision GNSS devices.&lt;/p></description></item><item><title>QField 3.4 “Ebo”: Geofencing and processing out of the box</title><link>https://qfield.org/2024/10/08/qfield-3-4-ebo-geofencing-and-processing-out-of-the-box/</link><pubDate>Tue, 08 Oct 2024 04:45:00 +0000</pubDate><guid>https://qfield.org/2024/10/08/qfield-3-4-ebo-geofencing-and-processing-out-of-the-box/</guid><description>&lt;p>QField 3.4 is out, and it won’t disappoint. It has tons of new features that continue to push the limits of what users can do in the field.&lt;/p>
-&lt;h2 id="main-highlights">Main highlights&lt;/h2>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class="figure text-center mb-4">
- 
- &lt;img src="https://qfield.org/blog/wp-content/uploads/2024/10/34.png" alt="" class="figure-img img-fluid gallery-img"
- 
- 
- >
- 
- 
-&lt;/figure>
-&lt;p>A new &lt;strong>geofencing framework&lt;/strong> has landed, enabling users to configure QField behaviors in relation to geofenced areas and user positioning. Geofenced areas are defined at the project-level and shaped by polygons from a chosen vector layer. The three available geofencing behaviours in this new release are:&lt;/p></description></item><item><title>QField 3.3 “Darién”: It is just the beginning</title><link>https://qfield.org/2024/06/11/qfield-3-3-darien-it-is-just-the-beginning/</link><pubDate>Tue, 11 Jun 2024 04:50:00 +0000</pubDate><guid>https://qfield.org/2024/06/11/qfield-3-3-darien-it-is-just-the-beginning/</guid><description>&lt;p>QField 3.3 has been released, and with it, we are proud to introduce a brand new plugin framework that empowers users to customize and add completely new functionalities to their favourite field application. That’s on top of a bunch of new features and improvements added during this development cycle. What preceded this moment was just the beginning!&lt;/p>
-&lt;h2 id="main-highlights">Main highlights&lt;/h2>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class="figure text-center mb-4">
- 
- &lt;img src="https://qfield.org/blog/wp-content/uploads/2024/06/33splash.png" alt="" class="figure-img img-fluid gallery-img"
- 
- 
- >
- 
- 
-&lt;/figure>
-&lt;p>One of the biggest feature additions of this version is a brand new drawing tool that allows users to sketch out important details over captured photos or annotate drawing templates. This was a highly requested feature, which we are delighted to bring to all supported platforms (Android, iOS, Windows, macOS, and, of course, Linux) with the financial support of the &lt;a href="http://qgis.ch" target="_blank" rel="noopener">Swiss QGIS user group&lt;/a>.&lt;/p></description></item><item><title>QField 3.2 “Congo”: Making your life easier</title><link>https://qfield.org/2024/04/04/qfield-3-2-congo-making-your-life-easier/</link><pubDate>Thu, 04 Apr 2024 07:58:11 +0000</pubDate><guid>https://qfield.org/2024/04/04/qfield-3-2-congo-making-your-life-easier/</guid><description>&lt;p>Focused on stability and usability improvements, most users will find something to celebrate in QField 3.2&lt;/p>
-&lt;h2 id="main-highlights">&lt;strong>Main highlights&lt;/strong>&lt;/h2>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class="figure text-center mb-4">
- 
- &lt;img src="https://qfield.org/blog/wp-content/uploads/2024/03/qfield32.png" alt="" class="figure-img img-fluid gallery-img"
- 
- 
- >
- 
- 
-&lt;/figure>
-&lt;p>This new release introduces &lt;strong>project-defined tracking sessions, which are automatically activated when the project is loaded&lt;/strong>. Defined while setting up and tweaking a project on QGIS, these sessions permit the automated tracking of device positions without taking any action in QField beyond opening the project itself. This liberates field users from remembering to launch a session on app launch and lowers the knowledge required to collect such data. For more details, please read the &lt;a href="https://docs.qfield.org/how-to/tracking/#configure-a-project-tracking-session" target="_blank" rel="noopener">relevant QField documentation section&lt;/a>.&lt;/p></description></item><item><title>Snappy QField 3.1 “Borneo” has arrived</title><link>https://qfield.org/2024/01/10/snappy-qfield-3-1-borneo-has-arrived/</link><pubDate>Wed, 10 Jan 2024 17:11:36 +0000</pubDate><guid>https://qfield.org/2024/01/10/snappy-qfield-3-1-borneo-has-arrived/</guid><description>&lt;p>The launch of QField 3.0 was a big deal, but now we&amp;rsquo;re back to focusing on smaller, more frequent updates. Don&amp;rsquo;t let the shorter change log for 3.1 trick you – there are lots of cool new features in this update!&lt;/p>
-&lt;h2 id="main-highlights">Main highlights&lt;/h2>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class="figure text-center mb-4">
- 
- &lt;img src="https://qfield.org/blog/wp-content/uploads/2023/12/287987844-8d7c6540-c32c-4d62-bf6e-1636a011567f.png" alt="" class="figure-img img-fluid gallery-img"
- 
- 
- >
- 
- 
-&lt;/figure>
-&lt;p>One of the main improvements in this release is the brand-new functionality to enable &lt;strong>snapping to common angles&lt;/strong> while digitizing. When enabled, the coordinate cursor will snap to configured angles alongside a visual guideline. This comes in handy when adding new geometries while surveying features with regular angles (e.g. buildings, parking lots, etc.). As QField gets more digitizing functionalities, we’ve taken the time to implement a nifty UI that collapses digitizing toggle buttons into a drawer, &lt;strong>leaving extra space for the map canvas&lt;/strong> to shine through.&lt;/p></description></item><item><title>QField 2.8: Boosting field work through external sensors</title><link>https://qfield.org/2023/05/30/qfield-2-8-boosting-field-work-through-external-sensors/</link><pubDate>Tue, 30 May 2023 04:00:00 +0000</pubDate><guid>https://qfield.org/2023/05/30/qfield-2-8-boosting-field-work-through-external-sensors/</guid><description>&lt;p>The latest version of QField is out, featuring as its main new feature sensor handling alongside the usual round of user experience and stability improvements. We simply can’t wait to see the sensor uses you will come up with!&lt;/p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class="figure text-center mb-4">
- 
- &lt;img src="https://qfield.org/blog/wp-content/uploads/2023/05/238116107-1792bb88-9fdb-41e7-9716-7fd65f8837ce.png" alt="" class="figure-img img-fluid gallery-img"
- 
- 
- >
- 
- 
-&lt;/figure>
-&lt;h2 id="the-main-highlight-sensors">&lt;strong>The main highlight: sensors&lt;/strong>&lt;/h2>
-&lt;p>QField 2.8 ships with &lt;strong>out-of-the-box handling of external sensor streams&lt;/strong> over TCP, UDP, and serial port. The functionality allows for data captured through instruments – such as geiger counter, decibel sensor, CO detector, etc. - to be visualized and manipulated within QField itself.&lt;/p></description></item><item><title>Capturing more while in the field with the new QField 2.7</title><link>https://qfield.org/2023/04/04/capturing-more-while-in-the-field-with-the-new-qfield-2-7/</link><pubDate>Tue, 04 Apr 2023 04:44:00 +0000</pubDate><guid>https://qfield.org/2023/04/04/capturing-more-while-in-the-field-with-the-new-qfield-2-7/</guid><description>&lt;p>A brand new version of QField has been released, &lt;strong>packed with features&lt;/strong> that will make you fall in love with this essential open source tool all over again with a focus on capturing more while you are in the field. QField 2.7 nicknamed “Heroic Hedgehog” also includes a number of worthy fixes making it a crucial update to get.&lt;/p>
-&lt;h2 id="new-recording-capabilities">New recording capabilities&lt;/h2>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class="figure text-center mb-4">
- 
- &lt;img src="https://qfield.org/blog/wp-content/uploads/2023/04/224213255-e51e619a-2505-49dc-a03d-088bfa2530e4.png" alt="" class="figure-img img-fluid gallery-img"
- 
- 
- >
- 
- 
-&lt;/figure>
-&lt;p>The highlight of QField 2.7 is the &lt;strong>new audio and video recording capability straight from the feature form&lt;/strong>. In addition to preexisting still photo capture, this functionality allows for video motion and audio clips to be added as attachments to feature attributes.&lt;/p></description></item><item><title>QField Jump-start</title><link>https://qfield.org/2023/03/06/qfield-jump-start/</link><pubDate>Mon, 06 Mar 2023 11:00:00 +0000</pubDate><guid>https://qfield.org/2023/03/06/qfield-jump-start/</guid><description>&lt;p>You want to start collecting field data but &lt;strong>never worked with a GIS&lt;/strong> before?&lt;/p>
-&lt;p>You are a &lt;strong>passionate QGIS user&lt;/strong> and would like a jump start your fieldwork setup?&lt;/p>
-&lt;p>You are a &lt;strong>senior GIS manager&lt;/strong> and would like to optimize your teams&amp;rsquo; mobile data collection efficiency?&lt;/p>
-&lt;h2 id="let-us-you-introduce-the-qfield-jump-start-packages">Let us you introduce the QField jump-start packages&lt;/h2>
-&lt;p>During a half day or full day private support session, our QFields experts will help you get started with your project as fast as possible.&lt;/p></description></item><item><title>Powerful and gentle QField 1.8 Selma sneaked in</title><link>https://qfield.org/2021/02/24/powerful-and-gentle-qfield-1-8-selma-sneaked-in/</link><pubDate>Wed, 24 Feb 2021 06:31:00 +0000</pubDate><guid>https://qfield.org/2021/02/24/powerful-and-gentle-qfield-1-8-selma-sneaked-in/</guid><description>&lt;p>&lt;strong>Get fieldwork smoothly and nimbly done despite the ice and snow outside. Collect accurate data with freehand digitizing and improved form widgets, use the data from your external GNSS receivers without any third-party apps and enjoy the pleasant usability of QField 1.8 Selma.&lt;/strong>&lt;/p>
-&lt;p>This year started off hi-speed for us. There&amp;rsquo;s been already a lot of coding, designing and teaching, and we&amp;rsquo;ve thrown ourselves into these things we love to do. And we published another QField release last week that I completely forgot to announce in this blog. But here it is. It&amp;rsquo;s QField 1.8, Selma. And it&amp;rsquo;s packed with cool features.&lt;/p></description></item><item><title>QField 1.7 Rockies hits the stage</title><link>https://qfield.org/2020/10/20/qfield-1-7-rockies-hits-the-stage/</link><pubDate>Tue, 20 Oct 2020 07:26:08 +0000</pubDate><guid>https://qfield.org/2020/10/20/qfield-1-7-rockies-hits-the-stage/</guid><description>&lt;p>&lt;strong>Be ready for the cold weather with a smooth coordinate search, filters in the value relation widget, fancy new QML and HTML widgets, enhanced geometry editing functionalities and an expandable legend. Right when Autumn starts, QField 1.7 Rockies hits the stage.&lt;/strong>&lt;/p>
-&lt;p>As usual get it now on the &lt;a href="https://play.google.com/store/apps/details?id=ch.opengis.qfield" target="_blank" rel="noopener">play store&lt;/a> or on &lt;a href="https://github.com/opengisch/QField/releases" target="_blank" rel="noopener">github&lt;/a>!&lt;/p>
-&lt;p>The days are getting shorter and the wind blows colder. It&amp;rsquo;s always good to be in a good company outside while getting your mapping work done. QField will be your reliable companion.&lt;/p></description></item><item><title>QField 1.6 is out!</title><link>https://qfield.org/2020/08/18/qfield-1-6-is-out/</link><pubDate>Tue, 18 Aug 2020 05:00:00 +0000</pubDate><guid>https://qfield.org/2020/08/18/qfield-1-6-is-out/</guid><description>&lt;p>&lt;strong>Editing multiple features at the same time, support for stylus pens, dynamic configuration of image names and much more.&lt;/strong>&lt;br>
-&lt;strong>QField 1.6 Qinling 秦岭 comes packed with awesome new features and an improved user experience.&lt;/strong>&lt;/p>
-&lt;p>We have been very busy over the last few months working on a new and shiny QField release. We have added many new features that increase efficiency on the field or allow for new workflows. In parallel, we have also been working on ironing out a series of issues and improving the overall user experience to make the app as pleasurable to use as possible. The result is QField 1.6 which has been published now.&lt;/p></description></item><item><title>QField 1.2 released</title><link>https://qfield.org/2019/10/03/qfield-1-2-released/</link><pubDate>Thu, 03 Oct 2019 05:29:45 +0000</pubDate><guid>https://qfield.org/2019/10/03/qfield-1-2-released/</guid><description>&lt;p>After an intensive testing period, we are proud to announce the release of &lt;strong>QField 1.2&lt;/strong>&lt;/p>
-&lt;p>As usual, &lt;a href="https://play.google.com/store/apps/details?id=ch.opengis.qfield" target="_blank" rel="noopener">get it on play store&lt;/a> or &lt;a href="https://github.com/opengisch/QField/releases/tag/v1.2.0" target="_blank" rel="noopener">download it from GitHub.&lt;/a>&lt;/p>
-&lt;h2 id="qfield-crowdfunding-campaign">QField Crowdfunding Campaign&lt;/h2>
-&lt;p>Before digging into all the new goodness that you will find in QField 1.2, let&amp;rsquo;s get some big &amp;ldquo;Thanks&amp;rdquo; out. What QField currently is was mostly possible &lt;strong>thanks to customer projects&lt;/strong> of which the outcome could be mutualized. Thanks a lot to all of you that agreed open source is all about making things possible together!&lt;/p></description></item><item><title>QField 1.0 is here</title><link>https://qfield.org/2019/03/28/qfield-1-0-is-here/</link><pubDate>Thu, 28 Mar 2019 15:34:38 +0000</pubDate><guid>https://qfield.org/2019/03/28/qfield-1-0-is-here/</guid><description>&lt;h2 id="lets-get-straight-to-the-point">Let&amp;rsquo;s get straight to the point&lt;/h2>
-&lt;blockquote>
-&lt;p>It&amp;rsquo;s official, QField for QGIS 1.0 is out!&lt;/p>&lt;/blockquote>
-&lt;p>Get it while it’s hot on the Playstore ( &lt;a href="https://qfield.org/get" target="_blank" rel="noopener">qfield.org/get&lt;/a>) or on &lt;a href="https://github.com/opengisch/QField/releases" target="_blank" rel="noopener">GitHub&lt;/a>&lt;/p>
-&lt;p>We are incredibly pleased and proud of just having released such a jewel and are convinced that, thanks to all its features and conscious design choices, QField will make your field digitizing work much more efficient and pleasant.&lt;/p>
-&lt;p>Packed with loads of useful features like online and offline features digitizing, geometry and attributes editing, attribute search, powerful forms, theme switching, GPS support, camera integration and much more, QField is the powerful tool for those who need to edit on the go and would like to avoid standing in the swamp with a laptop or paper charts.&lt;/p></description></item><item><title>GeoBeer #26 in Bern hosted by OPENGIS.ch</title><link>https://qfield.org/2019/03/25/geobeer-26-in-bern-hosted-by-opengis-ch/</link><pubDate>Mon, 25 Mar 2019 09:22:43 +0000</pubDate><guid>https://qfield.org/2019/03/25/geobeer-26-in-bern-hosted-by-opengis-ch/</guid><description>&lt;p>Last Thursday around half past six in the evening. Striking many Geo-scientist found the way to the Spitalgasse in Bern. The reason was the 26th GeoBeer event taking place at [ImpactHub](https:// &lt;a href="https://bern.impacthub.net/%29" target="_blank" rel="noopener">https://bern.impacthub.net/)&lt;/a>.&lt;br>
-[GeoBeer](https:// &lt;a href="https://www.geobeer.ch" target="_blank" rel="noopener">https://www.geobeer.ch&lt;/a>) is a quarterly meeting of people interested in geography, GIS, cartography and the latest technologies. It&amp;rsquo;s hosted every time by someone else. This time by us, OPENGIS.ch.&lt;/p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class="figure text-center mb-4">
- 
- &lt;img src="https://i0.wp.com/new.opengis.ch/blog/wp-content/uploads/2019/03/MG%5F3642.jpg?fit=664%2C443&amp;amp;ssl=1" alt="" class="figure-img img-fluid gallery-img"
- 
- 
- >
- 
- 
-&lt;/figure>
-&lt;p>Right after the arriving, the organizers of GeoBeer Switzerland showed us some funny statistics about the GeoBeer participants since the very first GeoBeer event six years ago.&lt;br>
-Marco Bernasocchi then welcomed everyone and introduced our company. We had three speakers this time. &lt;a href="https://www.bfh.ch/ti/de/ueber-das-ti/personen/5b7eblnby2di/" target="_blank" rel="noopener">Marcus Hudritsch&lt;/a> of the &lt;a href="https://twitter.com/bfh_hesb" target="_blank" rel="noopener">Berner Fachhochschule&lt;/a> started by presenting the implementation of the visualization of historical buildings, that do not exist anymore in reality. But still, do in virtual reality… No sorry, it&amp;rsquo;s augmented reality. Marcus Hundritsch explained to us clearly the difference between AR and VR and presented some projects they made. [Pascal Bourquin](https:// &lt;a href="https://twitter.com/BourquinPascal" target="_blank" rel="noopener">https://twitter.com/BourquinPascal&lt;/a>) changed perspective completely by telling us about his project (La Vie en Jaune) to cover all the hiking trails of Switzerland - he logs every trail done on a [map with photographs](https:// &lt;a href="https://map.lavieenjaune.ch/" target="_blank" rel="noopener">https://map.lavieenjaune.ch/&lt;/a> ). The final speaker was &lt;a href="https://twitter.com/dani_viga" target="_blank" rel="noopener">Daniele Viganò&lt;/a> from the &lt;a href="https://twitter.com/gem_devs" target="_blank" rel="noopener">Global Earthquake Model Foundation&lt;/a> talking about their challenges of calculating a global model of earthquake hazard, risk and exposure.&lt;/p></description></item><item><title>QField RC5 - Last call for testing</title><link>https://qfield.org/2019/03/14/qfield-rc5/</link><pubDate>Thu, 14 Mar 2019 11:50:16 +0000</pubDate><guid>https://qfield.org/2019/03/14/qfield-rc5/</guid><description>&lt;p>We are really happy to announce the fifth and (hopefully) last 1.0 release candidate in QField&amp;rsquo;s history! This means that QField 1.0 is closer than ever.&lt;/p>
-&lt;p>Get it while it&amp;rsquo;s hot on the Playstore ( &lt;a href="https://qfield.org/get" target="_blank" rel="noopener">https://qfield.org/get&lt;/a>) or on &lt;a href="https://github.com/opengisch/QField/releases" target="_blank" rel="noopener">GitHub&lt;/a>&lt;/p>
-&lt;p>Thanks to all the feedback by the fantastic community we were able to fix plenty of bugs, address performance issues and even add some super cool new features.&lt;/p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class="figure text-center mb-4">
- 
- &lt;img src="https://i2.wp.com/new.opengis.ch/blog/wp-content/uploads/2019/03/fileselector.jpg?fit=541%2C1024&amp;amp;ssl=1" alt="" class="figure-img img-fluid gallery-img"
- 
- 
- >
- 
- 
-&lt;/figure>
-&lt;p>Among the new features, the most important is the flashy new file selector with favorite directories (long press on a folder to add it to the favorites and longpress on the favorites list to remove it) and an automatic list of the last three opened projects that will save you heaps of time while looking for your projects.&lt;/p></description></item><item><title>QField in the wild</title><link>https://qfield.org/2015/06/15/qfield-in-the-wild/</link><pubDate>Mon, 15 Jun 2015 12:05:21 +0000</pubDate><guid>https://qfield.org/2015/06/15/qfield-in-the-wild/</guid><description>&lt;figure class="figure text-center mb-4">
- 
- &lt;img src="https://developer.android.com/images/brand/en%5Fapp%5Frgb%5Fwo%5F45.png" alt="QField app on Google Play" class="figure-img img-fluid gallery-img"
- width="129"
- 
- style="ZgotmplZ">
- 
- 
- &lt;figcaption class="figure-caption text-center">QField app on Google Play&lt;/figcaption>
- 
-&lt;/figure>
-&lt;p>&lt;img src="https://www.paypal.com/en_US/i/scr/pixel.gif" alt="">&lt;/p>
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-&lt;figure class="figure text-center mb-4">
- 
- &lt;img src="https://developer.android.com/images/brand/en%5Fapp%5Frgb%5Fwo%5F45.png" alt="QField Karma edition app on Google Play" class="figure-img img-fluid gallery-img"
- width="129"
- 
- style="ZgotmplZ">
- 
- 
- &lt;figcaption class="figure-caption text-center">QField Karma edition app on Google Play&lt;/figcaption>
- 
-&lt;/figure>
-&lt;p>QField Experimental is out, after a couple of months of requirements gathering, private early alpha testing and foremost tons of  emails requesting access to the testes group we decided today to put the current BETA version in the playstore. This means that from now on you can install QField just like any other android app by using the playstore.
-It is important to remember that QField is still beta and thus it doesn&amp;rsquo;t have all the features we want yet. Notably, &lt;em>there is no digitizing, due to a bug in android, Android 5 (Lollipop) is currently not supported (android 4.3 and 4.4 are suggested) and for now you need to manually copy the projects and data from the desktop to your device.&lt;/em>
-QField is an Open Source project led by OPENGIS.ch LLC, more &lt;a href="https://qfield.org/android-gis/qfield/">information&lt;/a>, the &lt;a href="https://qfield.opengis.ch/repo" target="_blank" rel="noopener">source code&lt;/a> and a possibility to donate to the project can be found on the &lt;a href="https://qfield.org/android-gis/qfield/">QField page&lt;/a> (preferred) or by buying the QField for &lt;a href="https://qfield.opengis.ch/karma" target="_blank" rel="noopener">QGIS Karma edition app&lt;/a>.
-Also if you need a specific feature, &lt;a href="https://qfield.org/contact/">contact us&lt;/a> to sponsor its development.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gis on QField - Efficient field work built for QGIS</title>
+    <link>http://localhost:1313/categories/gis/</link>
+    <description>Recent content in Gis on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 19 Nov 2025 12:01:18 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/gis/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField 3.5 “Fangorn”: Background tracking a reality!</title>
+      <link>http://localhost:1313/2025/03/04/qfield-3-5-fangorn-background-tracking-a-reality/</link>
+      <pubDate>Tue, 04 Mar 2025 05:45:00 +0000</pubDate>
+      <guid>http://localhost:1313/2025/03/04/qfield-3-5-fangorn-background-tracking-a-reality/</guid>
+      <description>&lt;p&gt;Let’s not bury the lead here: the long-awaited capability to track position while QField is in the background or the device is locked has arrived in this brand-new version of QField. This feels like a magical moment, so we settled for a fantastical forest for our release name.&lt;/p&gt;&#xA;&lt;h2 id=&#34;main-highlights&#34;&gt;Main highlights&lt;/h2&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;figure text-center mb-4&#34;&gt;&#xA;  &#xA;    &lt;img src=&#34;http://localhost:1313/blog/wp-content/uploads/2025/02/splash.png&#34; alt=&#34;&#34; class=&#34;figure-img img-fluid gallery-img&#34;&#xA;         &#xA;         &#xA;         &gt;&#xA;  &#xA;  &#xA;&lt;/figure&gt;&#xA;&lt;p&gt;As highlighted above, QField 3.5 has unlocked &lt;strong&gt;background position tracking&lt;/strong&gt; on the Android platform. This allows users to keep track of their positions even as they put QField in the background to conduct other tasks on their devices. It also means that tracking has become far more battery efficient, as users can lock/suspend their phones and tablets for long periods while QField continues to collect and track positions. On top of it all, this will work out of the book with internal GNSS as well as external high-precision GNSS devices.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>QField 3.4 “Ebo”: Geofencing and processing out of the box</title>
+      <link>http://localhost:1313/2024/10/08/qfield-3-4-ebo-geofencing-and-processing-out-of-the-box/</link>
+      <pubDate>Tue, 08 Oct 2024 04:45:00 +0000</pubDate>
+      <guid>http://localhost:1313/2024/10/08/qfield-3-4-ebo-geofencing-and-processing-out-of-the-box/</guid>
+      <description>&lt;p&gt;QField 3.4 is out, and it won’t disappoint. It has tons of new features that continue to push the limits of what users can do in the field.&lt;/p&gt;&#xA;&lt;h2 id=&#34;main-highlights&#34;&gt;Main highlights&lt;/h2&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;figure text-center mb-4&#34;&gt;&#xA;  &#xA;    &lt;img src=&#34;http://localhost:1313/blog/wp-content/uploads/2024/10/34.png&#34; alt=&#34;&#34; class=&#34;figure-img img-fluid gallery-img&#34;&#xA;         &#xA;         &#xA;         &gt;&#xA;  &#xA;  &#xA;&lt;/figure&gt;&#xA;&lt;p&gt;A new &lt;strong&gt;geofencing framework&lt;/strong&gt; has landed, enabling users to configure QField behaviors in relation to geofenced areas and user positioning. Geofenced areas are defined at the project-level and shaped by polygons from a chosen vector layer. The three available geofencing behaviours in this new release are:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>QField 3.3 “Darién”: It is just the beginning</title>
+      <link>http://localhost:1313/2024/06/11/qfield-3-3-darien-it-is-just-the-beginning/</link>
+      <pubDate>Tue, 11 Jun 2024 04:50:00 +0000</pubDate>
+      <guid>http://localhost:1313/2024/06/11/qfield-3-3-darien-it-is-just-the-beginning/</guid>
+      <description>&lt;p&gt;QField 3.3 has been released, and with it, we are proud to introduce a brand new plugin framework that empowers users to customize and add completely new functionalities to their favourite field application. That’s on top of a bunch of new features and improvements added during this development cycle. What preceded this moment was just the beginning!&lt;/p&gt;&#xA;&lt;h2 id=&#34;main-highlights&#34;&gt;Main highlights&lt;/h2&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;figure text-center mb-4&#34;&gt;&#xA;  &#xA;    &lt;img src=&#34;http://localhost:1313/blog/wp-content/uploads/2024/06/33splash.png&#34; alt=&#34;&#34; class=&#34;figure-img img-fluid gallery-img&#34;&#xA;         &#xA;         &#xA;         &gt;&#xA;  &#xA;  &#xA;&lt;/figure&gt;&#xA;&lt;p&gt;One of the biggest feature additions of this version is a brand new drawing tool that allows users to sketch out important details over captured photos or annotate drawing templates. This was a highly requested feature, which we are delighted to bring to all supported platforms (Android, iOS, Windows, macOS, and, of course, Linux) with the financial support of the &lt;a href=&#34;http://qgis.ch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Swiss QGIS user group&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>QField 3.2 “Congo”: Making your life easier</title>
+      <link>http://localhost:1313/2024/04/04/qfield-3-2-congo-making-your-life-easier/</link>
+      <pubDate>Thu, 04 Apr 2024 07:58:11 +0000</pubDate>
+      <guid>http://localhost:1313/2024/04/04/qfield-3-2-congo-making-your-life-easier/</guid>
+      <description>&lt;p&gt;Focused on stability and usability improvements, most users will find something to celebrate in QField 3.2&lt;/p&gt;&#xA;&lt;h2 id=&#34;main-highlights&#34;&gt;&lt;strong&gt;Main highlights&lt;/strong&gt;&lt;/h2&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;figure text-center mb-4&#34;&gt;&#xA;  &#xA;    &lt;img src=&#34;http://localhost:1313/blog/wp-content/uploads/2024/03/qfield32.png&#34; alt=&#34;&#34; class=&#34;figure-img img-fluid gallery-img&#34;&#xA;         &#xA;         &#xA;         &gt;&#xA;  &#xA;  &#xA;&lt;/figure&gt;&#xA;&lt;p&gt;This new release introduces &lt;strong&gt;project-defined tracking sessions, which are automatically activated when the project is loaded&lt;/strong&gt;. Defined while setting up and tweaking a project on QGIS, these sessions permit the automated tracking of device positions without taking any action in QField beyond opening the project itself. This liberates field users from remembering to launch a session on app launch and lowers the knowledge required to collect such data. For more details, please read the &lt;a href=&#34;https://docs.qfield.org/how-to/tracking/#configure-a-project-tracking-session&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;relevant QField documentation section&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Snappy QField 3.1 “Borneo” has arrived</title>
+      <link>http://localhost:1313/2024/01/10/snappy-qfield-3-1-borneo-has-arrived/</link>
+      <pubDate>Wed, 10 Jan 2024 17:11:36 +0000</pubDate>
+      <guid>http://localhost:1313/2024/01/10/snappy-qfield-3-1-borneo-has-arrived/</guid>
+      <description>&lt;p&gt;The launch of QField 3.0 was a big deal, but now we&amp;rsquo;re back to focusing on smaller, more frequent updates. Don&amp;rsquo;t let the shorter change log for 3.1 trick you – there are lots of cool new features in this update!&lt;/p&gt;&#xA;&lt;h2 id=&#34;main-highlights&#34;&gt;Main highlights&lt;/h2&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;figure text-center mb-4&#34;&gt;&#xA;  &#xA;    &lt;img src=&#34;http://localhost:1313/blog/wp-content/uploads/2023/12/287987844-8d7c6540-c32c-4d62-bf6e-1636a011567f.png&#34; alt=&#34;&#34; class=&#34;figure-img img-fluid gallery-img&#34;&#xA;         &#xA;         &#xA;         &gt;&#xA;  &#xA;  &#xA;&lt;/figure&gt;&#xA;&lt;p&gt;One of the main improvements in this release is the brand-new functionality to enable &lt;strong&gt;snapping to common angles&lt;/strong&gt; while digitizing. When enabled, the coordinate cursor will snap to configured angles alongside a visual guideline. This comes in handy when adding new geometries while surveying features with regular angles (e.g. buildings, parking lots, etc.). As QField gets more digitizing functionalities, we’ve taken the time to implement a nifty UI that collapses digitizing toggle buttons into a drawer, &lt;strong&gt;leaving extra space for the map canvas&lt;/strong&gt; to shine through.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>QField 2.8: Boosting field work through external sensors</title>
+      <link>http://localhost:1313/2023/05/30/qfield-2-8-boosting-field-work-through-external-sensors/</link>
+      <pubDate>Tue, 30 May 2023 04:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2023/05/30/qfield-2-8-boosting-field-work-through-external-sensors/</guid>
+      <description>&lt;p&gt;The latest version of QField is out, featuring as its main new feature sensor handling alongside the usual round of user experience and stability improvements. We simply can’t wait to see the sensor uses you will come up with!&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;figure text-center mb-4&#34;&gt;&#xA;  &#xA;    &lt;img src=&#34;http://localhost:1313/blog/wp-content/uploads/2023/05/238116107-1792bb88-9fdb-41e7-9716-7fd65f8837ce.png&#34; alt=&#34;&#34; class=&#34;figure-img img-fluid gallery-img&#34;&#xA;         &#xA;         &#xA;         &gt;&#xA;  &#xA;  &#xA;&lt;/figure&gt;&#xA;&lt;h2 id=&#34;the-main-highlight-sensors&#34;&gt;&lt;strong&gt;The main highlight: sensors&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;QField 2.8 ships with &lt;strong&gt;out-of-the-box handling of external sensor streams&lt;/strong&gt; over TCP, UDP, and serial port. The functionality allows for data captured through instruments – such as geiger counter, decibel sensor, CO detector, etc. - to be visualized and manipulated within QField itself.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Capturing more while in the field with the new QField 2.7</title>
+      <link>http://localhost:1313/2023/04/04/capturing-more-while-in-the-field-with-the-new-qfield-2-7/</link>
+      <pubDate>Tue, 04 Apr 2023 04:44:00 +0000</pubDate>
+      <guid>http://localhost:1313/2023/04/04/capturing-more-while-in-the-field-with-the-new-qfield-2-7/</guid>
+      <description>&lt;p&gt;A brand new version of QField has been released, &lt;strong&gt;packed with features&lt;/strong&gt; that will make you fall in love with this essential open source tool all over again with a focus on capturing more while you are in the field. QField 2.7 nicknamed “Heroic Hedgehog” also includes a number of worthy fixes making it a crucial update to get.&lt;/p&gt;&#xA;&lt;h2 id=&#34;new-recording-capabilities&#34;&gt;New recording capabilities&lt;/h2&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;figure text-center mb-4&#34;&gt;&#xA;  &#xA;    &lt;img src=&#34;http://localhost:1313/blog/wp-content/uploads/2023/04/224213255-e51e619a-2505-49dc-a03d-088bfa2530e4.png&#34; alt=&#34;&#34; class=&#34;figure-img img-fluid gallery-img&#34;&#xA;         &#xA;         &#xA;         &gt;&#xA;  &#xA;  &#xA;&lt;/figure&gt;&#xA;&lt;p&gt;The highlight of QField 2.7 is the &lt;strong&gt;new audio and video recording capability straight from the feature form&lt;/strong&gt;. In addition to preexisting still photo capture, this functionality allows for video motion and audio clips to be added as attachments to feature attributes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>QField Jump-start</title>
+      <link>http://localhost:1313/2023/03/06/qfield-jump-start/</link>
+      <pubDate>Mon, 06 Mar 2023 11:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2023/03/06/qfield-jump-start/</guid>
+      <description>&lt;p&gt;You want to start collecting field data but &lt;strong&gt;never worked with a GIS&lt;/strong&gt; before?&lt;/p&gt;&#xA;&lt;p&gt;You are a &lt;strong&gt;passionate QGIS user&lt;/strong&gt; and would like a jump start your fieldwork setup?&lt;/p&gt;&#xA;&lt;p&gt;You are a &lt;strong&gt;senior GIS manager&lt;/strong&gt; and would like to optimize your teams&amp;rsquo; mobile data collection efficiency?&lt;/p&gt;&#xA;&lt;h2 id=&#34;let-us-you-introduce-the-qfield-jump-start-packages&#34;&gt;Let us you introduce the QField jump-start packages&lt;/h2&gt;&#xA;&lt;p&gt;During a half day or full day private support session, our QFields experts will help you get started with your project as fast as possible.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Powerful and gentle QField 1.8 Selma sneaked in</title>
+      <link>http://localhost:1313/2021/02/24/powerful-and-gentle-qfield-1-8-selma-sneaked-in/</link>
+      <pubDate>Wed, 24 Feb 2021 06:31:00 +0000</pubDate>
+      <guid>http://localhost:1313/2021/02/24/powerful-and-gentle-qfield-1-8-selma-sneaked-in/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Get fieldwork smoothly and nimbly done despite the ice and snow outside. Collect accurate data with freehand digitizing and improved form widgets, use the data from your external GNSS receivers without any third-party apps and enjoy the pleasant usability of QField 1.8 Selma.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;This year started off hi-speed for us. There&amp;rsquo;s been already a lot of coding, designing and teaching, and we&amp;rsquo;ve thrown ourselves into these things we love to do. And we published another QField release last week that I completely forgot to announce in this blog. But here it is. It&amp;rsquo;s QField 1.8, Selma. And it&amp;rsquo;s packed with cool features.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>QField 1.7 Rockies hits the stage</title>
+      <link>http://localhost:1313/2020/10/20/qfield-1-7-rockies-hits-the-stage/</link>
+      <pubDate>Tue, 20 Oct 2020 07:26:08 +0000</pubDate>
+      <guid>http://localhost:1313/2020/10/20/qfield-1-7-rockies-hits-the-stage/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Be ready for the cold weather with a smooth coordinate search, filters in the value relation widget, fancy new QML and HTML widgets, enhanced geometry editing functionalities and an expandable legend. Right when Autumn starts, QField 1.7 Rockies hits the stage.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;As usual get it now on the &lt;a href=&#34;https://play.google.com/store/apps/details?id=ch.opengis.qfield&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;play store&lt;/a&gt; or on &lt;a href=&#34;https://github.com/opengisch/QField/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github&lt;/a&gt;!&lt;/p&gt;&#xA;&lt;p&gt;The days are getting shorter and the wind blows colder. It&amp;rsquo;s always good to be in a good company outside while getting your mapping work done. QField will be your reliable companion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>QField 1.6 is out!</title>
+      <link>http://localhost:1313/2020/08/18/qfield-1-6-is-out/</link>
+      <pubDate>Tue, 18 Aug 2020 05:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/2020/08/18/qfield-1-6-is-out/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Editing multiple features at the same time, support for stylus pens, dynamic configuration of image names and much more.&lt;/strong&gt;&lt;br&gt;&#xA;&lt;strong&gt;QField 1.6 Qinling 秦岭 comes packed with awesome new features and an improved user experience.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;We have been very busy over the last few months working on a new and shiny QField release. We have added many new features that increase efficiency on the field or allow for new workflows. In parallel, we have also been working on ironing out a series of issues and improving the overall user experience to make the app as pleasurable to use as possible. The result is QField 1.6 which has been published now.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>QField 1.2 released</title>
+      <link>http://localhost:1313/2019/10/03/qfield-1-2-released/</link>
+      <pubDate>Thu, 03 Oct 2019 05:29:45 +0000</pubDate>
+      <guid>http://localhost:1313/2019/10/03/qfield-1-2-released/</guid>
+      <description>&lt;p&gt;After an intensive testing period, we are proud to announce the release of &lt;strong&gt;QField 1.2&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;As usual, &lt;a href=&#34;https://play.google.com/store/apps/details?id=ch.opengis.qfield&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;get it on play store&lt;/a&gt; or &lt;a href=&#34;https://github.com/opengisch/QField/releases/tag/v1.2.0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;download it from GitHub.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;qfield-crowdfunding-campaign&#34;&gt;QField Crowdfunding Campaign&lt;/h2&gt;&#xA;&lt;p&gt;Before digging into all the new goodness that you will find in QField 1.2, let&amp;rsquo;s get some big &amp;ldquo;Thanks&amp;rdquo; out. What QField currently is was mostly possible &lt;strong&gt;thanks to customer projects&lt;/strong&gt; of which the outcome could be mutualized. Thanks a lot to all of you that agreed open source is all about making things possible together!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>QField 1.0 is here</title>
+      <link>http://localhost:1313/2019/03/28/qfield-1-0-is-here/</link>
+      <pubDate>Thu, 28 Mar 2019 15:34:38 +0000</pubDate>
+      <guid>http://localhost:1313/2019/03/28/qfield-1-0-is-here/</guid>
+      <description>&lt;h2 id=&#34;lets-get-straight-to-the-point&#34;&gt;Let&amp;rsquo;s get straight to the point&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;It&amp;rsquo;s official, QField for QGIS 1.0 is out!&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Get it while it’s hot on the Playstore ( &lt;a href=&#34;https://qfield.org/get&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;qfield.org/get&lt;/a&gt;) or on &lt;a href=&#34;https://github.com/opengisch/QField/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;We are incredibly pleased and proud of just having released such a jewel and are convinced that, thanks to all its features and conscious design choices, QField will make your field digitizing work much more efficient and pleasant.&lt;/p&gt;&#xA;&lt;p&gt;Packed with loads of useful features like online and offline features digitizing, geometry and attributes editing, attribute search, powerful forms, theme switching, GPS support, camera integration and much more, QField is the powerful tool for those who need to edit on the go and would like to avoid standing in the swamp with a laptop or paper charts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GeoBeer #26 in Bern hosted by OPENGIS.ch</title>
+      <link>http://localhost:1313/2019/03/25/geobeer-26-in-bern-hosted-by-opengis-ch/</link>
+      <pubDate>Mon, 25 Mar 2019 09:22:43 +0000</pubDate>
+      <guid>http://localhost:1313/2019/03/25/geobeer-26-in-bern-hosted-by-opengis-ch/</guid>
+      <description>&lt;p&gt;Last Thursday around half past six in the evening. Striking many Geo-scientist found the way to the Spitalgasse in Bern. The reason was the 26th GeoBeer event taking place at [ImpactHub](https:// &lt;a href=&#34;https://bern.impacthub.net/%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bern.impacthub.net/)&lt;/a&gt;.&lt;br&gt;&#xA;[GeoBeer](https:// &lt;a href=&#34;https://www.geobeer.ch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.geobeer.ch&lt;/a&gt;) is a quarterly meeting of people interested in geography, GIS, cartography and the latest technologies. It&amp;rsquo;s hosted every time by someone else. This time by us, OPENGIS.ch.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;figure text-center mb-4&#34;&gt;&#xA;  &#xA;    &lt;img src=&#34;https://i0.wp.com/new.opengis.ch/blog/wp-content/uploads/2019/03/MG%5F3642.jpg?fit=664%2C443&amp;amp;ssl=1&#34; alt=&#34;&#34; class=&#34;figure-img img-fluid gallery-img&#34;&#xA;         &#xA;         &#xA;         &gt;&#xA;  &#xA;  &#xA;&lt;/figure&gt;&#xA;&lt;p&gt;Right after the arriving, the organizers of GeoBeer Switzerland showed us some funny statistics about the GeoBeer participants since the very first GeoBeer event six years ago.&lt;br&gt;&#xA;Marco Bernasocchi then welcomed everyone and introduced our company. We had three speakers this time. &lt;a href=&#34;https://www.bfh.ch/ti/de/ueber-das-ti/personen/5b7eblnby2di/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Marcus Hudritsch&lt;/a&gt; of the &lt;a href=&#34;https://twitter.com/bfh_hesb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Berner Fachhochschule&lt;/a&gt; started by presenting the implementation of the visualization of historical buildings, that do not exist anymore in reality. But still, do in virtual reality… No sorry, it&amp;rsquo;s augmented reality. Marcus Hundritsch explained to us clearly the difference between AR and VR and presented some projects they made. [Pascal Bourquin](https:// &lt;a href=&#34;https://twitter.com/BourquinPascal&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://twitter.com/BourquinPascal&lt;/a&gt;) changed perspective completely by telling us about his project (La Vie en Jaune) to cover all the hiking trails of Switzerland - he logs every trail done on a [map with photographs](https:// &lt;a href=&#34;https://map.lavieenjaune.ch/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://map.lavieenjaune.ch/&lt;/a&gt; ). The final speaker was &lt;a href=&#34;https://twitter.com/dani_viga&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Daniele Viganò&lt;/a&gt; from the &lt;a href=&#34;https://twitter.com/gem_devs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Global Earthquake Model Foundation&lt;/a&gt; talking about their challenges of calculating a global model of earthquake hazard, risk and exposure.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>QField RC5 - Last call for testing</title>
+      <link>http://localhost:1313/2019/03/14/qfield-rc5/</link>
+      <pubDate>Thu, 14 Mar 2019 11:50:16 +0000</pubDate>
+      <guid>http://localhost:1313/2019/03/14/qfield-rc5/</guid>
+      <description>&lt;p&gt;We are really happy to announce the fifth and (hopefully) last 1.0 release candidate in QField&amp;rsquo;s history! This means that QField 1.0 is closer than ever.&lt;/p&gt;&#xA;&lt;p&gt;Get it while it&amp;rsquo;s hot on the Playstore ( &lt;a href=&#34;https://qfield.org/get&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://qfield.org/get&lt;/a&gt;) or on &lt;a href=&#34;https://github.com/opengisch/QField/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Thanks to all the feedback by the fantastic community we were able to fix plenty of bugs, address performance issues and even add some super cool new features.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;figure text-center mb-4&#34;&gt;&#xA;  &#xA;    &lt;img src=&#34;https://i2.wp.com/new.opengis.ch/blog/wp-content/uploads/2019/03/fileselector.jpg?fit=541%2C1024&amp;amp;ssl=1&#34; alt=&#34;&#34; class=&#34;figure-img img-fluid gallery-img&#34;&#xA;         &#xA;         &#xA;         &gt;&#xA;  &#xA;  &#xA;&lt;/figure&gt;&#xA;&lt;p&gt;Among the new features, the most important is the flashy new file selector with favorite directories (long press on a folder to add it to the favorites and longpress on the favorites list to remove it) and an automatic list of the last three opened projects that will save you heaps of time while looking for your projects.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>QField in the wild</title>
+      <link>http://localhost:1313/2015/06/15/qfield-in-the-wild/</link>
+      <pubDate>Mon, 15 Jun 2015 12:05:21 +0000</pubDate>
+      <guid>http://localhost:1313/2015/06/15/qfield-in-the-wild/</guid>
+      <description>&lt;figure class=&#34;figure text-center mb-4&#34;&gt;&#xA;  &#xA;    &lt;img src=&#34;https://developer.android.com/images/brand/en%5Fapp%5Frgb%5Fwo%5F45.png&#34; alt=&#34;QField app on Google Play&#34; class=&#34;figure-img img-fluid gallery-img&#34;&#xA;         width=&#34;129&#34;&#xA;         &#xA;         style=&#34;ZgotmplZ&#34;&gt;&#xA;  &#xA;  &#xA;  &lt;figcaption class=&#34;figure-caption text-center&#34;&gt;QField app on Google Play&lt;/figcaption&gt;&#xA;  &#xA;&lt;/figure&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://www.paypal.com/en_US/i/scr/pixel.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;  &#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;figure text-center mb-4&#34;&gt;&#xA;  &#xA;    &lt;img src=&#34;https://developer.android.com/images/brand/en%5Fapp%5Frgb%5Fwo%5F45.png&#34; alt=&#34;QField Karma edition app on Google Play&#34; class=&#34;figure-img img-fluid gallery-img&#34;&#xA;         width=&#34;129&#34;&#xA;         &#xA;         style=&#34;ZgotmplZ&#34;&gt;&#xA;  &#xA;  &#xA;  &lt;figcaption class=&#34;figure-caption text-center&#34;&gt;QField Karma edition app on Google Play&lt;/figcaption&gt;&#xA;  &#xA;&lt;/figure&gt;&#xA;&lt;p&gt;QField Experimental is out, after a couple of months of requirements gathering, private early alpha testing and foremost tons of  emails requesting access to the testes group we decided today to put the current BETA version in the playstore. This means that from now on you can install QField just like any other android app by using the playstore.&#xA;It is important to remember that QField is still beta and thus it doesn&amp;rsquo;t have all the features we want yet. Notably, &lt;em&gt;there is no digitizing, due to a bug in android, Android 5 (Lollipop) is currently not supported (android 4.3 and 4.4 are suggested) and for now you need to manually copy the projects and data from the desktop to your device.&lt;/em&gt;&#xA;QField is an Open Source project led by OPENGIS.ch LLC, more &lt;a href=&#34;http://localhost:1313/android-gis/qfield/&#34;&gt;information&lt;/a&gt;, the &lt;a href=&#34;https://qfield.opengis.ch/repo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;source code&lt;/a&gt; and a possibility to donate to the project can be found on the &lt;a href=&#34;http://localhost:1313/android-gis/qfield/&#34;&gt;QField page&lt;/a&gt; (preferred) or by buying the QField for &lt;a href=&#34;https://qfield.opengis.ch/karma&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QGIS Karma edition app&lt;/a&gt;.&#xA;Also if you need a specific feature, &lt;a href=&#34;http://localhost:1313/contact/&#34;&gt;contact us&lt;/a&gt; to sponsor its development.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

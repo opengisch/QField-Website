@@ -1,27 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Uncategorised on QField - Efficient field work built for QGIS</title><link>https://qfield.org/categories/uncategorised/</link><description>Recent content in Uncategorised on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 19 Nov 2025 12:01:18 +0100</lastBuildDate><atom:link href="https://qfield.org/categories/uncategorised/feed.xml" rel="self" type="application/rss+xml"/><item><title>QField background tracking</title><link>https://qfield.org/2023/06/29/qfield-background-tracking/</link><pubDate>Thu, 29 Jun 2023 09:54:42 +0000</pubDate><guid>https://qfield.org/2023/06/29/qfield-background-tracking/</guid><description>&lt;p>Years ago, the QField community and its users showed their love for their favourite field app by supporting a successful crowdfunding to improve camera handling.&lt;/p>
-&lt;p>Since then, OPENGIS.ch has continued to lead the development of QField with the regular support of sponsors. We couldn’t be prouder of the progress we have made, with plenty of new features added in every major release. This includes major improvements to positioning including location tracking, integration of external GNSS receivers through not only Bluetooth but TCP/UDP and serial port connections, accuracy indicator and constraints, and most recently sensors reading to list a few.&lt;/p></description></item><item><title>How to contribute to QField</title><link>https://qfield.org/2022/12/06/how-to-contribute-to-qfield/</link><pubDate>Tue, 06 Dec 2022 05:29:00 +0000</pubDate><guid>https://qfield.org/2022/12/06/how-to-contribute-to-qfield/</guid><description>&lt;p>QField is a community-driven open-source project. It is free to share, use and modify and it will stay like that. The very essence of a community is to help and support each other. And that&amp;rsquo;s where YOU come into play. To make it work we need your support!&lt;/p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class="figure text-center mb-4">
- 
- &lt;img src="https://qfield.org/blog/wp-content/uploads/2022/12/QField%5FAppAward%5F12-2022.png" alt="" class="figure-img img-fluid gallery-img"
- 
- 
- >
- 
- 
-&lt;/figure>
-&lt;p>For those who don’t know much about the concept of open source projects, a bit of background. Investing in open-source projects is a technical and ethical decision for OPENGIS.ch. Open source is a technological advantage, as we receive input from many developers worldwide who are motivated to work out the best possible software. It prevents our customers from vendor lock-in and allows complete ownership and control of the developed software. And finally, not only financially independent businesses and people should benefit from professional software but also those who might not have the financial means to pay for features, and licences.&lt;/p></description></item><item><title>A New Trick up QField’s Sleeve: Animated Maps</title><link>https://qfield.org/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/</link><pubDate>Tue, 16 Aug 2022 04:58:00 +0000</pubDate><guid>https://qfield.org/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/</guid><description>&lt;p>&lt;strong>Starting with QField 2.2, users can fully rely on animation capabilities that have made their way into QGIS during its last development cycle. This can be a powerful mean to highlight key elements on a map that require special user attention.&lt;/strong>&lt;/p>
-&lt;p>The example below demonstrates a scenario where animated raster markers are used to highlight active fires within the visible map extent. Notice how the subtle fire animation helps draw viewers’ eyes to those important markers.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uncategorised on QField - Efficient field work built for QGIS</title>
+    <link>http://localhost:1313/categories/uncategorised/</link>
+    <description>Recent content in Uncategorised on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 19 Nov 2025 12:01:18 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/uncategorised/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField background tracking</title>
+      <link>http://localhost:1313/2023/06/29/qfield-background-tracking/</link>
+      <pubDate>Thu, 29 Jun 2023 09:54:42 +0000</pubDate>
+      <guid>http://localhost:1313/2023/06/29/qfield-background-tracking/</guid>
+      <description>&lt;p&gt;Years ago, the QField community and its users showed their love for their favourite field app by supporting a successful crowdfunding to improve camera handling.&lt;/p&gt;&#xA;&lt;p&gt;Since then, OPENGIS.ch has continued to lead the development of QField with the regular support of sponsors. We couldn’t be prouder of the progress we have made, with plenty of new features added in every major release. This includes major improvements to positioning including location tracking, integration of external GNSS receivers through not only Bluetooth but TCP/UDP and serial port connections, accuracy indicator and constraints, and most recently sensors reading to list a few.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to contribute to QField</title>
+      <link>http://localhost:1313/2022/12/06/how-to-contribute-to-qfield/</link>
+      <pubDate>Tue, 06 Dec 2022 05:29:00 +0000</pubDate>
+      <guid>http://localhost:1313/2022/12/06/how-to-contribute-to-qfield/</guid>
+      <description>&lt;p&gt;QField is a community-driven open-source project. It is free to share, use and modify and it will stay like that. The very essence of a community is to help and support each other. And that&amp;rsquo;s where YOU come into play. To make it work we need your support!&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;figure text-center mb-4&#34;&gt;&#xA;  &#xA;    &lt;img src=&#34;http://localhost:1313/blog/wp-content/uploads/2022/12/QField%5FAppAward%5F12-2022.png&#34; alt=&#34;&#34; class=&#34;figure-img img-fluid gallery-img&#34;&#xA;         &#xA;         &#xA;         &gt;&#xA;  &#xA;  &#xA;&lt;/figure&gt;&#xA;&lt;p&gt;For those who don’t know much about the concept of open source projects, a bit of background. Investing in open-source projects is a technical and ethical decision for OPENGIS.ch. Open source is a technological advantage, as we receive input from many developers worldwide who are motivated to work out the best possible software. It prevents our customers from vendor lock-in and allows complete ownership and control of the developed software. And finally, not only financially independent businesses and people should benefit from professional software but also those who might not have the financial means to pay for features, and licences.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A New Trick up QField’s Sleeve: Animated Maps</title>
+      <link>http://localhost:1313/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/</link>
+      <pubDate>Tue, 16 Aug 2022 04:58:00 +0000</pubDate>
+      <guid>http://localhost:1313/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Starting with QField 2.2, users can fully rely on animation capabilities that have made their way into QGIS during its last development cycle. This can be a powerful mean to highlight key elements on a map that require special user attention.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The example below demonstrates a scenario where animated raster markers are used to highlight active fires within the visible map extent. Notice how the subtle fire animation helps draw viewers’ eyes to those important markers.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

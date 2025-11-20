@@ -1,8 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Integrity Management on QField - Efficient field work built for QGIS</title><link>https://qfield.org/tags/integrity-management/</link><description>Recent content in Integrity Management on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en</language><atom:link href="https://qfield.org/tags/integrity-management/feed.xml" rel="self" type="application/rss+xml"/><item><title>QField for Gas and Pipeline Networks</title><link>https://qfield.org/solutions/gas-and-pipeline-networks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/gas-and-pipeline-networks/</guid><description>&lt;h2 id="field-workflows">Field workflows&lt;/h2>
-&lt;ul>
-&lt;li>Route planning and wayleaves documentation&lt;/li>
-&lt;li>As-built capture for new segments&lt;/li>
-&lt;li>Integrity inspections and leak reports&lt;/li>
-&lt;/ul>
-&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
-&lt;p>Prepare projects in QGIS and keep teams synced via QFieldCloud for efficient reviews.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Integrity Management on QField - Efficient field work built for QGIS</title>
+    <link>http://localhost:1313/tags/integrity-management/</link>
+    <description>Recent content in Integrity Management on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/integrity-management/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Gas and Pipeline Networks</title>
+      <link>http://localhost:1313/solutions/gas-and-pipeline-networks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/solutions/gas-and-pipeline-networks/</guid>
+      <description>&lt;h2 id=&#34;field-workflows&#34;&gt;Field workflows&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Route planning and wayleaves documentation&lt;/li&gt;&#xA;&lt;li&gt;As-built capture for new segments&lt;/li&gt;&#xA;&lt;li&gt;Integrity inspections and leak reports&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;integrated-with-qgis-and-qfieldcloud&#34;&gt;Integrated with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Prepare projects in QGIS and keep teams synced via QFieldCloud for efficient reviews.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,15 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Education on QField - Efficient field work built for QGIS</title><link>https://qfield.org/tags/education/</link><description>Recent content in Education on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en</language><atom:link href="https://qfield.org/tags/education/feed.xml" rel="self" type="application/rss+xml"/><item><title>QField for Academic Field Studies</title><link>https://qfield.org/solutions/academic-field-studies/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/academic-field-studies/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
-&lt;ul>
-&lt;li>Field mapping exercises and labs&lt;/li>
-&lt;li>Research data collection and QA&lt;/li>
-&lt;li>Group collaboration and feedback&lt;/li>
-&lt;/ul>
-&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
-&lt;p>Build projects in QGIS and keep cohorts aligned via QFieldCloud.&lt;/p></description></item><item><title>QField for Ecology and Environmental Science Education</title><link>https://qfield.org/solutions/ecology-and-environmental-science-education/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/ecology-and-environmental-science-education/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
-&lt;ul>
-&lt;li>Field labs and data collection&lt;/li>
-&lt;li>Observation and species recording&lt;/li>
-&lt;li>Group collaboration and reporting&lt;/li>
-&lt;/ul>
-&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
-&lt;p>Build projects in QGIS and coordinate coursework with QFieldCloud.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Education on QField - Efficient field work built for QGIS</title>
+    <link>http://localhost:1313/tags/education/</link>
+    <description>Recent content in Education on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/education/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Academic Field Studies</title>
+      <link>http://localhost:1313/solutions/academic-field-studies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/solutions/academic-field-studies/</guid>
+      <description>&lt;h2 id=&#34;what-you-can-do&#34;&gt;What you can do&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Field mapping exercises and labs&lt;/li&gt;&#xA;&lt;li&gt;Research data collection and QA&lt;/li&gt;&#xA;&lt;li&gt;Group collaboration and feedback&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;integrated-with-qgis-and-qfieldcloud&#34;&gt;Integrated with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Build projects in QGIS and keep cohorts aligned via QFieldCloud.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>QField for Ecology and Environmental Science Education</title>
+      <link>http://localhost:1313/solutions/ecology-and-environmental-science-education/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/solutions/ecology-and-environmental-science-education/</guid>
+      <description>&lt;h2 id=&#34;what-you-can-do&#34;&gt;What you can do&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Field labs and data collection&lt;/li&gt;&#xA;&lt;li&gt;Observation and species recording&lt;/li&gt;&#xA;&lt;li&gt;Group collaboration and reporting&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;integrated-with-qgis-and-qfieldcloud&#34;&gt;Integrated with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Build projects in QGIS and coordinate coursework with QFieldCloud.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,10 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hydropower on QField - Efficient field work built for QGIS</title><link>https://qfield.org/tags/hydropower/</link><description>Recent content in Hydropower on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en</language><atom:link href="https://qfield.org/tags/hydropower/feed.xml" rel="self" type="application/rss+xml"/><item><title>QField for Energy and Renewables (Solar, Wind, Hydro)</title><link>https://qfield.org/solutions/energy-and-renewables-solar-wind-hydro/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/energy-and-renewables-solar-wind-hydro/</guid><description>&lt;h2 id="fieldwork-for-renewable-assets">Fieldwork for renewable assets&lt;/h2>
-&lt;p>Map infrastructure, record conditions, and document issues with photos. Work fully offline and sync later with QFieldCloud.&lt;/p>
-&lt;h3 id="typical-workflows">Typical workflows&lt;/h3>
-&lt;ul>
-&lt;li>Pre-construction environmental and site surveys&lt;/li>
-&lt;li>Construction QA and cable route verification&lt;/li>
-&lt;li>O&amp;amp;M inspections, defects, and preventive maintenance&lt;/li>
-&lt;/ul>
-&lt;h2 id="integrates-with-qgis-and-qfieldcloud">Integrates with QGIS and QFieldCloud&lt;/h2>
-&lt;p>Prepare layers and smart forms in QGIS. Share projects, collaborate, and sync changes via QFieldCloud.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hydropower on QField - Efficient field work built for QGIS</title>
+    <link>http://localhost:1313/tags/hydropower/</link>
+    <description>Recent content in Hydropower on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/hydropower/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Energy and Renewables (Solar, Wind, Hydro)</title>
+      <link>http://localhost:1313/solutions/energy-and-renewables-solar-wind-hydro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/solutions/energy-and-renewables-solar-wind-hydro/</guid>
+      <description>&lt;h2 id=&#34;fieldwork-for-renewable-assets&#34;&gt;Fieldwork for renewable assets&lt;/h2&gt;&#xA;&lt;p&gt;Map infrastructure, record conditions, and document issues with photos. Work fully offline and sync later with QFieldCloud.&lt;/p&gt;&#xA;&lt;h3 id=&#34;typical-workflows&#34;&gt;Typical workflows&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Pre-construction environmental and site surveys&lt;/li&gt;&#xA;&lt;li&gt;Construction QA and cable route verification&lt;/li&gt;&#xA;&lt;li&gt;O&amp;amp;M inspections, defects, and preventive maintenance&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;integrates-with-qgis-and-qfieldcloud&#34;&gt;Integrates with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Prepare layers and smart forms in QGIS. Share projects, collaborate, and sync changes via QFieldCloud.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

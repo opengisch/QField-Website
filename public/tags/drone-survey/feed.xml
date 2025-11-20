@@ -1,8 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Drone Survey on QField - Efficient field work built for QGIS</title><link>https://qfield.org/tags/drone-survey/</link><description>Recent content in Drone Survey on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en</language><atom:link href="https://qfield.org/tags/drone-survey/feed.xml" rel="self" type="application/rss+xml"/><item><title>QField for Drone Survey Ground Validation</title><link>https://qfield.org/solutions/drone-survey-ground-validation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/drone-survey-ground-validation/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
-&lt;ul>
-&lt;li>Ground control and checkpoints&lt;/li>
-&lt;li>Feature validation and QA&lt;/li>
-&lt;li>Sync to QGIS/QFieldCloud for analysis&lt;/li>
-&lt;/ul>
-&lt;h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud&lt;/h2>
-&lt;p>Design projects in QGIS and keep field and office aligned with QFieldCloud.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drone Survey on QField - Efficient field work built for QGIS</title>
+    <link>http://localhost:1313/tags/drone-survey/</link>
+    <description>Recent content in Drone Survey on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/drone-survey/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Drone Survey Ground Validation</title>
+      <link>http://localhost:1313/solutions/drone-survey-ground-validation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/solutions/drone-survey-ground-validation/</guid>
+      <description>&lt;h2 id=&#34;what-you-can-do&#34;&gt;What you can do&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ground control and checkpoints&lt;/li&gt;&#xA;&lt;li&gt;Feature validation and QA&lt;/li&gt;&#xA;&lt;li&gt;Sync to QGIS/QFieldCloud for analysis&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;works-with-qgis-and-qfieldcloud&#34;&gt;Works with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Design projects in QGIS and keep field and office aligned with QFieldCloud.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

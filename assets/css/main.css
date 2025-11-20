@@ -20,6 +20,15 @@
   font-display: swap;
 }
 
+/* Global link styles */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 /* Utility Classes */
 .d-block {
   display: block;
@@ -2526,6 +2535,47 @@ div.explanation {
 
 .btn-outline-secondary i {
   font-size: 1.1rem;
+}
+
+/* Blog post social share buttons */
+.share-buttons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.share-buttons li {
+  margin: 0;
+}
+
+.share-buttons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  color: #666;
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+}
+
+.share-buttons a:hover {
+  color: var(--qfield-color);
+  background-color: white;
+  border-color: var(--qfield-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.share-buttons svg {
+  width: 20px;
+  height: 20px;
 }
 
 /* Hardware page tabs*/

@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Newsletter on QField - Efficient field work built for QGIS</title><link>https://qfield.org/categories/newsletter/</link><description>Recent content in Newsletter on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 19 Nov 2025 12:01:18 +0100</lastBuildDate><atom:link href="https://qfield.org/categories/newsletter/feed.xml" rel="self" type="application/rss+xml"/><item><title>1 Million Downloads: QField's Big Milestone</title><link>https://qfield.org/2025/05/29/1-million-downloads-qfields-big-milestone/</link><pubDate>Thu, 29 May 2025 12:16:29 +0000</pubDate><guid>https://qfield.org/2025/05/29/1-million-downloads-qfields-big-milestone/</guid><description>&lt;p>🚀 QField has officially hit &lt;strong>1 million downloads&lt;/strong> – thanks to &lt;strong>you!&lt;/strong> 🎉&lt;/p>
-&lt;p>Let&amp;rsquo;s not beat around the bush: QField has hit &lt;strong>1+ million downloads&lt;/strong>. What started as an ambitious open-source project has transformed into &lt;strong>a global tool that&amp;rsquo;s changing how professionals collect spatial data in the field&lt;/strong>. This big milestone is the result of years of dedication, with over 50,000 hours invested by our team. Our GeoNinjas contributed 14% of QGIS, while also driving open-source projects like &lt;em>ModelBaker&lt;/em> and &lt;em>SwissLocator&lt;/em>.Thank you for making GIS nerds the &lt;strong>unsung heroes of fieldwork everywhere.&lt;/strong> Here&amp;rsquo;s to changing the world, one field at a time!&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Newsletter on QField - Efficient field work built for QGIS</title>
+    <link>http://localhost:1313/categories/newsletter/</link>
+    <description>Recent content in Newsletter on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 19 Nov 2025 12:01:18 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/newsletter/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1 Million Downloads: QField&#39;s Big Milestone</title>
+      <link>http://localhost:1313/2025/05/29/1-million-downloads-qfields-big-milestone/</link>
+      <pubDate>Thu, 29 May 2025 12:16:29 +0000</pubDate>
+      <guid>http://localhost:1313/2025/05/29/1-million-downloads-qfields-big-milestone/</guid>
+      <description>&lt;p&gt;🚀 QField has officially hit &lt;strong&gt;1 million downloads&lt;/strong&gt; – thanks to &lt;strong&gt;you!&lt;/strong&gt; 🎉&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s not beat around the bush: QField has hit &lt;strong&gt;1+ million downloads&lt;/strong&gt;. What started as an ambitious open-source project has transformed into &lt;strong&gt;a global tool that&amp;rsquo;s changing how professionals collect spatial data in the field&lt;/strong&gt;. This big milestone is the result of years of dedication, with over 50,000 hours invested by our team. Our GeoNinjas contributed 14% of QGIS, while also driving open-source projects like &lt;em&gt;ModelBaker&lt;/em&gt; and &lt;em&gt;SwissLocator&lt;/em&gt;.Thank you for making GIS nerds the &lt;strong&gt;unsung heroes of fieldwork everywhere.&lt;/strong&gt; Here&amp;rsquo;s to changing the world, one field at a time!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,8 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Flood Assessment on QField - Efficient field work built for QGIS</title><link>https://qfield.org/tags/flood-assessment/</link><description>Recent content in Flood Assessment on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en</language><atom:link href="https://qfield.org/tags/flood-assessment/feed.xml" rel="self" type="application/rss+xml"/><item><title>QField for Hydrology and Watershed Management</title><link>https://qfield.org/solutions/hydrology-and-watershed-management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/hydrology-and-watershed-management/</guid><description>&lt;h2 id="hydrology-fieldwork">Hydrology fieldwork&lt;/h2>
-&lt;ul>
-&lt;li>Stream and culvert surveys&lt;/li>
-&lt;li>Flood impact and debris mapping&lt;/li>
-&lt;li>Watershed monitoring sites and parameters&lt;/li>
-&lt;/ul>
-&lt;h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud&lt;/h2>
-&lt;p>Prepare forms and styles in QGIS. Collaborate and sync changes through QFieldCloud.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flood Assessment on QField - Efficient field work built for QGIS</title>
+    <link>http://localhost:1313/tags/flood-assessment/</link>
+    <description>Recent content in Flood Assessment on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/flood-assessment/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Hydrology and Watershed Management</title>
+      <link>http://localhost:1313/solutions/hydrology-and-watershed-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/solutions/hydrology-and-watershed-management/</guid>
+      <description>&lt;h2 id=&#34;hydrology-fieldwork&#34;&gt;Hydrology fieldwork&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Stream and culvert surveys&lt;/li&gt;&#xA;&lt;li&gt;Flood impact and debris mapping&lt;/li&gt;&#xA;&lt;li&gt;Watershed monitoring sites and parameters&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;works-with-qgis-and-qfieldcloud&#34;&gt;Works with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Prepare forms and styles in QGIS. Collaborate and sync changes through QFieldCloud.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

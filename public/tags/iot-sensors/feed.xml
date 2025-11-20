@@ -1,8 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IoT Sensors on QField - Efficient field work built for QGIS</title><link>https://qfield.org/tags/iot-sensors/</link><description>Recent content in IoT Sensors on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en</language><atom:link href="https://qfield.org/tags/iot-sensors/feed.xml" rel="self" type="application/rss+xml"/><item><title>QField for Smart Cities and Urban Mobility</title><link>https://qfield.org/solutions/smart-cities-and-urban-mobility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/smart-cities-and-urban-mobility/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
-&lt;ul>
-&lt;li>Sensor and device inventories&lt;/li>
-&lt;li>Mobility infrastructure mapping&lt;/li>
-&lt;li>Condition and performance checks&lt;/li>
-&lt;/ul>
-&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
-&lt;p>Ensure teams use the same data and styles, with sync and review workflows built in.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IoT Sensors on QField - Efficient field work built for QGIS</title>
+    <link>http://localhost:1313/tags/iot-sensors/</link>
+    <description>Recent content in IoT Sensors on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/iot-sensors/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Smart Cities and Urban Mobility</title>
+      <link>http://localhost:1313/solutions/smart-cities-and-urban-mobility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/solutions/smart-cities-and-urban-mobility/</guid>
+      <description>&lt;h2 id=&#34;what-you-can-do&#34;&gt;What you can do&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Sensor and device inventories&lt;/li&gt;&#xA;&lt;li&gt;Mobility infrastructure mapping&lt;/li&gt;&#xA;&lt;li&gt;Condition and performance checks&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;integrated-with-qgis-and-qfieldcloud&#34;&gt;Integrated with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Ensure teams use the same data and styles, with sync and review workflows built in.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

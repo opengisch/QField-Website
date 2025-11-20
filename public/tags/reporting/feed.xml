@@ -1,8 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reporting on QField - Efficient field work built for QGIS</title><link>https://qfield.org/tags/reporting/</link><description>Recent content in Reporting on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en</language><atom:link href="https://qfield.org/tags/reporting/feed.xml" rel="self" type="application/rss+xml"/><item><title>QField for Corporate ESG Field Data</title><link>https://qfield.org/solutions/corporate-esg-field-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/corporate-esg-field-data/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
-&lt;ul>
-&lt;li>ESG site checks and audits&lt;/li>
-&lt;li>Evidence capture and KPIs&lt;/li>
-&lt;li>Reporting-ready data exports&lt;/li>
-&lt;/ul>
-&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
-&lt;p>Keep one source of truth from field to ESG reports.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reporting on QField - Efficient field work built for QGIS</title>
+    <link>http://localhost:1313/tags/reporting/</link>
+    <description>Recent content in Reporting on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/reporting/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Corporate ESG Field Data</title>
+      <link>http://localhost:1313/solutions/corporate-esg-field-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/solutions/corporate-esg-field-data/</guid>
+      <description>&lt;h2 id=&#34;what-you-can-do&#34;&gt;What you can do&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;ESG site checks and audits&lt;/li&gt;&#xA;&lt;li&gt;Evidence capture and KPIs&lt;/li&gt;&#xA;&lt;li&gt;Reporting-ready data exports&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;integrated-with-qgis-and-qfieldcloud&#34;&gt;Integrated with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Keep one source of truth from field to ESG reports.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

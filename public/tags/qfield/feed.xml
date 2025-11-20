@@ -1,76 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>QField on QField - Efficient field work built for QGIS</title><link>https://qfield.org/tags/qfield/</link><description>Recent content in QField on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 19 Nov 2025 12:01:18 +0100</lastBuildDate><atom:link href="https://qfield.org/tags/qfield/feed.xml" rel="self" type="application/rss+xml"/><item><title>Welcome to the QField Blog</title><link>https://qfield.org/blog/welcome-to-qfield-blog/</link><pubDate>Fri, 17 Oct 2025 15:00:00 +0200</pubDate><guid>https://qfield.org/blog/welcome-to-qfield-blog/</guid><description>Welcome to the new QField blog! Stay tuned for updates, tutorials, and insights about field data collection.</description></item><item><title>QField 3.6 “Gondwana”: Locking on greatness</title><link>https://qfield.org/2025/06/03/qfield-3-6-gondwana-locking-on-greatness/</link><pubDate>Tue, 03 Jun 2025 07:46:38 +0000</pubDate><guid>https://qfield.org/2025/06/03/qfield-3-6-gondwana-locking-on-greatness/</guid><description>&lt;p>Building on top of the last release which introduced background tracking, this development cycle focused on polishing functionalities and building on top of preexisting features. The variety of improvements is sure to make our diverse user base and community excited to upgrade to QField 3.6.&lt;/p>
-&lt;h2 id="main-highlights">Main highlights&lt;/h2>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class="figure text-center mb-4">
- 
- &lt;img src="https://qfield.org/blog/wp-content/uploads/2025/05/splash.png" alt="" class="figure-img img-fluid gallery-img"
- 
- 
- >
- 
- 
-&lt;/figure>
-&lt;p>One of the most noticeable improvement in this version is the addition of “map preview rendering”. &lt;strong>QField now renders partial map content immediately beyond the edge of the screen&lt;/strong>, offering a much nicer experience when panning around as well as zooming in and out. Long-time QGIS users will recognise the behaviour, and we’re delighted to bring this experience to the field&lt;/p></description></item><item><title>QField 3.3 “Darién”: It is just the beginning</title><link>https://qfield.org/2024/06/11/qfield-3-3-darien-it-is-just-the-beginning/</link><pubDate>Tue, 11 Jun 2024 04:50:00 +0000</pubDate><guid>https://qfield.org/2024/06/11/qfield-3-3-darien-it-is-just-the-beginning/</guid><description>&lt;p>QField 3.3 has been released, and with it, we are proud to introduce a brand new plugin framework that empowers users to customize and add completely new functionalities to their favourite field application. That’s on top of a bunch of new features and improvements added during this development cycle. What preceded this moment was just the beginning!&lt;/p>
-&lt;h2 id="main-highlights">Main highlights&lt;/h2>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class="figure text-center mb-4">
- 
- &lt;img src="https://qfield.org/blog/wp-content/uploads/2024/06/33splash.png" alt="" class="figure-img img-fluid gallery-img"
- 
- 
- >
- 
- 
-&lt;/figure>
-&lt;p>One of the biggest feature additions of this version is a brand new drawing tool that allows users to sketch out important details over captured photos or annotate drawing templates. This was a highly requested feature, which we are delighted to bring to all supported platforms (Android, iOS, Windows, macOS, and, of course, Linux) with the financial support of the &lt;a href="http://qgis.ch" target="_blank" rel="noopener">Swiss QGIS user group&lt;/a>.&lt;/p></description></item><item><title>QField 3.2 “Congo”: Making your life easier</title><link>https://qfield.org/2024/04/04/qfield-3-2-congo-making-your-life-easier/</link><pubDate>Thu, 04 Apr 2024 07:58:11 +0000</pubDate><guid>https://qfield.org/2024/04/04/qfield-3-2-congo-making-your-life-easier/</guid><description>&lt;p>Focused on stability and usability improvements, most users will find something to celebrate in QField 3.2&lt;/p>
-&lt;h2 id="main-highlights">&lt;strong>Main highlights&lt;/strong>&lt;/h2>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure class="figure text-center mb-4">
- 
- &lt;img src="https://qfield.org/blog/wp-content/uploads/2024/03/qfield32.png" alt="" class="figure-img img-fluid gallery-img"
- 
- 
- >
- 
- 
-&lt;/figure>
-&lt;p>This new release introduces &lt;strong>project-defined tracking sessions, which are automatically activated when the project is loaded&lt;/strong>. Defined while setting up and tweaking a project on QGIS, these sessions permit the automated tracking of device positions without taking any action in QField beyond opening the project itself. This liberates field users from remembering to launch a session on app launch and lowers the knowledge required to collect such data. For more details, please read the &lt;a href="https://docs.qfield.org/how-to/tracking/#configure-a-project-tracking-session" target="_blank" rel="noopener">relevant QField documentation section&lt;/a>.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>QField on QField - Efficient field work built for QGIS</title>
+    <link>http://localhost:1313/tags/qfield/</link>
+    <description>Recent content in QField on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 19 Nov 2025 12:01:18 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/qfield/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to the QField Blog</title>
+      <link>http://localhost:1313/blog/welcome-to-qfield-blog/</link>
+      <pubDate>Fri, 17 Oct 2025 15:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/blog/welcome-to-qfield-blog/</guid>
+      <description>Welcome to the new QField blog! Stay tuned for updates, tutorials, and insights about field data collection.</description>
+    </item>
+    <item>
+      <title>QField 3.6 “Gondwana”: Locking on greatness</title>
+      <link>http://localhost:1313/2025/06/03/qfield-3-6-gondwana-locking-on-greatness/</link>
+      <pubDate>Tue, 03 Jun 2025 07:46:38 +0000</pubDate>
+      <guid>http://localhost:1313/2025/06/03/qfield-3-6-gondwana-locking-on-greatness/</guid>
+      <description>&lt;p&gt;Building on top of the last release which introduced background tracking, this development cycle focused on polishing functionalities and building on top of preexisting features. The variety of improvements is sure to make our diverse user base and community excited to upgrade to QField 3.6.&lt;/p&gt;&#xA;&lt;h2 id=&#34;main-highlights&#34;&gt;Main highlights&lt;/h2&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;figure text-center mb-4&#34;&gt;&#xA;  &#xA;    &lt;img src=&#34;http://localhost:1313/blog/wp-content/uploads/2025/05/splash.png&#34; alt=&#34;&#34; class=&#34;figure-img img-fluid gallery-img&#34;&#xA;         &#xA;         &#xA;         &gt;&#xA;  &#xA;  &#xA;&lt;/figure&gt;&#xA;&lt;p&gt;One of the most noticeable improvement in this version is the addition of “map preview rendering”. &lt;strong&gt;QField now renders partial map content immediately beyond the edge of the screen&lt;/strong&gt;, offering a much nicer experience when panning around as well as zooming in and out. Long-time QGIS users will recognise the behaviour, and we’re delighted to bring this experience to the field&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>QField 3.3 “Darién”: It is just the beginning</title>
+      <link>http://localhost:1313/2024/06/11/qfield-3-3-darien-it-is-just-the-beginning/</link>
+      <pubDate>Tue, 11 Jun 2024 04:50:00 +0000</pubDate>
+      <guid>http://localhost:1313/2024/06/11/qfield-3-3-darien-it-is-just-the-beginning/</guid>
+      <description>&lt;p&gt;QField 3.3 has been released, and with it, we are proud to introduce a brand new plugin framework that empowers users to customize and add completely new functionalities to their favourite field application. That’s on top of a bunch of new features and improvements added during this development cycle. What preceded this moment was just the beginning!&lt;/p&gt;&#xA;&lt;h2 id=&#34;main-highlights&#34;&gt;Main highlights&lt;/h2&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;figure text-center mb-4&#34;&gt;&#xA;  &#xA;    &lt;img src=&#34;http://localhost:1313/blog/wp-content/uploads/2024/06/33splash.png&#34; alt=&#34;&#34; class=&#34;figure-img img-fluid gallery-img&#34;&#xA;         &#xA;         &#xA;         &gt;&#xA;  &#xA;  &#xA;&lt;/figure&gt;&#xA;&lt;p&gt;One of the biggest feature additions of this version is a brand new drawing tool that allows users to sketch out important details over captured photos or annotate drawing templates. This was a highly requested feature, which we are delighted to bring to all supported platforms (Android, iOS, Windows, macOS, and, of course, Linux) with the financial support of the &lt;a href=&#34;http://qgis.ch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Swiss QGIS user group&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>QField 3.2 “Congo”: Making your life easier</title>
+      <link>http://localhost:1313/2024/04/04/qfield-3-2-congo-making-your-life-easier/</link>
+      <pubDate>Thu, 04 Apr 2024 07:58:11 +0000</pubDate>
+      <guid>http://localhost:1313/2024/04/04/qfield-3-2-congo-making-your-life-easier/</guid>
+      <description>&lt;p&gt;Focused on stability and usability improvements, most users will find something to celebrate in QField 3.2&lt;/p&gt;&#xA;&lt;h2 id=&#34;main-highlights&#34;&gt;&lt;strong&gt;Main highlights&lt;/strong&gt;&lt;/h2&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;figure text-center mb-4&#34;&gt;&#xA;  &#xA;    &lt;img src=&#34;http://localhost:1313/blog/wp-content/uploads/2024/03/qfield32.png&#34; alt=&#34;&#34; class=&#34;figure-img img-fluid gallery-img&#34;&#xA;         &#xA;         &#xA;         &gt;&#xA;  &#xA;  &#xA;&lt;/figure&gt;&#xA;&lt;p&gt;This new release introduces &lt;strong&gt;project-defined tracking sessions, which are automatically activated when the project is loaded&lt;/strong&gt;. Defined while setting up and tweaking a project on QGIS, these sessions permit the automated tracking of device positions without taking any action in QField beyond opening the project itself. This liberates field users from remembering to launch a session on app launch and lowers the knowledge required to collect such data. For more details, please read the &lt;a href=&#34;https://docs.qfield.org/how-to/tracking/#configure-a-project-tracking-session&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;relevant QField documentation section&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

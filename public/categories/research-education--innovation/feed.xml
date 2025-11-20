@@ -1,36 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research, Education &amp; Innovation on QField - Efficient field work built for QGIS</title><link>https://qfield.org/categories/research-education--innovation/</link><description>Recent content in Research, Education &amp; Innovation on QField - Efficient field work built for QGIS</description><generator>Hugo</generator><language>en</language><atom:link href="https://qfield.org/categories/research-education--innovation/feed.xml" rel="self" type="application/rss+xml"/><item><title>QField for Academic Field Studies</title><link>https://qfield.org/solutions/academic-field-studies/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/academic-field-studies/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
-&lt;ul>
-&lt;li>Field mapping exercises and labs&lt;/li>
-&lt;li>Research data collection and QA&lt;/li>
-&lt;li>Group collaboration and feedback&lt;/li>
-&lt;/ul>
-&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
-&lt;p>Build projects in QGIS and keep cohorts aligned via QFieldCloud.&lt;/p></description></item><item><title>QField for Archaeology and Anthropology</title><link>https://qfield.org/solutions/archaeology-and-anthropology/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/archaeology-and-anthropology/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
-&lt;ul>
-&lt;li>Site surveys and contexts&lt;/li>
-&lt;li>Ethnographic mapping and interviews&lt;/li>
-&lt;li>Monitoring and conservation&lt;/li>
-&lt;/ul>
-&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
-&lt;p>Prepare projects in QGIS and collaborate across teams via QFieldCloud.&lt;/p></description></item><item><title>QField for Citizen Science and Participatory Mapping</title><link>https://qfield.org/solutions/citizen-science-and-participatory-mapping/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/citizen-science-and-participatory-mapping/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
-&lt;ul>
-&lt;li>Community mapping and local surveys&lt;/li>
-&lt;li>Environmental observations and reporting&lt;/li>
-&lt;li>Collaborative data projects with oversight&lt;/li>
-&lt;/ul>
-&lt;h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud&lt;/h2>
-&lt;p>Set up data models in QGIS and coordinate contributors via QFieldCloud.&lt;/p></description></item><item><title>QField for Ecology and Environmental Science Education</title><link>https://qfield.org/solutions/ecology-and-environmental-science-education/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/ecology-and-environmental-science-education/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
-&lt;ul>
-&lt;li>Field labs and data collection&lt;/li>
-&lt;li>Observation and species recording&lt;/li>
-&lt;li>Group collaboration and reporting&lt;/li>
-&lt;/ul>
-&lt;h2 id="integrated-with-qgis-and-qfieldcloud">Integrated with QGIS and QFieldCloud&lt;/h2>
-&lt;p>Build projects in QGIS and coordinate coursework with QFieldCloud.&lt;/p></description></item><item><title>QField for Geological and Geophysical Surveys</title><link>https://qfield.org/solutions/geological-and-geophysical-surveys/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://qfield.org/solutions/geological-and-geophysical-surveys/</guid><description>&lt;h2 id="what-you-can-do">What you can do&lt;/h2>
-&lt;ul>
-&lt;li>Geological mapping and structural data&lt;/li>
-&lt;li>Sampling and outcrop documentation&lt;/li>
-&lt;li>Geophysical station mapping and logs&lt;/li>
-&lt;/ul>
-&lt;h2 id="works-with-qgis-and-qfieldcloud">Works with QGIS and QFieldCloud&lt;/h2>
-&lt;p>Prepare projects in QGIS and synchronize work across teams via QFieldCloud.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research, Education &amp; Innovation on QField - Efficient field work built for QGIS</title>
+    <link>http://localhost:1313/categories/research-education--innovation/</link>
+    <description>Recent content in Research, Education &amp; Innovation on QField - Efficient field work built for QGIS</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/categories/research-education--innovation/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QField for Academic Field Studies</title>
+      <link>http://localhost:1313/solutions/academic-field-studies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/solutions/academic-field-studies/</guid>
+      <description>&lt;h2 id=&#34;what-you-can-do&#34;&gt;What you can do&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Field mapping exercises and labs&lt;/li&gt;&#xA;&lt;li&gt;Research data collection and QA&lt;/li&gt;&#xA;&lt;li&gt;Group collaboration and feedback&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;integrated-with-qgis-and-qfieldcloud&#34;&gt;Integrated with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Build projects in QGIS and keep cohorts aligned via QFieldCloud.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>QField for Archaeology and Anthropology</title>
+      <link>http://localhost:1313/solutions/archaeology-and-anthropology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/solutions/archaeology-and-anthropology/</guid>
+      <description>&lt;h2 id=&#34;what-you-can-do&#34;&gt;What you can do&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Site surveys and contexts&lt;/li&gt;&#xA;&lt;li&gt;Ethnographic mapping and interviews&lt;/li&gt;&#xA;&lt;li&gt;Monitoring and conservation&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;integrated-with-qgis-and-qfieldcloud&#34;&gt;Integrated with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Prepare projects in QGIS and collaborate across teams via QFieldCloud.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>QField for Citizen Science and Participatory Mapping</title>
+      <link>http://localhost:1313/solutions/citizen-science-and-participatory-mapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/solutions/citizen-science-and-participatory-mapping/</guid>
+      <description>&lt;h2 id=&#34;what-you-can-do&#34;&gt;What you can do&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Community mapping and local surveys&lt;/li&gt;&#xA;&lt;li&gt;Environmental observations and reporting&lt;/li&gt;&#xA;&lt;li&gt;Collaborative data projects with oversight&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;works-with-qgis-and-qfieldcloud&#34;&gt;Works with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Set up data models in QGIS and coordinate contributors via QFieldCloud.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>QField for Ecology and Environmental Science Education</title>
+      <link>http://localhost:1313/solutions/ecology-and-environmental-science-education/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/solutions/ecology-and-environmental-science-education/</guid>
+      <description>&lt;h2 id=&#34;what-you-can-do&#34;&gt;What you can do&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Field labs and data collection&lt;/li&gt;&#xA;&lt;li&gt;Observation and species recording&lt;/li&gt;&#xA;&lt;li&gt;Group collaboration and reporting&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;integrated-with-qgis-and-qfieldcloud&#34;&gt;Integrated with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Build projects in QGIS and coordinate coursework with QFieldCloud.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>QField for Geological and Geophysical Surveys</title>
+      <link>http://localhost:1313/solutions/geological-and-geophysical-surveys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/solutions/geological-and-geophysical-surveys/</guid>
+      <description>&lt;h2 id=&#34;what-you-can-do&#34;&gt;What you can do&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Geological mapping and structural data&lt;/li&gt;&#xA;&lt;li&gt;Sampling and outcrop documentation&lt;/li&gt;&#xA;&lt;li&gt;Geophysical station mapping and logs&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;works-with-qgis-and-qfieldcloud&#34;&gt;Works with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Prepare projects in QGIS and synchronize work across teams via QFieldCloud.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
