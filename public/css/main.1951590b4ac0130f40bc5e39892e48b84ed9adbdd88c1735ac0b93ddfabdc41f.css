@@ -1,5 +1,6 @@
 :root {
   --qfield-color: #80cc28;
+  --qfield-color-rgb: rgb(128, 204, 40);
   --qfieldcloud-color: #4a6fae;
   --border-light: rgba(128, 204, 40, 0.3);
   --shadow-light: rgba(0, 0, 0, 0.01);
@@ -116,7 +117,7 @@ p {
   font-weight: normal;
   background-color: #fff;
   border-bottom: 1px solid var(--qfield-color) !important; 
-  box-shadow: 0 1px 5px var(--qfield-color);
+  box-shadow: 0 1px 5px rgba(128, 204, 40, 0.4) !important;
   height: 100px;
   padding-top: 0;
   padding-bottom: 0;
@@ -709,6 +710,101 @@ p {
 .blog-single .blog-content img {
   height: auto;
   max-width: 100%;
+}
+
+.blog-single .blog-content a {
+  color: var(--qfield-color);
+  text-decoration: none;
+}
+
+.blog-single .blog-content a:hover {
+  text-decoration: underline;
+}
+
+.blog-view-controls .btn.active {
+  background-color: var(--qfield-color);
+  color: #fff;
+  border-color: var(--qfield-color);
+}
+
+.blog-view-controls .btn {
+  box-shadow: none;
+}
+
+.blog-view {
+  transition: opacity 0.2s ease;
+}
+
+.col-blog-card {
+  display: flex;
+}
+
+.blog-card {
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.blog-card__media {
+  position: relative;
+}
+
+.blog-card__body {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-view--list .col-blog-card {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.blog-view--list .blog-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.blog-view--list .blog-card__media {
+  flex: 0 0 320px;
+  max-width: 320px;
+}
+
+.blog-view--list .blog-card__media .card-img-top,
+.blog-view--list .blog-card__media .card-img-top img,
+.blog-view--list .blog-card__media .card-img-top > div {
+  height: 100% !important;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.blog-view--list .blog-card__body {
+  padding: 1.5rem;
+}
+
+.blog-view--list .blog-card__body .card-text {
+  max-width: 70ch;
+}
+
+.blog-view--list .blog-card--no-image .blog-card__body {
+  padding-left: 1.5rem;
+}
+
+@media (max-width: 991.98px) {
+  .blog-view--list .blog-card {
+    flex-direction: column;
+  }
+
+  .blog-view--list .blog-card__media {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .blog-view--list .blog-card__body {
+    padding: 1rem 1.25rem;
+  }
 }
 
 /* Responsive image constraints for blog and success story content */

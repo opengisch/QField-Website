@@ -47,7 +47,7 @@
                     {{- $beforeLink := index (split $description $linkText) 0 -}}
                     {{- $afterLink := index (split $description $linkText) 1 -}}
                     
-                    {{ $beforeLink | markdownify }}<a href="{{ $linkUrl }}" target="_blank" rel="noopener">{{ $linkText }}</a>{{ $afterLink | markdownify }}
+                    {{ $beforeLink | markdownify }} <a href="{{ $linkUrl }}" target="_blank" rel="noopener">{{ $linkText }}</a> {{ $afterLink | markdownify }}
                   {{- else -}}
                     {{ .description | markdownify }}
                   {{- end -}}
@@ -56,8 +56,12 @@
               
               {{- if .cta_text -}}
                 <div class="card-footer bg-white border-0 text-center pb-1">
+                  {{- $linkClass := "green-link text-decoration-none fw-normal" -}}
+                  {{- if eq .cta_text "QFieldCloud Support Portal" -}}
+                    {{- $linkClass = "text-primary text-decoration-none fw-normal" -}}
+                  {{- end -}}
                   <a 
-                    class="green-link text-decoration-none fw-normal"
+                    class="{{ $linkClass }}"
                     href="{{ .cta_url }}"
                     {{- if .cta_external }} target="_blank" rel="noopener"{{ end -}}
                   >

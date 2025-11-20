@@ -226,6 +226,44 @@ function initializeApp() {
       applyFilter(filter)
     })
   }
+
+  // Blog view toggle controls
+  const blogViewGrid = document.querySelector('[data-blog-view-grid]')
+  const blogViewToggleButtons = document.querySelectorAll('[data-blog-view-toggle]')
+
+  if (blogViewGrid && blogViewToggleButtons.length > 0) {
+    const storageKey = 'qfieldBlogView'
+    const allowedViews = ['cards', 'list']
+    const defaultView = 'list'
+
+    const setActiveButton = (view) => {
+      blogViewToggleButtons.forEach((btn) => {
+        const isActive = btn.dataset.view === view
+        btn.classList.toggle('active', isActive)
+        btn.setAttribute('aria-pressed', isActive ? 'true' : 'false')
+      })
+    }
+
+    const applyView = (view) => {
+      const normalized = allowedViews.includes(view) ? view : defaultView
+      blogViewGrid.classList.remove('blog-view--cards', 'blog-view--list')
+      blogViewGrid.classList.add(`blog-view--${normalized}`)
+      setActiveButton(normalized)
+    }
+
+    const savedView = window.localStorage ? localStorage.getItem(storageKey) : null
+    applyView(savedView)
+
+    blogViewToggleButtons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const view = btn.dataset.view
+        applyView(view)
+        if (window.localStorage) {
+          localStorage.setItem(storageKey, view)
+        }
+      })
+    })
+  }
 }
 
 // Reset initialization on page navigation (for SPAs or cached pages)
@@ -352,6 +390,16 @@ function initializeGalleries() {
     // Replace the wrapper with the carousel
     galleryWrapper.parentNode.replaceChild(carousel, galleryWrapper)
     
+    // Add click handlers for fullscreen
+    const galleryImages = carousel.querySelectorAll('.gallery-img')
+    galleryImages.forEach((img, index) => {
+      img.style.cursor = 'pointer'
+      img.addEventListener('click', (e) => {
+        e.preventDefault()
+        openGalleryFullscreen(galleryId, index)
+      })
+    })
+    
     // Initialize Bootstrap carousel
     if (typeof bootstrap !== 'undefined' && bootstrap.Carousel) {
       try {
@@ -372,6 +420,111 @@ function initializeGalleries() {
     }
     
     console.log(`Gallery ${galleryId} initialized successfully with ${figures.length} slides`)
+  })
+}
+
+// Fullscreen gallery lightbox
+function openGalleryFullscreen(galleryId, startIndex = 0) {
+  const carousel = document.getElementById(galleryId)
+  if (!carousel) return
+  
+  const images = Array.from(carousel.querySelectorAll('.gallery-img')).map(img => ({
+    src: img.src,
+    alt: img.alt || '',
+    caption: img.closest('figure')?.querySelector('figcaption')?.textContent || ''
+  }))
+  
+  if (images.length === 0) return
+  
+  // Create lightbox overlay
+  const lightbox = document.createElement('div')
+  lightbox.className = 'gallery-lightbox'
+  lightbox.innerHTML = `
+    <div class="gallery-lightbox__backdrop"></div>
+    <div class="gallery-lightbox__container">
+      <button class="gallery-lightbox__close" aria-label="Close gallery">×</button>
+      ${images.length > 1 ? `
+        <button class="gallery-lightbox__prev" aria-label="Previous image">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="gallery-lightbox__next" aria-label="Next image">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      ` : ''}
+      <div class="gallery-lightbox__content">
+        <img class="gallery-lightbox__image" src="${images[startIndex].src}" alt="${images[startIndex].alt}">
+        ${images[startIndex].caption ? `<div class="gallery-lightbox__caption">${images[startIndex].caption}</div>` : ''}
+      </div>
+      ${images.length > 1 ? `
+        <div class="gallery-lightbox__counter">${startIndex + 1} / ${images.length}</div>
+      ` : ''}
+    </div>
+  `
+  
+  document.body.appendChild(lightbox)
+  document.body.style.overflow = 'hidden'
+  
+  let currentIndex = startIndex
+  
+  const updateImage = (index) => {
+    currentIndex = index
+    const img = lightbox.querySelector('.gallery-lightbox__image')
+    const caption = lightbox.querySelector('.gallery-lightbox__caption')
+    const counter = lightbox.querySelector('.gallery-lightbox__counter')
+    
+    img.src = images[index].src
+    img.alt = images[index].alt
+    
+    if (caption) {
+      if (images[index].caption) {
+        caption.textContent = images[index].caption
+        caption.style.display = 'block'
+      } else {
+        caption.style.display = 'none'
+      }
+    }
+    
+    if (counter) {
+      counter.textContent = `${index + 1} / ${images.length}`
+    }
+  }
+  
+  const closeLightbox = () => {
+    lightbox.remove()
+    document.body.style.overflow = ''
+  }
+  
+  const showPrev = () => {
+    const newIndex = currentIndex > 0 ? currentIndex - 1 : images.length - 1
+    updateImage(newIndex)
+  }
+  
+  const showNext = () => {
+    const newIndex = currentIndex < images.length - 1 ? currentIndex + 1 : 0
+    updateImage(newIndex)
+  }
+  
+  // Event listeners
+  lightbox.querySelector('.gallery-lightbox__close')?.addEventListener('click', closeLightbox)
+  lightbox.querySelector('.gallery-lightbox__backdrop')?.addEventListener('click', closeLightbox)
+  lightbox.querySelector('.gallery-lightbox__prev')?.addEventListener('click', showPrev)
+  lightbox.querySelector('.gallery-lightbox__next')?.addEventListener('click', showNext)
+  
+  // Keyboard navigation
+  const handleKeyboard = (e) => {
+    if (e.key === 'Escape') closeLightbox()
+    else if (e.key === 'ArrowLeft') showPrev()
+    else if (e.key === 'ArrowRight') showNext()
+  }
+  
+  document.addEventListener('keydown', handleKeyboard)
+  lightbox.addEventListener('remove', () => {
+    document.removeEventListener('keydown', handleKeyboard)
+  })
+  
+  // Animate in
+  requestAnimationFrame(() => {
+    lightbox.classList.add('gallery-lightbox--active')
   })
 }
 

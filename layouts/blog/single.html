@@ -121,7 +121,7 @@
         <div class="card h-100 shadow-sm">
           <div class="card-body">
             <h5 class="card-title">
-              <a href="{{ .RelPermalink }}" class="text-decoration-none stretched-link">{{ .Title }}</a>
+              <a href="{{ .RelPermalink }}" class="text-decoration-none text-dark stretched-link">{{ .Title }}</a>
             </h5>
             <p class="card-text">
               <small class="text-muted">
@@ -129,7 +129,7 @@
               </small>
             </p>
             {{ if .Summary }}
-            <p class="card-text">{{ .Summary | truncate 100 }}</p>
+            <p class="card-text text-dark">{{ .Summary | truncate 100 }}</p>
             {{ end }}
           </div>
         </div>

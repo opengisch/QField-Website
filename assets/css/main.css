@@ -712,6 +712,15 @@ p {
   max-width: 100%;
 }
 
+.blog-single .blog-content a {
+  color: var(--qfield-color);
+  text-decoration: none;
+}
+
+.blog-single .blog-content a:hover {
+  text-decoration: underline;
+}
+
 .blog-view-controls .btn.active {
   background-color: var(--qfield-color);
   color: #fff;
@@ -1113,8 +1122,8 @@ p:has(> img) {
 
 /* Solutions list page */
 .solutions-header {
-  padding-top: 4rem;
-  padding-bottom: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
 }
 
@@ -1123,36 +1132,36 @@ p:has(> img) {
 }
 
 .solutions-header__title {
-  font-size: 4.5rem;
-  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
   color: #333;
 }
 
 .solutions-header__description {
-  font-size: 2rem;
+  font-size: 1.1rem;
   color: #666;
   line-height: 1.6;
 }
 
 .solutions-content {
-  padding: 4rem 0;
+  padding: 3rem 0;
 }
 
 .solutions-category {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .solutions-category__title {
-  font-size: 2.8rem;
-  margin-bottom: 2rem;
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
   color: #333;
   border-bottom: 3px solid var(--qfield-color);
   padding-bottom: 0.5rem;
 }
 
 .solutions-card__title {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
   line-height: 1.3;
 }
 
@@ -1173,16 +1182,16 @@ p:has(> img) {
   padding: 4px 10px;
   margin: 2px;
   border-radius: 4px;
-  font-size: 1.1rem;
+  font-size: 0.85rem;
 }
 
 .solutions-empty {
   text-align: center;
-  padding: 4rem 0;
+  padding: 3rem 0;
 }
 
 .solutions-empty__message {
-  font-size: 1.8rem;
+  font-size: 1.1rem;
   color: #666;
 }
 
@@ -3038,14 +3047,14 @@ div.explanation {
 
 /* Solution cards */
 .solution-card-column {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   display: flex;
 }
 
 .solution-card {
   background: white;
   border-radius: 12px;
-  padding: 2rem;
+  padding: 1.5rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   border: 1px solid #e9ecef;
   display: flex;
@@ -3072,16 +3081,16 @@ div.explanation {
 }
 
 .solution-card__summary {
-  font-size: 1.4rem;
+  font-size: 0.95rem;
   color: #666;
   line-height: 1.6;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   display: -webkit-box;
   line-clamp: 4;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  min-height: 9.6rem;
+  min-height: 6rem;
 }
 
 .solution-card__link {
@@ -3089,7 +3098,7 @@ div.explanation {
   color: var(--qfield-color);
   font-weight: 600;
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 0.9rem;
   transition: all 0.3s;
   margin-top: auto;
 }
@@ -3102,7 +3111,7 @@ div.explanation {
   .solution-card__summary {
     line-clamp: 5;
     -webkit-line-clamp: 5;
-    min-height: 12rem;
+    min-height: 7.5rem;
   }
 }
 

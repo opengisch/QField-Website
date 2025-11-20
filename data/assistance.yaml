@@ -40,7 +40,7 @@ services:
     cta_external: true
     
   - title: "QFieldCloud support"
-    description: "If you have a subscription, please use the integrated</br> ticketing system button or ask your questions here:"
+    description: "If you have a  subscription, please use the integrated</br> ticketing system button or ask your questions here:"
     icon: "images/icons/cloud.png"
     cta_text: "QFieldCloud Support Portal"
     cta_url: "https://support.qfield.cloud"
