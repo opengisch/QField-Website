@@ -395,7 +395,7 @@ QField and QFieldCloud are &lt;strong>open-source&lt;/strong>, and OPENGIS.c
 
 
 &lt;div class="gallery-wrapper" 
- data-gallery-id="gallery-1763632835-272325009"
+ data-gallery-id="gallery-1763634275-155088108"
  data-autoplay="false"
  data-interval="5000"
  data-controls="true"
@@ -506,7 +506,7 @@ QField and QFieldCloud are &lt;strong>open-source&lt;/strong>, and OPENGIS.c
 
 &lt;style>
  
-#gallery-1763632835-272325009 .carousel-item .gallery-img {
+#gallery-1763634275-155088108 .carousel-item .gallery-img {
  height: 400px !important;
  width: 100% !important;
  object-fit: cover !important;
@@ -514,11 +514,11 @@ QField and QFieldCloud are &lt;strong>open-source&lt;/strong>, and OPENGIS.c
  display: block !important;
 }
 
-#gallery-1763632835-272325009 .carousel-item {
+#gallery-1763634275-155088108 .carousel-item {
  height: auto;
 }
 
-#gallery-1763632835-272325009 .carousel-item .figure {
+#gallery-1763634275-155088108 .carousel-item .figure {
  margin: 0;
  width: 100%;
  display: flex;
@@ -527,11 +527,11 @@ QField and QFieldCloud are &lt;strong>open-source&lt;/strong>, and OPENGIS.c
  text-align: center;
 }
 
-#gallery-1763632835-272325009 .carousel-item .figure .gallery-img {
+#gallery-1763634275-155088108 .carousel-item .figure .gallery-img {
  width: 100% !important;
 }
 
-#gallery-1763632835-272325009 .carousel-item .figure .figure-caption {
+#gallery-1763634275-155088108 .carousel-item .figure .figure-caption {
  position: absolute;
  bottom: 1rem;
  left: 50%;
@@ -540,13 +540,13 @@ QField and QFieldCloud are &lt;strong>open-source&lt;/strong>, and OPENGIS.c
 }
 
 @media (max-width: 768px) {
- #gallery-1763632835-272325009 .carousel-item .gallery-img {
+ #gallery-1763634275-155088108 .carousel-item .gallery-img {
  height: 300px !important;
  }
 }
 
 @media (max-width: 576px) {
- #gallery-1763632835-272325009 .carousel-item .gallery-img {
+ #gallery-1763634275-155088108 .carousel-item .gallery-img {
  height: 250px !important;
  }
 }
@@ -692,7 +692,7 @@ But adding support for android 5 isn&amp;rsquo;t the only great news, during the
 It is important to remember that QField is still beta and thus it doesn&amp;rsquo;t have all the features we want yet. Notably, &lt;em>there is no digitizing, due to a bug in android, Android 5 (Lollipop) is currently not supported (android 4.3 and 4.4 are suggested) and for now you need to manually copy the projects and data from the desktop to your device.&lt;/em>
 QField is an Open Source project led by OPENGIS.ch LLC, more &lt;a href="https://qfield.org/android-gis/qfield/">information&lt;/a>, the &lt;a href="https://qfield.opengis.ch/repo" target="_blank" rel="noopener">source code&lt;/a> and a possibility to donate to the project can be found on the &lt;a href="https://qfield.org/android-gis/qfield/">QField page&lt;/a> (preferred) or by buying the QField for &lt;a href="https://qfield.opengis.ch/karma" target="_blank" rel="noopener">QGIS Karma edition app&lt;/a>.
 Also if you need a specific feature, &lt;a href="https://qfield.org/contact/">contact us&lt;/a> to sponsor its development.&lt;/p></description></item><item><title>A star is born, QGIS mobile is now QField</title><link>https://qfield.org/2015/01/28/qgis-mobile-is-now-qfield/</link><pubDate>Wed, 28 Jan 2015 08:02:57 +0000</pubDate><guid>https://qfield.org/2015/01/28/qgis-mobile-is-now-qfield/</guid><description>&lt;div class="gallery-wrapper" 
- data-gallery-id="gallery-1763632835-296009629"
+ data-gallery-id="gallery-1763634275-172958559"
  data-autoplay="false"
  data-interval="5000"
  data-controls="true"
@@ -702,7 +702,7 @@ Also if you need a specific feature, &lt;a href="https://qfield.org/contact/">co
 
 &lt;style>
  
-#gallery-1763632835-296009629 .carousel-item .gallery-img {
+#gallery-1763634275-172958559 .carousel-item .gallery-img {
  height: 400px !important;
  width: 100% !important;
  object-fit: cover !important;
@@ -710,11 +710,11 @@ Also if you need a specific feature, &lt;a href="https://qfield.org/contact/">co
  display: block !important;
 }
 
-#gallery-1763632835-296009629 .carousel-item {
+#gallery-1763634275-172958559 .carousel-item {
  height: auto;
 }
 
-#gallery-1763632835-296009629 .carousel-item .figure {
+#gallery-1763634275-172958559 .carousel-item .figure {
  margin: 0;
  width: 100%;
  display: flex;
@@ -723,11 +723,11 @@ Also if you need a specific feature, &lt;a href="https://qfield.org/contact/">co
  text-align: center;
 }
 
-#gallery-1763632835-296009629 .carousel-item .figure .gallery-img {
+#gallery-1763634275-172958559 .carousel-item .figure .gallery-img {
  width: 100% !important;
 }
 
-#gallery-1763632835-296009629 .carousel-item .figure .figure-caption {
+#gallery-1763634275-172958559 .carousel-item .figure .figure-caption {
  position: absolute;
  bottom: 1rem;
  left: 50%;
@@ -736,13 +736,13 @@ Also if you need a specific feature, &lt;a href="https://qfield.org/contact/">co
 }
 
 @media (max-width: 768px) {
- #gallery-1763632835-296009629 .carousel-item .gallery-img {
+ #gallery-1763634275-172958559 .carousel-item .gallery-img {
  height: 300px !important;
  }
 }
 
 @media (max-width: 576px) {
- #gallery-1763632835-296009629 .carousel-item .gallery-img {
+ #gallery-1763634275-172958559 .carousel-item .gallery-img {
  height: 250px !important;
  }
 }

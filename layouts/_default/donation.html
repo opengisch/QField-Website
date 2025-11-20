@@ -1,170 +1,141 @@
 {{ define "main" }}
+{{ $data := .Site.Data.donate.content }}
 
-
-<!-- Section #2: main points -->
-<section id="donation" class="section-spacing text-center">
-  <div class="container" style="max-width:1140px; margin-top: 20px;">
-
-    <section class="section-spacing">
-      <div class="container"
-        style="max-width: 1140px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 2rem; align-items: stretch;">
-
-        <!-- donation block -->
-        <div style="max-width: 500px; margin: 0 auto;">
-          <div
-            style="background-color: #fff; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); padding: 2rem;">
-
-            <!-- moved explanation text here -->
-            <h2 style="margin-bottom: 15px;"><strong>Payrexx Donation</strong></h2>
-            <p style="margin-bottom: 15px;"> We use the <a href="https://payrexx.com" target="_blank"
-                style="color: var(--qfield-color); font-weight: bold;">payrexx.com <i class="fas fa-external-link-alt"
-                  style="font-size: 0.85em;"></i></a> service to receive credit card donations. No signup needed.
+<!-- Donation Section -->
+<section id="donation" class="py-5">
+  <div class="container">
+    <div class="row justify-content-center mb-5">
+      <div class="col-lg-6 col-md-8">
+        
+        <!-- Donation Card -->
+        <div class="card shadow border-0 rounded-4">
+          <div class="card-body p-4">
+            
+            <!-- Header -->
+            <h2 class="h4 fw-bold text-center mb-3">{{ $data.title }}</h2>
+            <p class="text-center mb-4">
+              {{ $data.intro }} 
+              <a href="{{ $data.provider.url }}" target="_blank" rel="noopener noreferrer" class="fw-bold" style="color: var(--qfield-color);">
+                {{ $data.provider.name }}
+                <i class="fas fa-external-link-alt" style="font-size: 0.85em;"></i>
+              </a> 
+              No signup needed.
             </p>
 
-            <!-- tabs -->
-            <div style="display: flex; justify-content: center; margin-bottom: 1rem; border-bottom: 1px solid #ccc;">
-              <button class="donation-tab active" data-tab="one-time">One-Time</button>
-              <button class="donation-tab" data-tab="monthly">Monthly</button>
+            <!-- Tabs Navigation -->
+            <ul class="nav nav-tabs justify-content-center border-bottom mb-4" role="tablist">
+              {{ range $index, $interval := $data.intervals }}
+              <li class="nav-item" role="presentation">
+                <button 
+                  class="donation-tab nav-link{{ if eq $index 0 }} active{{ end }}" 
+                  id="{{ $interval.id }}-tab" 
+                  data-bs-toggle="tab" 
+                  data-bs-target="#{{ $interval.id }}" 
+                  type="button" 
+                  role="tab" 
+                  aria-controls="{{ $interval.id }}" 
+                  aria-selected="{{ if eq $index 0 }}true{{ else }}false{{ end }}"
+                  data-interval="{{ $interval.param }}">
+                  {{ $interval.label }}
+                </button>
+              </li>
+              {{ end }}
+            </ul>
+
+            <!-- Tabs Content -->
+            <div class="tab-content" id="donationTabContent">
+              {{ range $index, $interval := $data.intervals }}
+              <div 
+                class="tab-pane fade{{ if eq $index 0 }} show active{{ end }}" 
+                id="{{ $interval.id }}" 
+                role="tabpanel" 
+                aria-labelledby="{{ $interval.id }}-tab">
+                
+                <div class="donation-options">
+                  {{ range $amountIndex, $amount := $interval.amounts }}
+                  <a 
+                    href="{{ $data.base_url }}&tid={{ $interval.param }}" 
+                    class="donation-btn{{ if and (eq $index 0) (eq $amount $interval.default_amount) }} selected{{ end }}" 
+                    data-amount="{{ $amount }}"
+                    data-interval="{{ $interval.param }}">
+                    CHF {{ $amount }}.00
+                  </a>
+                  {{ end }}
+                </div>
+              </div>
+              {{ end }}
             </div>
 
-            <!-- one-time -->
-            <div class="donation-options" id="one-time"
-              style="display: grid; gap: 1rem; max-width: 320px; margin: 0 auto;">
-              <a href="https://qfield.payrexx.com/en/pay?cid=6701c52d&tid=02698ddf" class="donation-btn selected">CHF
-                10.00</a>
-              <a href="https://qfield.payrexx.com/en/pay?cid=6701c52d&tid=02698ddf" class="donation-btn">CHF 20.00</a>
-              <a href="https://qfield.payrexx.com/en/pay?cid=6701c52d&tid=02698ddf" class="donation-btn">CHF 50.00</a>
-              <a href="https://qfield.payrexx.com/en/pay?cid=6701c52d&tid=02698ddf" class="donation-btn">CHF
-                100.00</a>
-              <a href="https://qfield.payrexx.com/en/pay?cid=6701c52d&tid=02698ddf" class="donation-btn">CHF
-                250.00</a>
+            <!-- Donate Button -->
+            <div class="text-center mt-4">
+              <a href="#" id="donate-link" class="donation-submit">
+                {{ $data.cta.text }}
+              </a>
             </div>
 
-            <!-- monthly -->
-            <div class="donation-options" id="monthly"
-              style="display: none; gap: 1rem; max-width: 320px; margin: 0 auto;">
-              <a href="https://qfield.payrexx.com/en/pay?cid=6701c52d&tid=02698ddf" class="donation-btn">CHF 10.00</a>
-              <a href="https://qfield.payrexx.com/en/pay?cid=6701c52d&tid=02698ddf" class="donation-btn">CHF 20.00</a>
-              <a href="https://qfield.payrexx.com/en/pay?cid=6701c52d&tid=02698ddf" class="donation-btn">CHF 50.00</a>
-              <a href="https://qfield.payrexx.com/en/pay?cid=6701c52d&tid=02698ddf" class="donation-btn">CHF
-                100.00</a>
-              <a href="https://qfield.payrexx.com/en/pay?cid=6701c52d&tid=02698ddf" class="donation-btn">CHF
-                250.00</a>
-            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-            <!-- donate btn -->
-            <div style="text-align: center; margin-top: 25px; margin-bottom: 10px;">
-              <a href="#" id="donate-link" class="donation-submit"
-                style="max-width: 200px; margin: 0 auto; display: inline-block;">Donate</a>
-            </div>
+    <!-- Support Information -->
+    <div class="support-container">
+      
+      <!-- Header -->
+      <div class="header-section text-center my-5">
+        <h1 class="h2 fw-bold mb-4">{{ $data.footer.heading }}</h1>
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <p class="lead">{{ $data.footer.body | markdownify }}</p>
           </div>
         </div>
       </div>
 
-      <div class="support-container">
-        <div class="header-section">
-          <h1>Your support is vital to keep QField improving</h1>
-          <p>We would like to extend our activities and improve the quality of QField. Your financial contribution
-            will support the maintenance, improvement, and promotion of QField. Becoming a sustaining member is a way of
-            ensuring the longevity and overall health of the project.</p>
+      <!-- Support Sections -->
+      {{ range $data.footer.sections }}
+      <div class="support-content row align-items-start mb-5">
+        
+        <!-- Left: Section Title -->
+        <div class="col-lg-5 left-section mb-4 mb-lg-0">
+          <h2 class="section-title">{{ .section | safeHTML }}</h2>
+          <div class="accent-bar"></div>
         </div>
 
-        <div class="support-content">
-          <div class="left-section">
-            <h2 class="section-title">Enhanced Infrastructure <br> & Development Support</h2>
-            <div class="accent-bar"></div>
-          </div>
-
-          <div class="right-section">
-            <div class="support-card">
-              <h3 class="card-title">Maintaining Core Infrastructure</h3>
-              <ul class="card-list">
-                <li>The official qfield.org website, a central hub for all things QField.</li>
-                <li>Our issue tracking system for efficient bug and feature reporting.</li>
-                <li>The continuous integration system, ensuring code quality and stability through automated tests.
-                </li>
-              </ul>
+        <!-- Right: Cards -->
+        <div class="col-lg-7 right-section">
+          <div class="row g-4">
+            {{ range .columns }}
+            <div class="col-12">
+              <div class="support-card">
+                <h3 class="card-title h5 fw-bold">{{ .title }}</h3>
+                <ul class="card-list mb-0">
+                  {{ range .items }}
+                  <li>{{ . }}</li>
+                  {{ end }}
+                </ul>
+              </div>
             </div>
-
-            <div class="support-card">
-              <h3 class="card-title">Software Development & QA</h3>
-              <ul class="card-list">
-                <li>Continually improve and package QField for various operating systems, making it accessible to more
-                  users worldwide.</li>
-                <li>Address bugs and other issues promptly, enhancing the user experience.</li>
-                <li>Manage pull requests and conduct thorough code reviews, ensuring the highest standards of software
-                  development.</li>
-              </ul>
-            </div>
+            {{ end }}
           </div>
         </div>
 
-        <div class="support-content" style="margin-top: 50px;">
-          <div class="left-section">
-            <h2 class="section-title">Community Growth <br> & Engagement</h2>
-            <div class="accent-bar"></div>
-          </div>
+      </div>
+      {{ end }}
 
-          <div class="right-section">
-            <div class="support-card">
-              <h3 class="card-title">Empowering Our Volunteers</h3>
-              <ul class="card-list">
-                <li>.Mentoring new contributors, fostering a welcoming and productive community.</li>
-                <li>Translating QField into multiple languages, making the app truly global.</li>
-                </li>
-              </ul>
-            </div>
-
-            <div class="support-card">
-              <h3 class="card-title">Fostering Collaboration & Knowledge Sharing </h3>
-              <ul class="card-list">
-                <li>Organizing and supporting contributor meetings and QField conferences, essential for knowledge
-                  exchange, collaboration, and the collective advancement of the QField project.</li>
-              </ul>
-            </div>
+      <!-- Footer -->
+      <div class="footer-section text-center mt-5 pt-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <p class="text-muted">
+              qfield.org wants to be transparent with the funds we receive and how we spend them. 
+              Please have a look at the financial reports and budgets in our Finance section.
+            </p>
           </div>
-        </div>
-        <div class="footer-section">
-          <p>qfield.org wants to be transparent with the funds we receive and how we spend them. Please have a look at
-            the financial reports and budgets in our Finance section.</p>
         </div>
       </div>
-    </section>
+
+    </div>
   </div>
 </section>
 
-<script>
-  // Tab switching
-  document.querySelectorAll('.donation-tab').forEach(tab => {
-    tab.addEventListener('click', () => {
-      document.querySelectorAll('.donation-tab').forEach(t => t.classList.remove('active'));
-      tab.classList.add('active');
-
-      const selectedTab = tab.getAttribute('data-tab');
-      document.querySelectorAll('.donation-options').forEach(opt => opt.style.display = 'none');
-      document.getElementById(selectedTab).style.display = 'grid';
-
-      // Reset selected amount
-      document.querySelectorAll('.donation-btn').forEach(btn => btn.classList.remove('selected'));
-      const firstBtn = document.querySelector(`#${selectedTab} .donation-btn`);
-      if (firstBtn) {
-        firstBtn.classList.add('selected');
-        document.getElementById('donate-link').href = firstBtn.href;
-      }
-    });
-  });
-
-  // Amount selection
-  document.querySelectorAll('.donation-btn').forEach(btn => {
-    btn.addEventListener('click', e => {
-      e.preventDefault();
-      document.querySelectorAll('.donation-btn').forEach(b => b.classList.remove('selected'));
-      btn.classList.add('selected');
-      document.getElementById('donate-link').href = btn.href;
-    });
-  });
-
-  // Initial state
-  document.getElementById('donate-link').href = document.querySelector('#one-time .donation-btn').href;
-</script>
 {{ end }}
