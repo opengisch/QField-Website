@@ -2,1596 +2,1596 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://qfield.org/assistance/</loc>
+    <loc>http://localhost:1313/assistance/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/test/</loc>
+    <loc>http://localhost:1313/test/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/blog/</loc>
-    <lastmod>2025-10-17T15:00:00+02:00</lastmod>
+    <loc>http://localhost:1313/tags/blog/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/blog/</loc>
-    <lastmod>2025-10-17T15:00:00+02:00</lastmod>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/news/</loc>
-    <lastmod>2025-10-17T15:00:00+02:00</lastmod>
+    <loc>http://localhost:1313/categories/news/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/qfield/</loc>
-    <lastmod>2025-10-17T15:00:00+02:00</lastmod>
+    <loc>http://localhost:1313/tags/qfield/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/welcome/</loc>
-    <lastmod>2025-10-17T15:00:00+02:00</lastmod>
+    <loc>http://localhost:1313/tags/welcome/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/blog/welcome-to-qfield-blog/</loc>
-    <lastmod>2025-10-17T15:00:00+02:00</lastmod>
+    <loc>http://localhost:1313/blog/welcome-to-qfield-blog/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/ambassadors/</loc>
+    <loc>http://localhost:1313/ambassadors/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/certified-hardware/</loc>
+    <loc>http://localhost:1313/certified-hardware/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/donate/</loc>
+    <loc>http://localhost:1313/donate/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/donation/</loc>
+    <loc>http://localhost:1313/donation/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/genindex/</loc>
+    <loc>http://localhost:1313/genindex/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/get/</loc>
+    <loc>http://localhost:1313/get/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/get_latest/</loc>
+    <loc>http://localhost:1313/get_latest/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/hardware/</loc>
+    <loc>http://localhost:1313/hardware/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/partner/</loc>
+    <loc>http://localhost:1313/partner/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/partners/</loc>
+    <loc>http://localhost:1313/partners/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/privacy_policy/</loc>
+    <loc>http://localhost:1313/privacy_policy/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/support-us/</loc>
+    <loc>http://localhost:1313/support-us/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/thankyou/</loc>
+    <loc>http://localhost:1313/thankyou/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/archaeology/</loc>
+    <loc>http://localhost:1313/tags/archaeology/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/cultural-heritage/</loc>
+    <loc>http://localhost:1313/tags/cultural-heritage/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/success-stories/water-supply-rwanda/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <loc>http://localhost:1313/success-stories/water-supply-rwanda/</loc>
+    <lastmod>2025-10-16T11:58:28+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/disaster-management/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <loc>http://localhost:1313/tags/disaster-management/</loc>
+    <lastmod>2025-10-20T10:45:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/success-stories/dai/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <loc>http://localhost:1313/success-stories/dai/</loc>
+    <lastmod>2025-10-20T10:45:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/emergency-response/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <loc>http://localhost:1313/categories/emergency-response/</loc>
+    <lastmod>2025-10-20T10:45:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/emergency-response/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <loc>http://localhost:1313/tags/emergency-response/</loc>
+    <lastmod>2025-10-20T10:45:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/field-documentation/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <loc>http://localhost:1313/tags/field-documentation/</loc>
+    <lastmod>2025-10-20T10:45:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/success-stories/nls/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <loc>http://localhost:1313/success-stories/nls/</loc>
+    <lastmod>2025-10-16T11:58:28+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/success-stories/freelance-success/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <loc>http://localhost:1313/success-stories/freelance-success/</loc>
+    <lastmod>2025-10-16T11:58:28+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/success-stories/geological-mapping/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <loc>http://localhost:1313/success-stories/geological-mapping/</loc>
+    <lastmod>2025-10-16T11:58:28+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/success-stories/ground-truth-fiji/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <loc>http://localhost:1313/success-stories/ground-truth-fiji/</loc>
+    <lastmod>2025-10-16T11:58:28+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/success-stories/heritage-impact-assessment/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <loc>http://localhost:1313/success-stories/heritage-impact-assessment/</loc>
+    <lastmod>2025-10-16T11:58:28+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/success-stories/ecological-surveying/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <loc>http://localhost:1313/success-stories/ecological-surveying/</loc>
+    <lastmod>2025-10-16T11:58:28+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/success-stories/building-on-top/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <loc>http://localhost:1313/success-stories/building-on-top/</loc>
+    <lastmod>2025-10-16T11:58:28+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/success-stories/fire-salamanders/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <loc>http://localhost:1313/success-stories/fire-salamanders/</loc>
+    <lastmod>2025-10-16T11:58:28+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/success-stories/radiation-detection/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <loc>http://localhost:1313/success-stories/radiation-detection/</loc>
+    <lastmod>2025-10-16T11:58:28+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/success-stories/river-state-survey/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <loc>http://localhost:1313/success-stories/river-state-survey/</loc>
+    <lastmod>2025-10-16T11:58:28+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/success-stories/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <loc>http://localhost:1313/categories/success-stories/</loc>
+    <lastmod>2025-10-20T10:45:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/success-stories/ghana-deforestation/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <loc>http://localhost:1313/success-stories/ghana-deforestation/</loc>
+    <lastmod>2025-10-16T11:58:28+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/success-stories/tonga/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <loc>http://localhost:1313/success-stories/tonga/</loc>
+    <lastmod>2025-10-16T11:58:28+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/success-stories/un/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <loc>http://localhost:1313/success-stories/un/</loc>
+    <lastmod>2025-10-16T11:58:28+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/success-stories/mapping-breeding-birds/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <loc>http://localhost:1313/success-stories/mapping-breeding-birds/</loc>
+    <lastmod>2025-10-16T11:58:28+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/success-stories/malaria-data-collection/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <loc>http://localhost:1313/success-stories/malaria-data-collection/</loc>
+    <lastmod>2025-10-16T11:58:28+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/success-stories/vanilla-surveys/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <loc>http://localhost:1313/success-stories/vanilla-surveys/</loc>
+    <lastmod>2025-10-16T11:58:28+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/success-stories/zero-invasive-predators/</loc>
-    <lastmod>2025-11-19T12:01:18+01:00</lastmod>
+    <loc>http://localhost:1313/success-stories/zero-invasive-predators/</loc>
+    <lastmod>2025-10-16T11:58:28+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/qfield/</loc>
-    <lastmod>2025-08-04T08:41:52+00:00</lastmod>
+    <loc>http://localhost:1313/categories/qfield/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2025/08/04/qfield-3-7-haida-gawai-polishing-a-great-experience/</loc>
-    <lastmod>2025-08-04T08:41:52+00:00</lastmod>
+    <loc>http://localhost:1313/2025/08/04/qfield-3-7-haida-gawai-polishing-a-great-experience/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/qgis.org/</loc>
-    <lastmod>2025-08-04T08:41:52+00:00</lastmod>
+    <loc>http://localhost:1313/tags/qgis.org/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/</loc>
-    <lastmod>2025-06-25T04:45:00+00:00</lastmod>
+    <loc>http://localhost:1313/2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/events/</loc>
-    <lastmod>2025-06-25T04:45:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/events/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/qgis/</loc>
-    <lastmod>2025-06-25T04:45:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/qgis/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2025/06/03/qfield-3-6-gondwana-locking-on-greatness/</loc>
-    <lastmod>2025-06-03T07:46:38+00:00</lastmod>
+    <loc>http://localhost:1313/2025/06/03/qfield-3-6-gondwana-locking-on-greatness/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/qfield-highlights/</loc>
-    <lastmod>2025-06-03T07:46:38+00:00</lastmod>
+    <loc>http://localhost:1313/categories/qfield-highlights/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/processing/</loc>
-    <lastmod>2025-06-02T04:57:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/processing/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/qgis-plugins/</loc>
-    <lastmod>2025-06-02T04:57:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/qgis-plugins/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2025/06/02/xlsform-converter-unlock-a-world-of-surveys-with-our-brand-new-qgis-plugin/</loc>
-    <lastmod>2025-06-02T04:57:00+00:00</lastmod>
+    <loc>http://localhost:1313/2025/06/02/xlsform-converter-unlock-a-world-of-surveys-with-our-brand-new-qgis-plugin/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2025/05/29/1-million-downloads-qfields-big-milestone/</loc>
-    <lastmod>2025-05-29T12:16:29+00:00</lastmod>
+    <loc>http://localhost:1313/2025/05/29/1-million-downloads-qfields-big-milestone/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/newsletter/</loc>
-    <lastmod>2025-05-29T12:16:29+00:00</lastmod>
+    <loc>http://localhost:1313/categories/newsletter/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/newsletter-qf-2025-may/</loc>
-    <lastmod>2025-05-29T12:16:29+00:00</lastmod>
+    <loc>http://localhost:1313/categories/newsletter-qf-2025-may/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2025/04/02/fossgis-2025-what-a-week/</loc>
-    <lastmod>2025-04-02T05:53:40+00:00</lastmod>
+    <loc>http://localhost:1313/2025/04/02/fossgis-2025-what-a-week/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/newsletter-2025-march/</loc>
-    <lastmod>2025-03-25T09:00:53+00:00</lastmod>
+    <loc>http://localhost:1313/categories/newsletter-2025-march/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2025/03/25/unpacking-key-insights-from-our-qfield-workshop/</loc>
-    <lastmod>2025-03-25T09:00:53+00:00</lastmod>
+    <loc>http://localhost:1313/2025/03/25/unpacking-key-insights-from-our-qfield-workshop/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/gis/</loc>
-    <lastmod>2025-03-04T05:45:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/gis/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2025/03/04/qfield-3-5-fangorn-background-tracking-a-reality/</loc>
-    <lastmod>2025-03-04T05:45:00+00:00</lastmod>
+    <loc>http://localhost:1313/2025/03/04/qfield-3-5-fangorn-background-tracking-a-reality/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2024/10/08/qfield-3-4-ebo-geofencing-and-processing-out-of-the-box/</loc>
-    <lastmod>2024-10-08T04:45:00+00:00</lastmod>
+    <loc>http://localhost:1313/2024/10/08/qfield-3-4-ebo-geofencing-and-processing-out-of-the-box/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2024/07/07/qfield-rapid-mapping-ticino/</loc>
-    <lastmod>2024-07-07T04:11:55+00:00</lastmod>
+    <loc>http://localhost:1313/2024/07/07/qfield-rapid-mapping-ticino/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/social-responsibility/</loc>
-    <lastmod>2024-07-07T04:11:55+00:00</lastmod>
+    <loc>http://localhost:1313/categories/social-responsibility/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2024/06/18/supercharge-your-fieldwork-with-qfields-project-and-app-wide-plugins/</loc>
-    <lastmod>2024-06-18T04:45:00+00:00</lastmod>
+    <loc>http://localhost:1313/2024/06/18/supercharge-your-fieldwork-with-qfields-project-and-app-wide-plugins/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2024/06/11/qfield-3-3-darien-it-is-just-the-beginning/</loc>
-    <lastmod>2024-06-11T04:50:00+00:00</lastmod>
+    <loc>http://localhost:1313/2024/06/11/qfield-3-3-darien-it-is-just-the-beginning/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/press-release/</loc>
-    <lastmod>2024-06-06T06:28:47+00:00</lastmod>
+    <loc>http://localhost:1313/tags/press-release/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2024/06/06/qfield-receives-prestigious-recognition-as-a-digital-public-good-from-the-digital-public-goods-alliance/</loc>
-    <lastmod>2024-06-06T06:28:47+00:00</lastmod>
+    <loc>http://localhost:1313/2024/06/06/qfield-receives-prestigious-recognition-as-a-digital-public-good-from-the-digital-public-goods-alliance/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2024/04/04/qfield-3-2-congo-making-your-life-easier/</loc>
-    <lastmod>2024-04-04T07:58:11+00:00</lastmod>
+    <loc>http://localhost:1313/2024/04/04/qfield-3-2-congo-making-your-life-easier/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/qfieldcloud/</loc>
-    <lastmod>2024-04-04T07:58:11+00:00</lastmod>
+    <loc>http://localhost:1313/tags/qfieldcloud/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2024/01/10/snappy-qfield-3-1-borneo-has-arrived/</loc>
-    <lastmod>2024-01-10T17:11:36+00:00</lastmod>
+    <loc>http://localhost:1313/2024/01/10/snappy-qfield-3-1-borneo-has-arrived/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2023/09/15/opengis-ch-and-oslandia-a-strategic-partnership-to-advance-qfield-and-qfieldcloud/</loc>
-    <lastmod>2023-09-15T05:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/2023/09/15/opengis-ch-and-oslandia-a-strategic-partnership-to-advance-qfield-and-qfieldcloud/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/partners/</loc>
-    <lastmod>2023-09-15T05:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/partners/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/crowdfunding/</loc>
-    <lastmod>2023-06-29T09:54:42+00:00</lastmod>
+    <loc>http://localhost:1313/categories/crowdfunding/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2023/06/29/qfield-background-tracking/</loc>
-    <lastmod>2023-06-29T09:54:42+00:00</lastmod>
+    <loc>http://localhost:1313/2023/06/29/qfield-background-tracking/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/uncategorised/</loc>
-    <lastmod>2023-06-29T09:54:42+00:00</lastmod>
+    <loc>http://localhost:1313/categories/uncategorised/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2023/05/30/qfield-2-8-boosting-field-work-through-external-sensors/</loc>
-    <lastmod>2023-05-30T04:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/2023/05/30/qfield-2-8-boosting-field-work-through-external-sensors/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2023/04/04/capturing-more-while-in-the-field-with-the-new-qfield-2-7/</loc>
-    <lastmod>2023-04-04T04:44:00+00:00</lastmod>
+    <loc>http://localhost:1313/2023/04/04/capturing-more-while-in-the-field-with-the-new-qfield-2-7/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2023/03/06/qfield-jump-start/</loc>
-    <lastmod>2023-03-06T11:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/2023/03/06/qfield-jump-start/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/qfield-courses/</loc>
-    <lastmod>2023-03-06T11:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/qfield-courses/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2023/01/26/qfield-2-6-perfecting-high-accuracy-positioning/</loc>
-    <lastmod>2023-01-26T06:46:00+00:00</lastmod>
+    <loc>http://localhost:1313/2023/01/26/qfield-2-6-perfecting-high-accuracy-positioning/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2022/12/06/how-to-contribute-to-qfield/</loc>
-    <lastmod>2022-12-06T05:29:00+00:00</lastmod>
+    <loc>http://localhost:1313/2022/12/06/how-to-contribute-to-qfield/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2022/11/14/qfield-2-5-is-here-reaching-new-heights/</loc>
-    <lastmod>2022-11-14T09:37:38+00:00</lastmod>
+    <loc>http://localhost:1313/2022/11/14/qfield-2-5-is-here-reaching-new-heights/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2022/11/03/best-of-swiss-enterprise-app-award-for-qfield/</loc>
-    <lastmod>2022-11-03T13:02:57+00:00</lastmod>
+    <loc>http://localhost:1313/2022/11/03/best-of-swiss-enterprise-app-award-for-qfield/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2022/10/13/qfield-2-4-is-here-and-it-is-%F0%9F%8D%8Ficious/</loc>
-    <lastmod>2022-10-13T06:19:18+00:00</lastmod>
+    <loc>http://localhost:1313/2022/10/13/qfield-2-4-is-here-and-it-is-%F0%9F%8D%8Ficious/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2022/09/20/how-we-build-qfield-for-many-platforms-a-look-behind-the-curtain/</loc>
-    <lastmod>2022-09-20T05:48:00+00:00</lastmod>
+    <loc>http://localhost:1313/2022/09/20/how-we-build-qfield-for-many-platforms-a-look-behind-the-curtain/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2022/09/08/24th-contributors-qgis-meeting-in-firenze-2022/</loc>
-    <lastmod>2022-09-08T05:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/2022/09/08/24th-contributors-qgis-meeting-in-firenze-2022/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/</loc>
-    <lastmod>2022-08-16T04:58:00+00:00</lastmod>
+    <loc>http://localhost:1313/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/video/</loc>
-    <lastmod>2022-08-16T04:58:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/video/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2022/03/05/qfield-users-sit-down-we-need-to-talk-about-storage-access-on-android%EF%BF%BC/</loc>
-    <lastmod>2022-03-05T00:48:44+00:00</lastmod>
+    <loc>http://localhost:1313/2022/03/05/qfield-users-sit-down-we-need-to-talk-about-storage-access-on-android%EF%BF%BC/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2022/02/02/qfield-data-crucial-in-disaster-relief-after-tongas-volcanic-eruption/</loc>
-    <lastmod>2022-02-02T06:43:00+00:00</lastmod>
+    <loc>http://localhost:1313/2022/02/02/qfield-data-crucial-in-disaster-relief-after-tongas-volcanic-eruption/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/</loc>
-    <lastmod>2021-06-08T06:01:00+00:00</lastmod>
+    <loc>http://localhost:1313/2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/android-qgis/</loc>
-    <lastmod>2021-02-24T06:31:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/android-qgis/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/featured/</loc>
-    <lastmod>2021-02-24T06:31:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/featured/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2021/02/24/powerful-and-gentle-qfield-1-8-selma-sneaked-in/</loc>
-    <lastmod>2021-02-24T06:31:00+00:00</lastmod>
+    <loc>http://localhost:1313/2021/02/24/powerful-and-gentle-qfield-1-8-selma-sneaked-in/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2020/10/20/qfield-1-7-rockies-hits-the-stage/</loc>
-    <lastmod>2020-10-20T07:26:08+00:00</lastmod>
+    <loc>http://localhost:1313/2020/10/20/qfield-1-7-rockies-hits-the-stage/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2020/08/18/qfield-1-6-is-out/</loc>
-    <lastmod>2020-08-18T05:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/2020/08/18/qfield-1-6-is-out/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2020/06/09/offline-wms-benchmarking-raster-formats-for-qfield/</loc>
-    <lastmod>2020-06-09T05:03:00+00:00</lastmod>
+    <loc>http://localhost:1313/2020/06/09/offline-wms-benchmarking-raster-formats-for-qfield/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/scripts/</loc>
-    <lastmod>2020-06-09T05:03:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/scripts/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2020/03/03/qfield-1-4-released/</loc>
-    <lastmod>2020-03-03T06:00:13+00:00</lastmod>
+    <loc>http://localhost:1313/2020/03/03/qfield-1-4-released/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2019/10/03/qfield-1-2-released/</loc>
-    <lastmod>2019-10-03T05:29:45+00:00</lastmod>
+    <loc>http://localhost:1313/2019/10/03/qfield-1-2-released/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2019/04/11/win-a-qfield-jump-start-package-use-myqfield/</loc>
-    <lastmod>2019-04-11T07:48:28+00:00</lastmod>
+    <loc>http://localhost:1313/2019/04/11/win-a-qfield-jump-start-package-use-myqfield/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/android/</loc>
-    <lastmod>2019-03-28T15:34:38+00:00</lastmod>
+    <loc>http://localhost:1313/categories/android/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2019/03/28/qfield-1-0-is-here/</loc>
-    <lastmod>2019-03-28T15:34:38+00:00</lastmod>
+    <loc>http://localhost:1313/2019/03/28/qfield-1-0-is-here/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2019/03/25/geobeer-26-in-bern-hosted-by-opengis-ch/</loc>
-    <lastmod>2019-03-25T09:22:43+00:00</lastmod>
+    <loc>http://localhost:1313/2019/03/25/geobeer-26-in-bern-hosted-by-opengis-ch/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2019/03/14/qfield-rc5/</loc>
-    <lastmod>2019-03-14T11:50:16+00:00</lastmod>
+    <loc>http://localhost:1313/2019/03/14/qfield-rc5/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2019/01/31/you-gave-us-feedback-we-give-you-qfield-1-0-rc2/</loc>
-    <lastmod>2019-01-31T06:51:35+00:00</lastmod>
+    <loc>http://localhost:1313/2019/01/31/you-gave-us-feedback-we-give-you-qfield-1-0-rc2/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2019/01/08/qfield-1-0-rc1/</loc>
-    <lastmod>2019-01-08T06:59:38+00:00</lastmod>
+    <loc>http://localhost:1313/2019/01/08/qfield-1-0-rc1/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2019/01/08/qfield-1-0-rc1-2/</loc>
-    <lastmod>2019-01-08T06:59:38+00:00</lastmod>
+    <loc>http://localhost:1313/2019/01/08/qfield-1-0-rc1-2/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/expressions/</loc>
-    <lastmod>2018-05-28T07:41:26+00:00</lastmod>
+    <loc>http://localhost:1313/categories/expressions/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/</loc>
-    <lastmod>2018-05-28T07:41:26+00:00</lastmod>
+    <loc>http://localhost:1313/2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/</loc>
-    <lastmod>2018-01-08T06:06:13+00:00</lastmod>
+    <loc>http://localhost:1313/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2015/12/01/qfield-for-android-5/</loc>
-    <lastmod>2015-12-01T13:44:53+00:00</lastmod>
+    <loc>http://localhost:1313/2015/12/01/qfield-for-android-5/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2015/06/15/qfield-in-the-wild/</loc>
-    <lastmod>2015-06-15T12:05:21+00:00</lastmod>
+    <loc>http://localhost:1313/2015/06/15/qfield-in-the-wild/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2015/01/28/qgis-mobile-is-now-qfield/</loc>
-    <lastmod>2015-01-28T08:02:57+00:00</lastmod>
+    <loc>http://localhost:1313/2015/01/28/qgis-mobile-is-now-qfield/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2015/01/11/qgis-mobile-0-2-demo/</loc>
-    <lastmod>2015-01-11T19:41:08+00:00</lastmod>
+    <loc>http://localhost:1313/2015/01/11/qgis-mobile-0-2-demo/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/2015/01/08/happy-new-year-to-the-power-of-two/</loc>
-    <lastmod>2015-01-08T12:17:36+00:00</lastmod>
+    <loc>http://localhost:1313/2015/01/08/happy-new-year-to-the-power-of-two/</loc>
+    <lastmod>2025-11-24T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/sdgs/</loc>
+    <loc>http://localhost:1313/sdgs/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/aid-distribution/</loc>
+    <loc>http://localhost:1313/tags/aid-distribution/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/airport-signage/</loc>
+    <loc>http://localhost:1313/tags/airport-signage/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/all/</loc>
+    <loc>http://localhost:1313/all/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/anthropology/</loc>
+    <loc>http://localhost:1313/tags/anthropology/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/as-built/</loc>
+    <loc>http://localhost:1313/tags/as-built/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/asset-inspection/</loc>
+    <loc>http://localhost:1313/tags/asset-inspection/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/asset-management/</loc>
+    <loc>http://localhost:1313/tags/asset-management/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/authors/</loc>
+    <loc>http://localhost:1313/authors/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/baseline-survey/</loc>
+    <loc>http://localhost:1313/tags/baseline-survey/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/biodiversity/</loc>
+    <loc>http://localhost:1313/tags/biodiversity/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/biomass/</loc>
+    <loc>http://localhost:1313/tags/biomass/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/cadastral/</loc>
+    <loc>http://localhost:1313/tags/cadastral/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/carbon-stock/</loc>
+    <loc>http://localhost:1313/tags/carbon-stock/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/checkpoints/</loc>
+    <loc>http://localhost:1313/tags/checkpoints/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/citizen-science/</loc>
+    <loc>http://localhost:1313/tags/citizen-science/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/civil-protection/</loc>
+    <loc>http://localhost:1313/tags/civil-protection/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/climate-research/</loc>
+    <loc>http://localhost:1313/tags/climate-research/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/coastal-monitoring/</loc>
+    <loc>http://localhost:1313/tags/coastal-monitoring/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/community-mapping/</loc>
+    <loc>http://localhost:1313/tags/community-mapping/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/compliance/</loc>
+    <loc>http://localhost:1313/tags/compliance/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/conservation/</loc>
+    <loc>http://localhost:1313/tags/conservation/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/constraints-mapping/</loc>
+    <loc>http://localhost:1313/tags/constraints-mapping/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/construction-progress/</loc>
+    <loc>http://localhost:1313/tags/construction-progress/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/construction-surveying/</loc>
+    <loc>http://localhost:1313/tags/construction-surveying/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/crime-mapping/</loc>
+    <loc>http://localhost:1313/tags/crime-mapping/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/crop-scouting/</loc>
+    <loc>http://localhost:1313/tags/crop-scouting/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/deforestation/</loc>
+    <loc>http://localhost:1313/tags/deforestation/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/design-verification/</loc>
+    <loc>http://localhost:1313/tags/design-verification/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/digital-twin/</loc>
+    <loc>http://localhost:1313/tags/digital-twin/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/disaster-assessment/</loc>
+    <loc>http://localhost:1313/tags/disaster-assessment/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/distribution-network/</loc>
+    <loc>http://localhost:1313/tags/distribution-network/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/drone-survey/</loc>
+    <loc>http://localhost:1313/tags/drone-survey/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/ecology/</loc>
+    <loc>http://localhost:1313/tags/ecology/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/education/</loc>
+    <loc>http://localhost:1313/tags/education/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/eia/</loc>
+    <loc>http://localhost:1313/tags/eia/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/environment-agriculture--natural-resources/</loc>
+    <loc>http://localhost:1313/categories/environment-agriculture--natural-resources/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/environmental-audit/</loc>
+    <loc>http://localhost:1313/tags/environmental-audit/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/epidemiology/</loc>
+    <loc>http://localhost:1313/tags/epidemiology/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/esg/</loc>
+    <loc>http://localhost:1313/tags/esg/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/ethnography/</loc>
+    <loc>http://localhost:1313/tags/ethnography/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/eudr/</loc>
+    <loc>http://localhost:1313/tags/eudr/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/facility-assessment/</loc>
+    <loc>http://localhost:1313/tags/facility-assessment/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/facility-inspections/</loc>
+    <loc>http://localhost:1313/tags/facility-inspections/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/field-data-collection/</loc>
+    <loc>http://localhost:1313/tags/field-data-collection/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/fisheries/</loc>
+    <loc>http://localhost:1313/tags/fisheries/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/flood/</loc>
+    <loc>http://localhost:1313/tags/flood/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/flood-assessment/</loc>
+    <loc>http://localhost:1313/tags/flood-assessment/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/forest-inventory/</loc>
+    <loc>http://localhost:1313/tags/forest-inventory/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/ftth/</loc>
+    <loc>http://localhost:1313/tags/ftth/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/gcp/</loc>
+    <loc>http://localhost:1313/tags/gcp/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/geology/</loc>
+    <loc>http://localhost:1313/tags/geology/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/geology-mapping/</loc>
+    <loc>http://localhost:1313/tags/geology-mapping/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/geophysical/</loc>
+    <loc>http://localhost:1313/tags/geophysical/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/government-public-administration--municipalities/</loc>
+    <loc>http://localhost:1313/categories/government-public-administration--municipalities/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/ground-truth/</loc>
+    <loc>http://localhost:1313/tags/ground-truth/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/habitat-mapping/</loc>
+    <loc>http://localhost:1313/tags/habitat-mapping/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/hazard-mapping/</loc>
+    <loc>http://localhost:1313/tags/hazard-mapping/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/health-surveys/</loc>
+    <loc>http://localhost:1313/tags/health-surveys/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/humanitarian/</loc>
+    <loc>http://localhost:1313/tags/humanitarian/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/humanitarian-safety--emergency-response/</loc>
+    <loc>http://localhost:1313/categories/humanitarian-safety--emergency-response/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/hydrology/</loc>
+    <loc>http://localhost:1313/tags/hydrology/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/hydropower/</loc>
+    <loc>http://localhost:1313/tags/hydropower/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/infrastructure/</loc>
+    <loc>http://localhost:1313/tags/infrastructure/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/infrastructure-maintenance/</loc>
+    <loc>http://localhost:1313/tags/infrastructure-maintenance/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/infrastructure-construction--utilities/</loc>
+    <loc>http://localhost:1313/categories/infrastructure-construction--utilities/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/integrity-management/</loc>
+    <loc>http://localhost:1313/tags/integrity-management/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/iot-sensors/</loc>
+    <loc>http://localhost:1313/tags/iot-sensors/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/land-quality/</loc>
+    <loc>http://localhost:1313/tags/land-quality/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/land-registry/</loc>
+    <loc>http://localhost:1313/tags/land-registry/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/land-use-planning/</loc>
+    <loc>http://localhost:1313/tags/land-use-planning/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/landslide/</loc>
+    <loc>http://localhost:1313/tags/landslide/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/lidar/</loc>
+    <loc>http://localhost:1313/tags/lidar/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/line-inspection/</loc>
+    <loc>http://localhost:1313/tags/line-inspection/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/local-governance/</loc>
+    <loc>http://localhost:1313/tags/local-governance/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/marine/</loc>
+    <loc>http://localhost:1313/tags/marine/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/mining/</loc>
+    <loc>http://localhost:1313/tags/mining/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/mobile-gis/</loc>
+    <loc>http://localhost:1313/tags/mobile-gis/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/monitoring-sites/</loc>
+    <loc>http://localhost:1313/tags/monitoring-sites/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/municipal-gis/</loc>
+    <loc>http://localhost:1313/tags/municipal-gis/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/needs-assessment/</loc>
+    <loc>http://localhost:1313/tags/needs-assessment/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/network-as-built/</loc>
+    <loc>http://localhost:1313/tags/network-as-built/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/parcel-mapping/</loc>
+    <loc>http://localhost:1313/tags/parcel-mapping/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/participatory-mapping/</loc>
+    <loc>http://localhost:1313/tags/participatory-mapping/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/photogrammetry/</loc>
+    <loc>http://localhost:1313/tags/photogrammetry/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/pipeline-inspection/</loc>
+    <loc>http://localhost:1313/tags/pipeline-inspection/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/policing/</loc>
+    <loc>http://localhost:1313/tags/policing/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/power-grid/</loc>
+    <loc>http://localhost:1313/tags/power-grid/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/precision-agriculture/</loc>
+    <loc>http://localhost:1313/tags/precision-agriculture/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/public-safety/</loc>
+    <loc>http://localhost:1313/tags/public-safety/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/public-services/</loc>
+    <loc>http://localhost:1313/tags/public-services/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/public-works/</loc>
+    <loc>http://localhost:1313/tags/public-works/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/success-stories/</loc>
+    <loc>http://localhost:1313/success-stories/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/academic-field-studies/</loc>
+    <loc>http://localhost:1313/solutions/academic-field-studies/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.68</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/agriculture-and-precision-farming/</loc>
+    <loc>http://localhost:1313/solutions/agriculture-and-precision-farming/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/archaeology-and-anthropology/</loc>
+    <loc>http://localhost:1313/solutions/archaeology-and-anthropology/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.67</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/architecture-and-site-supervision/</loc>
+    <loc>http://localhost:1313/solutions/architecture-and-site-supervision/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/cadastral-and-land-registry/</loc>
+    <loc>http://localhost:1313/solutions/cadastral-and-land-registry/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.69</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/carbon-stock-and-sequestration-studies/</loc>
+    <loc>http://localhost:1313/solutions/carbon-stock-and-sequestration-studies/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.67</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/citizen-science-and-participatory-mapping/</loc>
+    <loc>http://localhost:1313/solutions/citizen-science-and-participatory-mapping/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.67</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/civil-protection-and-risk-assessment/</loc>
+    <loc>http://localhost:1313/solutions/civil-protection-and-risk-assessment/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.67</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/climate-change-research/</loc>
+    <loc>http://localhost:1313/solutions/climate-change-research/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.66</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/community-mapping-and-local-governance/</loc>
+    <loc>http://localhost:1313/solutions/community-mapping-and-local-governance/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/construction-and-engineering/</loc>
+    <loc>http://localhost:1313/solutions/construction-and-engineering/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/construction-progress-documentation/</loc>
+    <loc>http://localhost:1313/solutions/construction-progress-documentation/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.67</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/corporate-esg-field-data/</loc>
+    <loc>http://localhost:1313/solutions/corporate-esg-field-data/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.68</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/cultural-heritage-and-archaeology/</loc>
+    <loc>http://localhost:1313/solutions/cultural-heritage-and-archaeology/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.66</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/drone-survey-ground-validation/</loc>
+    <loc>http://localhost:1313/solutions/drone-survey-ground-validation/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.68</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/ecology-and-biodiversity-monitoring/</loc>
+    <loc>http://localhost:1313/solutions/ecology-and-biodiversity-monitoring/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.69</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/ecology-and-environmental-science-education/</loc>
+    <loc>http://localhost:1313/solutions/ecology-and-environmental-science-education/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/energy-and-renewables-solar-wind-hydro/</loc>
+    <loc>http://localhost:1313/solutions/energy-and-renewables-solar-wind-hydro/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.68</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/environmental-compliance-auditing/</loc>
+    <loc>http://localhost:1313/solutions/environmental-compliance-auditing/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.69</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/environmental-impact-assessment/</loc>
+    <loc>http://localhost:1313/solutions/environmental-impact-assessment/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.68</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/eudr-data-collection/</loc>
+    <loc>http://localhost:1313/solutions/eudr-data-collection/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/facility-and-asset-management/</loc>
+    <loc>http://localhost:1313/solutions/facility-and-asset-management/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.66</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/fibre-and-telecommunication-networks/</loc>
+    <loc>http://localhost:1313/solutions/fibre-and-telecommunication-networks/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.67</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/fibre-to-the-home/</loc>
+    <loc>http://localhost:1313/solutions/fibre-to-the-home/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/fisheries-and-marine-resource-management/</loc>
+    <loc>http://localhost:1313/solutions/fisheries-and-marine-resource-management/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/qfield-for-forestry/</loc>
+    <loc>http://localhost:1313/solutions/qfield-for-forestry/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/forestry-and-silviculture/</loc>
+    <loc>http://localhost:1313/solutions/forestry-and-silviculture/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.69</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/gas-and-pipeline-networks/</loc>
+    <loc>http://localhost:1313/solutions/gas-and-pipeline-networks/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.67</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/geological-and-geophysical-surveys/</loc>
+    <loc>http://localhost:1313/solutions/geological-and-geophysical-surveys/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.66</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/government-and-municipalities/</loc>
+    <loc>http://localhost:1313/solutions/government-and-municipalities/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/health-and-epidemiology-fieldwork/</loc>
+    <loc>http://localhost:1313/solutions/health-and-epidemiology-fieldwork/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.68</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/humanitarian-aid-and-disaster-relief/</loc>
+    <loc>http://localhost:1313/solutions/humanitarian-aid-and-disaster-relief/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.69</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/hydrology-and-watershed-management/</loc>
+    <loc>http://localhost:1313/solutions/hydrology-and-watershed-management/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.66</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/infrastructure-digital-twins/</loc>
+    <loc>http://localhost:1313/solutions/infrastructure-digital-twins/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.66</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/land-restoration-and-conservation/</loc>
+    <loc>http://localhost:1313/solutions/land-restoration-and-conservation/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.67</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/lidar-and-photogrammetry-ground-control/</loc>
+    <loc>http://localhost:1313/solutions/lidar-and-photogrammetry-ground-control/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.67</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/mining-and-quarrying/</loc>
+    <loc>http://localhost:1313/solutions/mining-and-quarrying/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.66</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/natural-disaster-assessment-floods-landslides-wildfires/</loc>
+    <loc>http://localhost:1313/solutions/natural-disaster-assessment-floods-landslides-wildfires/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/power-transmission-and-distribution/</loc>
+    <loc>http://localhost:1313/solutions/power-transmission-and-distribution/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.68</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/public-works-and-infrastructure-maintenance/</loc>
+    <loc>http://localhost:1313/solutions/public-works-and-infrastructure-maintenance/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.68</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/refugee-camp-and-shelter-mapping/</loc>
+    <loc>http://localhost:1313/solutions/refugee-camp-and-shelter-mapping/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.66</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/remote-asset-inspection/</loc>
+    <loc>http://localhost:1313/solutions/remote-asset-inspection/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.66</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/security-policing-and-crime-mapping/</loc>
+    <loc>http://localhost:1313/solutions/security-policing-and-crime-mapping/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.67</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/smart-cities-and-urban-mobility/</loc>
+    <loc>http://localhost:1313/solutions/smart-cities-and-urban-mobility/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.67</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/social-suffering-vulnerability-mapping/</loc>
+    <loc>http://localhost:1313/solutions/social-suffering-vulnerability-mapping/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/soil-and-land-quality-surveys/</loc>
+    <loc>http://localhost:1313/solutions/soil-and-land-quality-surveys/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/sustainable-land-use-planning/</loc>
+    <loc>http://localhost:1313/solutions/sustainable-land-use-planning/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.66</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/tourism-and-outdoor-recreation-management/</loc>
+    <loc>http://localhost:1313/solutions/tourism-and-outdoor-recreation-management/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.66</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/transportation-roads-rail-airports-signage/</loc>
+    <loc>http://localhost:1313/solutions/transportation-roads-rail-airports-signage/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/urban-planning-and-zoning/</loc>
+    <loc>http://localhost:1313/solutions/urban-planning-and-zoning/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.69</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/waste-management-and-sanitation/</loc>
+    <loc>http://localhost:1313/solutions/waste-management-and-sanitation/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.66</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/water-utilities-and-wastewater-management/</loc>
+    <loc>http://localhost:1313/solutions/water-utilities-and-wastewater-management/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.68</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/wildlife-tracking-and-habitat-mapping/</loc>
+    <loc>http://localhost:1313/solutions/wildlife-tracking-and-habitat-mapping/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
   </url><url>
-    <loc>https://qfield.org/tags/qgis-fieldwork/</loc>
+    <loc>http://localhost:1313/tags/qgis-fieldwork/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/quarry/</loc>
+    <loc>http://localhost:1313/tags/quarry/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/rail-inspections/</loc>
+    <loc>http://localhost:1313/tags/rail-inspections/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/recreation/</loc>
+    <loc>http://localhost:1313/tags/recreation/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/refugee-camp/</loc>
+    <loc>http://localhost:1313/tags/refugee-camp/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/remote-sites/</loc>
+    <loc>http://localhost:1313/tags/remote-sites/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/renewable-energy/</loc>
+    <loc>http://localhost:1313/tags/renewable-energy/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/reporting/</loc>
+    <loc>http://localhost:1313/tags/reporting/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/research/</loc>
+    <loc>http://localhost:1313/tags/research/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/research-education--innovation/</loc>
+    <loc>http://localhost:1313/categories/research-education--innovation/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/restoration/</loc>
+    <loc>http://localhost:1313/tags/restoration/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/risk-assessment/</loc>
+    <loc>http://localhost:1313/tags/risk-assessment/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/road-inventory/</loc>
+    <loc>http://localhost:1313/tags/road-inventory/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/route-audit/</loc>
+    <loc>http://localhost:1313/tags/route-audit/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/sampling/</loc>
+    <loc>http://localhost:1313/tags/sampling/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/sanitation/</loc>
+    <loc>http://localhost:1313/tags/sanitation/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/sequestration/</loc>
+    <loc>http://localhost:1313/tags/sequestration/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/sewer-inspection/</loc>
+    <loc>http://localhost:1313/tags/sewer-inspection/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/shelter-mapping/</loc>
+    <loc>http://localhost:1313/tags/shelter-mapping/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/silviculture/</loc>
+    <loc>http://localhost:1313/tags/silviculture/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/site-supervision/</loc>
+    <loc>http://localhost:1313/tags/site-supervision/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/site-survey/</loc>
+    <loc>http://localhost:1313/tags/site-survey/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/smart-city/</loc>
+    <loc>http://localhost:1313/tags/smart-city/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/social-risks/</loc>
+    <loc>http://localhost:1313/tags/social-risks/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/soil-sampling/</loc>
+    <loc>http://localhost:1313/tags/soil-sampling/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/solar-farm/</loc>
+    <loc>http://localhost:1313/tags/solar-farm/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/solutions/</loc>
+    <loc>http://localhost:1313/solutions/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/specialized--emerging-use-cases/</loc>
+    <loc>http://localhost:1313/categories/specialized--emerging-use-cases/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/species-monitoring/</loc>
+    <loc>http://localhost:1313/tags/species-monitoring/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/sustainability/</loc>
+    <loc>http://localhost:1313/tags/sustainability/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/categories/sustainability-compliance--monitoring/</loc>
+    <loc>http://localhost:1313/categories/sustainability-compliance--monitoring/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/telecom/</loc>
+    <loc>http://localhost:1313/tags/telecom/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/tourism/</loc>
+    <loc>http://localhost:1313/tags/tourism/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/tracking/</loc>
+    <loc>http://localhost:1313/tags/tracking/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/trail-mapping/</loc>
+    <loc>http://localhost:1313/tags/trail-mapping/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/transportation-mapping/</loc>
+    <loc>http://localhost:1313/tags/transportation-mapping/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/urban-mobility/</loc>
+    <loc>http://localhost:1313/tags/urban-mobility/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/urban-planning/</loc>
+    <loc>http://localhost:1313/tags/urban-planning/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/vulnerability-mapping/</loc>
+    <loc>http://localhost:1313/tags/vulnerability-mapping/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/waste-management/</loc>
+    <loc>http://localhost:1313/tags/waste-management/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/wastewater/</loc>
+    <loc>http://localhost:1313/tags/wastewater/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/water-network/</loc>
+    <loc>http://localhost:1313/tags/water-network/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/watershed/</loc>
+    <loc>http://localhost:1313/tags/watershed/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/wildfire/</loc>
+    <loc>http://localhost:1313/tags/wildfire/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/wildlife/</loc>
+    <loc>http://localhost:1313/tags/wildlife/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/wind-turbine/</loc>
+    <loc>http://localhost:1313/tags/wind-turbine/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://qfield.org/tags/zoning-enforcement/</loc>
+    <loc>http://localhost:1313/tags/zoning-enforcement/</loc>
     <lastmod>2025-11-19T12:01:18+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
