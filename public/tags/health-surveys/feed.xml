@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Health Surveys on QField - Efficient field work built for QGIS</title>
-    <link>http://localhost:1313/tags/health-surveys/</link>
+    <link>https://qfield.org/tags/health-surveys/</link>
     <description>Recent content in Health Surveys on QField - Efficient field work built for QGIS</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/tags/health-surveys/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://qfield.org/tags/health-surveys/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>QField for Health and Epidemiology Fieldwork</title>
-      <link>http://localhost:1313/solutions/health-and-epidemiology-fieldwork/</link>
+      <link>https://qfield.org/solutions/health-and-epidemiology-fieldwork/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/health-and-epidemiology-fieldwork/</guid>
+      <guid>https://qfield.org/solutions/health-and-epidemiology-fieldwork/</guid>
       <description>&lt;h2 id=&#34;what-you-can-do&#34;&gt;What you can do&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Health facility and service mapping&lt;/li&gt;&#xA;&lt;li&gt;Household or community surveys&lt;/li&gt;&#xA;&lt;li&gt;Outbreak mapping and monitoring&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;works-with-qgis-and-qfieldcloud&#34;&gt;Works with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Prepare forms in QGIS and sync via QFieldCloud for collaboration and oversight.&lt;/p&gt;</description>
     </item>
   </channel>

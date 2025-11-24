@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Community Mapping on QField - Efficient field work built for QGIS</title>
-    <link>http://localhost:1313/tags/community-mapping/</link>
+    <link>https://qfield.org/tags/community-mapping/</link>
     <description>Recent content in Community Mapping on QField - Efficient field work built for QGIS</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/tags/community-mapping/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://qfield.org/tags/community-mapping/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>QField for Community Mapping and Local Governance</title>
-      <link>http://localhost:1313/solutions/community-mapping-and-local-governance/</link>
+      <link>https://qfield.org/solutions/community-mapping-and-local-governance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/community-mapping-and-local-governance/</guid>
+      <guid>https://qfield.org/solutions/community-mapping-and-local-governance/</guid>
       <description>&lt;h2 id=&#34;what-you-can-do&#34;&gt;What you can do&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Community issue mapping&lt;/li&gt;&#xA;&lt;li&gt;Service access and planning&lt;/li&gt;&#xA;&lt;li&gt;Participatory planning and reporting&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;integrated-with-qgis-and-qfieldcloud&#34;&gt;Integrated with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Design projects in QGIS and collaborate securely via QFieldCloud.&lt;/p&gt;</description>
     </item>
     <item>
       <title>QField for Social Suffering and Vulnerability Mapping</title>
-      <link>http://localhost:1313/solutions/social-suffering-vulnerability-mapping/</link>
+      <link>https://qfield.org/solutions/social-suffering-vulnerability-mapping/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/social-suffering-vulnerability-mapping/</guid>
+      <guid>https://qfield.org/solutions/social-suffering-vulnerability-mapping/</guid>
       <description>&lt;h2 id=&#34;field-workflows&#34;&gt;Field workflows&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Vulnerability and needs assessments&lt;/li&gt;&#xA;&lt;li&gt;Service access and infrastructure mapping&lt;/li&gt;&#xA;&lt;li&gt;Community engagements and feedback&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;works-with-qgis-and-qfieldcloud&#34;&gt;Works with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Prepare forms in QGIS and collaborate through QFieldCloud with clear permissions and history.&lt;/p&gt;</description>
     </item>
   </channel>

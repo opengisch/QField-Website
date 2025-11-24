@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Geology Mapping on QField - Efficient field work built for QGIS</title>
-    <link>http://localhost:1313/tags/geology-mapping/</link>
+    <link>https://qfield.org/tags/geology-mapping/</link>
     <description>Recent content in Geology Mapping on QField - Efficient field work built for QGIS</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/tags/geology-mapping/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://qfield.org/tags/geology-mapping/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>QField for Mining and Quarrying</title>
-      <link>http://localhost:1313/solutions/mining-and-quarrying/</link>
+      <link>https://qfield.org/solutions/mining-and-quarrying/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/mining-and-quarrying/</guid>
+      <guid>https://qfield.org/solutions/mining-and-quarrying/</guid>
       <description>&lt;h2 id=&#34;field-workflows-for-mines-and-quarries&#34;&gt;Field workflows for mines and quarries&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Exploration mapping and sampling&lt;/li&gt;&#xA;&lt;li&gt;Haul road and safety inspections&lt;/li&gt;&#xA;&lt;li&gt;Environmental monitoring and compliance&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;end-to-end-with-qgis-and-qfieldcloud&#34;&gt;End-to-end with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Prepare, collect, and sync data across teams with an auditable trail of changes.&lt;/p&gt;</description>
     </item>
   </channel>

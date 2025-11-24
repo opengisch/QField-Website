@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Facility Inspections on QField - Efficient field work built for QGIS</title>
-    <link>http://localhost:1313/tags/facility-inspections/</link>
+    <link>https://qfield.org/tags/facility-inspections/</link>
     <description>Recent content in Facility Inspections on QField - Efficient field work built for QGIS</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/tags/facility-inspections/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://qfield.org/tags/facility-inspections/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>QField for Facility and Asset Management</title>
-      <link>http://localhost:1313/solutions/facility-and-asset-management/</link>
+      <link>https://qfield.org/solutions/facility-and-asset-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/facility-and-asset-management/</guid>
+      <guid>https://qfield.org/solutions/facility-and-asset-management/</guid>
       <description>&lt;h2 id=&#34;field-data-for-asset-management&#34;&gt;Field data for asset management&lt;/h2&gt;&#xA;&lt;p&gt;Collect accurate locations, attributes, and photos. Use domains and constraints for consistent records.&lt;/p&gt;&#xA;&lt;h3 id=&#34;typical-workflows&#34;&gt;Typical workflows&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Asset inventory and barcoding&lt;/li&gt;&#xA;&lt;li&gt;Condition surveys and maintenance logs&lt;/li&gt;&#xA;&lt;li&gt;Space and safety inspections&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;integrated-with-qgis-and-qfieldcloud&#34;&gt;Integrated with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Build your model in QGIS, then sync projects with QFieldCloud for smooth collaboration.&lt;/p&gt;</description>
     </item>
   </channel>

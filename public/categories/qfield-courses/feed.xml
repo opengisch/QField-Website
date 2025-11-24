@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Qfield-Courses on QField - Efficient field work built for QGIS</title>
-    <link>http://localhost:1313/categories/qfield-courses/</link>
+    <link>https://qfield.org/categories/qfield-courses/</link>
     <description>Recent content in Qfield-Courses on QField - Efficient field work built for QGIS</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Nov 2025 12:01:18 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/qfield-courses/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Mar 2023 11:00:00 +0000</lastBuildDate>
+    <atom:link href="https://qfield.org/categories/qfield-courses/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>QField Jump-start</title>
-      <link>http://localhost:1313/2023/03/06/qfield-jump-start/</link>
+      <link>https://qfield.org/2023/03/06/qfield-jump-start/</link>
       <pubDate>Mon, 06 Mar 2023 11:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2023/03/06/qfield-jump-start/</guid>
+      <guid>https://qfield.org/2023/03/06/qfield-jump-start/</guid>
       <description>&lt;p&gt;You want to start collecting field data but &lt;strong&gt;never worked with a GIS&lt;/strong&gt; before?&lt;/p&gt;&#xA;&lt;p&gt;You are a &lt;strong&gt;passionate QGIS user&lt;/strong&gt; and would like a jump start your fieldwork setup?&lt;/p&gt;&#xA;&lt;p&gt;You are a &lt;strong&gt;senior GIS manager&lt;/strong&gt; and would like to optimize your teams&amp;rsquo; mobile data collection efficiency?&lt;/p&gt;&#xA;&lt;h2 id=&#34;let-us-you-introduce-the-qfield-jump-start-packages&#34;&gt;Let us you introduce the QField jump-start packages&lt;/h2&gt;&#xA;&lt;p&gt;During a half day or full day private support session, our QFields experts will help you get started with your project as fast as possible.&lt;/p&gt;</description>
     </item>
   </channel>

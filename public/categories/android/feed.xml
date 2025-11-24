@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Android on QField - Efficient field work built for QGIS</title>
-    <link>http://localhost:1313/categories/android/</link>
+    <link>https://qfield.org/categories/android/</link>
     <description>Recent content in Android on QField - Efficient field work built for QGIS</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Nov 2025 12:01:18 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/android/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Mar 2019 15:34:38 +0000</lastBuildDate>
+    <atom:link href="https://qfield.org/categories/android/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>QField 1.0 is here</title>
-      <link>http://localhost:1313/2019/03/28/qfield-1-0-is-here/</link>
+      <link>https://qfield.org/2019/03/28/qfield-1-0-is-here/</link>
       <pubDate>Thu, 28 Mar 2019 15:34:38 +0000</pubDate>
-      <guid>http://localhost:1313/2019/03/28/qfield-1-0-is-here/</guid>
+      <guid>https://qfield.org/2019/03/28/qfield-1-0-is-here/</guid>
       <description>&lt;h2 id=&#34;lets-get-straight-to-the-point&#34;&gt;Let&amp;rsquo;s get straight to the point&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;It&amp;rsquo;s official, QField for QGIS 1.0 is out!&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Get it while it’s hot on the Playstore ( &lt;a href=&#34;https://qfield.org/get&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;qfield.org/get&lt;/a&gt;) or on &lt;a href=&#34;https://github.com/opengisch/QField/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;We are incredibly pleased and proud of just having released such a jewel and are convinced that, thanks to all its features and conscious design choices, QField will make your field digitizing work much more efficient and pleasant.&lt;/p&gt;&#xA;&lt;p&gt;Packed with loads of useful features like online and offline features digitizing, geometry and attributes editing, attribute search, powerful forms, theme switching, GPS support, camera integration and much more, QField is the powerful tool for those who need to edit on the go and would like to avoid standing in the swamp with a laptop or paper charts.&lt;/p&gt;</description>
     </item>
     <item>
       <title>QField RC5 - Last call for testing</title>
-      <link>http://localhost:1313/2019/03/14/qfield-rc5/</link>
+      <link>https://qfield.org/2019/03/14/qfield-rc5/</link>
       <pubDate>Thu, 14 Mar 2019 11:50:16 +0000</pubDate>
-      <guid>http://localhost:1313/2019/03/14/qfield-rc5/</guid>
-      <description>&lt;p&gt;We are really happy to announce the fifth and (hopefully) last 1.0 release candidate in QField&amp;rsquo;s history! This means that QField 1.0 is closer than ever.&lt;/p&gt;&#xA;&lt;p&gt;Get it while it&amp;rsquo;s hot on the Playstore ( &lt;a href=&#34;https://qfield.org/get&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://qfield.org/get&lt;/a&gt;) or on &lt;a href=&#34;https://github.com/opengisch/QField/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Thanks to all the feedback by the fantastic community we were able to fix plenty of bugs, address performance issues and even add some super cool new features.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;figure text-center mb-4&#34;&gt;&#xA;  &#xA;    &lt;img src=&#34;https://i2.wp.com/new.opengis.ch/blog/wp-content/uploads/2019/03/fileselector.jpg?fit=541%2C1024&amp;amp;ssl=1&#34; alt=&#34;&#34; class=&#34;figure-img img-fluid gallery-img&#34;&#xA;         &#xA;         &#xA;         &gt;&#xA;  &#xA;  &#xA;&lt;/figure&gt;&#xA;&lt;p&gt;Among the new features, the most important is the flashy new file selector with favorite directories (long press on a folder to add it to the favorites and longpress on the favorites list to remove it) and an automatic list of the last three opened projects that will save you heaps of time while looking for your projects.&lt;/p&gt;</description>
+      <guid>https://qfield.org/2019/03/14/qfield-rc5/</guid>
+      <description>&lt;p&gt;We are really happy to announce the fifth and (hopefully) last 1.0 release candidate in QField&amp;rsquo;s history! This means that QField 1.0 is closer than ever.&lt;/p&gt;&#xA;&lt;p&gt;Get it while it&amp;rsquo;s hot on the Playstore ( &lt;a href=&#34;https://qfield.org/get&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://qfield.org/get&lt;/a&gt;) or on &lt;a href=&#34;https://github.com/opengisch/QField/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Thanks to all the feedback by the fantastic community we were able to fix plenty of bugs, address performance issues and even add some super cool new features.&lt;/p&gt;&#xA;&lt;figure class=&#34;figure text-center mb-4&#34;&gt;&lt;img src=&#34;https://i2.wp.com/new.opengis.ch/blog/wp-content/uploads/2019/03/fileselector.jpg?fit=541%2C1024&amp;amp;ssl=1&#34;&#xA;         alt=&#34;&#34; &#xA;         class=&#34;figure-img img-fluid gallery-img&#34;&#xA;         loading=&#34;lazy&#34;&gt;&lt;/figure&gt;&#xA;&lt;p&gt;Among the new features, the most important is the flashy new file selector with favorite directories (long press on a folder to add it to the favorites and longpress on the favorites list to remove it) and an automatic list of the last three opened projects that will save you heaps of time while looking for your projects.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

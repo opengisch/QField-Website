@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Distribution Network on QField - Efficient field work built for QGIS</title>
-    <link>http://localhost:1313/tags/distribution-network/</link>
+    <link>https://qfield.org/tags/distribution-network/</link>
     <description>Recent content in Distribution Network on QField - Efficient field work built for QGIS</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/tags/distribution-network/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://qfield.org/tags/distribution-network/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>QField for Power Transmission and Distribution</title>
-      <link>http://localhost:1313/solutions/power-transmission-and-distribution/</link>
+      <link>https://qfield.org/solutions/power-transmission-and-distribution/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/power-transmission-and-distribution/</guid>
+      <guid>https://qfield.org/solutions/power-transmission-and-distribution/</guid>
       <description>&lt;h2 id=&#34;grid-asset-fieldwork&#34;&gt;Grid asset fieldwork&lt;/h2&gt;&#xA;&lt;p&gt;Inventory lines, poles, transformers, and substations. Capture conditions and defects with photos and attributes.&lt;/p&gt;&#xA;&lt;h3 id=&#34;typical-workflows&#34;&gt;Typical workflows&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Patrols and line inspections&lt;/li&gt;&#xA;&lt;li&gt;Vegetation encroachment surveys&lt;/li&gt;&#xA;&lt;li&gt;As-built capture and redlines&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;one-workflow-from-field-to-gis&#34;&gt;One workflow from field to GIS&lt;/h2&gt;&#xA;&lt;p&gt;Prepare in QGIS, collect in QField, and sync through QFieldCloud for a clean audit trail.&lt;/p&gt;</description>
     </item>
   </channel>

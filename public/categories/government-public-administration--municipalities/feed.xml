@@ -2,65 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Government, Public Administration &amp; Municipalities on QField - Efficient field work built for QGIS</title>
-    <link>http://localhost:1313/categories/government-public-administration--municipalities/</link>
+    <link>https://qfield.org/categories/government-public-administration--municipalities/</link>
     <description>Recent content in Government, Public Administration &amp; Municipalities on QField - Efficient field work built for QGIS</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/categories/government-public-administration--municipalities/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://qfield.org/categories/government-public-administration--municipalities/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>QField for Cadastral and Land Registry</title>
-      <link>http://localhost:1313/solutions/cadastral-and-land-registry/</link>
+      <link>https://qfield.org/solutions/cadastral-and-land-registry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/cadastral-and-land-registry/</guid>
+      <guid>https://qfield.org/solutions/cadastral-and-land-registry/</guid>
       <description>&lt;h2 id=&#34;cadastral-fieldwork&#34;&gt;Cadastral fieldwork&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Boundary verification and evidence collection&lt;/li&gt;&#xA;&lt;li&gt;Parcel attribute checks and updates&lt;/li&gt;&#xA;&lt;li&gt;Photo documentation and audit trail&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;works-with-qgis-and-qfieldcloud&#34;&gt;Works with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Design forms in QGIS and sync via QFieldCloud to keep registry data accurate and traceable.&lt;/p&gt;</description>
     </item>
     <item>
       <title>QField for Cultural Heritage and Archaeology</title>
-      <link>http://localhost:1313/solutions/cultural-heritage-and-archaeology/</link>
+      <link>https://qfield.org/solutions/cultural-heritage-and-archaeology/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/cultural-heritage-and-archaeology/</guid>
+      <guid>https://qfield.org/solutions/cultural-heritage-and-archaeology/</guid>
       <description>&lt;h2 id=&#34;what-you-can-do&#34;&gt;What you can do&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Heritage inventories and condition surveys&lt;/li&gt;&#xA;&lt;li&gt;Excavation context and finds recording&lt;/li&gt;&#xA;&lt;li&gt;Monitoring and conservation activities&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;integrated-with-qgis-and-qfieldcloud&#34;&gt;Integrated with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Prepare layers and forms in QGIS and sync via QFieldCloud to collaborate across teams.&lt;/p&gt;</description>
     </item>
     <item>
       <title>QField for Government and Municipalities</title>
-      <link>http://localhost:1313/solutions/government-and-municipalities/</link>
+      <link>https://qfield.org/solutions/government-and-municipalities/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/government-and-municipalities/</guid>
+      <guid>https://qfield.org/solutions/government-and-municipalities/</guid>
       <description>&lt;h2 id=&#34;fieldwork-for-public-administration&#34;&gt;Fieldwork for public administration&lt;/h2&gt;&#xA;&lt;p&gt;Inventory public assets, record inspections, and manage service requests with a user-friendly mobile GIS.&lt;/p&gt;&#xA;&lt;h3 id=&#34;typical-workflows&#34;&gt;Typical workflows&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Street furniture and lighting inventories&lt;/li&gt;&#xA;&lt;li&gt;Parks, trails, and facilities inspections&lt;/li&gt;&#xA;&lt;li&gt;Citizen issue documentation and resolution tracking&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;integrates-with-qgis-and-qfieldcloud&#34;&gt;Integrates with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Prepare layers, forms, and symbology in QGIS. Keep teams in sync and on record using QFieldCloud.&lt;/p&gt;</description>
     </item>
     <item>
       <title>QField for Public Works and Infrastructure Maintenance</title>
-      <link>http://localhost:1313/solutions/public-works-and-infrastructure-maintenance/</link>
+      <link>https://qfield.org/solutions/public-works-and-infrastructure-maintenance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/public-works-and-infrastructure-maintenance/</guid>
+      <guid>https://qfield.org/solutions/public-works-and-infrastructure-maintenance/</guid>
       <description>&lt;h2 id=&#34;field-workflows&#34;&gt;Field workflows&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Asset inventory and condition assessment&lt;/li&gt;&#xA;&lt;li&gt;Maintenance inspections and repairs&lt;/li&gt;&#xA;&lt;li&gt;Work order documentation and QA&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;works-with-qgis-and-qfieldcloud&#34;&gt;Works with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Build your data model in QGIS and collaborate via QFieldCloud to keep records current.&lt;/p&gt;</description>
     </item>
     <item>
       <title>QField for Smart Cities and Urban Mobility</title>
-      <link>http://localhost:1313/solutions/smart-cities-and-urban-mobility/</link>
+      <link>https://qfield.org/solutions/smart-cities-and-urban-mobility/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/smart-cities-and-urban-mobility/</guid>
+      <guid>https://qfield.org/solutions/smart-cities-and-urban-mobility/</guid>
       <description>&lt;h2 id=&#34;what-you-can-do&#34;&gt;What you can do&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Sensor and device inventories&lt;/li&gt;&#xA;&lt;li&gt;Mobility infrastructure mapping&lt;/li&gt;&#xA;&lt;li&gt;Condition and performance checks&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;integrated-with-qgis-and-qfieldcloud&#34;&gt;Integrated with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Ensure teams use the same data and styles, with sync and review workflows built in.&lt;/p&gt;</description>
     </item>
     <item>
       <title>QField for Tourism and Outdoor Recreation Management</title>
-      <link>http://localhost:1313/solutions/tourism-and-outdoor-recreation-management/</link>
+      <link>https://qfield.org/solutions/tourism-and-outdoor-recreation-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/tourism-and-outdoor-recreation-management/</guid>
+      <guid>https://qfield.org/solutions/tourism-and-outdoor-recreation-management/</guid>
       <description>&lt;h2 id=&#34;field-workflows&#34;&gt;Field workflows&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Trail mapping and signage&lt;/li&gt;&#xA;&lt;li&gt;Facility inventories and inspections&lt;/li&gt;&#xA;&lt;li&gt;Visitor infrastructure planning and maintenance&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;works-with-qgis-and-qfieldcloud&#34;&gt;Works with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Prepare projects in QGIS and keep teams aligned with QFieldCloud collaboration.&lt;/p&gt;</description>
     </item>
     <item>
       <title>QField for Urban Planning and Zoning</title>
-      <link>http://localhost:1313/solutions/urban-planning-and-zoning/</link>
+      <link>https://qfield.org/solutions/urban-planning-and-zoning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/urban-planning-and-zoning/</guid>
+      <guid>https://qfield.org/solutions/urban-planning-and-zoning/</guid>
       <description>&lt;h2 id=&#34;what-you-can-do&#34;&gt;What you can do&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Site surveys and plan monitoring&lt;/li&gt;&#xA;&lt;li&gt;Zoning compliance checks&lt;/li&gt;&#xA;&lt;li&gt;Stakeholder engagement and notes&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;integrated-with-qgis-and-qfieldcloud&#34;&gt;Integrated with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Keep planners and inspectors aligned with a single source of truth, online or offline.&lt;/p&gt;</description>
     </item>
     <item>
       <title>QField for Waste Management and Sanitation</title>
-      <link>http://localhost:1313/solutions/waste-management-and-sanitation/</link>
+      <link>https://qfield.org/solutions/waste-management-and-sanitation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/waste-management-and-sanitation/</guid>
+      <guid>https://qfield.org/solutions/waste-management-and-sanitation/</guid>
       <description>&lt;h2 id=&#34;field-workflows&#34;&gt;Field workflows&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Route audits and optimization inputs&lt;/li&gt;&#xA;&lt;li&gt;Container inventories and maintenance&lt;/li&gt;&#xA;&lt;li&gt;Sanitation inspections and issue reporting&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;works-with-qgis-and-qfieldcloud&#34;&gt;Works with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Build your model in QGIS and collaborate via QFieldCloud to keep operations smooth.&lt;/p&gt;</description>
     </item>
   </channel>

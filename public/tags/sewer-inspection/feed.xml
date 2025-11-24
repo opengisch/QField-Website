@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sewer Inspection on QField - Efficient field work built for QGIS</title>
-    <link>http://localhost:1313/tags/sewer-inspection/</link>
+    <link>https://qfield.org/tags/sewer-inspection/</link>
     <description>Recent content in Sewer Inspection on QField - Efficient field work built for QGIS</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/tags/sewer-inspection/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://qfield.org/tags/sewer-inspection/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>QField for Water Utilities and Wastewater Management</title>
-      <link>http://localhost:1313/solutions/water-utilities-and-wastewater-management/</link>
+      <link>https://qfield.org/solutions/water-utilities-and-wastewater-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/water-utilities-and-wastewater-management/</guid>
+      <guid>https://qfield.org/solutions/water-utilities-and-wastewater-management/</guid>
       <description>&lt;h2 id=&#34;water-and-wastewater-fieldwork&#34;&gt;Water and wastewater fieldwork&lt;/h2&gt;&#xA;&lt;p&gt;Map pipes, valves, hydrants, manholes, and treatment facilities. Capture photos and notes linked to each feature.&lt;/p&gt;&#xA;&lt;h3 id=&#34;typical-workflows&#34;&gt;Typical workflows&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Valve exercising and hydrant inspections&lt;/li&gt;&#xA;&lt;li&gt;Sewer manhole surveys and condition assessments&lt;/li&gt;&#xA;&lt;li&gt;Leak detection and repair documentation&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;integrated-with-qgis-and-qfieldcloud&#34;&gt;Integrated with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Design forms in QGIS, then sync and collaborate with QFieldCloud to keep asset data current.&lt;/p&gt;</description>
     </item>
   </channel>

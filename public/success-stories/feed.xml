@@ -2,142 +2,142 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>QField - Success Stories on QField - Efficient field work built for QGIS</title>
-    <link>http://localhost:1313/success-stories/</link>
+    <link>https://qfield.org/success-stories/</link>
     <description>Recent content in QField - Success Stories on QField - Efficient field work built for QGIS</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/success-stories/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://qfield.org/success-stories/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data collection by QGIS/QField for O&amp;M work of rural water supply systems in Rwanda</title>
-      <link>http://localhost:1313/success-stories/water-supply-rwanda/</link>
+      <link>https://qfield.org/success-stories/water-supply-rwanda/</link>
       <pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate>
-      <guid>http://localhost:1313/success-stories/water-supply-rwanda/</guid>
+      <guid>https://qfield.org/success-stories/water-supply-rwanda/</guid>
       <description>&lt;h3 id=&#34;goal&#34;&gt;Goal&lt;/h3&gt;&#xA;&lt;p&gt;To conduct data collection of all rural water supply network in Rwanda, and keep updating the data continuously in order to improve operation &amp;amp; maintenance of waterworks.&lt;/p&gt;&#xA;&lt;h3 id=&#34;project-preparation&#34;&gt;Project preparation&lt;/h3&gt;&#xA;&lt;p&gt;Before starting our data collection, we conducted the following things:&lt;br&gt;&#xA;– Develop our own PostGIS database&lt;br&gt;&#xA;– Develop QGIS project template with Geopackage. The Geopackage table design is equal to PostGIS to be able to copy and paste to PostGIS.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Emergency Data Management for Cultural Heritage Rescue – KulturGutRetter</title>
-      <link>http://localhost:1313/success-stories/dai/</link>
+      <link>https://qfield.org/success-stories/dai/</link>
       <pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate>
-      <guid>http://localhost:1313/success-stories/dai/</guid>
+      <guid>https://qfield.org/success-stories/dai/</guid>
       <description>The KulturGutRetter project demonstrates how QField enables efficient cultural heritage rescue operations through mobile GIS technology, offline data collection, and real-time coordination during emergency missions.</description>
     </item>
     <item>
       <title>Finland’s National Land Survey Empowers Field Mapping with QField</title>
-      <link>http://localhost:1313/success-stories/nls/</link>
+      <link>https://qfield.org/success-stories/nls/</link>
       <pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate>
-      <guid>http://localhost:1313/success-stories/nls/</guid>
+      <guid>https://qfield.org/success-stories/nls/</guid>
       <description>&lt;p&gt;In 2025, &lt;a href=&#34;https://www.maanmittauslaitos.fi/en/topical_issues/national-land-survey-finland-has-introduced-new-topographic-data-production-system&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Land Survey (NLS)&lt;/a&gt; made a bold and visionary leap by launching MTTJ, a fully open-source topographic data production system built on QGIS, QField, and other open technologies. This landmark initiative makes Finland the &lt;strong&gt;first country in the world to adopt a fully open-source GIS&lt;/strong&gt; environment for national-scale topographic data production.&lt;/p&gt;&#xA;&lt;p&gt;Developed over several years and officially rolled out in spring 2025, MTTJ gradually replaces legacy proprietary systems with a modern, efficient, and extensible solution tailored to NLS’s evolving needs — all while promoting transparency, interoperability, and long-term sustainability. As part of this open architecture, &lt;strong&gt;QField will play a key role&lt;/strong&gt; , empowering field teams to collect and validate data efficiently, even in remote locations. Use of QField is being piloted over summer 2025 and will be gradually taken up for full production use towards the autumn.&lt;/p&gt;</description>
     </item>
     <item>
       <title>From Open Source to Freelance Success</title>
-      <link>http://localhost:1313/success-stories/freelance-success/</link>
+      <link>https://qfield.org/success-stories/freelance-success/</link>
       <pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate>
-      <guid>http://localhost:1313/success-stories/freelance-success/</guid>
+      <guid>https://qfield.org/success-stories/freelance-success/</guid>
       <description>&lt;p&gt;What started as a simple request from former colleagues has evolved into a freelance business and a popular open source project. Meet Felix, a French geomatician who discovered an innovative way to build trust, showcase expertise, and create sustainable income—all while giving away his software for free.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-problem-naturalists-without-the-right-tools&#34;&gt;The Problem: Naturalists Without the Right Tools&lt;/h3&gt;&#xA;&lt;p&gt;Felix&amp;rsquo;s story begins in the environmental consulting world, where ecologists and naturalists face a common challenge. These professionals spend their days in the field documenting biodiversity—cataloging birds, plants, and other species for environmental impact studies. While they&amp;rsquo;re experts in their scientific domains, many struggle with the technical aspects of data collection.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Geological Mapping with QField: A Success Story by Terrane Geoscience</title>
-      <link>http://localhost:1313/success-stories/geological-mapping/</link>
+      <link>https://qfield.org/success-stories/geological-mapping/</link>
       <pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate>
-      <guid>http://localhost:1313/success-stories/geological-mapping/</guid>
+      <guid>https://qfield.org/success-stories/geological-mapping/</guid>
       <description>&lt;h3 id=&#34;goal&#34;&gt;Goal&lt;/h3&gt;&#xA;&lt;p&gt;To collect new data on bedrock geology and view existing geoscience data in the field. Geologic mapping is completed using paper maps and/or digital devices for data collection. The goal is to improve the geologic mapping workflow by entering data directly in the field, create quality data with consistent terms, and reference existing geoscience data in the field.&lt;/p&gt;&#xA;&lt;h3 id=&#34;project-preparation&#34;&gt;Project preparation&lt;/h3&gt;&#xA;&lt;p&gt;Prior to starting in QField, a geologic mapping geopackage was designed to collect vector data including point station, structure, photo, and sample layers as well as line and polygon layers for contacts, faults, alteration, and geology. Attribute fields are customized for ease of data entry and data quality assurance using value maps, defaults (value or expression), and constraints within the Attributes Form. For example, the structural layer includes:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ground Truth Data Collection Using QField for LULC Mapping in Fiji</title>
-      <link>http://localhost:1313/success-stories/ground-truth-fiji/</link>
+      <link>https://qfield.org/success-stories/ground-truth-fiji/</link>
       <pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate>
-      <guid>http://localhost:1313/success-stories/ground-truth-fiji/</guid>
+      <guid>https://qfield.org/success-stories/ground-truth-fiji/</guid>
       <description>&lt;h3 id=&#34;purpose&#34;&gt;Purpose&lt;/h3&gt;&#xA;&lt;p&gt;Communities in Fiji rely on landscape resources for agricultural and forestry-related activities. Accurate mapping and monitoring patterns of land use and land cover (LULC) over time at an appropriate scale is important for informing landscape management, policies, and climate-smart sustainable development. Fiji&amp;rsquo;s Ministry of Forestry is collaboratively developing an approach with the Universities of Sydney (USYD), Western Australia (UWA) and the South Pacific (USP) to produce an inter-annual LULC map using Sentinel-2 satellite data, and freely available geospatial tools. QFIeld is being used for collecting ground truth data in the landscape for training and validation of the LULC map.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Heritage Impact Assessment using QField</title>
-      <link>http://localhost:1313/success-stories/heritage-impact-assessment/</link>
+      <link>https://qfield.org/success-stories/heritage-impact-assessment/</link>
       <pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate>
-      <guid>http://localhost:1313/success-stories/heritage-impact-assessment/</guid>
+      <guid>https://qfield.org/success-stories/heritage-impact-assessment/</guid>
       <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;&#xA;&lt;p&gt;The aim of this paper is to highlight the main benefits of using the QField app. An App that can be installed on an Android device for all archaeologists working in the field.&lt;/p&gt;&#xA;&lt;p&gt;The main feature of this new application will allow the archaeologist to upload to his/her smartphone or tablet the .qgs project of the excavation based on the general information concerning the site that is already available to you. At this point, it is possible to implement the collection of data directly on site, maintaining constant updates to your system, thus allowing you to review the project throughout the excavation process.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Improving Efficiencies in Ecological Surveying using QField</title>
-      <link>http://localhost:1313/success-stories/ecological-surveying/</link>
+      <link>https://qfield.org/success-stories/ecological-surveying/</link>
       <pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate>
-      <guid>http://localhost:1313/success-stories/ecological-surveying/</guid>
+      <guid>https://qfield.org/success-stories/ecological-surveying/</guid>
       <description>&lt;h3 id=&#34;goal&#34;&gt;Goal&lt;/h3&gt;&#xA;&lt;p&gt;To conduct ecological surveying more efficiently than has been previously achieved through traditional non-digital techniques, using QField as a medium for standardised and flexible field data collection.&lt;/p&gt;&#xA;&lt;h3 id=&#34;project-requirements&#34;&gt;Project Requirements&lt;/h3&gt;&#xA;&lt;p&gt;To facilitate effective field work, regular consultation with the Ecology team is required to ensure that QField projects are prepared appropriately. Firstly, basemaps comprising aerial imagery and proposed development plans are prepared by georeferencing and constructing pyramids in QGIS. Point, line and polygon vector layers are then created to support digitisation and associated data collection. Using a range of widgets, attribute fields are customised to meet the requirements of the Ecology team. These include:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Integration with QField</title>
-      <link>http://localhost:1313/success-stories/building-on-top/</link>
+      <link>https://qfield.org/success-stories/building-on-top/</link>
       <pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate>
-      <guid>http://localhost:1313/success-stories/building-on-top/</guid>
+      <guid>https://qfield.org/success-stories/building-on-top/</guid>
       <description>&lt;h3 id=&#34;aims-and-objectives&#34;&gt;Aims and Objectives&lt;/h3&gt;&#xA;&lt;p&gt;The main objective was to allow operators to access in the field the graphic and alphanumeric data on trees, shrubs, hedges, turf and street furniture elements in offline mode both in reading and editing mode with the return of these data in GINVE.CLOUD via a synchronisation procedure.&lt;/p&gt;&#xA;&lt;p&gt;For this purpose, it was decided to exploit the potential offered by QField and the GeoPackage database.&lt;/p&gt;&#xA;&lt;h3 id=&#34;preliminary-project-activity&#34;&gt;Preliminary project activity&lt;/h3&gt;&#xA;&lt;p&gt;Initially, a procedure was set up in GINVE.CLOUD to generate a Geopackage and the corresponding QField project file from the GINVE.CLOUD platform.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Monitoring Fire Salamanders with QField: A Conservation Success Story in Saxony</title>
-      <link>http://localhost:1313/success-stories/fire-salamanders/</link>
+      <link>https://qfield.org/success-stories/fire-salamanders/</link>
       <pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate>
-      <guid>http://localhost:1313/success-stories/fire-salamanders/</guid>
+      <guid>https://qfield.org/success-stories/fire-salamanders/</guid>
       <description>&lt;p&gt;In the steep, forested valleys of Saxony, Germany, a dedicated environmental monitoring team is using QField to track one of Europe&amp;rsquo;s most striking amphibians—the fire salamander. This distinctive black-and-yellow creature serves as an important indicator species for stream health and ecosystem integrity.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-project-salamander-conservation-in-bund-saxony&#34;&gt;The Project: Salamander Conservation in BUND Saxony&lt;/h3&gt;&#xA;&lt;p&gt;Working for BUND (Bund für Umwelt- und Naturschutz-Börgerland) in Saxony, a regional environmental protection organization with approximately 10,000 members, the project coordinator leads a team focused specifically on monitoring fire salamander populations and their habitats.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Real-Time Radiation Detection with QField: Cleaning Up America&#39;s Nuclear Legacy</title>
-      <link>http://localhost:1313/success-stories/radiation-detection/</link>
+      <link>https://qfield.org/success-stories/radiation-detection/</link>
       <pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate>
-      <guid>http://localhost:1313/success-stories/radiation-detection/</guid>
+      <guid>https://qfield.org/success-stories/radiation-detection/</guid>
       <description>&lt;p&gt;In sites across the United States, from public parks in New York to former uranium processing facilities in New Jersey, a dedicated team of environmental specialists is using QField to detect and remediate radioactive contamination left over from America&amp;rsquo;s atomic weapons program.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-mission-fusrap-site-remediation&#34;&gt;The Mission: FUSRAP Site Remediation&lt;/h3&gt;&#xA;&lt;p&gt;Working under the Formerly Utilized Sites Remedial Action Program (FUSRAP), geological specialists lead cleanup efforts for low-level radioactive waste sites across the country.&lt;/p&gt;</description>
     </item>
     <item>
       <title>River State Survey using QField</title>
-      <link>http://localhost:1313/success-stories/river-state-survey/</link>
+      <link>https://qfield.org/success-stories/river-state-survey/</link>
       <pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate>
-      <guid>http://localhost:1313/success-stories/river-state-survey/</guid>
+      <guid>https://qfield.org/success-stories/river-state-survey/</guid>
       <description>&lt;h3 id=&#34;goal&#34;&gt;Goal&lt;/h3&gt;&#xA;&lt;p&gt;In order to assess the structural and morphological state of their water courses, the community of Milvignes needed to survey all the rivers crossing their territory.&lt;/p&gt;&#xA;&lt;h3 id=&#34;project&#34;&gt;Project&lt;/h3&gt;&#xA;&lt;p&gt;To facilitate the technician&amp;rsquo;s field work (usually done with a map, a notebook and a camera), a QField project was created and made available on a Tablet. Cadastral and river layers were used as basemap.&lt;/p&gt;&#xA;&lt;p&gt;The structure of the input tables was designed along with the technician to assure that it would fit their field requirements. The idea was to have two tables:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Title</title>
-      <link>http://localhost:1313/success-stories/ghana-deforestation/</link>
+      <link>https://qfield.org/success-stories/ghana-deforestation/</link>
       <pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate>
-      <guid>http://localhost:1313/success-stories/ghana-deforestation/</guid>
+      <guid>https://qfield.org/success-stories/ghana-deforestation/</guid>
       <description>&lt;h3 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h3&gt;&#xA;&lt;p&gt;Ghana&amp;rsquo;s Tano Offin Forest Reserve, one of the country&amp;rsquo;s most biodiverse areas supporting 569 species including seven globally threatened ones, faced a critical threat. Satellite imagery revealed that without intervention, the forest was projected to lose &lt;strong&gt;56 hectares annually to illegal farming and logging activities.&lt;/strong&gt; Traditional monitoring methods using &amp;ldquo;pen and paper&amp;rdquo; were insufficient to respond quickly to emerging deforestation threats detected by remote sensing. The Alliance of Bioversity International and &lt;a href=&#34;https://www.cgiar.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CIAT&lt;/a&gt;, working with local partners including the Ghana Forestry Commission, needed a way to rapidly ground-truth satellite alerts and engage local communities in real-time forest monitoring. The challenge was particularly complex given the rural setting where many community members had limited literacy and technology experience.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tonga Crop Survey using QField</title>
-      <link>http://localhost:1313/success-stories/tonga/</link>
+      <link>https://qfield.org/success-stories/tonga/</link>
       <pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate>
-      <guid>http://localhost:1313/success-stories/tonga/</guid>
+      <guid>https://qfield.org/success-stories/tonga/</guid>
       <description>&lt;h3 id=&#34;context&#34;&gt;Context&lt;/h3&gt;&#xA;&lt;p&gt;In January 2022 the Hunga Tonga-Hunga Ha’apai submarine volcano erupted. Ash clouds from the eruption and the subsequent tsunami damaged croplands on the Tongatapu and Ha’apai island groups.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://livelihoods-and-landscapes.com/examples/hunga-haapai/hunga-haapai-crops-rectangle.jpg&#34; alt=&#34;mapping-farms&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Croplands damaged after Hunga Tonga-Hunga Ha’apai eruption.&lt;/p&gt;&#xA;&lt;h3 id=&#34;activities&#34;&gt;Activities&lt;/h3&gt;&#xA;&lt;h4 id=&#34;analysis-of-tonga-crop-survey-data&#34;&gt;Analysis of Tonga Crop Survey Data&lt;/h4&gt;&#xA;&lt;p&gt;Ministry of Agriculture, Food, and Forests staff used the &lt;a href=&#34;https://livelihoods-and-landscapes.com/examples/tonga-crop-survey/tonga-crop-survey.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tonga Crop Survey&lt;/a&gt; data, which was collected using the &lt;a href=&#34;https://livelihoods-and-landscapes.com/research.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;maplandscape&lt;/a&gt; workflow in the months before the eruption, to perform an initial estimate of damage to the food supply.&lt;/p&gt;</description>
     </item>
     <item>
       <title>United Nations Open GIS Initiative Recommends QField for Field Operations</title>
-      <link>http://localhost:1313/success-stories/un/</link>
+      <link>https://qfield.org/success-stories/un/</link>
       <pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate>
-      <guid>http://localhost:1313/success-stories/un/</guid>
+      <guid>https://qfield.org/success-stories/un/</guid>
       <description>&lt;h2&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;trusted-mobile-gis-for-peacekeeping-and-humanitarian-response&#34;&gt;Trusted Mobile GIS for Peacekeeping and Humanitarian Response&lt;/h3&gt;&#xA;&lt;p&gt;The &lt;strong&gt;United Nations Open GIS Initiative&lt;/strong&gt; , a global partnership led by the UN Geospatial Operations team, has officially recognized &lt;strong&gt;QField&lt;/strong&gt; as a recommended open-source solution for mobile geospatial data collection in UN field operations.&lt;/p&gt;&#xA;&lt;p&gt;As part of its commitment to building a modern, scalable, and cost-effective open geospatial infrastructure, the Initiative evaluated several open-source tools and identified QField as a robust and flexible mobile platform well-suited for the realities of UN peacekeeping and humanitarian missions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Use of QField for mapping breeding birds in the Wadden Sea</title>
-      <link>http://localhost:1313/success-stories/mapping-breeding-birds/</link>
+      <link>https://qfield.org/success-stories/mapping-breeding-birds/</link>
       <pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate>
-      <guid>http://localhost:1313/success-stories/mapping-breeding-birds/</guid>
+      <guid>https://qfield.org/success-stories/mapping-breeding-birds/</guid>
       <description>&lt;h3 id=&#34;goal-and-field-constraints&#34;&gt;Goal and field constraints&lt;/h3&gt;&#xA;&lt;p&gt;The Wadden Sea in Denmark, Germany and The Netherlands is of outstanding importance for many breeding bird species. Annually, the Schutzstation Wattenmeer participates in the Wadden Sea wide trilateral monitoring and assessment program (TMAP) and monitors the number of breeding birds in more than 100 monitoring areas in Schleswig-Holstein / Germany. For a number of species we monitor a significant share of the entire German breeding population.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Use of QField in the context of ground-truth data collection work of malaria transmitting mosquitoes</title>
-      <link>http://localhost:1313/success-stories/malaria-data-collection/</link>
+      <link>https://qfield.org/success-stories/malaria-data-collection/</link>
       <pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate>
-      <guid>http://localhost:1313/success-stories/malaria-data-collection/</guid>
+      <guid>https://qfield.org/success-stories/malaria-data-collection/</guid>
       <description>&lt;h3 id=&#34;goal-and-field-constraints&#34;&gt;Goal and field constraints&lt;/h3&gt;&#xA;&lt;p&gt;For a research work aiming at improving the knowledge on the environment of the mosquitoes that transmit malaria, the French Research Institute for Sustainable Development needed to generate a land cover map of two rural areas in Africa, one in Burkina Faso and one in Ivory Coast. Two satellites images (Spot 6 at 1.5 meters spatial resolutions) are used as input of a supervised object-based image classification for this work. The supervised method implies the collection of ground truth parcels, i.e. location and geo-referencing of a set of parcels of each land cover class on the ground, preferably spread all over the study areas. Both areas are 50 km2 wide and their nature (savannahs and rural areas, where roads are mainly narrow clay tracks) imply to move around in motorbike or by feet. In addition, one could quickly get lost in the rural labyrinth tracks in absence of a map. We hence needed light and very portable equipment, as well as a way to easily explore the area without getting lost.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Vanilla Surveys using QField</title>
-      <link>http://localhost:1313/success-stories/vanilla-surveys/</link>
+      <link>https://qfield.org/success-stories/vanilla-surveys/</link>
       <pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate>
-      <guid>http://localhost:1313/success-stories/vanilla-surveys/</guid>
+      <guid>https://qfield.org/success-stories/vanilla-surveys/</guid>
       <description>&lt;p&gt;A field survey of vanilla plantations on Vava&amp;rsquo;u, an outer island in the Kingdom of Tonga, using QField was conducted in May and June 2020 by the Ministry of Agriculture, Forestry, Food, and Fisheries (MAFF).&lt;/p&gt;&#xA;&lt;p&gt;Vanilla is an important commercial crop in Vava&amp;rsquo;u. The purpose of the survey was to map the extent of vanilla plantations and obtain estimates of the numbers of vanilla plants, area under vanilla cultivation, and the proportion of plantations that were managed or neglected. This information is being used by MAFF on Vava&amp;rsquo;u for agricultural planning and decision making.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Zero Invasive Predators: Eliminating Invasive Species with QField</title>
-      <link>http://localhost:1313/success-stories/zero-invasive-predators/</link>
+      <link>https://qfield.org/success-stories/zero-invasive-predators/</link>
       <pubDate>Thu, 16 Oct 2025 11:58:28 +0200</pubDate>
-      <guid>http://localhost:1313/success-stories/zero-invasive-predators/</guid>
+      <guid>https://qfield.org/success-stories/zero-invasive-predators/</guid>
       <description>&lt;p&gt;In the rugged wilderness of New Zealand&amp;rsquo;s South Westland, an ambitious conservation project is underway. Zero Invasive Predators (ZIP) is systematically eliminating possums, rats, and stoats from vast tracts of forest—with QField and QFieldCloud playing a crucial role in their operations.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-challenge-managing-conservation-at-scale&#34;&gt;The Challenge: Managing Conservation at Scale&lt;/h3&gt;&#xA;&lt;p&gt;ZIP&amp;rsquo;s mission is breathtaking in scope: to completely remove invasive predators from New Zealand as part of the nationwide Predator Free 2050 initiative. These predators devastate native ecosystems, killing an estimated 25 million native birds annually.&lt;/p&gt;</description>
     </item>
   </channel>

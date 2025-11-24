@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on QField - Efficient field work built for QGIS</title>
-    <link>http://localhost:1313/tags/blog/</link>
+    <link>https://qfield.org/tags/blog/</link>
     <description>Recent content in Blog on QField - Efficient field work built for QGIS</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Nov 2025 12:01:18 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Oct 2025 15:00:00 +0200</lastBuildDate>
+    <atom:link href="https://qfield.org/tags/blog/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Welcome to the QField Blog</title>
-      <link>http://localhost:1313/blog/welcome-to-qfield-blog/</link>
+      <link>https://qfield.org/blog/welcome-to-qfield-blog/</link>
       <pubDate>Fri, 17 Oct 2025 15:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/blog/welcome-to-qfield-blog/</guid>
+      <guid>https://qfield.org/blog/welcome-to-qfield-blog/</guid>
       <description>Welcome to the new QField blog! Stay tuned for updates, tutorials, and insights about field data collection.</description>
     </item>
   </channel>

@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sustainability on QField - Efficient field work built for QGIS</title>
-    <link>http://localhost:1313/tags/sustainability/</link>
+    <link>https://qfield.org/tags/sustainability/</link>
     <description>Recent content in Sustainability on QField - Efficient field work built for QGIS</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/tags/sustainability/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://qfield.org/tags/sustainability/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>QField for Corporate ESG Field Data</title>
-      <link>http://localhost:1313/solutions/corporate-esg-field-data/</link>
+      <link>https://qfield.org/solutions/corporate-esg-field-data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/corporate-esg-field-data/</guid>
+      <guid>https://qfield.org/solutions/corporate-esg-field-data/</guid>
       <description>&lt;h2 id=&#34;what-you-can-do&#34;&gt;What you can do&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;ESG site checks and audits&lt;/li&gt;&#xA;&lt;li&gt;Evidence capture and KPIs&lt;/li&gt;&#xA;&lt;li&gt;Reporting-ready data exports&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;integrated-with-qgis-and-qfieldcloud&#34;&gt;Integrated with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Keep one source of truth from field to ESG reports.&lt;/p&gt;</description>
     </item>
     <item>
       <title>QField for Sustainable Land-Use Planning</title>
-      <link>http://localhost:1313/solutions/sustainable-land-use-planning/</link>
+      <link>https://qfield.org/solutions/sustainable-land-use-planning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/sustainable-land-use-planning/</guid>
+      <guid>https://qfield.org/solutions/sustainable-land-use-planning/</guid>
       <description>&lt;h2 id=&#34;what-you-can-do&#34;&gt;What you can do&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Site surveys and constraints mapping&lt;/li&gt;&#xA;&lt;li&gt;Monitoring and plan verification&lt;/li&gt;&#xA;&lt;li&gt;Stakeholder engagement records&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;works-with-qgis-and-qfieldcloud&#34;&gt;Works with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Prepare forms and styles in QGIS and collaborate via QFieldCloud across teams.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Waste Management on QField - Efficient field work built for QGIS</title>
-    <link>http://localhost:1313/tags/waste-management/</link>
+    <link>https://qfield.org/tags/waste-management/</link>
     <description>Recent content in Waste Management on QField - Efficient field work built for QGIS</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/tags/waste-management/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://qfield.org/tags/waste-management/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>QField for Waste Management and Sanitation</title>
-      <link>http://localhost:1313/solutions/waste-management-and-sanitation/</link>
+      <link>https://qfield.org/solutions/waste-management-and-sanitation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/waste-management-and-sanitation/</guid>
+      <guid>https://qfield.org/solutions/waste-management-and-sanitation/</guid>
       <description>&lt;h2 id=&#34;field-workflows&#34;&gt;Field workflows&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Route audits and optimization inputs&lt;/li&gt;&#xA;&lt;li&gt;Container inventories and maintenance&lt;/li&gt;&#xA;&lt;li&gt;Sanitation inspections and issue reporting&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;works-with-qgis-and-qfieldcloud&#34;&gt;Works with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Build your model in QGIS and collaborate via QFieldCloud to keep operations smooth.&lt;/p&gt;</description>
     </item>
   </channel>

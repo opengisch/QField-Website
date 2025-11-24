@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Local Governance on QField - Efficient field work built for QGIS</title>
-    <link>http://localhost:1313/tags/local-governance/</link>
+    <link>https://qfield.org/tags/local-governance/</link>
     <description>Recent content in Local Governance on QField - Efficient field work built for QGIS</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/tags/local-governance/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://qfield.org/tags/local-governance/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>QField for Community Mapping and Local Governance</title>
-      <link>http://localhost:1313/solutions/community-mapping-and-local-governance/</link>
+      <link>https://qfield.org/solutions/community-mapping-and-local-governance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/community-mapping-and-local-governance/</guid>
+      <guid>https://qfield.org/solutions/community-mapping-and-local-governance/</guid>
       <description>&lt;h2 id=&#34;what-you-can-do&#34;&gt;What you can do&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Community issue mapping&lt;/li&gt;&#xA;&lt;li&gt;Service access and planning&lt;/li&gt;&#xA;&lt;li&gt;Participatory planning and reporting&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;integrated-with-qgis-and-qfieldcloud&#34;&gt;Integrated with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Design projects in QGIS and collaborate securely via QFieldCloud.&lt;/p&gt;</description>
     </item>
   </channel>

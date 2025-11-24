@@ -15,7 +15,7 @@ server:
 # Build settings for production
 build:
   writeStats: true
-  useResourceCacheWhen: "always"
+  useResourceCacheWhen: "fallback"
 
 # Production cache settings - longer TTL
 caches:

@@ -9,7 +9,7 @@
     
 <meta http-equiv='Content-Security-Policy' content="script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://use.typekit.net https://p.typekit.net https://cdn.jsdelivr.net; font-src 'self' data: https://use.typekit.net https://p.typekit.net; object-src 'none'; base-uri 'none'">
 
-    <link rel="stylesheet" href="/css/bootstrap.min.3c8f27e6009ccfd710a905e6dcf12d0ee3c6f2ac7da05b0572d3e0d12e736fc8.css" integrity="sha256-PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=" crossorigin="anonymous"><link rel="stylesheet" href="/css/main.1c72c6532dece519bae11e7c5963f31aaddeac08cb6ba6069cd07a9ff3f8b342.css" integrity="sha256-HHLGUy3s5Rm64R58WWPzGq3erAjLa6YGnNB6n/P4s0I=" crossorigin="anonymous"><link rel="stylesheet" href="/css/styles.77a847a843406f3b30763454b120eba299948a1050f3c3cc9d6d850121f41a41.css" integrity="sha256-d6hHqENAbzswdjRUsSDropmUihBQ88PMnW2FASH0GkE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/bootstrap.min.3c8f27e6009ccfd710a905e6dcf12d0ee3c6f2ac7da05b0572d3e0d12e736fc8.css" integrity="sha256-PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=" crossorigin="anonymous"><link rel="stylesheet" href="/css/main.1c72c6532dece519bae11e7c5963f31aaddeac08cb6ba6069cd07a9ff3f8b342.css" integrity="sha256-HHLGUy3s5Rm64R58WWPzGq3erAjLa6YGnNB6n/P4s0I=" crossorigin="anonymous"><link rel="stylesheet" href="/css/styles.a616b10e49ce0e510c8a380fb714469aa616aa92d0babd401c6f6f3bccf24f9a.css" integrity="sha256-phaxDknODlEMijgPtxRGmqYWqpLQur1AHG9vO8zyT5o=" crossorigin="anonymous">
 
 <link rel="stylesheet" href="/vendor/fontawesome/css/all.min.css">
 <link rel="stylesheet" href="https://use.typekit.net/cbd7kad.css"><link rel="stylesheet" href="/bootstrap-icons/bootstrap-icons.004322721c8557331759bc6ddaacbb689b0f0715d688aec82bd056d2d5b5cc3b.css" integrity="sha256-AEMichyFVzMXWbxt2qy7aJsPBxXWiK7IK9BW0tW1zDs=" crossorigin="anonymous">
@@ -51,7 +51,7 @@ It&rsquo;s always the question, where to put the logical part of the solution. Q
     <meta property="article:published_time" content="2018-01-08T06:06:13+00:00">
   
   
-    <meta property="article:modified_time" content="2025-11-19T12:01:18+01:00">
+    <meta property="article:modified_time" content="2018-01-08T06:06:13+00:00">
   
   <meta property="og:site_name" content="QField - Efficient field work built for QGIS">
 
@@ -86,7 +86,7 @@ It&rsquo;s always the question, where to put the logical part of the solution. Q
   "@type": "Article",
   "headline": "PostgreSQL back end solution for quality assurance and data archive",
   "datePublished": "2018-01-08T06:06:13+00:00",
-  "dateModified": "2025-11-19T12:01:18+01:00",
+  "dateModified": "2018-01-08T06:06:13+00:00",
   "mainEntityOfPage": "http://localhost:1313/",
   "publisher": {
     "@type": "Organization",
@@ -274,8 +274,8 @@ It&rsquo;s always the question, where to put the logical part of the solution. Q
 <h1 id="situation">Situation</h1>
 <h2 id="its-all-about-trees">It&rsquo;s all about trees</h2>
 <p>At least for that customer we got lately. The customer owns pieces of land all over Switzerland. On this pieces are forests and in the forests are - as expected - trees. Well, mostly - if you are not a bark beetle or a squirrel - you don&rsquo;t care about a single tree. Except if there is something special with it. For example, a branch that could fell down on your brand new Citroën DS or if the tree has a disease that could kill the whole forest, that is actually needed to convert the carbon dioxide (from your DS) into oxygen.
-<a href="/wp-content/uploads/2017/12/wald.png"><img src="/wp-content/uploads/2017/12/wald.png" alt=""></a> The issuetrees (yellow) lie on the forest (green) - and the forest lies on the land piece (brown).
-<a href="/wp-content/uploads/2018/01/erm2.png"><img src="/wp-content/uploads/2018/01/erm2.png" alt=""></a> And the (Entity Relationship Model) ERM looks like this. A land can have zero, one or more forests - and a forest can have zero, one or more trees with issues.</p>
+<a href="/wp-content/uploads/2017/12/wald.png"><img src="/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/wald.png" alt=""></a> The issuetrees (yellow) lie on the forest (green) - and the forest lies on the land piece (brown).
+<a href="/wp-content/uploads/2018/01/erm2.png"><img src="/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/erm2.png" alt=""></a> And the (Entity Relationship Model) ERM looks like this. A land can have zero, one or more forests - and a forest can have zero, one or more trees with issues.</p>
 <h2 id="its-not-really-about-trees">It&rsquo;s not really about trees</h2>
 <p>The situation is, that a lot of field workers (so called tree-inspectors) work with our mobile solution <a href="https://www.qfield.org/" target="_blank" rel="noopener">QField</a>, where they can collect the data while standing in the middle of a wild forest with one foot in a rabbit hole and the other one in the stinging nettle. It&rsquo;s quite possible and usual that there can be some problems entering all the data correctly. Typing issues on the tablet while running away from wolves or just lack of concentration because of the beauty of the swiss forests.</p>
 <h2 id="and-its-about-lots-of-front-ends">And it&rsquo;s about lots of front ends</h2>
@@ -327,7 +327,7 @@ END;
 <p>All data entered to the database (valid or not) need to be stored. The entries accepted from the so called live tables with all constraints, are stored normally. The entries failed because of the constraint, are stored in another table. In the so called quarantine table. So you have for every live table another quarantine table. This means, we need another table structure existing parallel to the live tables. We do it in two schemas: The live schema and the quarantine schema.
 So the tree-inspector synchronizes his QField without any problem to the database. The correct entries are written into the live tables. The incorrect into the quarantine. Actually all the data are coming into the quarantine and there is a Trigger passing them through to the live table. If they success, they will be stored in live and removed from quarantine. Otherwise they keeps staying in the quarantine. Same situation when the quarantine-clerk later corrects the data entries in the quarantine. On an update they are pushed into the live-table. If success, all good. Otherwise the entry keeps staying in the quarantine.</p>
 <h3 id="structure">Structure</h3>
-<h3><a href="/wp-content/uploads/2017/12/structure1.png"><img src="/wp-content/uploads/2017/12/structure1.png" alt=""></a></h3>
+<h3><a href="/wp-content/uploads/2017/12/structure1.png"><img src="/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/structure1.png" alt=""></a></h3>
 <h3 id="and-how-we-do-that">And how we do that?</h3>
 <p>It&rsquo;s all solved by using triggers. SQL triggers are procedural code that are automatically executed on an action on a table or view. For this solution we actually need two trigger per quarantine table. <strong><em>After insert into</em></strong> or <em><strong>update</strong></em> quarantine table, a trigger should be fired for every entry, doing this:
 <em>Insert the same entry into the live table. If success, then delete the entry in the quarantine table. Else write the info to the current entry in the quarantine table.</em>
@@ -416,7 +416,7 @@ EXECUTE PROCEDURE quarantine.pushtolive();
 </code></pre><h3 id="and-it-looks-like-this">And it looks like this</h3>
 <p>The yellow points are the issue trees in the live. If we create another one and have a mistake in it (GPS Id wrong), then it&rsquo;s stored in the quarantine (pink). When we correct the data it&rsquo;s written over the quarantine trigger into live. If succeeded, the point changes the color to yellow.
 Actually the yellow point appears (live) and the pink point(quarantine) disappears, because the entry is inserted into live and deleted in quarantine.
-<a href="/wp-content/uploads/2017/12/DemoQuaranLive.gif"><img src="/wp-content/uploads/2017/12/DemoQuaranLive.gif" alt=""></a></p>
+<a href="/wp-content/uploads/2017/12/DemoQuaranLive.gif"><img src="/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/DemoQuaranLive.gif" alt=""></a></p>
 <h1 id="archiving-all-data">Archiving all data</h1>
 <p>There are different reasons why you need to archive data. Maybe somewhen you want to show your grandchildren, how much forest we still had today before the sky got dark. But this was not the reason for the mentioned customer, but legal reasons:
 When the woodsman cuts the last bamboo tree of the forest and this was the only food for the very last living panda bear of Switzerland, we need to know who created or changed this entry in the database and what tree should have been chopped down instead.</p>
@@ -430,7 +430,7 @@ So there will be the updated entry in the live-table (2), no entry in the quaran
 <p>The tree-inspector enters an entry of an issue tree that already existed in the live table to the quarantine (1). The after insert trigger is fired and it tries to write to the live table. And it fails. The entry in the quarantine will be updated with the error-message (2). The old status is copied to archive (1). The office clerk makes no the changes to this entries. The trigger is fired and this time it could write into the live-table with success (3). So the old entry is copied to the archive (4) and after deleting the entry in the quarantine, there will be the second old status of quarantine (5) in archive too.
 So there will be the updated entry in the live-table (3), no entry in the quarantine-table (1 and 2) and three entries (1, 4 and 5) in the archive table.</p>
 <h3 id="structure-1">Structure</h3>
-<p><a href="/wp-content/uploads/2017/12/structure2.png"><img src="/wp-content/uploads/2017/12/structure2.png" alt=""></a></p>
+<p><a href="/wp-content/uploads/2017/12/structure2.png"><img src="/2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/structure2.png" alt=""></a></p>
 <h2 id="and-how-we-do-that-1">And how we do that?</h2>
 <p>It&rsquo;s solved by using triggers too. We actually need only one trigger per table, but not only in quarantine, but also in live. It has to be fired before every update of every entry, doing this:
 <em>Insert a copy of the current entry into the archive table with the status it had until the update we are doing right now.</em></p>
@@ -622,25 +622,7 @@ See yah! :-)</p>
               </small>
             </p>
             
-            <p class="card-text text-dark"><p>
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-<figure class="figure text-center mb-4">
-  
-    <img …</figure></p></p>
+            <p class="card-text text-dark"><p><figure class="figure text-center mb-4"><img src="https://developer.android.com/images/brand/en%5Fapp%5Frgb%5Fwo%5F45.png" …</figure></p></p>
             
           </div>
         </div>
@@ -658,9 +640,7 @@ See yah! :-)</p>
               </small>
             </p>
             
-            <p class="card-text text-dark"><figure class="figure text-center mb-4">
-  
-    <img src="https://developer.android.com/images/brand/en%5Fapp%5Frgb%5Fwo%5F45.png" …</figure></p>
+            <p class="card-text text-dark"><figure class="figure text-center mb-4"><img src="https://developer.android.com/images/brand/en%5Fapp%5Frgb%5Fwo%5F45.png" …</figure></p>
             
           </div>
         </div>
@@ -679,7 +659,7 @@ See yah! :-)</p>
             </p>
             
             <p class="card-text text-dark"><div class="gallery-wrapper" 
-     data-gallery-id="gallery-1763634720-784272481" …</p>
+     data-gallery-id="gallery-1763979972-932856740" …</p>
             
           </div>
         </div>

@@ -9,7 +9,7 @@
     
 <meta http-equiv='Content-Security-Policy' content="script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://use.typekit.net https://p.typekit.net https://cdn.jsdelivr.net; font-src 'self' data: https://use.typekit.net https://p.typekit.net; object-src 'none'; base-uri 'none'">
 
-    <link rel="stylesheet" href="/css/bootstrap.min.3c8f27e6009ccfd710a905e6dcf12d0ee3c6f2ac7da05b0572d3e0d12e736fc8.css" integrity="sha256-PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=" crossorigin="anonymous"><link rel="stylesheet" href="/css/main.1c72c6532dece519bae11e7c5963f31aaddeac08cb6ba6069cd07a9ff3f8b342.css" integrity="sha256-HHLGUy3s5Rm64R58WWPzGq3erAjLa6YGnNB6n/P4s0I=" crossorigin="anonymous"><link rel="stylesheet" href="/css/styles.77a847a843406f3b30763454b120eba299948a1050f3c3cc9d6d850121f41a41.css" integrity="sha256-d6hHqENAbzswdjRUsSDropmUihBQ88PMnW2FASH0GkE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/bootstrap.min.3c8f27e6009ccfd710a905e6dcf12d0ee3c6f2ac7da05b0572d3e0d12e736fc8.css" integrity="sha256-PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=" crossorigin="anonymous"><link rel="stylesheet" href="/css/main.1c72c6532dece519bae11e7c5963f31aaddeac08cb6ba6069cd07a9ff3f8b342.css" integrity="sha256-HHLGUy3s5Rm64R58WWPzGq3erAjLa6YGnNB6n/P4s0I=" crossorigin="anonymous"><link rel="stylesheet" href="/css/styles.a616b10e49ce0e510c8a380fb714469aa616aa92d0babd401c6f6f3bccf24f9a.css" integrity="sha256-phaxDknODlEMijgPtxRGmqYWqpLQur1AHG9vO8zyT5o=" crossorigin="anonymous">
 
 <link rel="stylesheet" href="/vendor/fontawesome/css/all.min.css">
 <link rel="stylesheet" href="https://use.typekit.net/cbd7kad.css"><link rel="stylesheet" href="/bootstrap-icons/bootstrap-icons.004322721c8557331759bc6ddaacbb689b0f0715d688aec82bd056d2d5b5cc3b.css" integrity="sha256-AEMichyFVzMXWbxt2qy7aJsPBxXWiK7IK9BW0tW1zDs=" crossorigin="anonymous">
@@ -50,7 +50,7 @@
     <meta property="article:published_time" content="2022-09-20T05:48:00+00:00">
   
   
-    <meta property="article:modified_time" content="2025-11-19T12:01:18+01:00">
+    <meta property="article:modified_time" content="2022-09-20T05:48:00+00:00">
   
   <meta property="og:site_name" content="QField - Efficient field work built for QGIS">
 
@@ -84,7 +84,7 @@
   "@type": "Article",
   "headline": "How we build QField for many platforms - A look behind the curtain",
   "datePublished": "2022-09-20T05:48:00+00:00",
-  "dateModified": "2025-11-19T12:01:18+01:00",
+  "dateModified": "2022-09-20T05:48:00+00:00",
   "mainEntityOfPage": "http://localhost:1313/",
   "publisher": {
     "@type": "Organization",
@@ -275,29 +275,10 @@
 <p>A couple of days later we had a build for Windows and later in the same year for macOS. With many dependencies already available in modern versions. Cheers.</p>
 <p>What&rsquo;s left to do than just enable it for Android, and all our problems are suddenly solved? Alas, it&rsquo;s not so easy. <strong>Cross-compiling is always a bit trickier.</strong> And so we started another journey to improve the situation. After a while, we had a working build chain based on vcpkg for Android in our R&amp;D labs. Interestingly, this added a couple of features just because the community around vcpkg had already added them. For example using <a href="https://www.cogeo.org/" target="_blank" rel="noopener">COG</a>-based raster data via HTTP was suddenly working <em>(for the record: thanks to the availability of curl which we never took care of adding ourselves in OSGeo4A)</em>.</p>
 <p>Soon after we also wanted to try building for <strong>iOS with vcpkg</strong>, which after a few attempts also was successful, and even managed to resolve some weird crashes and other issues we had experienced with the old buildchain.</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure class="figure text-center mb-4">
-  
-    <img src="/wp-content/uploads/2022/09/Peek-2022-09-19-17-01.gif" alt="" class="figure-img img-fluid gallery-img"
-         
-         
-         >
-  
-  
-</figure>
+<figure class="figure text-center mb-4"><img src="/2022/09/20/how-we-build-qfield-for-many-platforms-a-look-behind-the-curtain/Peek-2022-09-19-17-01_hu_e8d9546f4f14da85.gif" srcset="/2022/09/20/how-we-build-qfield-for-many-platforms-a-look-behind-the-curtain/Peek-2022-09-19-17-01_hu_e8d9546f4f14da85.gif 1x, /2022/09/20/how-we-build-qfield-for-many-platforms-a-look-behind-the-curtain/Peek-2022-09-19-17-01_hu_9b904d074527adea.gif 2x"
+         alt="" 
+         class="figure-img img-fluid gallery-img" width="1200" height="338"
+         loading="lazy"></figure>
 <p>The main benefit was that we could upgrade the QGIS base libraries in one single place for every platform, in an isolated branch without playing the Jenga game on each upgrade.</p>
 <p>The only unfinished business we still had was that support for iOS and Android was still available only in our own vcpkg fork.</p>
 <p>So the last few weeks and months <strong>we have been working closely with upstream</strong> to bring building for Android and iOS up to the same level as desktop platforms. The relevant parts are now in a clean state.</p>

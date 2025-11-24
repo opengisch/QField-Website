@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Network As-Built on QField - Efficient field work built for QGIS</title>
-    <link>http://localhost:1313/tags/network-as-built/</link>
+    <link>https://qfield.org/tags/network-as-built/</link>
     <description>Recent content in Network As-Built on QField - Efficient field work built for QGIS</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/tags/network-as-built/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://qfield.org/tags/network-as-built/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>QField for Fibre and Telecommunication Networks</title>
-      <link>http://localhost:1313/solutions/fibre-and-telecommunication-networks/</link>
+      <link>https://qfield.org/solutions/fibre-and-telecommunication-networks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/fibre-and-telecommunication-networks/</guid>
+      <guid>https://qfield.org/solutions/fibre-and-telecommunication-networks/</guid>
       <description>&lt;h2 id=&#34;what-you-can-do&#34;&gt;What you can do&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Plan trench routes and equipment locations&lt;/li&gt;&#xA;&lt;li&gt;Collect as-builts with attributes and photos&lt;/li&gt;&#xA;&lt;li&gt;Sync changes and comments via QFieldCloud&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;works-with-qgis-and-qfieldcloud&#34;&gt;Works with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;One workflow from office planning to field execution and back, without data loss.&lt;/p&gt;</description>
     </item>
   </channel>

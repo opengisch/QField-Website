@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Land Registry on QField - Efficient field work built for QGIS</title>
-    <link>http://localhost:1313/tags/land-registry/</link>
+    <link>https://qfield.org/tags/land-registry/</link>
     <description>Recent content in Land Registry on QField - Efficient field work built for QGIS</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/tags/land-registry/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://qfield.org/tags/land-registry/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>QField for Cadastral and Land Registry</title>
-      <link>http://localhost:1313/solutions/cadastral-and-land-registry/</link>
+      <link>https://qfield.org/solutions/cadastral-and-land-registry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/cadastral-and-land-registry/</guid>
+      <guid>https://qfield.org/solutions/cadastral-and-land-registry/</guid>
       <description>&lt;h2 id=&#34;cadastral-fieldwork&#34;&gt;Cadastral fieldwork&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Boundary verification and evidence collection&lt;/li&gt;&#xA;&lt;li&gt;Parcel attribute checks and updates&lt;/li&gt;&#xA;&lt;li&gt;Photo documentation and audit trail&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;works-with-qgis-and-qfieldcloud&#34;&gt;Works with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Design forms in QGIS and sync via QFieldCloud to keep registry data accurate and traceable.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,79 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Environment, Agriculture &amp; Natural Resources on QField - Efficient field work built for QGIS</title>
-    <link>http://localhost:1313/categories/environment-agriculture--natural-resources/</link>
+    <link>https://qfield.org/categories/environment-agriculture--natural-resources/</link>
     <description>Recent content in Environment, Agriculture &amp; Natural Resources on QField - Efficient field work built for QGIS</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/categories/environment-agriculture--natural-resources/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://qfield.org/categories/environment-agriculture--natural-resources/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>QField for Agriculture and Precision Farming</title>
-      <link>http://localhost:1313/solutions/agriculture-and-precision-farming/</link>
+      <link>https://qfield.org/solutions/agriculture-and-precision-farming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/agriculture-and-precision-farming/</guid>
+      <guid>https://qfield.org/solutions/agriculture-and-precision-farming/</guid>
       <description>&lt;h2 id=&#34;field-data-for-precision-agriculture&#34;&gt;Field data for precision agriculture&lt;/h2&gt;&#xA;&lt;p&gt;Collect observations, pests, nutrient deficiencies, and treatment records. Use standardized forms to maintain quality.&lt;/p&gt;&#xA;&lt;h3 id=&#34;typical-workflows&#34;&gt;Typical workflows&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Crop scouting and disease monitoring&lt;/li&gt;&#xA;&lt;li&gt;Soil sampling and fertility mapping&lt;/li&gt;&#xA;&lt;li&gt;Treatment records and compliance&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;integrated-with-qgis-and-qfieldcloud&#34;&gt;Integrated with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Build data models in QGIS and collaborate with QFieldCloud for timely decisions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>QField for Climate Change Research</title>
-      <link>http://localhost:1313/solutions/climate-change-research/</link>
+      <link>https://qfield.org/solutions/climate-change-research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/climate-change-research/</guid>
+      <guid>https://qfield.org/solutions/climate-change-research/</guid>
       <description>&lt;h2 id=&#34;what-you-can-do&#34;&gt;What you can do&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Site mapping and variable recording&lt;/li&gt;&#xA;&lt;li&gt;Photo documentation and annotations&lt;/li&gt;&#xA;&lt;li&gt;Sync to QFieldCloud for collaboration&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>QField for Ecology and Biodiversity Monitoring</title>
-      <link>http://localhost:1313/solutions/ecology-and-biodiversity-monitoring/</link>
+      <link>https://qfield.org/solutions/ecology-and-biodiversity-monitoring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/ecology-and-biodiversity-monitoring/</guid>
+      <guid>https://qfield.org/solutions/ecology-and-biodiversity-monitoring/</guid>
       <description>&lt;h2 id=&#34;what-you-can-do&#34;&gt;What you can do&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Record species, abundance, and habitats&lt;/li&gt;&#xA;&lt;li&gt;Map plots and transects with accurate GNSS&lt;/li&gt;&#xA;&lt;li&gt;Attach photos and notes for QA&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;integrated-with-qgis-and-qfieldcloud&#34;&gt;Integrated with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Share projects and manage permissions in QFieldCloud. Export to standard formats for analysis.&lt;/p&gt;</description>
     </item>
     <item>
       <title>QField for Environmental Impact Assessment</title>
-      <link>http://localhost:1313/solutions/environmental-impact-assessment/</link>
+      <link>https://qfield.org/solutions/environmental-impact-assessment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/environmental-impact-assessment/</guid>
+      <guid>https://qfield.org/solutions/environmental-impact-assessment/</guid>
       <description>&lt;h2 id=&#34;eia-fieldwork&#34;&gt;EIA fieldwork&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Baseline surveys and constraints mapping&lt;/li&gt;&#xA;&lt;li&gt;Monitoring and mitigation checks&lt;/li&gt;&#xA;&lt;li&gt;Stakeholder and site access documentation&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;works-with-qgis-and-qfieldcloud&#34;&gt;Works with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Prepare symbology, rules, and forms in QGIS. Sync and collaborate with QFieldCloud for timely reviews.&lt;/p&gt;</description>
     </item>
     <item>
       <title>QField for Fisheries and Marine Resource Management</title>
-      <link>http://localhost:1313/solutions/fisheries-and-marine-resource-management/</link>
+      <link>https://qfield.org/solutions/fisheries-and-marine-resource-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/fisheries-and-marine-resource-management/</guid>
+      <guid>https://qfield.org/solutions/fisheries-and-marine-resource-management/</guid>
       <description>&lt;h2 id=&#34;what-you-can-do&#34;&gt;What you can do&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fisheries surveys and logbooks&lt;/li&gt;&#xA;&lt;li&gt;Coastal habitat and erosion monitoring&lt;/li&gt;&#xA;&lt;li&gt;Marine resource mapping and compliance&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;works-with-qgis-and-qfieldcloud&#34;&gt;Works with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Prepare layers and forms in QGIS and keep teams aligned with QFieldCloud sync.&lt;/p&gt;</description>
     </item>
     <item>
       <title>QField for Forestry and Silviculture</title>
-      <link>http://localhost:1313/solutions/forestry-and-silviculture/</link>
+      <link>https://qfield.org/solutions/forestry-and-silviculture/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/forestry-and-silviculture/</guid>
+      <guid>https://qfield.org/solutions/forestry-and-silviculture/</guid>
       <description>&lt;h2 id=&#34;field-workflows&#34;&gt;Field workflows&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Forest inventory and plot sampling&lt;/li&gt;&#xA;&lt;li&gt;Silviculture and harvesting operations tracking&lt;/li&gt;&#xA;&lt;li&gt;Habitat and biodiversity mapping&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;one-workflow-with-qgis-and-qfieldcloud&#34;&gt;One workflow with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Prepare in QGIS, collect in QField, and sync with QFieldCloud for conflict-safe merges.&lt;/p&gt;</description>
     </item>
     <item>
       <title>QField for Hydrology and Watershed Management</title>
-      <link>http://localhost:1313/solutions/hydrology-and-watershed-management/</link>
+      <link>https://qfield.org/solutions/hydrology-and-watershed-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/hydrology-and-watershed-management/</guid>
+      <guid>https://qfield.org/solutions/hydrology-and-watershed-management/</guid>
       <description>&lt;h2 id=&#34;hydrology-fieldwork&#34;&gt;Hydrology fieldwork&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Stream and culvert surveys&lt;/li&gt;&#xA;&lt;li&gt;Flood impact and debris mapping&lt;/li&gt;&#xA;&lt;li&gt;Watershed monitoring sites and parameters&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;works-with-qgis-and-qfieldcloud&#34;&gt;Works with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Prepare forms and styles in QGIS. Collaborate and sync changes through QFieldCloud.&lt;/p&gt;</description>
     </item>
     <item>
       <title>QField for Land Restoration and Conservation</title>
-      <link>http://localhost:1313/solutions/land-restoration-and-conservation/</link>
+      <link>https://qfield.org/solutions/land-restoration-and-conservation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/land-restoration-and-conservation/</guid>
+      <guid>https://qfield.org/solutions/land-restoration-and-conservation/</guid>
       <description>&lt;h2 id=&#34;workflows&#34;&gt;Workflows&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Restoration site mapping and monitoring&lt;/li&gt;&#xA;&lt;li&gt;Habitat assessments and invasive species tracking&lt;/li&gt;&#xA;&lt;li&gt;Community programs and stewardship records&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;integrated-with-qgis-and-qfieldcloud&#34;&gt;Integrated with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Design forms and symbology in QGIS, then sync and review via QFieldCloud.&lt;/p&gt;</description>
     </item>
     <item>
       <title>QField for Soil and Land Quality Surveys</title>
-      <link>http://localhost:1313/solutions/soil-and-land-quality-surveys/</link>
+      <link>https://qfield.org/solutions/soil-and-land-quality-surveys/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/soil-and-land-quality-surveys/</guid>
+      <guid>https://qfield.org/solutions/soil-and-land-quality-surveys/</guid>
       <description>&lt;h2 id=&#34;what-you-can-do&#34;&gt;What you can do&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Plan sampling grids and record field logs&lt;/li&gt;&#xA;&lt;li&gt;Capture depths, horizons, and conditions&lt;/li&gt;&#xA;&lt;li&gt;Attach photos and sync to QFieldCloud&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>QField for Wildlife Tracking and Habitat Mapping</title>
-      <link>http://localhost:1313/solutions/wildlife-tracking-and-habitat-mapping/</link>
+      <link>https://qfield.org/solutions/wildlife-tracking-and-habitat-mapping/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/wildlife-tracking-and-habitat-mapping/</guid>
+      <guid>https://qfield.org/solutions/wildlife-tracking-and-habitat-mapping/</guid>
       <description>&lt;h2 id=&#34;workflows&#34;&gt;Workflows&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Wildlife observations and telemetry&lt;/li&gt;&#xA;&lt;li&gt;Habitat mapping and suitability assessments&lt;/li&gt;&#xA;&lt;li&gt;Protected areas surveys and monitoring&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;integrated-with-qgis-and-qfieldcloud&#34;&gt;Integrated with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Prepare symbology and forms in QGIS, then sync projects with QFieldCloud to collaborate across teams.&lt;/p&gt;</description>
     </item>
   </channel>

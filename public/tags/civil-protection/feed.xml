@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Civil Protection on QField - Efficient field work built for QGIS</title>
-    <link>http://localhost:1313/tags/civil-protection/</link>
+    <link>https://qfield.org/tags/civil-protection/</link>
     <description>Recent content in Civil Protection on QField - Efficient field work built for QGIS</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/tags/civil-protection/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://qfield.org/tags/civil-protection/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>QField for Civil Protection and Risk Assessment</title>
-      <link>http://localhost:1313/solutions/civil-protection-and-risk-assessment/</link>
+      <link>https://qfield.org/solutions/civil-protection-and-risk-assessment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solutions/civil-protection-and-risk-assessment/</guid>
+      <guid>https://qfield.org/solutions/civil-protection-and-risk-assessment/</guid>
       <description>&lt;h2 id=&#34;what-you-can-do&#34;&gt;What you can do&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Hazard and risk mapping&lt;/li&gt;&#xA;&lt;li&gt;Critical asset and infrastructure checks&lt;/li&gt;&#xA;&lt;li&gt;Emergency planning and drills&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;works-with-qgis-and-qfieldcloud&#34;&gt;Works with QGIS and QFieldCloud&lt;/h2&gt;&#xA;&lt;p&gt;Keep risk data current and collaborative with a unified workflow.&lt;/p&gt;</description>
     </item>
   </channel>

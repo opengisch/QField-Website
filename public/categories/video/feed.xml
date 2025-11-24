@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Video on QField - Efficient field work built for QGIS</title>
-    <link>http://localhost:1313/categories/video/</link>
+    <link>https://qfield.org/categories/video/</link>
     <description>Recent content in Video on QField - Efficient field work built for QGIS</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Nov 2025 12:01:18 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/video/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Aug 2022 04:58:00 +0000</lastBuildDate>
+    <atom:link href="https://qfield.org/categories/video/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A New Trick up QField’s Sleeve: Animated Maps</title>
-      <link>http://localhost:1313/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/</link>
+      <link>https://qfield.org/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/</link>
       <pubDate>Tue, 16 Aug 2022 04:58:00 +0000</pubDate>
-      <guid>http://localhost:1313/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/</guid>
+      <guid>https://qfield.org/2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Starting with QField 2.2, users can fully rely on animation capabilities that have made their way into QGIS during its last development cycle. This can be a powerful mean to highlight key elements on a map that require special user attention.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The example below demonstrates a scenario where animated raster markers are used to highlight active fires within the visible map extent. Notice how the subtle fire animation helps draw viewers’ eyes to those important markers.&lt;/p&gt;</description>
     </item>
     <item>
       <title>QGIS Mobile 0.2 Demo</title>
-      <link>http://localhost:1313/2015/01/11/qgis-mobile-0-2-demo/</link>
+      <link>https://qfield.org/2015/01/11/qgis-mobile-0-2-demo/</link>
       <pubDate>Sun, 11 Jan 2015 19:41:08 +0000</pubDate>
-      <guid>http://localhost:1313/2015/01/11/qgis-mobile-0-2-demo/</guid>
-      <description>&lt;p&gt;QField (formerly known as QGIS Mobile) is a touch optimized interface for field work developed by OPENGIS.ch. It is with great pleasure the we want to share with you the demo video of version 0.2.&#xA;Since the project is going to be one of our core projects, we set up a dedicated &lt;a href=&#34;http://localhost:1313/android-gis/qgis-mobile/&#34; title=&#34;QGIS mobile&#34;&gt;page here&lt;/a&gt;.&#xA;The &lt;a href=&#34;https://vimeo.com/116231850&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QGIS mobile 0.2&lt;/a&gt; video demonstrates some basic functionality like navigation, feature identification and attribute editing.&lt;/p&gt;&#xA;&lt;p&gt;The performance is affected by android&amp;rsquo;s video recording software. In reality animaitons look fluent and the interface feels snappy.&#xA;Demo performed on a Galaxy Note 8.0 with Android 4.4.4 (CM11).&lt;/p&gt;</description>
+      <guid>https://qfield.org/2015/01/11/qgis-mobile-0-2-demo/</guid>
+      <description>&lt;p&gt;QField (formerly known as QGIS Mobile) is a touch optimized interface for field work developed by OPENGIS.ch. It is with great pleasure the we want to share with you the demo video of version 0.2.&#xA;Since the project is going to be one of our core projects, we set up a dedicated &lt;a href=&#34;https://qfield.org/android-gis/qgis-mobile/&#34; title=&#34;QGIS mobile&#34;&gt;page here&lt;/a&gt;.&#xA;The &lt;a href=&#34;https://vimeo.com/116231850&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QGIS mobile 0.2&lt;/a&gt; video demonstrates some basic functionality like navigation, feature identification and attribute editing.&lt;/p&gt;&#xA;&lt;p&gt;The performance is affected by android&amp;rsquo;s video recording software. In reality animaitons look fluent and the interface feels snappy.&#xA;Demo performed on a Galaxy Note 8.0 with Android 4.4.4 (CM11).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
