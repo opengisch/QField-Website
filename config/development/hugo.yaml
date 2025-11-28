@@ -1,6 +1,10 @@
 # Development environment configuration
 # Optimized for development speed and debugging
 
+# Pagination
+pagination:
+  pagerSize: 10
+
 # Development server settings
 server:
   headers:

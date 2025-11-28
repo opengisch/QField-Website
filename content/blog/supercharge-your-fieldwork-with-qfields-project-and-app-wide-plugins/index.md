@@ -71,7 +71,6 @@ post_id: "14471"
 tags:
   - qgis.org
 title: Supercharge your fieldwork with QField's project and app-wide plugins
-url: /2024/06/18/supercharge-your-fieldwork-with-qfields-project-and-app-wide-plugins/
 
 ---
 _This blog post will introduce QField’s brand new plugin framework and walk through the creation of a plugin to support bird watchers in need of a quick way to digitize photos of spotted birds onto a point vector layer._

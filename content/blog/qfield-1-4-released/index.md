@@ -58,7 +58,6 @@ post_id: "9519"
 tags:
   - qgis.org
 title: QField 1.4 released - Happy new year
-url: /2020/03/03/qfield-1-4-released/
 
 ---
 What a year's start! After a very packed December publishing all the [QGIS on the road videos](/qgis-on-the-road/) and quietly releasing **QField 1.3 - Ben Nevis** we could have gone and relaxed over the holidays. But since we love QField so much we immediately started working on the next iteration. Now, after an intensive testing period, we are proud to announce the release of **QField 1.4 - Olavtoppen**.

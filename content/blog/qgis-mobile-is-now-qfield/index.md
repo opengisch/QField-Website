@@ -29,7 +29,6 @@ post_id: "1292"
 tags:
   - qgis.org
 title: A star is born, QGIS mobile is now QField
-url: /2015/01/28/qgis-mobile-is-now-qfield/
 
 ---
   

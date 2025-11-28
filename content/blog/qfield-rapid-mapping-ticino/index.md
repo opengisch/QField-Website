@@ -44,7 +44,6 @@ post_id: "14794"
 tags:
   - qgis.org
 title: Rapid Mapping the Ticino Floods and Landslides with QField Rapid Mapper
-url: /2024/07/07/qfield-rapid-mapping-ticino/
 
 ---
 **QField Rapid Mapper** is a project for the [QField mobile app](https://qfield.app), which allows emergency responders, civil protection, military, and citizens to **assess and report damages from natural catastrophes by quickly sharing geolocated images, videos and audio**. QField Rapid Mapper offers real-time data collection, mapping and sharing to **help enhance disaster response and coordination**.  

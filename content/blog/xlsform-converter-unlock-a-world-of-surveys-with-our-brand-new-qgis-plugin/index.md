@@ -67,7 +67,6 @@ post_id: "15627"
 tags:
   - qgis.org
 title: 'XLSForm Converter: unlock a world of surveys with our brand new QGIS plugin'
-url: /2025/06/02/xlsform-converter-unlock-a-world-of-surveys-with-our-brand-new-qgis-plugin/
 
 ---
 Today marks the initial release of our brand-new QGIS plugin, _XLSForm Converter_.  

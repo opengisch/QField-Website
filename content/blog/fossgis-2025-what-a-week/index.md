@@ -65,7 +65,6 @@ post_id: "15365"
 tags:
   - qgis.org
 title: FOSSGIS 2025 – What a Week!
-url: /2025/04/02/fossgis-2025-what-a-week/
 
 ---
 As long time sponsors of FOSSGIS, we stepped up the game this year and became **Platinum Sponsors for FOSSGIS 2025**. We are proud to be part of a thriving open-source GIS community and to contribute to such a great conference. Here's a recap of everything we were involved in:

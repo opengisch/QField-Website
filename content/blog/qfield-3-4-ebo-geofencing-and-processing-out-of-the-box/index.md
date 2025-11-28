@@ -65,7 +65,6 @@ post_id: "15063"
 tags:
   - qgis.org
 title: 'QField 3.4 “Ebo”: Geofencing and processing out of the box'
-url: /2024/10/08/qfield-3-4-ebo-geofencing-and-processing-out-of-the-box/
 
 ---
 QField 3.4 is out, and it won’t disappoint. It has tons of new features that continue to push the limits of what users can do in the field.

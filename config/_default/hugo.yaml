@@ -11,6 +11,10 @@ defaultTheme: "auto"
 highlight: true
 enableScrollToTop: true
 
+# Permalinks configuration
+permalinks:
+  blog: /blog/:year/:month/:day/:slug/
+
 # SEO and metadata configuration
 params:
 

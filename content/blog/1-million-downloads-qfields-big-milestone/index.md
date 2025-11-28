@@ -60,7 +60,6 @@ post_id: "15494"
 tags:
   - qgis.org
 title: '1 Million Downloads: QField''s Big Milestone'
-url: /2025/05/29/1-million-downloads-qfields-big-milestone/
 
 ---
 🚀 QField has officially hit **1 million downloads** – thanks to **you!** 🎉

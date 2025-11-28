@@ -49,7 +49,6 @@ post_id: "3911"
 tags:
   - qgis.org
 title: How to filter features in QGIS using the graphical processing modeler
-url: /2018/05/28/how-to-filter-features-in-qgis-using-the-graphical-processing-modeler/
 
 ---
 This article describes a new algorithm for the processing modeler called feature filter algorithm. If you are already familiar with ETL concepts and the graphical modeler, you can directly jump to the section [the feature filter algorithm](#feature-filter-algorithm).

@@ -66,7 +66,6 @@ tags:
   - qfield
   - qgis.org
 title: 'QField 3.6 “Gondwana”: Locking on greatness'
-url: /2025/06/03/qfield-3-6-gondwana-locking-on-greatness/
 
 ---
 Building on top of the last release which introduced background tracking, this development cycle focused on polishing functionalities and building on top of preexisting features. The variety of improvements is sure to make our diverse user base and community excited to upgrade to QField 3.6.

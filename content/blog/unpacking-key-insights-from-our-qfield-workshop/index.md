@@ -54,7 +54,6 @@ post_id: "15209"
 tags:
   - qgis.org
 title: Unpacking key insights from our QField Workshop
-url: /2025/03/25/unpacking-key-insights-from-our-qfield-workshop/
 
 ---
 This year, **OPENGIS.ch** celebrated its 10th anniversary in Bern, with an afternoon full of workshops attended by clients, long-term friends, and colleagues. Here, we will give a glimpse of QField: **its vision, where it's headed**, and the **exciting features future users can look forward to**.

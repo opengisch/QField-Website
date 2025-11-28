@@ -41,7 +41,6 @@ post_id: "13811"
 tags:
   - qgis.org
 title: QField background tracking
-url: /2023/06/29/qfield-background-tracking/
 
 ---
 Years ago, the QField community and its users showed their love for their favourite field app by supporting a successful crowdfunding to improve camera handling.

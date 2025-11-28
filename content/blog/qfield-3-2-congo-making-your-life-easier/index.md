@@ -51,7 +51,6 @@ tags:
   - qfieldcloud
   - qgis.org
 title: 'QField 3.2 “Congo”: Making your life easier'
-url: /2024/04/04/qfield-3-2-congo-making-your-life-easier/
 
 ---
 Focused on stability and usability improvements, most users will find something to celebrate in QField 3.2

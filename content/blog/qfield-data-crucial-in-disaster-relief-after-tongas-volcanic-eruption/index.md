@@ -43,7 +43,6 @@ tags:
   - press-release
   - qgis.org
 title: QField collected data crucial in disaster relief after Tonga’s volcanic eruption
-url: /2022/02/02/qfield-data-crucial-in-disaster-relief-after-tongas-volcanic-eruption/
 
 ---
 **For once, it's not an app from the Silicon Valley, but from Laax in the Swiss Alps that made the news. By publishing QField as an open-source app, OPENGIS.ch allows companies, organisations and even countries without the necessary financial means to have the opportunity to benefit from this important data collection app. And it is being used: Over half a million downloads have already been achieved. Now, since the volcanic eruption in Tonga on 15 January 2022, the app of the small Laax-based company is playing a not-unimportant role in disaster response planning.**

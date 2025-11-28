@@ -46,7 +46,6 @@ spay_email: ""
 tags:
   - qgis.org
 title: Offline WMS - Benchmarking raster formats for QField
-url: /2020/06/09/offline-wms-benchmarking-raster-formats-for-qfield/
 
 ---
 ## What are we looking for?

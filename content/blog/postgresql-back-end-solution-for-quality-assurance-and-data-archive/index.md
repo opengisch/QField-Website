@@ -24,7 +24,6 @@ post_id: "3442"
 tags:
   - qgis.org
 title: PostgreSQL back end solution for quality assurance and data archive
-url: /2018/01/08/postgresql-back-end-solution-for-quality-assurance-and-data-archive/
 
 ---
 **_Did you know that the possibilities to make a full QGIS back end solution for quality assurance and archiving in PostgreSQL are immense? SQL has it's well known limitations, but with a little bit creativity you can make quite nice solutions just using triggers and rules. In this post I'll explain what we did lately based on a project with a customer. He needed to assure the consistency of data but still give his employees the possibility of a fast feeding of the data collected on the field to the database. Another request was to keep every status of the data with the information about the changes (archiving)._**

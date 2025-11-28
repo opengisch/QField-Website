@@ -32,7 +32,6 @@ post_id: "14069"
 tags:
   - qgis.org
 title: Snappy QField 3.1 “Borneo” has arrived
-url: /2024/01/10/snappy-qfield-3-1-borneo-has-arrived/
 
 ---
 The launch of QField 3.0 was a big deal, but now we're back to focusing on smaller, more frequent updates. Don't let the shorter change log for 3.1 trick you – there are lots of cool new features in this update!

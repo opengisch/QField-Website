@@ -45,7 +45,6 @@ post_id: "5206"
 tags:
   - qgis.org
 title: QField RC5 - Last call for testing
-url: /2019/03/14/qfield-rc5/
 
 ---
 We are really happy to announce the fifth and (hopefully) last 1.0 release candidate in QField's history! This means that QField 1.0 is closer than ever.

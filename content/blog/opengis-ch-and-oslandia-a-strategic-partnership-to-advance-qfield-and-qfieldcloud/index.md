@@ -29,7 +29,6 @@ post_id: "13921"
 tags:
   - partners
 title: 'OPENGIS.ch and Oslandia: A Strategic Partnership to Advance QField and QFieldCloud'
-url: /2023/09/15/opengis-ch-and-oslandia-a-strategic-partnership-to-advance-qfield-and-qfieldcloud/
 
 ---
 {{< figure src="Qfield_Banner_1500x500_BOSA_new.png" alt="" caption="" >}}

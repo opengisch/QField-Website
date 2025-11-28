@@ -44,7 +44,6 @@ post_id: "13401"
 tags:
   - qgis.org
 title: QField 2.5 is here, reaching new heights
-url: /2022/11/14/qfield-2-5-is-here-reaching-new-heights/
 
 ---
 Our ninjas have been so busy that less than a month after we released QField 2.4, we find ourselves with so many new features we simply can't wait any longer to present to you the latest version of QField: 2.5 "Fancy Flamingo ?”.

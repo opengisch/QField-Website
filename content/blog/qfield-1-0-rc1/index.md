@@ -29,7 +29,6 @@ post_id: "4737"
 tags:
   - qgis.org
 title: New Year's present - QField 1.0 RC1
-url: /2019/01/08/qfield-1-0-rc1/
 
 ---
 It was a long and winding road but we are very excited to announce the general availability of QField 1.0 Release Candidate 1.

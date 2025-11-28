@@ -114,6 +114,13 @@ Reference them in markdown as `/images/ss/image-name.jpg`
 Use markdown formatting for content sections
 The "Back to success stories" button is added automatically
 
+## Environments and configs
+
+- Hugo merges `config/_default` with the folder that matches `--environment` (`development`, `staging`, `production`). If you omit it, `hugo server` defaults to `development`.
+- Local development: `hugo server --environment development` for fast, unminified builds and no analytics/service worker.
+- Staging preview: `hugo --environment staging -D -b https://staging.qfield.org` to get near-prod settings without analytics/SW and with easier-to-read JSON/SVG. Use whatever staging base URL is correct for your deploy.
+- Production build: `hugo --environment production --gc --minify -b https://qfield.org/` for strict headers, full minification, and analytics/SW enabled.
+
 ## Build for Production
 
 1. Build the site with production config:

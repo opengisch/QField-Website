@@ -42,7 +42,6 @@ post_id: "13237"
 tags:
   - qgis.org
 title: QField 2.4 is here, and it is ?icious
-url: "/2022/10/13/qfield-2-4-is-here-and-it-is-\U0001F34Ficious/"
 
 ---
 Yes, QField for QGIS, the leading fieldwork app, was released on the iOS App Store!

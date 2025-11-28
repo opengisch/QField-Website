@@ -39,7 +39,6 @@ post_id: "5526"
 tags:
   - qgis.org
 title: 'Win a QField jump-start package, use #MyQField'
-url: /2019/04/11/win-a-qfield-jump-start-package-use-myqfield/
 
 ---
 Do you want to win a [QField jump-start package](/2019/04/09/qfield-jump-start-packages/) worth 550€?

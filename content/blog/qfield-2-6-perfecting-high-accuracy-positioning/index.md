@@ -46,7 +46,6 @@ post_id: "13565"
 tags:
   - qgis.org
 title: 'QField 2.6: perfecting high-accuracy positioning'
-url: /2023/01/26/qfield-2-6-perfecting-high-accuracy-positioning/
 
 ---
 It’s only been a few weeks into the new year, but we’ve got great news for you: a brand new QField 2.6 “Geeky Gecko ?” has been released with a focus on positioning improvements, including Bluetooth support for Windows. And with that, we are delighted to remove the ‘beta’ status from QField for Windows.

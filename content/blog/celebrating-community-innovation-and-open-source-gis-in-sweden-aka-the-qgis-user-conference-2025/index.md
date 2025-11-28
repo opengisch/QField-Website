@@ -87,7 +87,6 @@ post_id: "15655"
 tags:
   - qgis.org
 title: Celebrating community, innovation, and open-source GIS in Sweden - AKA the QGIS user conference 2025
-url: /2025/06/25/celebrating-community-innovation-and-open-source-gis-in-sweden-aka-the-qgis-user-conference-2025/
 
 ---
 It was such a pleasure to be part of the QGIS User Conference 2025 in Norrköping! The event was extremely well organised — a big thank you to the amazing local team for pulling it all together so smoothly. Personally, it felt special to be back in Sweden, almost 20 years after my Uppsala university days. I truly enjoyed giving the opening keynote and sharing the latest from the QGIS project — and of course, showcasing all the QField greatness we've been working so hard on 💚

@@ -39,7 +39,6 @@ post_id: "13776"
 tags:
   - qgis.org
 title: 'QField 2.8: Boosting field work through external sensors'
-url: /2023/05/30/qfield-2-8-boosting-field-work-through-external-sensors/
 
 ---
 The latest version of QField is out, featuring as its main new feature sensor handling alongside the usual round of user experience and stability improvements. We simply can’t wait to see the sensor uses you will come up with!

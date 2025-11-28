@@ -51,7 +51,6 @@ post_id: "5337"
 tags:
   - qgis.org
 title: QField 1.0 is here
-url: /2019/03/28/qfield-1-0-is-here/
 
 ---
 ## Let's get straight to the point

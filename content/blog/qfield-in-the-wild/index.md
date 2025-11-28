@@ -30,7 +30,6 @@ post_id: "1700"
 tags:
   - qgis.org
 title: QField in the wild
-url: /2015/06/15/qfield-in-the-wild/
 
 ---
 {{< figure align="alignright" width=129 src="https://developer.android.com/images/brand/en%5Fapp%5Frgb%5Fwo%5F45.png" alt="QField app on Google Play" caption="QField app on Google Play" >}}

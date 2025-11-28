@@ -36,7 +36,6 @@ post_id: "13166"
 tags:
   - qgis.org
 title: How we build QField for many platforms - A look behind the curtain
-url: /2022/09/20/how-we-build-qfield-for-many-platforms-a-look-behind-the-curtain/
 
 ---
 _In the past year, **the build system behind QField has been ported to [vcpkg, a modern C++ dependency management system](https://vcpkg.io/en/index.html)**. It has been a great success for QField and considerably helped to streamline efforts, improve the development experience and to guarantee an outstanding stability of the application. In this blog post we will look at the history of building QGIS based applications for mobile systems and how it has become what it is today._

@@ -63,7 +63,6 @@ spay_email: ""
 tags:
   - qgis.org
 title: QFieldCloud now opensource - Happy 10 Years of field mapping with QGIS
-url: /2021/06/08/qfieldcloud-now-opensource-happy-10-years-of-field-mapping-with-qgis/
 
 ---
 Today, on QField's 10th anniversary, we're extremely proud to publish the results of over [18 months](https://github.com/opengisch/qfieldcloud/graphs/contributors) of development and give you [the source code of QFieldCloud](https://github.com/opengisch/qfieldcloud/pull/3) to go and make your awesome adaptations, solutions, and hopefully contributions :)

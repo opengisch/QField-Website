@@ -34,7 +34,6 @@ post_id: "1147"
 tags:
   - qgis.org
 title: Happy new year to the power of two!
-url: /2015/01/08/happy-new-year-to-the-power-of-two/
 
 ---
 For the first time we at OPENGIS.ch can celebrate with 2 people, Marco Bernasocchi and Matthias Kuhn both experienced QGIS developers and holders of a Master degree in GIScience.

@@ -47,7 +47,6 @@ post_id: "13017"
 tags:
   - qgis.org
 title: 'A New Trick up QField’s Sleeve: Animated Maps'
-url: /2022/08/16/a-new-trick-up-qfields-sleeve-animated-maps/
 
 ---
 **Starting with QField 2.2, users can fully rely on animation capabilities that have made their way into QGIS during its last development cycle. This can be a powerful mean to highlight key elements on a map that require special user attention.**

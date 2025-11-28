@@ -31,7 +31,6 @@ guid: https://opengis.ch/?p=5295
 parent_post_id: null
 post_id: "5295"
 title: 'GeoBeer #26 in Bern hosted by OPENGIS.ch'
-url: /2019/03/25/geobeer-26-in-bern-hosted-by-opengis-ch/
 
 ---
 Last Thursday around half past six in the evening. Striking many Geo-scientist found the way to the Spitalgasse in Bern. The reason was the 26th GeoBeer event taking place at [ImpactHub](https:// https://bern.impacthub.net/).  

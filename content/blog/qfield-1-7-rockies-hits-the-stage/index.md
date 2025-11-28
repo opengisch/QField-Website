@@ -43,7 +43,6 @@ spay_email: ""
 tags:
   - qgis.org
 title: QField 1.7 Rockies hits the stage
-url: /2020/10/20/qfield-1-7-rockies-hits-the-stage/
 
 ---
 **Be ready for the cold weather with a smooth coordinate search, filters in the value relation widget, fancy new QML and HTML widgets, enhanced geometry editing functionalities and an expandable legend. Right when Autumn starts, QField 1.7 Rockies hits the stage.**

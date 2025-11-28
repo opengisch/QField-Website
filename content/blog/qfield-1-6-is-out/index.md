@@ -39,7 +39,6 @@ post_id: "11573"
 tags:
   - qgis.org
 title: QField 1.6 is out!
-url: /2020/08/18/qfield-1-6-is-out/
 
 ---
 **Editing multiple features at the same time, support for stylus pens, dynamic configuration of image names and much more.**  

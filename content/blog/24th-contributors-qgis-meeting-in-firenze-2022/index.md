@@ -41,7 +41,6 @@ spay_email: ""
 tags:
   - qgis.org
 title: 24th Contributors QGIS Meeting in Firenze 2022
-url: /2022/09/08/24th-contributors-qgis-meeting-in-firenze-2022/
 
 ---
 The international community of QGIS contributors got together in person from 18 to 22 August in parallel to [OpenStreetMap State of The Map](https://2022.stateofthemap.org/) event and right before the [FOSS4G](https://2022.foss4g.org/). So there was a lot of **open source geo power** concentrated in the **beautiful city of Florence** in those days. It was my first participation and all I knew was that it's supposed to be an unconference. This means, there is no strict schedule but space and opportunity for everyone to present their work or team up to discuss and hack on specific tasks to bring the QGIS project to the next level.

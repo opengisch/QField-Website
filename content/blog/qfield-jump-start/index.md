@@ -561,7 +561,6 @@ obfx-header-scripts: ""
 parent_post_id: null
 post_id: "5461"
 title: QField Jump-start
-url: /2023/03/06/qfield-jump-start/
 
 ---
 You want to start collecting field data but **never worked with a GIS** before?

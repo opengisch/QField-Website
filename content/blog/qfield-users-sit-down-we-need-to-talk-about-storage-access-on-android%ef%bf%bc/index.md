@@ -40,7 +40,6 @@ post_id: "12794"
 tags:
   - qgis.org
 title: QField Users Sit Down, We Need to Talk About Storage Access on Android
-url: /2022/03/05/qfield-users-sit-down-we-need-to-talk-about-storage-access-on-android￼/
 
 ---
 > _TLDR: Since November 2021, Google has enforced new storage access limitations for apps published on its Play store which prohibits direct storage access on Android 11 and above forcing QField to adapt and rely on importing projects and datasets to access those._

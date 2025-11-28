@@ -39,7 +39,6 @@ post_id: "13686"
 tags:
   - qgis.org
 title: Capturing more while in the field with the new QField 2.7
-url: /2023/04/04/capturing-more-while-in-the-field-with-the-new-qfield-2-7/
 
 ---
 A brand new version of QField has been released, **packed with features** that will make you fall in love with this essential open source tool all over again with a focus on capturing more while you are in the field. QField 2.7 nicknamed “Heroic Hedgehog” also includes a number of worthy fixes making it a crucial update to get.

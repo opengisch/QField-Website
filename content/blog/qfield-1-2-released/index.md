@@ -41,7 +41,6 @@ post_id: "7760"
 tags:
   - qgis.org
 title: QField 1.2 released
-url: /2019/10/03/qfield-1-2-released/
 
 ---
 After an intensive testing period, we are proud to announce the release of **QField 1.2**

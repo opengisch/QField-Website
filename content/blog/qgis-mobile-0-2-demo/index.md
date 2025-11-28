@@ -30,7 +30,6 @@ post_id: "1149"
 tags:
   - qgis.org
 title: QGIS Mobile 0.2 Demo
-url: /2015/01/11/qgis-mobile-0-2-demo/
 vimeo_poster_image: https://i.vimeocdn.com/video/502517740_640.jpg
 
 ---

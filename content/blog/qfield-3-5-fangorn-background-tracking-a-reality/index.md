@@ -74,7 +74,6 @@ post_id: "15180"
 tags:
   - qgis.org
 title: 'QField 3.5 “Fangorn”: Background tracking a reality!'
-url: /2025/03/04/qfield-3-5-fangorn-background-tracking-a-reality/
 
 ---
 Let’s not bury the lead here: the long-awaited capability to track position while QField is in the background or the device is locked has arrived in this brand-new version of QField. This feels like a magical moment, so we settled for a fantastical forest for our release name.

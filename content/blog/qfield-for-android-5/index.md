@@ -30,7 +30,6 @@ post_id: "1923"
 tags:
   - qgis.org
 title: QField for Android 5
-url: /2015/12/01/qfield-for-android-5/
 
 ---
 {{< figure align="alignnone" width=129 src="https://developer.android.com/images/brand/en%5Fapp%5Frgb%5Fwo%5F45.png" alt="QField app on Google Play" caption="QField app on Google Play" >}}

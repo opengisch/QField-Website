@@ -30,7 +30,6 @@ post_id: "4939"
 tags:
   - qgis.org
 title: You gave us feedback - we give you QField 1.0 RC3
-url: /2019/01/31/you-gave-us-feedback-we-give-you-qfield-1-0-rc2/
 
 ---
 We are really happy to announce the release a new great milestone in QField's history, QField 1.0 Release Candidate 3! (Yes, you might have got a glimpse of the broken RC2 if you where very attentive)

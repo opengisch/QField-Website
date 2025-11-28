@@ -66,7 +66,6 @@ post_id: "15903"
 tags:
   - qgis.org
 title: 'QField 3.7 “Haida Gwaii”: Polishing a great experience'
-url: /2025/08/04/qfield-3-7-haida-gawai-polishing-a-great-experience/
 
 ---
 For QField 3.7, we opted for a shorter development cycle that focused on polishing preexisting functionalities from feature form editor widgets improvement through to better nearby Bluetooth device discovery. Of course, we couldn’t help ourselves and still packed in some nice functionality that we thought deserved to reach QField’s growing community as soon as possible.

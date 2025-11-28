@@ -44,7 +44,6 @@ post_id: "13286"
 tags:
   - qgis.org
 title: Best of Swiss Enterprise App Award for QField
-url: /2022/11/03/best-of-swiss-enterprise-app-award-for-qfield/
 
 ---
 **What a night it was. The "Best of Swiss Apps Awards" took place in Zurich yesterday, November 2, 2022. We were also nominated with [QField](https://qfield.org). And in the enterprise category, the app was so convincing, that it was awarded the highest possible price. So it brought the award "Best of Swiss Enterprise App" home to Graubünden. And as cherry on the cake: QField was also nominated as finalist in the UX/UI category!**

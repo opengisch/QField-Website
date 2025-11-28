@@ -50,7 +50,6 @@ spay_email: ""
 tags:
   - qgis.org
 title: Powerful and gentle QField 1.8 Selma sneaked in
-url: /2021/02/24/powerful-and-gentle-qfield-1-8-selma-sneaked-in/
 
 ---
 **Get fieldwork smoothly and nimbly done despite the ice and snow outside. Collect accurate data with freehand digitizing and improved form widgets, use the data from your external GNSS receivers without any third-party apps and enjoy the pleasant usability of QField 1.8 Selma.**

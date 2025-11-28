@@ -33,7 +33,6 @@ tags:
   - qfield
   - qgis.org
 title: 'QField 3.3 “Darién”: It is just the beginning'
-url: /2024/06/11/qfield-3-3-darien-it-is-just-the-beginning/
 
 ---
 QField 3.3 has been released, and with it, we are proud to introduce a brand new plugin framework that empowers users to customize and add completely new functionalities to their favourite field application. That’s on top of a bunch of new features and improvements added during this development cycle. What preceded this moment was just the beginning!
