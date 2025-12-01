@@ -19,7 +19,7 @@ categories:
   - qfield
 cover:
   alt: Qfield_Banner_1500x500_BOSA_new
-  image: /blog/wp-content/uploads/2023/09/Qfield_Banner_1500x500_BOSA_new.png
+  image: Qfield_Banner_1500x500_BOSA_new.png
 date: "2023-09-15T05:00:00+00:00"
 guid: https://www.opengis.ch/?p=13921
 obfx-footer-scripts: ""

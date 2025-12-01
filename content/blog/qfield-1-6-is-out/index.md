@@ -29,7 +29,7 @@ categories:
   - qfield-highlights
 cover:
   alt: selection_00-1
-  image: /blog/wp-content/uploads/2020/08/selection_00-1.png
+  image: selection_00-1.png
 date: "2020-08-18T05:00:00+00:00"
 guid: https://www.opengis.ch/?p=11573
 obfx-footer-scripts: ""
@@ -56,7 +56,7 @@ Very often there are similar objects nearby which share a property, tree species
 
 With QField 1.6 it is now much easier to select a couple of features and change an attribute with very few taps. Identify a feature, long press an identify results, select more features and click the edit attributes button.
 
-![](https://i2.wp.com/www.opengis.ch/blog/wp-content/uploads/2020/08/edit_00.png?ssl=1)
+![](https://i2.wp.com/www.opengis.chedit_00.png)
 
 ![](selection_00-1.png)
 

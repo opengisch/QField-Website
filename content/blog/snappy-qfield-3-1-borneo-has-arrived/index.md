@@ -22,7 +22,7 @@ categories:
   - qfield-highlights
 cover:
   alt: 287987844-8d7c6540-c32c-4d62-bf6e-1636a011567f
-  image: /blog/wp-content/uploads/2023/12/287987844-8d7c6540-c32c-4d62-bf6e-1636a011567f.png
+  image: 287987844-8d7c6540-c32c-4d62-bf6e-1636a011567f.png
 date: "2024-01-10T17:11:36+00:00"
 guid: https://www.opengis.ch/?p=14069
 obfx-footer-scripts: ""

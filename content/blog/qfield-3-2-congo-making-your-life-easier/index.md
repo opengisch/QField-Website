@@ -38,7 +38,7 @@ categories:
   - qgis
 cover:
   alt: qfield32
-  image: /blog/wp-content/uploads/2024/03/qfield32.png
+  image: qfield32.png
 date: "2024-04-04T07:58:11+00:00"
 footnotes: ""
 guid: https://www.opengis.ch/?p=14227

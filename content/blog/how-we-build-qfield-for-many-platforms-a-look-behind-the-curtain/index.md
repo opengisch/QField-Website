@@ -26,7 +26,7 @@ categories:
   - qfield
 cover:
   alt: rocket
-  image: /blog/wp-content/uploads/2022/09/rocket.jpg
+  image: rocket.jpg
 date: "2022-09-20T05:48:00+00:00"
 guid: https://www.opengis.ch/?p=13166
 obfx-footer-scripts: ""

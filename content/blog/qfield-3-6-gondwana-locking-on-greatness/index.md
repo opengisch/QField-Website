@@ -55,7 +55,7 @@ categories:
   - qgis
 cover:
   alt: splash
-  image: /blog/wp-content/uploads/2025/05/splash.png
+  image: splash.png
 date: "2025-06-03T07:46:38+00:00"
 guid: https://www.opengis.ch/?p=15582
 obfx-footer-scripts: ""

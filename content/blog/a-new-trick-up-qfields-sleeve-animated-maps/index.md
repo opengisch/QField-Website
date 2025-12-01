@@ -37,7 +37,7 @@ categories:
   - video
 cover:
   alt: Peek-2022-07-16-12-43
-  image: /blog/wp-content/uploads/2022/07/Peek-2022-07-16-12-43.gif
+  image: Peek-2022-07-16-12-43.gif
 date: "2022-08-16T04:58:00+00:00"
 guid: https://www.opengis.ch/?p=13017
 obfx-footer-scripts: ""

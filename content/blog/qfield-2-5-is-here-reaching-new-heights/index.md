@@ -34,7 +34,7 @@ categories:
   - qfield-highlights
 cover:
   alt: "25"
-  image: /blog/wp-content/uploads/2022/11/25.png
+  image: 25.png
 date: "2022-11-14T09:37:38+00:00"
 guid: https://www.opengis.ch/?p=13401
 obfx-footer-scripts: ""
@@ -50,7 +50,7 @@ Our ninjas have been so busy that less than a month after we released QField 2.4
 
 **Exciting new features**
 
-U.png" alt="" caption="" >}}
+{{< figure src="25.png" alt="" caption="" >}}
 
 QField’s main new feature of this 2.5 release cycle is its brand new elevation profiling functionality which has been added to the measuring tool. Users are now able to dynamically build and analyze elevation profiles wherever they are - in the field or on their desktop - by simply drawing paths onto their maps and projects.
 

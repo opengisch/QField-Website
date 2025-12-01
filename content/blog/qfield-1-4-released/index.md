@@ -50,7 +50,7 @@ categories:
   - qgis
 cover:
   alt: qfield_love_09
-  image: /blog/wp-content/uploads/2020/02/qfield_love_09.png
+  image: qfield_love_09.png
 date: "2020-03-03T06:00:13+00:00"
 guid: https://www.opengis.ch/?p=9519
 parent_post_id: null

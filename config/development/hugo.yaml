@@ -3,7 +3,7 @@
 
 # Pagination
 pagination:
-  pagerSize: 10
+  pagerSize: 12
 
 # Development server settings
 server:

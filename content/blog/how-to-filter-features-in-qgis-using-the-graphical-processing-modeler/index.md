@@ -41,7 +41,7 @@ categories:
   - qgis
 cover:
   alt: modeller
-  image: /blog/wp-content/uploads/2018/05/modeller.png
+  image: modeller.png
 date: "2018-05-28T07:41:26+00:00"
 guid: https://www.opengis.ch/?p=3911
 parent_post_id: null
@@ -58,7 +58,7 @@ This article describes a new algorithm for the processing modeler called feature
 When building workflows for simple or complex geodata infrastructures, one of the most common tasks one encounters is to extract some of the features and copy them to another destination. Sometimes they need to be modified and a few attributes calculated or deleted, maybe even the geometry needs to be adjusted or in some fancy situations one even wants to generate a couple of objects from one input object. This process is often called _ETL_ (Extract, Transform, Load) and it is something that is worth mastering as a GIS expert.
 Let's imagine a situation where we sent a field worker out to collect information about public infrastructure, equipped with a brand-new tablet and the latest and greatest version of [QField](https://www.qfield.org/). To make his task super easy, we prepare one single layer for him with an attribute type which can be set to Bus Station, Car Parking or Train Station. Now back in the office we want to integrate this back into our spatially enabled database which has been designed with 3 target tables.
 
-[![](Untitled-Diagram.png)](/blog/wp-content/uploads/2018/05/Untitled-Diagram.png)
+[![](Untitled-Diagram.png)](Untitled-Diagram.png)
 Easy enough to go to QGIS and select those features by type one after the other and use a bit of copy-paste. And maybe fiddling a bit with the attributes. But hey, after all we are a bit lazy and on the one hand like to have an ice cream later on that afternoon and on the other hand like to avoid errors. Those who are lucky enough to know SQL and have full access to the database are well enough equipped to do the job.
 
 ## Short introduction to the graphical modeler
@@ -73,11 +73,11 @@ With this in place, the job of doing the buffer can now be run on 200 input laye
 Now back to the job of splitting the infrastructure layer into 3 different layers. To do this job visually and easily within QGIS, there is now a new algorithm available in QGIS 3.2. It is called **Feature Filter** and available in the processing modeler.
 To make use of it, we open the processing modeler and first add a new **Vector Features** input and name it **Infrastructure**. Since we know in this project we will always deal with points, we can make already specify that in this first dialog.
 
-[![](Screenshot-from-2018-05-24-15-25-15.png)](/blog/wp-content/uploads/2018/05/Screenshot-from-2018-05-24-15-25-15.png)
+[![](Screenshot-from-2018-05-24-15-25-15.png)](Screenshot-from-2018-05-24-15-25-15.png)
 Let's now add a **Feature Filter** algorithm and use the following configuration:
 The **Infrastructure** layer is set as input, and we define three outputs for **Train Stations**, **Bus Stations** and **Car Parking**. All layers will be final outputs on which no further transformations will be applied within this model and they will be directly written to a new layer.
 
-[![](Screenshot-from-2018-05-24-15-30-18.png)](/blog/wp-content/uploads/2018/05/Screenshot-from-2018-05-24-15-30-18.png)
+[![](Screenshot-from-2018-05-24-15-30-18.png)](Screenshot-from-2018-05-24-15-30-18.png)
 Now it's time to run our new model and check that it does what it promised.
 We can also uncheck the final output checkbox and send filtered features to further processing algorithms. For example sending them through a buffer based on an attribute size (although as a QGIS professional you know you should rather be using styles than modifying the geometry in most situations in such cases).
 

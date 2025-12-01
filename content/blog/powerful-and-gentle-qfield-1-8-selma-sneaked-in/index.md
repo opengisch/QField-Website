@@ -39,7 +39,7 @@ categories:
   - qfield-highlights
 cover:
   alt: freehand
-  image: /blog/wp-content/uploads/2021/02/freehand.png
+  image: freehand.png
 date: "2021-02-24T06:31:00+00:00"
 guid: https://www.opengis.ch/?p=12073
 obfx-footer-scripts: ""

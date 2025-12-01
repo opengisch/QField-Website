@@ -32,7 +32,7 @@ categories:
   - qfield-highlights
 cover:
   alt: qml_land_trans
-  image: /blog/wp-content/uploads/2020/10/qml_land_trans.png
+  image: qml_land_trans.png
 date: "2020-10-20T07:26:08+00:00"
 guid: https://www.opengis.ch/?p=11735
 obfx-footer-scripts: ""

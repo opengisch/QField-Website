@@ -30,7 +30,7 @@ categories:
   - qfield
 cover:
   alt: import
-  image: /blog/wp-content/uploads/2022/03/import.png
+  image: import.png
 date: "2022-03-05T00:48:44+00:00"
 guid: https://www.opengis.ch/?p=12794
 obfx-footer-scripts: ""

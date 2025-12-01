@@ -22,7 +22,7 @@ categories:
   - qfield-highlights
 cover:
   alt: 33splash
-  image: /blog/wp-content/uploads/2024/06/33splash.png
+  image: 33splash.png
 date: "2024-06-11T04:50:00+00:00"
 guid: https://www.opengis.ch/?p=14431
 obfx-footer-scripts: ""
@@ -39,7 +39,7 @@ QField 3.3 has been released, and with it, we are proud to introduce a brand new
 
 ## Main highlights
 
-[splash.png" alt="" caption="" >}}
+{{< figure src="33splash.png" alt="" caption="" >}}
 
 One of the biggest feature additions of this version is a brand new drawing tool that allows users to sketch out important details over captured photos or annotate drawing templates. This was a highly requested feature, which we are delighted to bring to all supported platforms (Android, iOS, Windows, macOS, and, of course, Linux) with the financial support of the [Swiss QGIS user group](http://qgis.ch).
 

@@ -32,7 +32,7 @@ categories:
   - social-responsibility
 cover:
   alt: qfield-field-training
-  image: /blog/wp-content/uploads/2022/02/qfield-field-training.jpg
+  image: qfield-field-training.jpg
 date: "2022-02-02T06:43:00+00:00"
 guid: https://www.opengis.ch/?p=12534
 obfx-footer-scripts: ""

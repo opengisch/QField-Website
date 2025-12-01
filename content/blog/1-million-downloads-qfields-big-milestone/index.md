@@ -49,7 +49,7 @@ categories:
   - qfield-highlights
 cover:
   alt: qf-1mio-downloads-preview
-  image: /blog/wp-content/uploads/2025/05/qf-1mio-downloads-preview-1.jpg
+  image: qf-1mio-downloads-preview-1.jpg
 date: "2025-05-29T12:16:29+00:00"
 footnotes: ""
 guid: https://www.opengis.ch/?p=15494

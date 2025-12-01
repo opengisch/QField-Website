@@ -54,7 +54,7 @@ categories:
   - qfield-highlights
 cover:
   alt: "34"
-  image: /blog/wp-content/uploads/2024/10/34.png
+  image: 34.png
 date: "2024-10-08T04:45:00+00:00"
 footnotes: ""
 guid: https://www.opengis.ch/?p=15063
@@ -71,7 +71,7 @@ QField 3.4 is out, and it won’t disappoint. It has tons of new features that c
 
 ## Main highlights
 
-\.png" alt="" caption="" >}}
+{{< figure src="34.png" alt="" caption="" >}}
 
 
 A new **geofencing framework** has landed, enabling users to configure QField behaviors in relation to geofenced areas and user positioning. Geofenced areas are defined at the project-level and shaped by polygons from a chosen vector layer. The three available geofencing behaviours in this new release are:

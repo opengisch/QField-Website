@@ -56,7 +56,7 @@ categories:
   - qgis-plugins
 cover:
   alt: xlsformconverter-qgis-qfield
-  image: /blog/wp-content/uploads/2025/05/xlsformconverter-qgis-qfield.webp
+  image: xlsformconverter-qgis-qfield.webp
 date: "2025-06-02T04:57:00+00:00"
 footnotes: ""
 guid: https://www.opengis.ch/?p=15627

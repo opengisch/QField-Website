@@ -37,7 +37,7 @@ categories:
   - qfield
 cover:
   alt: QField_RC5
-  image: /blog/wp-content/uploads/2019/03/QField_RC5.png
+  image: QField_RC5.png
 date: "2019-03-14T11:50:16+00:00"
 guid: https://opengis.ch/?p=5206
 parent_post_id: null
@@ -53,13 +53,13 @@ Get it while it's hot on the Playstore ( [https://qfield.org/get](https://qfield
 
 Thanks to all the feedback by the fantastic community we were able to fix plenty of bugs, address performance issues and even add some super cool new features.
 
-{{< figure src="https://i2.wp.com/new.opengis.ch/blog/wp-content/uploads/2019/03/fileselector.jpg?fit=541%2C1024&ssl=1" alt="" caption="" >}}
+{{< figure src="https://i2.wp.com/new.opengis.chfileselector.jpg" alt="" caption="" >}}
 
 Among the new features, the most important is the flashy new file selector with favorite directories (long press on a folder to add it to the favorites and longpress on the favorites list to remove it) and an automatic list of the last three opened projects that will save you heaps of time while looking for your projects.
 
 Another lifesaver is the newly added support for pasting text from the clipboard in the search bar. Finally, we added a smart and unobtrusive "rate this app" dialog to make it easier for you to give QField the ★★★★★ you always wanted to give it :)
 
-{{< figure src="https://i0.wp.com/new.opengis.ch/blog/wp-content/uploads/2019/03/Screenshot%5F20190313-030202%5FQField.jpg?fit=664%2C323&ssl=1" alt="" caption="" >}}
+{{< figure src="https://i0.wp.com/new.opengis.chScreenshot%5F20190313-030202%5FQField.jpg" alt="" caption="" >}}
 
 https://vimeo.com/323697787
 

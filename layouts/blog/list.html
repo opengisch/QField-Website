@@ -28,6 +28,7 @@
     <div class="row g-4 blog-view blog-view--list" id="blogViewGrid" data-blog-view-grid>
       {{ range $index, $page := $pages }}
           {{ $image := "" }}
+          {{ $imageURL := "" }}
           {{ $alt := $page.Title }}
           {{ with $page.Params.cover }}
             {{ with .image }}{{ $image = . }}{{ end }}
@@ -39,18 +40,25 @@
           {{ if hasPrefix $image "/blog/wp-content/" }}
             {{ $image = replace $image "/blog/wp-content/" "/wp-content/" }}
           {{ end }}
+          {{ if ne $image "" }}
+            {{ $resource := $page.Resources.GetMatch $image }}
+            {{ if $resource }}
+              {{ $imageURL = $resource.RelPermalink }}
+            {{ else if or (hasPrefix $image "http://") (hasPrefix $image "https://") }}
+              {{ $imageURL = $image }}
+            {{ else if hasPrefix $image "/" }}
+              {{ $imageURL = $image | relURL }}
+            {{ else }}
+              {{ $imageURL = printf "%s%s" $page.RelPermalink $image }}
+            {{ end }}
+          {{ end }}
           <div class="col-md-6 col-lg-4 col-blog-card">
-            <article class="card blog-card h-100 border-0 shadow-sm{{ if $image }} blog-card--has-image{{ else }} blog-card--no-image{{ end }}">
+            <article class="card blog-card h-100 border-0 shadow-sm{{ if $imageURL }} blog-card--has-image{{ else }} blog-card--no-image{{ end }}">
               <div class="position-relative overflow-hidden blog-card__media">
-                {{ if $image }}
-                  <img src="{{ $image | relURL }}" alt="{{ $alt }}" class="card-img-top" style="height: 200px; object-fit: cover;">
+                {{ if $imageURL }}
+                  <img src="{{ $imageURL }}" alt="{{ $alt }}" class="card-img-top" style="height: 200px; object-fit: cover;">
                 {{ else }}
-                  <div class="card-img-top bg-light d-flex align-items-center justify-content-center text-muted" style="height: 200px;">
-                    <div class="text-center">
-                      <i class="fas fa-image fa-2x mb-2"></i>
-                      <div class="fw-semibold">QField Blog</div>
-                    </div>
-                  </div>
+                  <img src="{{ "/images/qfield_blog_default.png" | relURL }}" alt="QField Blog" class="card-img-top" style="height: 200px; object-fit: cover;">
                 {{ end }}
                 <div class="position-absolute top-0 end-0 m-2">
                   <span class="badge bg-dark bg-opacity-75">

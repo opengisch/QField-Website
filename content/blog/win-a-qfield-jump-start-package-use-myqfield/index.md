@@ -31,7 +31,7 @@ categories:
   - qfield
 cover:
   alt: zombie
-  image: /blog/wp-content/uploads/2019/04/zombie.jpg
+  image: zombie.jpg
 date: "2019-04-11T07:48:28+00:00"
 guid: https://opengis.ch/?p=5526
 parent_post_id: null
@@ -56,9 +56,9 @@ We are launching the [# **MyQField**](https://twitter.com/hashtag/MyQField?src=h
 
 {{< gallery cols="1" >}}  
 {{< figure src="zombie.jpg" alt="Risk assessment" caption="Risk assessment" >}}  
-P190409_193629.jpg" alt="Location tracking" caption="Location tracking" >}}  
+{{< figure src="20190409_193629.jpg" alt="Location tracking" caption="Location tracking" >}}  
 {{< figure src="gnss.jpg" alt="Cadastral surveying" caption="Cadastral surveying" >}}  
-P190403_164731.jpg" alt="Assets management" caption="Assets management" >}}  
+{{< figure src="20190403_164731.jpg" alt="Assets management" caption="Assets management" >}}  
 {{< /gallery >}}  
 
 Fine boring prints:

@@ -34,7 +34,7 @@ categories:
   - qfield-highlights
 cover:
   alt: QField Werbevideo bei der Awardvergabe_c_opengis.ch
-  image: /blog/wp-content/uploads/2022/11/QField-Werbevideo-bei-der-Awardvergabe_c_opengis.ch_.jpg
+  image: QField-Werbevideo-bei-der-Awardvergabe_c_opengis.ch_.jpg
 date: "2022-11-03T13:02:57+00:00"
 guid: https://www.opengis.ch/?p=13286
 obfx-footer-scripts: ""

@@ -60,7 +60,7 @@ categories:
   - qfield-highlights
 cover:
   alt: qfield-bird-plugin
-  image: /blog/wp-content/uploads/2024/06/qfield-bird-plugin.gif
+  image: qfield-bird-plugin.gif
 date: "2024-06-18T04:45:00+00:00"
 footnotes: ""
 guid: https://www.opengis.ch/?p=14471
@@ -97,7 +97,7 @@ It’s advised to download a version of QField running on your desktop environme
 
 The project archive consists of a point vector layer ( `observations.gpkg`), a project file ( `birdwatcher.qgz`) as well as a project plugin ( `birdwatcher.qml`) which we will look into below. Please note that the point vector layer’s attribute form is already configured to display captured photos. We will not spend time on attribute form setup in this post; [see this relevant documentation page](https://docs.qfield.org/how-to/attributes-form/#configure-attachment-widget) if you are interested in knowing how that was achieved.
 
-J3-2.png" alt="" caption="" >}}
+{{< figure src="application-plugins.png" alt="" caption="" >}}
 
 We can now test the project plugin by opening the project ( `birdwatcher.qgz`) in QField. Users familiar with QField will notice a new ‘camera’ tool button present on the top-right corner of the map canvas. This button was added by the project plugin. You can press on it, to open the QField camera, take a photo (of yourself, a random object on your table, or with a bit of luck a bird), and witness how that leads to a point feature creation.
 

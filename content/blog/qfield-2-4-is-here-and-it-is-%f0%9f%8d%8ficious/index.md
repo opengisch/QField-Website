@@ -32,7 +32,7 @@ categories:
   - qfield-highlights
 cover:
   alt: QField 2.4 - Ecstatic Elk
-  image: /blog/wp-content/uploads/2022/10/qfield24.png
+  image: qfield24.png
 date: "2022-10-13T06:19:18+00:00"
 guid: https://www.opengis.ch/?p=13237
 obfx-footer-scripts: ""

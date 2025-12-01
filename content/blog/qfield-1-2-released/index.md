@@ -33,7 +33,7 @@ categories:
   - qfield-highlights
 cover:
   alt: qfield_love_04.resized
-  image: /blog/wp-content/uploads/2019/10/qfield_love_04.resized.jpg
+  image: qfield_love_04.resized.jpg
 date: "2019-10-03T05:29:45+00:00"
 guid: https://www.opengis.ch/?p=7760
 parent_post_id: null

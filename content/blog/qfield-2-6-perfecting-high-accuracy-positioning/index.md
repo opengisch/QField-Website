@@ -36,7 +36,7 @@ categories:
   - qfield-highlights
 cover:
   alt: QField 2.6 showcase
-  image: /blog/wp-content/uploads/2023/01/26_cover-1.png
+  image: 26_cover-1.png
 date: "2023-01-26T06:46:00+00:00"
 guid: https://www.opengis.ch/?p=13565
 obfx-footer-scripts: ""
@@ -52,7 +52,7 @@ It’s only been a few weeks into the new year, but we’ve got great news for y
 
 ## New positioning features
 
-V_cover.png" alt="" caption="" >}}
+{{< figure src="26_cover-1.png" alt="" caption="" >}}
 
 **Let’s open with a bang: QField 2.6 now supports NMEA streaming from external GNSS devices over TCP, UDP, and serial ports, in addition to preexisting Bluetooth connectivity.** This new functionality means that QField is now compatible with a much larger range of GNSS devices out there.
 

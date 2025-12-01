@@ -14,7 +14,7 @@
 
       <div class="d-flex align-items-center gap-2 order-lg-3">
         {{ if eq .Site.Params.enableDarkMode true -}}
-          <button id="themeToggle" class="btn btn-outline-secondary d-none d-lg-inline-flex align-items-center justify-content-center" type="button" aria-label="Toggle theme">
+          <button id="themeToggle" class="btn btn-outline-secondary d-inline-flex align-items-center justify-content-center" type="button" aria-label="Toggle theme">
             <i id="themeIcon" class="bi"></i>
           </button>
         {{ end -}}
@@ -74,16 +74,16 @@
               </li>
             {{ end -}}
           {{ end -}}
-
-          {{ if eq .Site.Params.enableDarkMode true -}}
-            <li class="nav-item d-lg-none mt-3">
-              <button id="themeToggle" class="btn btn-outline-secondary w-100" type="button" aria-label="Toggle theme">
-                <i id="themeIcon" class="bi"></i>
-                <span class="ms-2">Toggle theme</span>
-              </button>
-            </li>
-          {{ end -}}
         </ul>
+
+        {{ if eq .Site.Params.enableDarkMode true -}}
+          <div class="d-lg-none mt-3">
+            <button id="themeToggleMobile" class="btn btn-outline-secondary w-100 d-flex align-items-center justify-content-center" type="button" aria-label="Toggle theme">
+              <i id="themeIconMobile" class="bi me-2"></i>
+              <span>Toggle theme</span>
+            </button>
+          </div>
+        {{ end -}}
       </div>
     </div>
   </nav>

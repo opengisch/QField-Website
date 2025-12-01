@@ -6,10 +6,11 @@ enableRobotsTXT: true
 enableGitInfo: true
 enableEmoji: true
 themeColor: "#80CC28"         # Primary green accent
-enableDarkMode: true
 defaultTheme: "auto"
 highlight: true
 enableScrollToTop: true
+pagination:
+  pagerSize: 12
 
 # Permalinks configuration
 permalinks:
@@ -28,6 +29,7 @@ params:
   logo: "/images/qfield_for_qgis.png"
   cta_text: "Get started"
   cta_link: "https://docs.qfield.org/get-started/"
+  enableDarkMode: true
 
   options:
     bootStrapJs: true

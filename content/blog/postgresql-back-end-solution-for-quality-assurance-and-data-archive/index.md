@@ -34,8 +34,8 @@ It's always the question, where to put the logical part of the solution. QGIS is
 ## It's all about trees
 
 At least for that customer we got lately. The customer owns pieces of land all over Switzerland. On this pieces are forests and in the forests are - as expected - trees. Well, mostly - if you are not a bark beetle or a squirrel - you don't care about a single tree. Except if there is something special with it. For example, a branch that could fell down on your brand new Citroën DS or if the tree has a disease that could kill the whole forest, that is actually needed to convert the carbon dioxide (from your DS) into oxygen.
-[![](wald.png)](/blog/wp-content/uploads/2017/12/wald.png) The issuetrees (yellow) lie on the forest (green) - and the forest lies on the land piece (brown).
-[![](erm2.png)](/blog/wp-content/uploads/2018/01/erm2.png) And the (Entity Relationship Model) ERM looks like this. A land can have zero, one or more forests - and a forest can have zero, one or more trees with issues.
+[![](wald.png)](wald.png) The issuetrees (yellow) lie on the forest (green) - and the forest lies on the land piece (brown).
+[![](erm2.png)](erm2.png) And the (Entity Relationship Model) ERM looks like this. A land can have zero, one or more forests - and a forest can have zero, one or more trees with issues.
 
 ## It's not really about trees
 
@@ -119,7 +119,7 @@ So the tree-inspector synchronizes his QField without any problem to the databas
 
 ### Structure
 
-### [![](structure1.png)](/blog/wp-content/uploads/2017/12/structure1.png)
+### [![](structure1.png)](structure1.png)
 
 ### And how we do that?
 
@@ -238,7 +238,7 @@ EXECUTE PROCEDURE quarantine.pushtolive();
 
 The yellow points are the issue trees in the live. If we create another one and have a mistake in it (GPS Id wrong), then it's stored in the quarantine (pink). When we correct the data it's written over the quarantine trigger into live. If succeeded, the point changes the color to yellow.
 Actually the yellow point appears (live) and the pink point(quarantine) disappears, because the entry is inserted into live and deleted in quarantine.
-[![](DemoQuaranLive.gif)](/blog/wp-content/uploads/2017/12/DemoQuaranLive.gif)
+[![](DemoQuaranLive.gif)](DemoQuaranLive.gif)
 
 # Archiving all data
 
@@ -262,7 +262,7 @@ So there will be the updated entry in the live-table (3), no entry in the quaran
 
 ### Structure
 
- [![](structure2.png)](/blog/wp-content/uploads/2017/12/structure2.png)
+ [![](structure2.png)](structure2.png)
 
 ## And how we do that?
 

@@ -31,7 +31,7 @@ categories:
   - uncategorised
 cover:
   alt: Woman traveler explorer with backpack hiking to the top of the mountain. Adventure weekend.
-  image: /blog/wp-content/uploads/2023/06/gps-tracking.jpeg
+  image: gps-tracking.jpeg
 date: "2023-06-29T09:54:42+00:00"
 guid: https://www.opengis.ch/?p=13811
 obfx-footer-scripts: ""

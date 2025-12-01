@@ -35,7 +35,7 @@ categories:
   - scripts
 cover:
   alt: Screenshot from 2020-06-08 13-00-42
-  image: /blog/wp-content/uploads/2020/06/Screenshot-from-2020-06-08-13-00-42.png
+  image: Screenshot-from-2020-06-08-13-00-42.png
 date: "2020-06-09T05:03:00+00:00"
 guid: https://www.opengis.ch/?p=11434
 obfx-footer-scripts: ""
@@ -95,7 +95,7 @@ Now you have a raster Geopackage that you can use in QField.
 
 As first step we exported our test orthophoto WMS to a plain GeoTIFF using QGIS' default behaviour.
 
-{{< figure src="https://i1.wp.com/www.opengis.ch/blog/wp-content/uploads/2020/06/tiff.png?fit=750%2C617&ssl=1" alt="" caption="" >}}
+{{< figure src="https://i1.wp.com/www.opengis.chtiff.png" alt="" caption="" >}}
 
 Formatgdal\_translategdaladdogpkg JPEGgdal\_translate -of GPKG "C:\\test\\ortho\_test.tif" "C:\\test\\test\_JPEG.gpkg" -co TILE\_FORMAT=JPEG
 gpkg PNGgdal\_translate -of GPKG "C:\\test\\ortho\_test.tif" "C:\\test\\test\_PNG.gpkg" -co TILE\_FORMAT=PNGgpkg PNG\_JPEGgdal\_translate -of GPKG "C:\\test\\ortho\_test.tif" "C:\\test\\test\_PNG\_JPEG.gpkg" -co TILE\_FORMAT=PNG\_JPEGgpkg PNG8gdal\_translate -of GPKG "C:\\test\\ortho\_test.tif" "C:\\test\\test\_PNG8.gpkg" -co TILE\_FORMAT=PNG8gpkg WEBPgdal\_translate -of GPKG "C:\\test\\ortho\_test.tif" "C:\\test\\test\_WEBP.gpkg" -co TILE\_FORMAT=WEBPgpkg pyramid\_JPEGgdal\_translate -of GPKG "C:\\test\\ortho\_test.tif" "C:\\test\\test\_JPEG.gpkg" -co TILE\_FORMAT=JPEGgdaladdo GPKG:C:\\test\\test\_JPEG.gpkg:test\_gpkg\_JPEG gpkg pyramid\_PNGgdal\_translate -of GPKG "C:\\test\\ortho\_test.tif" "C:\\test\\test\_PNG.gpkg" -co TILE\_FORMAT=PNGgdaladdo GPKG:C:\\test\\test\_PNG.gpkg:test\_gpkg\_PNGgpkg pyramid\_PNG\_JPEGgdal\_translate -of GPKG "C:\\test\\ortho\_test.tif" "C:\\test\\test\_PNG\_JPEG.gpkg" -co TILE\_FORMAT=PNG\_JPEGgdaladdo GPKG:C:\\test\\test\_PNG\_JPEG.gpkg:test\_gpkg\_PNG\_JPEGgpkg pyramid\_PNG8gdal\_translate -of GPKG "C:\\test\\ortho\_test.tif" "C:\\test\\test\_PNG8.gpkg" -co TILE\_FORMAT=PNG8gdaladdo GPKG:C:\\test\\test\_PNG8.gpkg:test\_gpkg\_PNG8gpkg pyramid\_WEBPgdal\_translate -of GPKG "C:\\test\\ortho\_test.tif" "C:\\test\\test\_WEBP.gpkg" -co TILE\_FORMAT=WEBPgdaladdo GPKG:C:\\test\\test\_WEBP.gpkg:test\_gpkg\_WEBPJPEG2000gdal\_translate -of JP2OpenJPEG "C:\\test\\ortho\_test.tif" "C:\\test\\test\_jpeg\_2000.jpg"COG DEFLATEgdal\_translate "C:\\test\\ortho\_test.tif" "C:\\test\\test\_cog.tif" -co TILED=YES -co COPY\_SRC\_OVERVIEWS=YES -co COMPRESS=DEFLATECOG\_JPEGgdal\_translate "C:\\test\\ortho\_test.tif" "C:\\test\\test\_cog\_JPEG.tif" -co TILED=YES -co COPY\_SRC\_OVERVIEWS=YES -co COMPRESS=JPEGtifIn QGIS right click on the layer > export > save as > (see the details in the picture under the table)MBTgdal\_translate -of MBTILES "C:\\test\\ortho\_test.tif" "C:\\test\\test\_mbt.mbtiles"Creation commands for all the tested formats

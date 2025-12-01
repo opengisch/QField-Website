@@ -29,7 +29,7 @@ categories:
   - uncategorised
 cover:
   alt: QField_AppAward_12-2022
-  image: /blog/wp-content/uploads/2022/12/QField_AppAward_12-2022.png
+  image: QField_AppAward_12-2022.png
 date: "2022-12-06T05:29:00+00:00"
 guid: https://www.opengis.ch/?p=13265
 obfx-footer-scripts: ""

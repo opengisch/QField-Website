@@ -29,7 +29,7 @@ categories:
   - qfield-highlights
 cover:
   alt: 238116107-1792bb88-9fdb-41e7-9716-7fd65f8837ce
-  image: /blog/wp-content/uploads/2023/05/238116107-1792bb88-9fdb-41e7-9716-7fd65f8837ce.png
+  image: 238116107-1792bb88-9fdb-41e7-9716-7fd65f8837ce.png
 date: "2023-05-30T04:00:00+00:00"
 guid: https://www.opengis.ch/?p=13776
 obfx-footer-scripts: ""
@@ -43,7 +43,7 @@ title: 'QField 2.8: Boosting field work through external sensors'
 ---
 The latest version of QField is out, featuring as its main new feature sensor handling alongside the usual round of user experience and stability improvements. We simply can’t wait to see the sensor uses you will come up with!
 
-S8116107-1792bb88-9fdb-41e7-9716-7fd65f8837ce.png" alt="" caption="" >}}
+{{< figure src="238116107-1792bb88-9fdb-41e7-9716-7fd65f8837ce.png" alt="" caption="" >}}
 
 ## **The main highlight: sensors**
 

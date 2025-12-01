@@ -52,7 +52,7 @@ categories:
   - social-responsibility
 cover:
   alt: qfield-git-history
-  image: /blog/wp-content/uploads/2021/06/qfield-git-history.png
+  image: qfield-git-history.png
 date: "2021-06-08T06:01:00+00:00"
 guid: https://www.opengis.ch/?p=12165
 obfx-footer-scripts: ""
@@ -201,8 +201,8 @@ The pivotal point of the Middle Ages was definitely 20.09.2013, when Tim Sutton 
 {{< figure src="wpid-Screenshot_2013-09-19-01-19-31.jpeg" alt="" caption="" >}}  
 {{< figure src="wpid-Screenshot_2013-09-17-23-31-39.jpeg" alt="" caption="" >}}  
 {{< figure src="wpid-Screenshot_2013-09-20-14-30-15.jpeg" alt="" caption="" >}}  
-K79695920037.jpg" alt="Tim Sutton announcing QGIS 2.0" caption="Tim Sutton announcing QGIS 2.0" >}}  
-K79696319910-1.jpg" alt="Tim Sutton announcing QGIS 2.0 for Android" caption="Tim Sutton announcing QGIS 2.0 for Android" >}}  
+{{< figure src="Screenshot-from-2021-06-06-19-24-45.png" alt="QField interface preview" caption="QField interface preview" >}}  
+{{< figure src="Screenshot-from-2021-06-07-00-08-00.png" alt="QField UI improvements" caption="QField UI improvements" >}}  
 {{< /gallery >}}  
 
 After the launch followed a very active time of keeping QGIS for Android on pair with the desktop versions leading to a regular release of updates on the playstore between 2013 and late 2014. This is also when Matthias Kuhn started committing to the QGIS for Android [repository](https://github.com/qgis/QGIS-Android/graphs/contributors).

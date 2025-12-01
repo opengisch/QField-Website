@@ -30,7 +30,7 @@ categories:
   - qgis
 cover:
   alt: WhatsApp-Image-2022-08-22-at-13.40.29
-  image: /blog/wp-content/uploads/2022/09/WhatsApp-Image-2022-08-22-at-13.40.29.jpeg
+  image: WhatsApp-Image-2022-08-22-at-13.40.29.jpeg
 date: "2022-09-08T05:00:00+00:00"
 guid: https://www.opengis.ch/?p=13134
 obfx-footer-scripts: ""
