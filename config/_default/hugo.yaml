@@ -21,6 +21,8 @@ params:
 
   version: "1.0.0"
   description: "QField is the leading open-source mobile GIS application that makes field data collection efficient and accessible. Built for QGIS, QField brings powerful mapping capabilities to your mobile device."
+  images:
+    - "/images/qf_carousel/qf-phones-collect1.png"
   author: "OPENGIS.ch"
   copyright: "© 2024 OPENGIS.ch"
   mainMenuLogo: "/images/qfield_for_qgis.png"
@@ -41,16 +43,25 @@ params:
   github: "https://github.com/opengisch/QField"
   linkedin: "https://www.linkedin.com/company/opengis-ch/"
   
-  # Default images for social sharing
-  logo: "/images/qfield-logo.svg"
-  favicon: "/images/qfield-logo.svg"
-  
   # Open Graph / Twitter Cards
   social:
     facebook_app_id: ""
     twitter_card: "summary_large_image"
     default_image: "/images/qf_carousel/qf-phones-collect1.png"
     
+  webSite:
+    name: "\"QField\""
+    description: "\"Efficient field work built for QGIS\""
+    image: "\"images/qfield_for_qgis.png\""
+    url: "\"https://qfield.org/\""
+
+  organization:
+    name: "\"OPENGIS.ch\""
+    legalName: "\"OPENGIS.ch GmbH\""
+    description: "\"Creators of QField, the open-source mobile GIS app built for QGIS.\""
+    logo: "\"images/qfield-logo.svg\""
+    url: "\"https://www.opengis.ch\""
+
   # Schema.org structured data
   schema:
     type: "Organization"

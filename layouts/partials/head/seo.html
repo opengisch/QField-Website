@@ -5,7 +5,13 @@
 
 {{- /* Clean description fallback chain */ -}}
 {{- $rawDesc := "" -}}
-{{- with .Description }}{{ $rawDesc = . }}{{ else if .Summary }}{{ $rawDesc = .Summary }}{{ else if .Site.Params.description }}{{ $rawDesc = .Site.Params.description }}{{ end -}}
+{{- if .Description -}}
+  {{- $rawDesc = .Description -}}
+{{- else if .Summary -}}
+  {{- $rawDesc = .Summary -}}
+{{- else if .Site.Params.description -}}
+  {{- $rawDesc = .Site.Params.description -}}
+{{- end -}}
 {{- $cleanDesc := ($rawDesc | plainify | htmlUnescape | replaceRE "\\s+" " " | trim " ") -}}
 {{- if $cleanDesc }}
   <meta name="description" content="{{ $cleanDesc }}">

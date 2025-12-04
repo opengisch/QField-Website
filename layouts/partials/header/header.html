@@ -1,11 +1,11 @@
 {{- $current := . -}}
 <header class="main-header">
-  <nav id="navbar" class="navbar navbar-default navbar-light navbar-expand-lg bg-white border-bottom sticky-top">
+  <nav id="navbar" class="navbar navbar-light navbar-expand-lg bg-white border-bottom sticky-top">
     <div class="container">
 
       <a class="navbar-brand fw-bold" href="{{ .Site.Home.RelPermalink }}">
         {{ with .Site.Params.mainMenuLogo }}
-          <img src="{{ . | relURL }}" alt="QField logo" height="70" class="navbar-brand__logo">
+          <img src="{{ . | relURL }}" alt="QField logo" width="205" height="70" class="navbar-brand__logo" loading="eager" decoding="async">
         {{ end }}
         {{ if eq .Site.Params.showTitle true }}
         <span>{{ .Site.Title }}</span>
@@ -14,15 +14,13 @@
 
       <div class="d-flex align-items-center gap-2 order-lg-3">
         {{ if eq .Site.Params.enableDarkMode true -}}
-          <button id="themeToggle" class="btn btn-outline-secondary d-inline-flex align-items-center justify-content-center" type="button" aria-label="Toggle theme">
+          <button id="themeToggle" class="btn btn-outline-secondary d-none d-lg-inline-flex align-items-center justify-content-center" type="button" aria-label="Toggle theme">
             <i id="themeIcon" class="bi"></i>
           </button>
         {{ end -}}
-        <button class="navbar-toggler navbar-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="visually-hidden">Toggle navigation</span>
+          <span class="navbar-toggler-icon"></span>
         </button>
       </div>
 

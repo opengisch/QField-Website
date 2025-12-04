@@ -169,19 +169,17 @@ p {
   border-color: transparent;
   box-shadow: none !important;
   margin-top: 30px;
-}
-
-#navbar .navbar-toggler .icon-bar {
-  display: block;
-  width: 22px;
-  height: 2px;
-  background-color: var(--qfield-color);
-  border-radius: 1px;
-  margin: 4px 0;
+  padding: 0.35rem 0.5rem;
 }
 
 #navbar .navbar-toggler .navbar-toggler-icon {
-  display: none;
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%2380cc28' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 #navbar .navbar-toggler:focus {
@@ -3585,6 +3583,45 @@ div.explanation {
 [data-bs-theme='dark'] .blog-card__title a,
 [data-bs-theme='dark'] .blog-list-intro a {
   color: var(--bs-body-color);
+}
+
+[data-bs-theme='dark'] #customers .customer-logos img {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.16);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.35);
+}
+
+[data-bs-theme='dark'] #customers .customer-logos img:hover,
+[data-bs-theme='dark'] #customers .customer-logos img.customer-active {
+  background-color: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.24);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.4);
+}
+
+[data-bs-theme='dark'] .client-logo {
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 16px;
+  padding: 12px;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.35);
+}
+
+[data-bs-theme='dark'] .logo-link:hover .client-logo {
+  background-color: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.24);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.4);
+}
+
+[data-bs-theme='dark'] .feature__description,
+[data-bs-theme='dark'] .section-lead {
+  color: #f5f5f5 !important;
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.35);
+}
+
+[data-bs-theme='dark'] .carousel-caption .carousel-title,
+[data-bs-theme='dark'] .carousel-caption p {
+  color: #f5f5f5;
+  text-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
 }
 
 [data-bs-theme='dark'] #about,
