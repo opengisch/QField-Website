@@ -59,14 +59,39 @@ html {
 // Note: Primary color is now set to QField green (#80cc28) in variable-overrides.scss
 // Bootstrap will automatically generate .btn-primary and .btn-outline-primary with correct colors
 
+
 .btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--qfield-color);
+  --bs-btn-border-color: var(--qfield-color);
+  --bs-btn-hover-color: var(--qfield-color);
+  --bs-btn-hover-bg: #fff;
+  --bs-btn-hover-border-color: var(--qfield-color);
+  --bs-btn-focus-shadow-rgb: 128, 204, 40;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #6ab71d;
+  --bs-btn-active-border-color: #6ab71d;
+  color: var(--bs-btn-color);
+  background-color: var(--bs-btn-bg);
+  border-color: var(--bs-btn-border-color);
+
   // Additional hover effect beyond Bootstrap defaults
   &:hover,
   &:focus {
-    background-color: #fff;
-    color: var(--qfield-color);
-    border-color: var(--qfield-color);
+    background-color: var(--bs-btn-hover-bg);
+    color: var(--bs-btn-hover-color);
+    border-color: var(--bs-btn-hover-border-color);
   }
+
+  &:visited {
+    color: var(--bs-btn-color);
+  }
+}
+
+:root[data-bs-theme='dark'] .btn-primary,
+:root[data-bs-theme='dark'] .btn-primary:visited {
+  --bs-btn-color: #fff;
+  color: var(--bs-btn-color);
 }
 
 .btn-outline-primary {
@@ -431,7 +456,8 @@ html {
     }
   }
 
-  .btn-primary {
+  .btn-primary,
+  .btn-success {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -497,6 +523,65 @@ html {
     overflow: hidden;
     box-shadow: 0 1.5rem 3.5rem rgba(0, 0, 0, 0.25);
   }
+
+  .modal-footer {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .btn-success {
+    background-color: var(--qfield-color);
+    border-color: var(--qfield-color);
+    color: #0c210a;
+    font-weight: 600;
+    border-radius: 999px;
+    padding: 0.45rem 1.5rem;
+    min-height: 2.5rem;
+    box-shadow: 0 0.75rem 1.8rem rgba(128, 204, 40, 0.25);
+    transition: background-color 0.2s ease, color 0.2s ease,
+      box-shadow 0.2s ease, transform 0.2s ease;
+
+    &:hover,
+    &:focus {
+      background-color: #6ab71d;
+      border-color: #6ab71d;
+      color: #0b2009;
+      box-shadow: 0 0.9rem 2.1rem rgba(128, 204, 40, 0.35);
+      transform: translateY(-1px);
+    }
+
+    &:focus-visible {
+      outline: 3px solid rgba(128, 204, 40, 0.35);
+      outline-offset: 2px;
+    }
+  }
+
+  .btn-secondary {
+    margin-right: auto;
+    border-radius: 999px;
+    min-height: 2.5rem;
+    padding: 0.4rem 1.25rem;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.05);
+    color: var(--bs-body-color);
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    transition: background-color 0.2s ease, color 0.2s ease,
+      border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+
+    &:hover,
+    &:focus {
+      background-color: rgba(0, 0, 0, 0.1);
+      border-color: rgba(0, 0, 0, 0.2);
+      box-shadow: 0 0.65rem 1.4rem rgba(0, 0, 0, 0.12);
+      transform: translateY(-1px);
+    }
+
+    &:focus-visible {
+      outline: 3px solid rgba(128, 204, 40, 0.35);
+      outline-offset: 2px;
+    }
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -507,6 +592,35 @@ html {
   .modal .modal-content {
     border-radius: var(--bs-border-radius-lg);
   }
+}
+
+:root[data-bs-theme='dark'] .modal .btn-success {
+  color: #0c210a;
+  box-shadow: 0 0.9rem 2.3rem rgba(0, 0, 0, 0.6);
+}
+
+:root[data-bs-theme='dark'] .modal .btn-secondary {
+  background-color: rgba(255, 255, 255, 0.12);
+  color: rgba(255, 255, 255, 0.92);
+  border-color: rgba(255, 255, 255, 0.2);
+
+  &:hover,
+  &:focus {
+    background-color: rgba(255, 255, 255, 0.18);
+    border-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0.8rem 1.7rem rgba(0, 0, 0, 0.55);
+  }
+}
+
+/* =========================================================================
+   Tables
+   ========================================================================= */
+
+:root[data-bs-theme='dark'] table thead th,
+:root[data-bs-theme='dark'] table > :not(caption) > * > th {
+  background-color: #070707;
+  color: rgba(255, 255, 255, 0.92);
+  border-color: rgba(255, 255, 255, 0.12);
 }
 
 .success-stories {

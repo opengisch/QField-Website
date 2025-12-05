@@ -2519,8 +2519,9 @@ div.explanation {
 /* hardware page button */
 .btn-primary {
   background-color: #80cc28;
-  border: none;
-  border-radius: 12px;
+  color: #fff;
+  border: 1px solid #80cc28;
+  border-radius: 999px;
   margin-top: 15px;
 }
 
@@ -3286,6 +3287,13 @@ div.explanation {
     left: 10px;
   }
 }
+
+  :root[data-bs-theme='dark'] table thead th,
+  :root[data-bs-theme='dark'] table > :not(caption) > * > th {
+    background-color: #070707;
+    color: rgba(255, 255, 255, 0.92);
+    border-color: rgba(255, 255, 255, 0.12);
+  }
 
 /* Donation page styles */
 #donation .btn-outline-primary {
