@@ -50,17 +50,17 @@ params:
     default_image: "/images/qf_carousel/qf-phones-collect1.png"
     
   webSite:
-    name: "\"QField\""
-    description: "\"Efficient field work built for QGIS\""
-    image: "\"images/qfield_for_qgis.png\""
-    url: "\"https://qfield.org/\""
+    name: "QField"
+    description: "Efficient field work built for QGIS"
+    image: "/images/qfield_for_qgis.png"
+    url: "https://qfield.org/"
 
   organization:
-    name: "\"OPENGIS.ch\""
-    legalName: "\"OPENGIS.ch GmbH\""
-    description: "\"Creators of QField, the open-source mobile GIS app built for QGIS.\""
-    logo: "\"images/qfield-logo.svg\""
-    url: "\"https://www.opengis.ch\""
+    name: "OPENGIS.ch"
+    legalName: "OPENGIS.ch GmbH"
+    description: "Creators of QField, the open-source mobile GIS app built for QGIS."
+    logo: "/images/qfield-logo.svg"
+    url: "https://www.opengis.ch"
 
   # Schema.org structured data
   schema:

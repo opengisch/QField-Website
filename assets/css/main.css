@@ -73,16 +73,6 @@ a:hover {
   margin: 0 auto !important;
 
 }
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
 .home #main {
     padding: 0;
     max-width: none;
@@ -184,6 +174,10 @@ p {
 
 #navbar .navbar-toggler:focus {
   outline: none;
+}
+
+[data-bs-theme='dark'] #navbar .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23f5f5f5' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .home #content {
@@ -2914,7 +2908,7 @@ div.explanation {
 #region-filters .nav-link {
   border-radius: 30px;
   padding: 0.55rem 1.1rem;
-  color: #212121;
+  color: var(--nav-pill-color, #212121);
   border: 1px solid var(--border-light);
   transition: background-color var(--transition-standard), color var(--transition-standard), border-color var(--transition-standard);
 }

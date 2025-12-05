@@ -23,7 +23,9 @@
             <img class="{{ delimit $logoClasses " " }}"
                  title="{{ $entry.name }}"
                  alt="Customer Logo: {{ $entry.name }}"
-                 src="{{ $logoSrc }}">
+                 src="{{ $logoSrc }}"
+                 loading="lazy"
+                 decoding="async">
           {{- end }}
         </div>
         {{- range $index, $entry := $entries }}

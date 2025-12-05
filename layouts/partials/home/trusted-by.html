@@ -26,7 +26,7 @@
         {{- range .classes }}{{ $classes = $classes | append . }}{{ end }}
       <a href="{{ $href | safeURL }}" target="_blank" rel="noopener noreferrer">
         {{- if $imageSrc }}
-        <img src="{{ $imageSrc }}" alt="{{ .alt }}" class="{{ delimit $classes " " }}">
+        <img src="{{ $imageSrc }}" alt="{{ .alt }}" class="{{ delimit $classes " " }}" loading="lazy" decoding="async">
         {{- end }}
       </a>
       {{- end }}

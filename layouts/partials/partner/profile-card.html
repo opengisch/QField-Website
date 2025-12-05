@@ -12,7 +12,7 @@
           {{ $partner.name }}
         </h4>
         {{ with $partner.locations }}
-          <span class="small text-muted" style="background-color: #f5f5f5; padding: 0.25rem 0.5rem; border-radius: 0.25rem; white-space: nowrap;">{{ delimit . " | " }}</span>
+          <span class="partner-location-chip small">{{ delimit . " | " }}</span>
         {{ end }}
       </div>
       {{ with $partner.description }}
