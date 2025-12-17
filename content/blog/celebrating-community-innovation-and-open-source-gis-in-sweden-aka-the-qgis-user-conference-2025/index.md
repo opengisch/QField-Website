@@ -89,7 +89,7 @@ tags:
 title: Celebrating community, innovation, and open-source GIS in Sweden - AKA the QGIS user conference 2025
 
 ---
-It was such a pleasure to be part of the QGIS User Conference 2025 in Norrköping! The event was extremely well organised — a big thank you to the amazing local team for pulling it all together so smoothly. Personally, it felt special to be back in Sweden, almost 20 years after my Uppsala university days. I truly enjoyed giving the opening keynote and sharing the latest from the QGIS project — and of course, showcasing all the QField greatness we've been working so hard on 💚
+It was such a pleasure to be part of the {{< green >}}QGIS{{< /green >}} User Conference 2025 in Norrköping! The event was extremely well organised — a big thank you to the amazing local team for pulling it all together so smoothly. Personally, it felt special to be back in Sweden, almost 20 years after my Uppsala university days. I truly enjoyed giving the opening keynote and sharing the latest from the QGIS project — and of course, showcasing all the QField greatness we've been working so hard on 💚
 
 * * *
 
@@ -119,7 +119,7 @@ In this talk, Michael, _one of our Full stack GeoNinja and Web Cartography teach
 
 After a technical introduction, various practical examples were explored. It was shown how OpenStreetMap data can be **fully automated to download offline-capable QField projects**. Attendees got inspired by how an own WebGIS is **brought to life in QFieldCloud** using OpenLayers. Furthermore, he demonstrated how remote sensing data can be downloaded, analysed in a QGIS pipeline, and the results made available in QField projects. Finally, the discussion focused on how these capabilities can be **optimally used** in combination with **QField plugins**.  
 
-{{< youtube HtE3mUE-R2o >}}&list=PLi6mvse6ZEOx3REy1Dr0JFOWxVOxkqEY7
+{{< youtube id="HtE3mUE-R2o" playlist="PLi6mvse6ZEOx3REy1Dr0JFOWxVOxkqEY7" >}}
 
 * * *
 
@@ -129,14 +129,14 @@ Presented by Denis, our _Industry Solution Team Lead_, SIGNALO is a **QGIS-based
 
 In this talk, Denis explored both the technical foundations of the project and the organizational strategies that enable its open-source development.  
 
-{{< youtube wAA0RpR7Pfw >}}&list=PLi6mvse6ZEOx3REy1Dr0JFOWxVOxkqEY7
+{{< youtube id="wAA0RpR7Pfw" playlist="PLi6mvse6ZEOx3REy1Dr0JFOWxVOxkqEY7" >}}
 
 ### 📱 _1.5 Million Reasons to Use QField_
 
 In this talk, I shared our vision for the future of QField — the world’s most popular open-source mobile GIS solution. With over **1.4 million downloads** and **500,000 active users**, QField is making a real difference for fieldwork around the globe.  
 I spoke about where we’re headed next, what new features are coming, and how we at OPENGIS.ch are working to empower professionals across all sectors with powerful, flexible, and open tools for mobile geospatial workflows.
 
-{{< youtube yQxa3n1ZZ9s >}}&list=PLi6mvse6ZEOx3REy1Dr0JFOWxVOxkqEY7
+{{< youtube id="yQxa3n1ZZ9s" playlist="PLi6mvse6ZEOx3REy1Dr0JFOWxVOxkqEY7" >}}
 
 * * *
 
@@ -144,7 +144,7 @@ I spoke about where we’re headed next, what new features are coming, and how w
 
 We were excited to see **Alexandra Nozik** from the Leibniz Centre for Tropical Marine Research (ZMT) present her work on a QField project designed to standardize groundwater data collection in remote tropical regions. The setup uses QGIS layers, predefined parameters, and metadata standards to ensure high-quality, consistent field data. Integrated with QFieldCloud, the workflow improves data accuracy, reduces data loss, and enables real-time collaboration. The project will be published on GitHub as a ready-to-use package, supporting reliable and comparable groundwater data collection across the scientific community.
 
-{{< youtube aP9uXzB8Or0 >}}&list=PLi6mvse6ZEOx3REy1Dr0JFOWxVOxkqEY7
+{{< youtube id="aP9uXzB8Or0" playlist="PLi6mvse6ZEOx3REy1Dr0JFOWxVOxkqEY7" >}}
 
 ### 📱 QField and QFieldCloud - seamless fieldwork for QGIS
 

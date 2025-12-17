@@ -2,14 +2,14 @@
 title: "Tonga Crop Survey using QField"
 date: 2025-10-16T11:58:28+02:00
 draft: false
-author: "Author Name"
-authorTitle: "Author Title"
 company: "Ahi Saipaia, Ministry of Agriculture, Food and Forest Tonga"
 description: "In January 2022 the Hunga Tonga-Hunga Ha’apai submarine volcano
           erupted. Ash clouds from the eruption and the subsequent tsunami
           damaged croplands on the Tongatapu and Ha’apai island groups."
 image: "tonga-1.jpg"
 ogImage: "tonga-1.jpg"
+sourceLabel: "Original post (Livelihoods & Landscapes)"
+sourceUrl: "https://livelihoods-and-landscapes.com/examples/hunga-haapai/hunga-haapai.html"
 tags: []
 categories: []
 ---
@@ -45,5 +45,3 @@ Trees damaged after Hunga Tonga-Hunga Ha’apai eruption.
   * An early estimate of croplands and agricultural produce affected by the eruption. 
   * Monitoring of the use of government resources and support for recovery of croplands. 
   * Dataset of loss and damages to the agricultural sector in affected communities. 
-
-[View the original post](https://livelihoods-and-landscapes.com/examples/hunga-haapai/hunga-haapai.html)

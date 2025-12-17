@@ -2,8 +2,6 @@
 title: "Finland’s National Land Survey Empowers Field Mapping with QField"
 date: 2025-10-16T11:58:28+02:00
 draft: false
-author: "Author Name"
-authorTitle: "Author Title"
 company: "Company Name"
 description: "In 2025, Finland’s National Land Survey (NLS) made a
           bold and visionary leap by launching MTTJ, an open-source topographic data production system built on
@@ -11,6 +9,8 @@ description: "In 2025, Finland’s National Land Survey (NLS) made a
           open-source GIS environment for national-scale topographic data production."
 image: "/customer/nls_schema.jpg"
 ogImage: "https://qfield.org/customer/nls_schema.jpg"
+sourceLabel: "Original announcement (NLS)"
+sourceUrl: "https://www.maanmittauslaitos.fi/en/topical_issues/national-land-survey-finland-has-introduced-new-topographic-data-production-system"
 tags: []
 categories: []
 ---

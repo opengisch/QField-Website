@@ -2,22 +2,17 @@
 title: "Vanilla Surveys using QField"
 date: 2025-10-16T11:58:28+02:00
 draft: false
-author: "Author Name"
-authorTitle: "Author Title"
-company: "Ahi Saipaia
-    
-1
-
-    , Leody Vainikolo
-    
-1
-
-    , and John Duncan
-    
-2
-
-
-3"
+authors:
+    - name: "Ahi Saipaia"
+      note: "1"
+      noteUrl: "#fn:1"
+    - name: "Leody Vainikolo"
+      note: "1"
+      noteUrl: "#fn:1"
+    - name: "John Duncan"
+      note: "2"
+      noteUrl: "#fn:2"
+company: "Ministry of Agriculture, Forestry, Food, and Fisheries (MAFF)"
 description: "A field survey of vanilla plantations on Vava'u, an outer island in the Kingdom of Tonga, using QField was
       conducted in May and June 2020 by the Ministry of Agriculture, Forestry, Food, and Fisheries (MAFF)."
 image: "use_study_vanilla4.jpg"
@@ -25,6 +20,23 @@ ogImage: "use_study_vanilla4.jpg"
 tags: []
 categories: []
 ---
+
+<h4>By Ahi Saipaia
+    <sup id="fnref:1">
+        <a class="footnote-ref" href="#fn:1">1</a>
+    </sup>
+    , Leody Vainikolo
+    <sup id="fnref2:1">
+        <a class="footnote-ref" href="#fn:1">1</a>
+    </sup>
+    , and John Duncan
+    <sup id="fnref:2">
+        <a class="footnote-ref" href="#fn:2">2</a>
+    </sup>
+    <sup id="fnref3">
+        <a class="footnote-ref" href="#fn:3">3</a>
+    </sup>
+</h4>
 
 A field survey of vanilla plantations on Vava'u, an outer island in the Kingdom of Tonga, using QField was conducted in May and June 2020 by the Ministry of Agriculture, Forestry, Food, and Fisheries (MAFF). 
 
@@ -50,8 +62,14 @@ The project was funded by the Australian Centre for International Agricultural R
 
 * * *
 
-  1. ##### Ministry of Agriculture, Forestry, Food, and Fisheries, Government of Tonga ↩↩
-
-  2. ##### UWA School of Agriculture and Environment, The University of Western Australia ↩
-
-  3. ##### Geography and Planning, The University of Western Australia ↩
+<ol>
+    <li id="fn:1">
+        <h5 style="margin-bottom: 0px">Ministry of Agriculture, Forestry, Food, and Fisheries, Government of Tonga&nbsp;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">↩</a></h5>
+    </li>
+    <li id="fn:2">
+        <h5 style="margin-bottom: 0px">UWA School of Agriculture and Environment, The University of Western Australia&nbsp;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">↩</a></h5>
+    </li>
+    <li id="fn:3">
+        <h5 style="margin-bottom: 0px">Geography and Planning, The University of Western Australia&nbsp;<a class="footnote-backref" href="#fnref3" title="Jump back to footnote 3 in the text">↩</a></h5>
+    </li>
+</ol>

@@ -1,10 +1,10 @@
 ---
-title: "Integration with QField"
+title: "Building on Top of QFieldCloud"
 date: 2025-10-16T11:58:28+02:00
 draft: false
-author: "Author Name"
-authorTitle: "Author Title"
-company: " GINVE – Soluzioni per la gestione del verde pubblico"
+author: "GINVE – Soluzioni per la gestione del verde pubblico"
+authorTitle: "Digital services team"
+authorUrl: "https://www.ginve.it/en/home-page-eng/"
 description: "The main objective was to allow operators to access in the field the graphic and alphanumeric data on trees,
       shrubs, hedges, turf and street furniture elements in offline mode both in reading and editing mode with the
       return of these data in GINVE.CLOUD via a synchronisation procedure."

@@ -1,10 +1,7 @@
 ---
-title: "United Nations Open GIS Initiative Recommends QField for Field Operations"
+title: "🌍 United Nations Open GIS Initiative Recommends QField for Field Operations"
 date: 2025-10-16T11:58:28+02:00
 draft: false
-author: "Author Name"
-authorTitle: "Author Title"
-company: "Company Name"
 description: "The United Nations Open GIS Initiative, a global
             partnership led by the UN Geospatial Operations team, has officially
             recognized QField as a recommended open-source

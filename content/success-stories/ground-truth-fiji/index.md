@@ -2,9 +2,7 @@
 title: "Ground Truth Data Collection Using QField for LULC Mapping in Fiji"
 date: 2025-10-16T11:58:28+02:00
 draft: false
-author: "Author Name"
-authorTitle: "Author Title"
-company: "Kevin Davies, School of Geosciences, The University of Sydney"
+author: "Kevin Davies, School of Geosciences, The University of Sydney"
 description: "Communities in Fiji rely on landscape resources for agricultural and forestry-related activities. Accurate mapping
           and monitoring patterns of land use and land cover (LULC) over time at an appropriate scale is important for informing
           landscape management, policies, and climate-smart sustainable development."

@@ -5,16 +5,16 @@ lastmod: 2025-10-20T10:45:00+02:00
 draft: false
 author: "Dr. Martina Seifert"
 authorTitle: "Project Lead"
-company: "By KulturGutRetter | <a href=\"https://www.dainst.org/\" target=\"_blank\" rel=\"nofollow\">Deutsches Archäologisches Institut</a>"
+company: "KulturGutRetter | <a href=\"https://www.dainst.org/\" target=\"_blank\" rel=\"nofollow\">Deutsches Archäologisches Institut</a>"
 description: "Learn how the KulturGutRetter project uses QField for emergency cultural heritage rescue operations. This open-source mobile GIS workflow enables real-time documentation and coordination during disaster response missions."
 summary: "The KulturGutRetter project demonstrates how QField enables efficient cultural heritage rescue operations through mobile GIS technology, offline data collection, and real-time coordination during emergency missions."
 image: "dai-2.png"
 ogImage: "dai-2.png"
+sourceLabel: "Original article (KulturGutRetter)"
+sourceUrl: "https://www.kulturgutretter.org/en/data-acquisition-and-data-management-for-the-emergency-rescue-of-cultural-heritage/"
 keywords: ["cultural heritage", "emergency response", "disaster management", "mobile GIS", "QField", "QGIS", "archaeological documentation", "field data collection"]
 tags: ["cultural heritage", "emergency response", "disaster management", "archaeology", "field documentation"]
 categories: ["success stories", "emergency response"]
-type: "article"
-layout: "single"
 ---
 
 ### Context & Challenge

@@ -2,8 +2,6 @@
 title: "Use of QField in the context of ground-truth data collection work of malaria transmitting mosquitoes"
 date: 2025-10-16T11:58:28+02:00
 draft: false
-author: "Author Name"
-authorTitle: "Author Title"
 company: "Paul Taconet, GIS Engineer, French Research Institute for Sustainable Development (IRD)"
 description: "For a research work aiming at improving the knowledge on the environment of the mosquitoes that transmit malaria,
       the French Research Institute for Sustainable Development needed to generate a land cover map of two rural areas

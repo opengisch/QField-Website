@@ -140,3 +140,7 @@ Then visit `http://localhost:1313` to test before deploying.
 
 3. Deployment
 Push the `public` folder to the repo
+
+## GitHub Actions Deployments
+
+The workflow in `.github/workflows/pages.yml` runs automatically for every push or pull request targeting `main`, building the Hugo site with production settings for direct pushes and staging settings for previews. It uploads the generated `public/` directory as an artifact, and a follow-up job deploys that artifact to GitHub Pages so merged changes go live without extra steps. You can also trigger the same workflow manually via **Run workflow** when you need an ad-hoc build.

@@ -2,9 +2,9 @@
 title: "Improving Efficiencies in Ecological Surveying using QField"
 date: 2025-10-16T11:58:28+02:00
 draft: false
-author: "Author Name"
-authorTitle: "Author Title"
-company: "Ryan Bell, GIS Consultant, Delta-Simons Environmental Consultancy"
+author: "Ryan Bell"
+authorTitle: "GIS Consultant"
+company: "Delta-Simons Environmental Consultancy"
 description: "To conduct ecological surveying more efficiently than has been previously achieved through traditional non-digital
       techniques, using QField as a medium for standardised and flexible field data collection."
 image: "eco-survey.png"

@@ -2,9 +2,10 @@
 title: "Monitoring Fire Salamanders with QField: A Conservation Success Story in Saxony"
 date: 2025-10-16T11:58:28+02:00
 draft: false
-author: "Author Name"
-authorTitle: "Author Title"
-company: "Company Name"
+author: "BUND – Bund für Umwelt- und Naturschutz-Börgerland"
+authorTitle: "Saxony field monitoring team"
+authorUrl: "https://www.bund.net/"
+company: "BUND Saxony"
 description: "In the steep, forested valleys of Saxony, Germany, a dedicated environmental monitoring team is using QField to
       track one of Europe's most striking amphibians—the fire salamander. This distinctive black-and-yellow creature
       serves as an important indicator species for stream health and ecosystem integrity."

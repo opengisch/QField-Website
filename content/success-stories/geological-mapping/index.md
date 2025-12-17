@@ -2,13 +2,13 @@
 title: "Geological Mapping with QField: A Success Story by Terrane Geoscience"
 date: 2025-10-16T11:58:28+02:00
 draft: false
-author: "Author Name"
-authorTitle: "Author Title"
-company: "Company Name"
-description: "To collect new data on bedrock geology and view existing geoscience data in the field. Geologic mapping is
-      completed using paper maps and/or digital devices for data collection. The goal is to improve the geologic mapping
-      workflow by entering data directly in the field, create quality data with consistent terms, and reference existing
-      geoscience data in the field."
+author: "Rohanna Gibson"
+authorTitle: "Structural Geologist"
+company: "<a href=\"https://terranegeoscience.com/\" target=\"_blank\" rel=\"noopener\">Terrane Geoscience</a>"
+description: >-
+      To collect new data on bedrock geology and view existing geoscience data in the field. Geologic mapping is completed using
+      paper maps and/or digital devices for data collection. The goal is to improve the geologic mapping workflow by entering data
+      directly in the field, create quality data with consistent terms, and reference existing geoscience data in the field.
 image: "geologic_field.png"
 ogImage: "geologic_field.png"
 tags: []

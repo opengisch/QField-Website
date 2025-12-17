@@ -2,9 +2,6 @@
 title: "Real-Time Radiation Detection with QField: Cleaning Up America's Nuclear Legacy"
 date: 2025-10-16T11:58:28+02:00
 draft: false
-author: "Author Name"
-authorTitle: "Author Title"
-company: "Company Name"
 description: "In sites across the United States, from public parks in New York to former uranium processing facilities in New
       Jersey, a dedicated team of environmental specialists is using QField to detect and remediate radioactive
       contamination left over from America's atomic weapons program."

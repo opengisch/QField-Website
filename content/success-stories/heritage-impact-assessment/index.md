@@ -2,20 +2,23 @@
 title: "Heritage Impact Assessment using QField"
 date: 2025-10-16T11:58:28+02:00
 draft: false
-author: "Author Name"
-authorTitle: "Author Title"
-company: "Roberto Montagnetti
-      
-1
- and Giuseppe Guarino 
-2"
-description: "Working with QField in the field allows us to significantly reduce registration and computerisation time of
-        inputting data into the database system, eliminating the digiti- sation of field registers and all related
-        paperwork. The advantage of entrusting all of the information to the main GIS platform of the project (master),
-        which is stored inside the PC, means this leaves only the task of checking the collected data, along with the
-        bonus of in-depth topographical and geospatial analysis."
+authors:
+  - name: "Roberto Montagnetti"
+    note: "1"
+    noteUrl: "#fn:1"
+  - name: "Giuseppe Guarino"
+    note: "2"
+    noteUrl: "#fn:2"
+authorTitle: "† Presented at the ArcheoFOSS XIII Workshop—Open Software, Hardware, Processes, Data and Formats in Archaeological Research, Padova, Italy, 20–22 February 2019."
+company: "<strong>Keywords:</strong> QField; archeology; VIARCH; HIA; QGIS"
+description: |
+  **From QGIS to QField and Vice Versa: How the new Android application is facilitating the work of the archaeologist in the field**
+
+  **Abstract:** The aim of this paper is to highlight the main benefits of using the QField app in archaeological jobs. In particular the article provides examples of how to use QField in open area excavation, archaeological survey, and impact assessment (HIA) projects.
 image: "heritage_impact_figure3.png"
 ogImage: "heritage_impact_figure3.png"
+sourceUrl: "https://qfield.org/success-stories/heritage-impact-assessment.html"
+sourceLabel: "View original success story"
 tags: []
 categories: []
 ---
@@ -241,8 +244,14 @@ R.M.
 
 ### References
 
-  1. ##### Cambi, F.; Terrenato, N. Introduzione All’archeologia dei Paesaggi; Carocci Editore: Roma, Italy, 1994; pp. 117–143.↩↩
-
-  2. ##### Renfrew, C.; Bahn, P. Archaeology, Theories, Methods, and Practice. Archaeol. J. 2016, 148, 329–330.↩
-
-  3. ##### Fronza, V.; Nardini, A.; Valenti, M. Informatica e Archeologia Medievale: L’esperienza Senese; All’insegna del Giglio: Firenze, Italy, 2009.↩
+<ol>
+  <li id="fn:1">
+    <p style="margin-bottom: 0">Cambi, F.; Terrenato, N. Introduzione All’archeologia dei Paesaggi; Carocci Editore: Roma, Italy, 1994; pp. 117–143.<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">↩</a></p>
+  </li>
+  <li id="fn:2">
+    <p style="margin-bottom: 0">Renfrew, C.; Bahn, P. Archaeology, Theories, Methods, and Practice. Archaeol. J. 2016, 148, 329–330.<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">↩</a></p>
+  </li>
+  <li id="fn:3">
+    <p style="margin-bottom: 0">Fronza, V.; Nardini, A.; Valenti, M. Informatica e Archeologia Medievale: L’esperienza Senese; All’insegna del Giglio: Firenze, Italy, 2009.<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">↩</a></p>
+  </li>
+</ol>

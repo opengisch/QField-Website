@@ -2,8 +2,6 @@
 title: "Use of QField for mapping breeding birds in the Wadden Sea"
 date: 2025-10-16T11:58:28+02:00
 draft: false
-author: "Author Name"
-authorTitle: "Author Title"
 company: "Benjamin Gnep, Schutzstation Wattenmeer e.V."
 description: "The Wadden Sea in Denmark, Germany and The Netherlands is of outstanding importance for many breeding bird
       species. Annually, the Schutzstation Wattenmeer participates in the Wadden Sea wide trilateral monitoring and

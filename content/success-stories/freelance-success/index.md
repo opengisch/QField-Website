@@ -2,14 +2,12 @@
 title: "From Open Source to Freelance Success"
 date: 2025-10-16T11:58:28+02:00
 draft: false
-author: "Author Name"
-authorTitle: "Author Title"
-company: "Company Name"
+company: "<a href=\"https://www.linkedin.com/company/ageona-cartographie/\" target=\"_blank\" rel=\"nofollow\">Ageoana Cartographie</a>"
 description: "What started as a simple request from former colleagues has evolved into a freelance business and a popular open
       source project. Meet Felix, a French geomatician who discovered an innovative way to build trust, showcase
       expertise, and create sustainable income—all while giving away his software for free"
-image: "/images/ss/img.png"
-ogImage: "https://qfield.org/images/ss/img.png"
+image: "freelance-success.jpg"
+ogImage: "freelance-success.jpg"
 tags: []
 categories: []
 ---

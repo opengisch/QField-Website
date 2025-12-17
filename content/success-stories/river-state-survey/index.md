@@ -2,9 +2,7 @@
 title: "River State Survey using QField"
 date: 2025-10-16T11:58:28+02:00
 draft: false
-author: "Author Name"
-authorTitle: "Author Title"
-company: "Company Name"
+company: "<a href=\"https://www.milvignes.ch/\" r target=\"_blank\" rel=\"nofollow\">Municipality of Milvignes, Switzerland</a>"
 description: "To facilitate the technician's field work (usually done with a map, a notebook and a camera), a QField project was created and made available on a Tablet. Cadastral and river layers were used as basemap."
 image: "river-state-survey3.jpg"
 ogImage: "river-state-survey3.jpg"
