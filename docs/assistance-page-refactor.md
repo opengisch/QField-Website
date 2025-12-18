@@ -46,7 +46,7 @@ The assistance page has been completely refactored to follow Hugo best practices
 │   └── partials/assistance/
 │       ├── service-card.html                   # Reusable service card
 │       └── customize-section.html              # Customize section
-└── themes/qfield-theme-v3/assets/sass/
+└── themes/qfield-theme/assets/sass/
     └── styles.scss                             # Page-specific styles
 ```
 
