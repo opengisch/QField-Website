@@ -209,14 +209,14 @@ p {
 }
 
 #navbar .navbar-nav .nav-link {
-  font-size: 0.95rem;
+  font-size: 1rem;
   display: flex;
   align-items: center;
   color: var(--qfield-color);
   transition: color var(--transition-standard);
   padding: 0.75rem 1rem;
   line-height: 1;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 
