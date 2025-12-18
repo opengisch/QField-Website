@@ -284,7 +284,7 @@
       style: "width: 30px; height: 30px;"
 
 - id: opengis
-  name:  OpenGIS.ch
+  name:  OPENGIS.ch
   regions:
     - europe
     - asia
@@ -296,7 +296,7 @@
     - "🇨🇭 Switzerland"
   logo:
     src: "images/partners/logo_opengisch_open-source-geoninjas.webp"
-    alt: "OpenGIS.ch"
+    alt: "OPENGIS.ch"
     class: "partner-logo"
   description: |
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
