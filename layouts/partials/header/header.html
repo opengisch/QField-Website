@@ -32,7 +32,7 @@
               {{- $idSource := default .Name .Identifier -}}
               {{- $dropdownId := printf "nav-dropdown-%s" (urlize $idSource) -}}
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle fw-semibold" id="{{ $dropdownId }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" id="{{ $dropdownId }}" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   {{ .Name }}
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="{{ $dropdownId }}">
@@ -56,7 +56,7 @@
                 {{- $itemTarget = "_blank" -}}
               {{- end -}}
               {{- $itemRel := cond (eq $itemTarget "_blank") "noopener noreferrer" "" -}}
-              {{- $linkClass := "nav-link fw-semibold" -}}
+              {{- $linkClass := "nav-link" -}}
               {{- if $variant }}
                 {{- $linkClass = printf "%s nav-link--button nav-link--%s" $linkClass $variant -}}
               {{- end -}}
