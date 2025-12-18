@@ -39,9 +39,9 @@ In the world of fieldwork, accuracy and efficiency are paramount. As GIS special
 
 ### Embracing Open Source Development
 
-At [OPENGIS.ch](http://OpenGIS.ch), we have always been committed to the principles of true open-source development. We firmly believe collaboration and shared knowledge drive progress in the GIS community. With Oslandia, we have found a partner who shares our values and cares as much as we do about the QGIS ecosystem.
+At [OPENGIS.ch](http://opengis.ch), we have always been committed to the principles of true open-source development. We firmly believe collaboration and shared knowledge drive progress in the GIS community. With Oslandia, we have found a partner who shares our values and cares as much as we do about the QGIS ecosystem.
 
-[QGIS](https://qgis.org), the world's most popular open-source geographic information system software, has already significantly impacted the GIS industry, providing users with versatile mapping tools and capabilities and is the base upon which QField is built. As main contributors to #QGIS, both [OPENGIS.ch](http://OPENGIS.ch) and Oslandia are dedicated to driving its growth and ensuring its availability to all.
+[QGIS](https://qgis.org), the world's most popular open-source geographic information system software, has already significantly impacted the GIS industry, providing users with versatile mapping tools and capabilities and is the base upon which QField is built. As main contributors to #QGIS, both [OPENGIS.ch](http://opengis.ch) and Oslandia are dedicated to driving its growth and ensuring its availability to all.
 
 ### Advancing QField and QFieldCloud Together
 
@@ -53,11 +53,11 @@ Our joint efforts will ensure that QField will keep setting trends in the indust
 
 ### A Synergy of Expertise
 
-The collaboration between [OPENGIS.ch](http://OpenGIS.ch) and [Oslandia](https://www.linkedin.com/company/oslandia/) represents a true synergy of expertise. Our combined capabilities will enable us to tackle complex challenges quickly and deliver cutting-edge solutions that address the unique requirements for seamless #fielwork.
+The collaboration between [OPENGIS.ch](http://OPENGIS.ch) and [Oslandia](https://www.linkedin.com/company/oslandia/) represents a true synergy of expertise. Our combined capabilities will enable us to tackle complex challenges quickly and deliver cutting-edge solutions that address the unique requirements for seamless #fielwork.
 
 ### Conclusion
 
-At [OPENGIS.ch](http://OpenGIS.ch), we are excited about the opportunities our partnership with Oslandia brings. Together, we will continue championing open-source development, empowering GIS specialists in each sector to perform their fieldwork tasks more effectively and efficiently.
+At [OPENGIS.ch](http://OPENGIS.ch), we are excited about the opportunities our partnership with Oslandia brings. Together, we will continue championing open-source development, empowering GIS specialists in each sector to perform their fieldwork tasks more effectively and efficiently.
 
 With QField as our flagship app, we are confident that this strategic collaboration will result in even greater advancements, benefiting our target audience of surveying professionals, fieldwork experts, and GIS specialists, as well as casual users who need a user-friendly solution for their projects.
 
