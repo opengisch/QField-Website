@@ -1,3 +1,39 @@
+- id: opengis
+  name:  OPENGIS.ch
+  regions:
+    - europe
+    - asia
+    - north-america
+    - south-america
+    - africa
+    - oceania
+  locations:
+    - "🇨🇭 Switzerland"
+  logo:
+    src: "images/partners/logo_opengisch_open-source-geoninjas.webp"
+    alt: "OPENGIS.ch"
+    class: "partner-logo"
+  description: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  website:
+    url: "http://opengis.ch/?from-qfield-with-love"
+    text: "Visit Website"
+  modal:
+    location: "🇨🇭 Switzerland"
+    services:
+    - "Data model development"
+    - "QField survey interfaces"
+    - "Precision QField surveying with RTK antenna"
+    - "Geoportal development"
+    - "GIS Process development"
+    expertise: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    logo:
+      src: "images/partners/logo_opengisch_open-source-geoninjas.webp"
+      alt: "IG group SA"
+      class: "partner-logo"
+      style: "width: 30px; height: 30px;"
+      
 - id: oslandia
   name: Oslandia
   regions:
@@ -279,42 +315,6 @@
       We specialize in addressing the needs of Swiss public administrations by supporting their GIS processes and GIS data management, including requirements for mobile data acquisition. Our expertise extends, for example, to high-precision measurements using RTK antennas, as well as the deployment of TEKSI public infrastructure management modules.
     logo:
       src: "images/partners/ig-logo.png"
-      alt: "IG group SA"
-      class: "partner-logo"
-      style: "width: 30px; height: 30px;"
-
-- id: opengis
-  name:  OPENGIS.ch
-  regions:
-    - europe
-    - asia
-    - north-america
-    - south-america
-    - africa
-    - oceania
-  locations:
-    - "🇨🇭 Switzerland"
-  logo:
-    src: "images/partners/logo_opengisch_open-source-geoninjas.webp"
-    alt: "OPENGIS.ch"
-    class: "partner-logo"
-  description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  website:
-    url: "http://opengis.ch/?from-qfield-with-love"
-    text: "Visit Website"
-  modal:
-    location: "🇨🇭 Switzerland"
-    services:
-    - "Data model development"
-    - "QField survey interfaces"
-    - "Precision QField surveying with RTK antenna"
-    - "Geoportal development"
-    - "GIS Process development"
-    expertise: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    logo:
-      src: "images/partners/logo_opengisch_open-source-geoninjas.webp"
       alt: "IG group SA"
       class: "partner-logo"
       style: "width: 30px; height: 30px;"
