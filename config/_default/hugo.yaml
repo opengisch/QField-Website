@@ -6,7 +6,7 @@ enableRobotsTXT: true
 enableGitInfo: true
 enableEmoji: true
 themeColor: "#80CC28"         # Primary green accent
-defaultTheme: "auto"
+defaultTheme: "light"
 highlight: true
 enableScrollToTop: true
 pagination:
