@@ -1,4 +1,4 @@
-# MIGRATED into [opengisch/QField.org](github.com/opengisch/QField.org)
+# MIGRATED into [opengisch/QField.org](https://github.com/opengisch/QField.org)
 
 ## Creating a new blog post
 ```bash
